@@ -108,14 +108,18 @@ python3 -m http.server 8000
 
 실패하면 화면 상단에 원인과 함께 안내 문구가 표시됩니다.
 
-## 6. GitHub Pages 배포 (완료)
+## 6. 배포 (GitHub Pages)
 
 | 항목 | 값 |
 |---|---|
-| 접속 URL | https://xcastle2art.github.io/g2b-dashboard/ |
-| 저장소 | https://github.com/xcastle2art/g2b-dashboard (public) |
+| 접속 URL | https://xcastle2art.github.io/g2b-dashboard/ (저장소 생성·Pages 설정 후 활성) |
+| 저장소 | https://github.com/xcastle2art/g2b-dashboard (public 예정) |
 | Pages 설정 | Deploy from a branch · `main` · `/ (root)` |
 | 로컬 소스 | `work/g2b-dashboard/` (이 폴더가 원본, 배포는 이 폴더를 push) |
+| 배포 스크립트 | `bash deploy.sh` (push → Pages 활성화 → HTTP 200 확인) |
+
+> 상태(2026-11-16 10:36 KST): 로컬 커밋·배포 스크립트까지 준비 완료. Pickle의 GitHub 연결에 **저장소 생성 권한이 없어** 저장소 생성·Pages 활성화 단계만 대기 중입니다. 저장소가 연결에 공유되면 위 `deploy.sh`로 배포됩니다.
+> 대신 서버 없이 바로 열 수 있는 단일 파일본도 함께 생성됩니다: `python3 build-standalone.py` → `g2b-dashboard-standalone.html`(CSS·JS·데이터 인라인, 폰으로 파일만 열면 동작).
 
 **갱신 방법**은 이 폴더에서 파일을 고친 뒤 push만 하면 됩니다. Pages가 1분 안팎으로 자동 재빌드합니다.
 
