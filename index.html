@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>나라장터 입찰·사전규격 모니터링 | 공간정보사업실</title>
+<meta name="description" content="나라장터 입찰공고·사전규격 모니터링 대시보드 (공간정보사업실 담당 권역: 강원·경기·충청·전북)" />
+<meta name="theme-color" content="#0f172a" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <div class="brand">
+      <span class="brand__mark" aria-hidden="true">G2B</span>
+      <div class="brand__text">
+        <h1>나라장터 입찰·사전규격 모니터링</h1>
+        <p class="brand__sub">공간정보사업실 · 담당 권역 강원·경기·충청·전북</p>
+      </div>
+    </div>
+    <div class="topbar__meta">
+      <span class="stamp" id="updatedAt">데이터 불러오는 중…</span>
+      <div class="topbar__actions">
+        <button id="refreshBtn" class="btn btn--ghost-light" type="button">새로고침</button>
+        <a id="sheetLink" class="btn btn--accent" href="#" target="_blank" rel="noopener">구글 시트</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div id="loadError" class="notice notice--error" hidden>
+    <strong>data.json을 불러오지 못했습니다.</strong>
+    <p id="loadErrorDetail"></p>
+  </div>
+
+  <section class="block" aria-labelledby="watchTitle">
+    <div class="block__head">
+      <h2 class="block__title" id="watchTitle">특별 추적</h2>
+      <p class="block__hint">강릉 토적 · 경산 사전규격 대기 현황</p>
+    </div>
+    <div id="watchlist" class="watch"></div>
+  </section>
+
+  <section class="block" aria-labelledby="kpiTitle">
+    <div class="block__head">
+      <h2 class="block__title" id="kpiTitle">요약</h2>
+      <p class="block__hint" id="kpiHint"></p>
+    </div>
+    <div id="kpi" class="kpi"></div>
+  </section>
+
+  <section class="controls" aria-label="필터 및 검색">
+    <div class="tabs" id="tabs" role="tablist" aria-label="구분">
+      <button class="tab is-active" type="button" role="tab" data-kind="all" aria-selected="true">전체 <span class="tab__n" data-count="all"></span></button>
+      <button class="tab" type="button" role="tab" data-kind="bid" aria-selected="false">입찰공고 <span class="tab__n" data-count="bid"></span></button>
+      <button class="tab" type="button" role="tab" data-kind="prespec" aria-selected="false">사전규격 <span class="tab__n" data-count="prespec"></span></button>
+      <button class="tab" type="button" role="tab" data-kind="other" aria-selected="false">참고<span class="tab__kw">(키워드외)</span> <span class="tab__n" data-count="other"></span></button>
+    </div>
+
+    <div class="filter-row">
+      <div class="chips" id="regionChips" role="group" aria-label="권역 필터">
+        <button class="chip is-active" type="button" data-region="all">전체</button>
+        <button class="chip" type="button" data-region="focus">담당권역</button>
+        <button class="chip" type="button" data-region="etc">전국·기타</button>
+      </div>
+      <div class="chips" id="urgencyChips" role="group" aria-label="긴급도 필터">
+        <button class="chip is-active" type="button" data-urgency="all">전체</button>
+        <button class="chip chip--urgency" type="button" data-urgency="urgent">D-2 이내 임박</button>
+      </div>
+    </div>
+
+    <div class="chips chips--kw" id="keywordChips" role="group" aria-label="키워드 필터"></div>
+
+    <div class="searchbar">
+      <svg class="searchbar__icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M8.5 3a5.5 5.5 0 1 0 3.47 9.77l3.63 3.63 1.06-1.06-3.63-3.63A5.5 5.5 0 0 0 8.5 3Zm0 1.5a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"/></svg>
+      <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="사업명 · 발주기관 · 공고번호 검색" aria-label="검색어" />
+      <button id="clearFilters" class="btn btn--text" type="button" hidden>필터 초기화</button>
+    </div>
+  </section>
+
+  <div class="resultbar">
+    <span id="resultCount" class="resultbar__count" aria-live="polite"></span>
+    <label class="toggle"><input type="checkbox" id="showExpired" /> <span>마감 지난 건 표시</span></label>
+  </div>
+
+  <div id="tableWrap" class="table-wrap">
+    <table class="gtable">
+      <caption class="sr-only">입찰·사전규격 목록</caption>
+      <thead>
+        <tr>
+          <th scope="col" class="col-dday">D-day</th>
+          <th scope="col" class="col-title">사업명 / 공고번호</th>
+          <th scope="col" class="col-org">발주기관</th>
+          <th scope="col" class="col-amount">금액</th>
+          <th scope="col" class="col-deadline">마감</th>
+          <th scope="col" class="col-submit">접수·평가</th>
+          <th scope="col" class="col-check">체크포인트</th>
+          <th scope="col" class="col-link">원문</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+
+  <div id="cards" class="cards"></div>
+
+  <div id="empty" class="empty" hidden>
+    <p><strong id="emptyTitle">조건에 맞는 항목이 없습니다.</strong></p>
+    <p class="empty__hint" id="emptyHint">필터를 풀거나 검색어를 지워 보세요.</p>
+  </div>
+
+  <section class="block" aria-labelledby="kwTitle">
+    <div class="block__head">
+      <h2 class="block__title" id="kwTitle">키워드별 현황</h2>
+      <p class="block__hint">10개 키워드 · 2026-11-16 08:50 스캔 기준 (마감 전 건)</p>
+    </div>
+    <div id="keywordStats" class="kwstats"></div>
+  </section>
+
+  <footer class="foot">
+    <div class="foot__col">
+      <h3>데이터 출처</h3>
+      <ul>
+        <li>10개 키워드 스캔: 2026-11-15 09:00 · 2026-11-16 08:50 (KST)</li>
+        <li>원문: presignal.co.kr (나라장터 OpenAPI 수집) / g2b.go.kr 공고번호 검색</li>
+        <li>정리본: <a id="sheetFootLink" href="#" target="_blank" rel="noopener">Google Sheets — 나라장터 입찰·사전규격 모니터링</a></li>
+      </ul>
+    </div>
+    <div class="foot__col">
+      <h3>주의</h3>
+      <ul>
+        <li>금액·마감·자격은 스캔 시점 정리값입니다. 응찰 전 반드시 공고문·제안요청서 원문으로 재확인하십시오.</li>
+        <li>특히 부안 접수시간(13:00~16:00)과 마감 16:00, 영월·대전 D-1 일정.</li>
+        <li>D-day는 접속한 날짜 기준으로 자동 계산됩니다.</li>
+      </ul>
+    </div>
+    <p class="foot__meta" id="footMeta"></p>
+  </footer>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
