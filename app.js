@@ -348,19 +348,26 @@
 
     var files = (it.attachments || []).length
       ? it.attachments.map(function (f) {
-        return '<a class="file" href="' + esc(f.url) + '" target="_blank" rel="noopener">' +
+        var href = f.url || it.links.g2b;
+        var act = f.url ? '열기' : '상세';
+        return '<a class="file" href="' + esc(href) + '" target="_blank" rel="noopener">' +
           '<span class="file__ext">' + esc(fileExt(f.name)) + '</span>' +
-          '<span class="file__name">' + esc(f.name) + '</span>' +
-          '<span class="file__dl">열기</span></a>';
+          '<span class="file__name">' + esc(f.name) + (f.size ? ' <span class="small muted">' + esc(f.size) + '</span>' : '') + '</span>' +
+          '<span class="file__dl">' + act + '</span></a>';
       }).join('')
       : '<div class="qa">' + (it.kind === 'prespec'
-        ? '사전규격은 나라장터 사전규격 상세(로그인)에서 첨부 규격서를 확인해야 합니다. 공개 수집원에는 첨부 목록이 없습니다.'
+        ? '이 건의 첨부 규격서 목록은 아직 나라장터 로그인 상세에서 확인하지 못했습니다. 위 <b>나라장터 사전규격 상세</b>로 열어 파일첨부를 확인하세요.'
         : '첨부파일 목록을 확인하지 못했습니다. 나라장터 원문에서 확인하세요.') + '</div>';
 
     var qnaState = { confirmed: '확인', noted: '일부 확인', none: '등록된 질의 없음', unknown: '미확인' }[it.qna.state] || '미확인';
     var qnaCls = it.qna.state === 'none' ? 'badge--wait' : (it.qna.state === 'unknown' ? 'badge--unknown' : 'badge--pre');
     var qnaItems = (it.qna.items || []).map(function (q) {
-      return '<div class="qa__item"><b>Q. ' + esc(q.q) + '</b><br>A. ' + esc(q.a) + '</div>';
+      var meta = [q.kind, q.writer, q.registered].filter(Boolean).join(' · ');
+      return '<div class="qa__item">' +
+        '<b>Q. ' + esc(q.q) + '</b>' +
+        (meta ? '<span class="small muted"> ' + esc(meta) + '</span>' : '') +
+        (q.body ? '<br><span>' + esc(q.body) + '</span>' : '') +
+        '<br><b>A. ' + esc(q.a || '답변 미등록') + '</b></div>';
     }).join('');
 
     var resultHtml;
@@ -423,7 +430,7 @@
       '<span class="copy-hint" id="copyHint">복사됨</span>' +
       '</div><p class="small muted" style="margin:8px 0 0">' +
       (it.kind === 'prespec'
-        ? '사전규격(R26BD…)은 나라장터에서 공고번호로 바로 열리는 딥링크가 없습니다. 번호를 복사해 나라장터 사전규격 화면에서 검색하세요.'
+        ? '사전규격 상세가 바로 열립니다(나라장터 로그인 필요 · bfSpecRegNo 직링크). 첨부 규격서·규격서 의견은 그 화면에서 확인하세요.'
         : '나라장터 입찰공고 상세로 바로 열립니다.') + '</p></div>' +
       '</div>';
 

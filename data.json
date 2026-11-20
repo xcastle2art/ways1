@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-20T16:40+09:00",
- "updated_label": "2026-11-20(금) 16:40 KST",
+ "updated_at": "2026-11-20T18:05+09:00",
+ "updated_label": "2026-11-20(금) 18:05 KST",
  "window": {
   "from": "2026-10-21",
   "to": "2026-11-20",
@@ -9,7 +9,8 @@
  "scan_basis": {
   "latest_scan": "2026-11-20 16:00 KST (오전 09:00 + 오후 16:00)",
   "sources": "presignal.co.kr 14개 키워드 검색(입찰공고·사전규격) + work.00data.kr(공공일감) 상세(첨부·개찰결과) + 나라장터 원문 링크",
-  "note": "공고일 기준 최근 30일(2026-10-21~11-20) 수집. 키워드별 검색 결과 전수(페이지 전체) 기준."
+  "note": "공고일 기준 최근 30일(2026-10-21~11-20) 수집. 키워드별 검색 결과 전수(페이지 전체) 기준.",
+  "prespec_detail": "2026-11-20 17:40~18:00 나라장터 로그인 세션에서 사전규격 상세(link/PRVA004_02) 직접 열람: 의견등록중 9건 + 경산 1건 = 10건 첨부·의견 확인"
  },
  "managers": [
   {
@@ -76,7 +77,7 @@
    "tone": "wait",
    "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-20 16:00)",
    "note": "본공고 전환 시 추적",
-   "g2b": "https://www.g2b.go.kr/"
+   "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299726"
   },
   {
    "id": "wl-buan",
@@ -759,7 +760,7 @@
    "open_label": "",
    "status": "의견마감",
    "progress": null,
-   "budget": 403680000,
+   "budget": 403685000,
    "budget_text": "4억 368만",
    "price_est": null,
    "base_amount": null,
@@ -769,18 +770,64 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "5 토지적성평가 및 재해취약성분석 용역 제안요청서.hwpx",
+     "url": "",
+     "size": "161.5KB",
+     "via": "g2b-detail"
+    },
+    {
+     "name": "3 토지적성평가 및 재해취약성분석 용역 과업지시서.hwpx",
+     "url": "",
+     "size": "150.9KB",
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
-    "items": []
+    "state": "confirmed",
+    "summary": "나라장터 사전규격 상세(로그인)에서 규격서 의견 4건 확인 (2026-11-20 기준). 기관 답변은 아직 등록되지 않았습니다.",
+    "items": [
+     {
+      "q": "의견 등록입니다.",
+      "a": "답변 미등록",
+      "body": "",
+      "writer": "주** / 임**",
+      "registered": "2026/11/18 17:23",
+      "kind": ""
+     },
+     {
+      "q": "입찰참가자격 관련 문의",
+      "a": "답변 미등록",
+      "body": "",
+      "writer": "지** / 임**",
+      "registered": "2026/11/18 17:24",
+      "kind": ""
+     },
+     {
+      "q": "제안요청서 內 의견 등록의 건",
+      "a": "답변 미등록",
+      "body": "",
+      "writer": "주** / 유**",
+      "registered": "2026/11/18 17:29",
+      "kind": ""
+     },
+     {
+      "q": "사전규격 의견",
+      "a": "답변 미등록",
+      "body": "",
+      "writer": "주** / 박**",
+      "registered": "2026/11/18 21:43",
+      "kind": ""
+     }
+    ]
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299726",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299726",
     "data00": ""
    },
@@ -831,8 +878,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295369",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295369",
     "data00": ""
    },
@@ -884,8 +931,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00292255",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00292255",
     "data00": ""
    },
@@ -938,8 +985,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289305",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289305",
     "data00": ""
    },
@@ -2392,18 +2439,25 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "제안요청서(익산시 자율주행차량 제작 및 서비스 실증 용역(2차)).pdf",
+     "url": "",
+     "size": "2.7MB",
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "state": "none",
+    "summary": "나라장터 사전규격 상세(로그인) 확인 결과 규격서 의견 등록 0건 (2026-11-20 17:50 기준).",
     "items": []
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00303189",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00303189",
     "data00": ""
    },
@@ -2447,18 +2501,31 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "2. 과업지시서(화성시 자율주행 시범서비스 구축·운영 용역).hwpx",
+     "url": "",
+     "size": "253.0KB",
+     "via": "g2b-detail"
+    },
+    {
+     "name": "3. 제안요청서(화성시 자율주행 시범서비스 구축·운영 용역)(최종).hwp",
+     "url": "",
+     "size": "119.5KB",
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "state": "none",
+    "summary": "나라장터 사전규격 상세(로그인) 확인 결과 규격서 의견 등록 0건 (2026-11-20 17:50 기준).",
     "items": []
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00302321",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00302321",
     "data00": ""
    },
@@ -2509,8 +2576,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299037",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299037",
     "data00": ""
    },
@@ -2561,8 +2628,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00298244",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00298244",
     "data00": ""
    },
@@ -2613,8 +2680,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297485",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297485",
     "data00": ""
    },
@@ -2665,8 +2732,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297050",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297050",
     "data00": ""
    },
@@ -2717,8 +2784,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00296406",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00296406",
     "data00": ""
    },
@@ -2769,8 +2836,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295974",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295974",
     "data00": ""
    },
@@ -2821,8 +2888,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295791",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295791",
     "data00": ""
    },
@@ -2875,8 +2942,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295678",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295678",
     "data00": ""
    },
@@ -2930,8 +2997,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295450",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295450",
     "data00": ""
    },
@@ -2982,8 +3049,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00294519",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00294519",
     "data00": ""
    },
@@ -3034,8 +3101,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00293800",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00293800",
     "data00": ""
    },
@@ -3089,8 +3156,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00290477",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00290477",
     "data00": ""
    },
@@ -3209,8 +3276,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299674",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299674",
     "data00": ""
    },
@@ -4280,8 +4347,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00296164",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00296164",
     "data00": ""
    },
@@ -4334,8 +4401,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00296160",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00296160",
     "data00": ""
    },
@@ -4388,8 +4455,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295176",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295176",
     "data00": ""
    },
@@ -4442,8 +4509,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00294316",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00294316",
     "data00": ""
    },
@@ -4496,8 +4563,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00294310",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00294310",
     "data00": ""
    },
@@ -4550,8 +4617,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00293925",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00293925",
     "data00": ""
    },
@@ -4604,8 +4671,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00293921",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00293921",
     "data00": ""
    },
@@ -4658,8 +4725,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00293641",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00293641",
     "data00": ""
    },
@@ -4776,8 +4843,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295166",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295166",
     "data00": ""
    },
@@ -8932,18 +8999,31 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "01.제안요청서_여주시 하수관로 정비사업 GIS DB구축 용역.hwpx",
+     "url": "",
+     "size": null,
+     "via": "g2b-detail"
+    },
+    {
+     "name": "02.과업지시서_여주시 하수관로 정비사업 GIS DB구축 용역.hwpx",
+     "url": "",
+     "size": null,
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "state": "none",
+    "summary": "나라장터 사전규격 상세(로그인) 확인 결과 규격서 의견 등록 0건 (2026-11-20 17:50 기준).",
     "items": []
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00303729",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00303729",
     "data00": ""
    },
@@ -8974,7 +9054,7 @@
    "open_label": "",
    "status": "의견등록중",
    "progress": null,
-   "budget": 199560000,
+   "budget": 199562000,
    "budget_text": "1억 9,956만",
    "price_est": null,
    "base_amount": null,
@@ -8984,18 +9064,40 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "02 용역설명서.hwpx",
+     "url": "",
+     "size": "58.6KB",
+     "via": "g2b-detail"
+    },
+    {
+     "name": "04 과업지시서.hwpx",
+     "url": "",
+     "size": "54.7KB",
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
-    "items": []
+    "state": "confirmed",
+    "summary": "나라장터 사전규격 상세(로그인)에서 규격서 의견 1건 확인 (2026-11-20 기준). 기관 답변은 아직 등록되지 않았습니다.",
+    "items": [
+     {
+      "q": "RFI 검토의견 및 이행권고서",
+      "a": "답변 미등록",
+      "body": "안녕하십니까. 귀 기관의 사전규격 입찰공고에 대한 검토의견을 드립니다. [ 측량한 데이터를 GIS 시스템 DB에 로딩하는 DB 구축 사업으로 소프트웨어사업 유형 중 하나이므로 권고 드리니 이견이 있으시면 전화 꼭 부탁드립니다 ] 첨부 파일(SW사업에 관한 법령 준수 권고) 붙임1 양식에 √ 표시된 권고항목에 대하여 제안요청서 등에 수정 반영하여 본 입찰공고를 진행하여 주시고 권고사항 수용여부는 붙임2 양식을 작성하여 답변달기로 올려주시기 바랍니다. (권고항목 중 미수용 사유가 있는 경우는 답변달기 전 전화로 협의 요망) 감사합니다. 손정호 전문위원 02-2188-6937",
+      "writer": "정**(소속) / 수**(성명), 이메일 mo*****@****.kr",
+      "registered": "2026/11/19 15:07",
+      "kind": "기타"
+     }
+    ]
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00302341",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00302341",
     "data00": ""
    },
@@ -9027,7 +9129,7 @@
    "open_label": "",
    "status": "의견등록중",
    "progress": null,
-   "budget": 698320000,
+   "budget": 698323560,
    "budget_text": "6억 9,832만",
    "price_est": null,
    "base_amount": null,
@@ -9037,18 +9139,31 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "5-1.제안요청서_송변전 운영 및 GIS DB 관리 인력지원.hwp",
+     "url": "",
+     "size": "115.0KB",
+     "via": "g2b-detail"
+    },
+    {
+     "name": "5-2.계약특수조건_송변전 운영 및 GIS DB 관리 인력지원.hwp",
+     "url": "",
+     "size": "60.0KB",
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "state": "none",
+    "summary": "나라장터 사전규격 상세(로그인) 확인 결과 규격서 의견 등록 0건 (2026-11-20 17:50 기준).",
     "items": []
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00302243",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00302243",
     "data00": ""
    },
@@ -9089,25 +9204,32 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "4-3. 과업지시서(GIS DB 구축용역).hwp",
+     "url": "",
+     "size": "4.9MB",
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "state": "noted",
+    "summary": "연계기관 공개 건으로 나라장터 화면에는 규격서 의견 영역이 없음(의견은 K-water ebid에서 등록)",
     "items": []
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00301293",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00301293",
     "data00": ""
    },
    "keywords": [
     "GIS DB"
    ],
-   "note": "",
+   "note": "본 규격은 나라장터 연계기관인 한국수자원공사에서 공개한 규격입니다. 자세한 정보확인 및 의견등록은 https://ebid.kwater.or.kr/fz?prspno=S5202602946 에서 진행",
    "owner": ""
   },
   {
@@ -9153,8 +9275,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299502",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299502",
     "data00": ""
    },
@@ -9207,8 +9329,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299492",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299492",
     "data00": ""
    },
@@ -9261,8 +9383,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299370",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299370",
     "data00": ""
    },
@@ -9313,8 +9435,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299256",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299256",
     "data00": ""
    },
@@ -9367,8 +9489,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299159",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299159",
     "data00": ""
    },
@@ -9421,8 +9543,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297872",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297872",
     "data00": ""
    },
@@ -9475,8 +9597,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297827",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297827",
     "data00": ""
    },
@@ -9529,8 +9651,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297810",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297810",
     "data00": ""
    },
@@ -9583,8 +9705,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295860",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295860",
     "data00": ""
    },
@@ -9637,8 +9759,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295111",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295111",
     "data00": ""
    },
@@ -9689,8 +9811,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00293486",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00293486",
     "data00": ""
    },
@@ -9744,8 +9866,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00291980",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00291980",
     "data00": ""
    },
@@ -9796,8 +9918,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00292055",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00292055",
     "data00": ""
    },
@@ -9850,8 +9972,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00290607",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00290607",
     "data00": ""
    },
@@ -9904,8 +10026,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289947",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289947",
     "data00": ""
    },
@@ -9956,8 +10078,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289828",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289828",
     "data00": ""
    },
@@ -10009,8 +10131,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289383",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289383",
     "data00": ""
    },
@@ -10063,8 +10185,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289241",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289241",
     "data00": ""
    },
@@ -10117,8 +10239,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289165",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289165",
     "data00": ""
    },
@@ -10172,8 +10294,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00288783",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00288783",
     "data00": ""
    },
@@ -10227,8 +10349,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00288674",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00288674",
     "data00": ""
    },
@@ -13445,18 +13567,25 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "제안요청서(공간정보산업 해외진출 활성화 방안 마련 연구).hwpx",
+     "url": "",
+     "size": null,
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "state": "none",
+    "summary": "나라장터 사전규격 상세(로그인) 확인 결과 규격서 의견 등록 0건 (2026-11-20 17:50 기준).",
     "items": []
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00303201",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00303201",
     "data00": ""
    },
@@ -13497,18 +13626,40 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "[붙임1] 제안요청서.hwp",
+     "url": "",
+     "size": "260.0KB",
+     "via": "g2b-detail"
+    },
+    {
+     "name": "[붙임2] 과업지시서.hwp",
+     "url": "",
+     "size": "138.0KB",
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
-    "items": []
+    "state": "confirmed",
+    "summary": "나라장터 사전규격 상세(로그인)에서 규격서 의견 1건 확인 (2026-11-20 기준). 기관 답변은 아직 등록되지 않았습니다.",
+    "items": [
+     {
+      "q": "RFI 검토의견 및 이행권고서",
+      "a": "답변 미등록",
+      "body": "",
+      "writer": "정**(소속) / 수**(성명)",
+      "registered": "2026/11/18 16:26",
+      "kind": ""
+     }
+    ]
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00301029",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00301029",
     "data00": ""
    },
@@ -13549,18 +13700,31 @@
    "conditions": "",
    "region_limit": null,
    "industry_limit": null,
-   "attachments": [],
+   "attachments": [
+    {
+     "name": "제안요청서_2027년 하남시 디지털트윈 공간정보 플랫폼 유지관리 사업.hwp",
+     "url": "",
+     "size": "624.0KB",
+     "via": "g2b-detail"
+    },
+    {
+     "name": "긴급발주사유서(2027년 하남시 디지털트윈 공간정보 플랫폼 유지관리 사업).hwp",
+     "url": "",
+     "size": "55.0KB",
+     "via": "g2b-detail"
+    }
+   ],
    "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "state": "none",
+    "summary": "나라장터 사전규격 상세(로그인) 확인 결과 규격서 의견 등록 0건 (2026-11-20 17:50 기준).",
     "items": []
    },
    "result": {
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00301723",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00301723",
     "data00": ""
    },
@@ -13613,8 +13777,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00301087",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00301087",
     "data00": ""
    },
@@ -13667,8 +13831,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299577",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299577",
     "data00": ""
    },
@@ -13719,8 +13883,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00300448",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00300448",
     "data00": ""
    },
@@ -13771,8 +13935,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299780",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299780",
     "data00": ""
    },
@@ -13826,8 +13990,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299728",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299728",
     "data00": ""
    },
@@ -13880,8 +14044,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299084",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00299084",
     "data00": ""
    },
@@ -13934,8 +14098,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297958",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297958",
     "data00": ""
    },
@@ -13988,8 +14152,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297554",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297554",
     "data00": ""
    },
@@ -14042,8 +14206,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297348",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297348",
     "data00": ""
    },
@@ -14096,8 +14260,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00297194",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00297194",
     "data00": ""
    },
@@ -14150,8 +14314,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00296455",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00296455",
     "data00": ""
    },
@@ -14204,8 +14368,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00296344",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00296344",
     "data00": ""
    },
@@ -14256,8 +14420,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295661",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295661",
     "data00": ""
    },
@@ -14310,8 +14474,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00295121",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00295121",
     "data00": ""
    },
@@ -14362,8 +14526,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00294400",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00294400",
     "data00": ""
    },
@@ -14417,8 +14581,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00293551",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00293551",
     "data00": ""
    },
@@ -14472,8 +14636,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00293346",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00293346",
     "data00": ""
    },
@@ -14524,8 +14688,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00293279",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00293279",
     "data00": ""
    },
@@ -14576,8 +14740,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00292841",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00292841",
     "data00": ""
    },
@@ -14628,8 +14792,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00291867",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00291867",
     "data00": ""
    },
@@ -14683,8 +14847,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00292569",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00292569",
     "data00": ""
    },
@@ -14735,8 +14899,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00292469",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00292469",
     "data00": ""
    },
@@ -14789,8 +14953,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00292112",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00292112",
     "data00": ""
    },
@@ -14841,8 +15005,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00292005",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00292005",
     "data00": ""
    },
@@ -14893,8 +15057,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00291472",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00291472",
     "data00": ""
    },
@@ -14947,8 +15111,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00291093",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00291093",
     "data00": ""
    },
@@ -14999,8 +15163,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00290521",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00290521",
     "data00": ""
    },
@@ -15054,8 +15218,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289919",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289919",
     "data00": ""
    },
@@ -15109,8 +15273,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289784",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289784",
     "data00": ""
    },
@@ -15164,8 +15328,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289566",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289566",
     "data00": ""
    },
@@ -15216,8 +15380,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289453",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00289453",
     "data00": ""
    },
@@ -15268,8 +15432,8 @@
     "state": "none"
    },
    "links": {
-    "g2b": "https://www.g2b.go.kr/",
-    "g2b_kind": "나라장터(사전규격은 번호 복사 후 검색)",
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00288508",
+    "g2b_kind": "사전규격 상세",
     "presignal": "https://presignal.co.kr/p/s/R26BD00288508",
     "data00": ""
    },
@@ -15571,7 +15735,7 @@
   "prespec": 88,
   "opened": 48,
   "failed": 19,
-  "attachments": 142,
+  "attachments": 152,
   "regions": 18
  }
 }

@@ -1,0 +1,189 @@
+{
+  "_note": "2026-11-20 17:40~18:00 KST, 나라장터 로그인 세션(xcastle/오창민)에서 사전규격상세조회 화면(https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=...)으로 직접 확인한 값",
+  "url_pattern": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo={사전규격등록번호}",
+  "items": {
+    "R26BD00303729": {
+      "title": "여주시 하수관로 정비사업 GIS DB구축 용역",
+      "biz": "기술용역",
+      "sw": "대상",
+      "org": "경기도 여주시",
+      "budget": 448100000,
+      "opinion_deadline": "2026/11/25 23:59",
+      "open_at": "2026/11/20 10:58",
+      "attachments": [
+        {"name": "01.제안요청서_여주시 하수관로 정비사업 GIS DB구축 용역.hwpx"},
+        {"name": "02.과업지시서_여주시 하수관로 정비사업 GIS DB구축 용역.hwpx"}
+      ],
+      "opinions_total": 0,
+      "opinions": []
+    },
+    "R26BD00303189": {
+      "title": "익산시 자율주행차량 제작 및 서비스 실증 용역(2차)",
+      "biz": "일반용역",
+      "org": "전북특별자치도 익산시",
+      "budget": 1400000000,
+      "opinion_deadline": "2026/11/22 23:59",
+      "open_at": "2026/11/19 15:19",
+      "attachments": [
+        {"name": "제안요청서(익산시 자율주행차량 제작 및 서비스 실증 용역(2차)).pdf", "size": "2.7MB"}
+      ],
+      "opinions_total": 0,
+      "opinions": []
+    },
+    "R26BD00303201": {
+      "title": "공간정보산업 해외진출 활성화 방안 마련 연구",
+      "biz": "일반용역",
+      "org": "국토교통부",
+      "ref_no": "국토교통부 공고 제2026-1497호",
+      "budget": 100000000,
+      "opinion_deadline": "2026/11/24 23:59",
+      "open_at": "2026/11/19 15:26",
+      "attachments": [
+        {"name": "제안요청서(공간정보산업 해외진출 활성화 방안 마련 연구).hwpx"}
+      ],
+      "opinions_total": 0,
+      "opinions": []
+    },
+    "R26BD00302321": {
+      "title": "화성시 자율주행 시범서비스 구축·운영 용역",
+      "biz": "일반용역",
+      "sw": "대상",
+      "org": "경기도 화성시",
+      "ref_no": "첨단산업과-10299",
+      "budget": 1780000000,
+      "opinion_deadline": "2026/11/23 23:59",
+      "open_at": "2026/11/18 13:39",
+      "attachments": [
+        {"name": "2. 과업지시서(화성시 자율주행 시범서비스 구축·운영 용역).hwpx", "size": "253.0KB"},
+        {"name": "3. 제안요청서(화성시 자율주행 시범서비스 구축·운영 용역)(최종).hwp", "size": "119.5KB"}
+      ],
+      "opinions_total": 0,
+      "opinions": []
+    },
+    "R26BD00302341": {
+      "title": "2026년 도봉구 하수도공사 라이다 측량 및 GIS DB 구축 용역",
+      "biz": "기술용역",
+      "org": "서울특별시 도봉구",
+      "ref_no": "도봉구 재무공고 제2026-142호",
+      "budget": 199562000,
+      "opinion_deadline": "2026/11/23 23:59",
+      "delivery": "2026/12/20",
+      "open_at": "2026/11/18 13:49",
+      "attachments": [
+        {"name": "02 용역설명서.hwpx", "size": "58.6KB"},
+        {"name": "04 과업지시서.hwpx", "size": "54.7KB"}
+      ],
+      "opinions_total": 1,
+      "opinions": [
+        {
+          "no": 1,
+          "q_title": "RFI 검토의견 및 이행권고서",
+          "writer": "정**(소속) / 수**(성명), 이메일 mo*****@****.kr",
+          "kind": "기타",
+          "registered": "2026/11/19 15:07",
+          "body": "안녕하십니까. 귀 기관의 사전규격 입찰공고에 대한 검토의견을 드립니다. [ 측량한 데이터를 GIS 시스템 DB에 로딩하는 DB 구축 사업으로 소프트웨어사업 유형 중 하나이므로 권고 드리니 이견이 있으시면 전화 꼭 부탁드립니다 ] 첨부 파일(SW사업에 관한 법령 준수 권고) 붙임1 양식에 √ 표시된 권고항목에 대하여 제안요청서 등에 수정 반영하여 본 입찰공고를 진행하여 주시고 권고사항 수용여부는 붙임2 양식을 작성하여 답변달기로 올려주시기 바랍니다. (권고항목 중 미수용 사유가 있는 경우는 답변달기 전 전화로 협의 요망) 감사합니다. 손정호 전문위원 02-2188-6937",
+          "file": "06683_서울특별시 도봉구_2026년 도봉구 하수도공사 라이다 측량 및 GIS DB 구축 용역.hwp (345.5KB)",
+          "answer": null
+        }
+      ]
+    },
+    "R26BD00302243": {
+      "title": "송변전 운영 및 GIS DB 관리 인력지원",
+      "biz": "일반용역",
+      "org": "한전KDN(주)",
+      "ref_no": "20260389",
+      "budget": 698323560,
+      "opinion_deadline": "2026/11/23 23:59",
+      "delivery": "2026/12/31",
+      "open_at": "2026/11/18 11:18",
+      "attachments": [
+        {"name": "5-1.제안요청서_송변전 운영 및 GIS DB 관리 인력지원.hwp", "size": "115.0KB"},
+        {"name": "5-2.계약특수조건_송변전 운영 및 GIS DB 관리 인력지원.hwp", "size": "60.0KB"}
+      ],
+      "opinions_total": 0,
+      "opinions": []
+    },
+    "R26BD00301293": {
+      "title": "국도4호선 단구간 확장공사 지장관로 이설공사 GIS DB 구축용역",
+      "biz": "기술용역",
+      "org": "한국수자원공사",
+      "ref_no": "S5202602946",
+      "budget": 8600000,
+      "opinion_deadline": "2026/11/22 10:00",
+      "open_at": "2026/11/17 09:07",
+      "linked_agency_note": "본 규격은 나라장터 연계기관인 한국수자원공사에서 공개한 규격입니다. 자세한 정보확인 및 의견등록은 https://ebid.kwater.or.kr/fz?prspno=S5202602946 에서 진행",
+      "attachments": [
+        {"name": "4-3. 과업지시서(GIS DB 구축용역).hwp", "size": "4.9MB"}
+      ],
+      "opinions_total": null,
+      "opinions_note": "연계기관 공개 건으로 나라장터 화면에는 규격서 의견 영역이 없음(의견은 K-water ebid에서 등록)"
+    },
+    "R26BD00301029": {
+      "title": "홈페이지 기능 개선 및 정보보안 강화",
+      "biz": "일반용역",
+      "sw": "대상",
+      "org": "(재)공간정보품질관리원",
+      "ref_no": "기획조정실-3870",
+      "budget": 132000000,
+      "opinion_deadline": "2026/11/23 23:59",
+      "delivery": "착수 후 100일",
+      "open_at": "2026/11/17 10:14",
+      "attachments": [
+        {"name": "[붙임1] 제안요청서.hwp", "size": "260.0KB"},
+        {"name": "[붙임2] 과업지시서.hwp", "size": "138.0KB"}
+      ],
+      "opinions_total": 1,
+      "opinions": [
+        {
+          "no": 1,
+          "q_title": "RFI 검토의견 및 이행권고서",
+          "writer": "정**(소속) / 수**(성명)",
+          "registered": "2026/11/18 16:26",
+          "body": null,
+          "answer": null
+        }
+      ]
+    },
+    "R26BD00301723": {
+      "title": "2027년 하남시 디지털트윈 공간정보 플랫폼 유지관리",
+      "biz": "일반용역",
+      "sw": "대상",
+      "org": "한국국토정보공사 인천경기남부지역본부",
+      "ref_no": "공간정보사업처-3277",
+      "budget": 117700000,
+      "opinion_deadline": "2026/11/20 23:59",
+      "delivery": "2027/12/31",
+      "open_at": "2026/11/17 15:44",
+      "attachments": [
+        {"name": "제안요청서_2027년 하남시 디지털트윈 공간정보 플랫폼 유지관리 사업.hwp", "size": "624.0KB"},
+        {"name": "긴급발주사유서(2027년 하남시 디지털트윈 공간정보 플랫폼 유지관리 사업).hwp", "size": "55.0KB"}
+      ],
+      "opinions_total": 0,
+      "opinions": []
+    },
+    "R26BD00299726": {
+      "title": "토지적성평가 및 재해최약성분석 용역",
+      "biz": "일반용역",
+      "sw": "대상",
+      "org": "경상북도 경산시",
+      "notice_org": "조달청 대구지방조달청",
+      "ref_no": "202611111411",
+      "demand_no": "R26DC00284612",
+      "budget": 403685000,
+      "opinion_deadline": "2026/11/18 23:59",
+      "delivery": "착수 후 300일",
+      "open_at": "2026/11/13 10:00",
+      "attachments": [
+        {"name": "5 토지적성평가 및 재해취약성분석 용역 제안요청서.hwpx", "size": "161.5KB"},
+        {"name": "3 토지적성평가 및 재해취약성분석 용역 과업지시서.hwpx", "size": "150.9KB"}
+      ],
+      "opinions_total": 4,
+      "opinions": [
+        {"no": 1, "q_title": "의견 등록입니다.", "writer": "주** / 임**", "registered": "2026/11/18 17:23", "body": null, "answer": null},
+        {"no": 2, "q_title": "입찰참가자격 관련 문의", "writer": "지** / 임**", "registered": "2026/11/18 17:24", "body": null, "answer": null},
+        {"no": 3, "q_title": "제안요청서 內 의견 등록의 건", "writer": "주** / 유**", "registered": "2026/11/18 17:29", "body": null, "answer": null},
+        {"no": 4, "q_title": "사전규격 의견", "writer": "주** / 박**", "registered": "2026/11/18 21:43", "body": null, "answer": null}
+      ]
+    }
+  }
+}
