@@ -355,9 +355,11 @@
           '<span class="file__name">' + esc(f.name) + (f.size ? ' <span class="small muted">' + esc(f.size) + '</span>' : '') + '</span>' +
           '<span class="file__dl">' + act + '</span></a>';
       }).join('')
-      : '<div class="qa">' + (it.kind === 'prespec'
-        ? '이 건의 첨부 규격서 목록은 아직 나라장터 로그인 상세에서 확인하지 못했습니다. 위 <b>나라장터 사전규격 상세</b>로 열어 파일첨부를 확인하세요.'
-        : '첨부파일 목록을 확인하지 못했습니다. 나라장터 원문에서 확인하세요.') + '</div>';
+      : '<div class="qa">' + (it.attachments_checked
+        ? '나라장터 공고 상세 확인 결과 공고문·과업지시서 등 <b>첨부파일이 없는 공고</b>입니다(전자시담·수의시담 건).'
+        : (it.kind === 'prespec'
+          ? '이 건의 첨부 규격서 목록은 아직 나라장터 로그인 상세에서 확인하지 못했습니다. 위 <b>나라장터 사전규격 상세</b>로 열어 파일첨부를 확인하세요.'
+          : '첨부파일 목록을 확인하지 못했습니다. 나라장터 원문에서 확인하세요.')) + '</div>';
 
     var qnaState = { confirmed: '확인', noted: '일부 확인', none: '등록된 질의 없음', unknown: '미확인' }[it.qna.state] || '미확인';
     var qnaCls = it.qna.state === 'none' ? 'badge--wait' : (it.qna.state === 'unknown' ? 'badge--unknown' : 'badge--pre');

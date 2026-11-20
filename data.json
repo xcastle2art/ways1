@@ -1180,12 +1180,12 @@
    },
    "result": {
     "state": "opened",
-    "participants": 1,
-    "winner": "주식회사 강원엔지니어링",
-    "amount": 21310000.0,
-    "rate": 88.002,
+    "participants": null,
+    "winner": "",
+    "amount": 0,
+    "rate": 0,
     "opened_at": "2026-10-21T17:00+09:00",
-    "note": null
+    "note": "전자시담(수의시담) 건 — 경쟁입찰이 아니므로 참가·낙찰 집계가 없습니다. 나라장터 안내: \"계약대상자가 아닌 업체는 참가할 수 없습니다.\""
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01783410&bidPbancOrd=000",
@@ -1196,8 +1196,9 @@
    "keywords": [
     "용도지역지구"
    ],
-   "note": "",
-   "owner": ""
+   "note": "나라장터 입찰공고 상세 확인(2026-11-20): 파일첨부 0건, 전자시담(수의시담) 건.",
+   "owner": "",
+   "attachments_checked": true
   },
   {
    "id": "b-R26BK01783203",
@@ -1220,7 +1221,7 @@
    "deadline_note": null,
    "open_at": "2026-10-21T17:00+09:00",
    "open_label": "10.21 17:00",
-   "status": "개찰대기",
+   "status": "개찰완료",
    "progress": null,
    "budget": 21310000,
    "budget_text": "2,131만",
@@ -1239,9 +1240,13 @@
     "items": []
    },
    "result": {
-    "state": "pending",
+    "state": "opened",
     "participants": null,
-    "note": "마감 후 개찰결과 미게시"
+    "winner": "",
+    "amount": 0,
+    "rate": 0,
+    "opened_at": "2026-10-21T17:00+09:00",
+    "note": "전자시담(수의시담) 건 — 경쟁입찰이 아니므로 참가·낙찰 집계가 없습니다. 나라장터 안내: \"계약대상자가 아닌 업체는 참가할 수 없습니다.\""
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01783203&bidPbancOrd=000",
@@ -1252,8 +1257,9 @@
    "keywords": [
     "용도지역지구"
    ],
-   "note": "",
-   "owner": ""
+   "note": "나라장터 입찰공고 상세 확인(2026-11-20): 파일첨부 0건, 전자시담(수의시담) 건.",
+   "owner": "",
+   "attachments_checked": true
   },
   {
    "id": "b-R26BK01841826",
@@ -3309,9 +3315,9 @@
    "deadline_note": null,
    "open_at": "2026-11-20T11:30+09:00",
    "open_label": "11.20 11:30",
-   "status": "개찰대기",
+   "status": "개찰완료",
    "progress": null,
-   "budget": 29500000,
+   "budget": 29500999,
    "budget_text": "2,950만",
    "price_est": "26819090",
    "base_amount": null,
@@ -3328,9 +3334,13 @@
     "items": []
    },
    "result": {
-    "state": "pending",
+    "state": "opened",
     "participants": null,
-    "note": "마감 후 개찰결과 미게시"
+    "winner": "",
+    "amount": 0,
+    "rate": 0,
+    "opened_at": "2026-11-20T11:30+09:00",
+    "note": "전자시담(수의시담) 건 — 경쟁입찰이 아니므로 참가·낙찰 집계가 없습니다. 나라장터 안내: \"계약대상자가 아닌 업체는 참가할 수 없습니다.\""
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843237&bidPbancOrd=000",
@@ -3341,8 +3351,9 @@
    "keywords": [
     "공원녹지"
    ],
-   "note": "",
-   "owner": ""
+   "note": "나라장터 입찰공고 상세 확인(2026-11-20): 파일첨부 0건, 전자시담(수의시담) 건.",
+   "owner": "",
+   "attachments_checked": true
   },
   {
    "id": "b-R26BK01838036",
@@ -7206,7 +7217,7 @@
    "open_label": "11.04 16:30",
    "status": "개찰완료",
    "progress": "개찰완료",
-   "budget": 54270000,
+   "budget": 54279720,
    "budget_text": "5,427만",
    "price_est": "49345200",
    "base_amount": null,
@@ -7224,12 +7235,12 @@
    },
    "result": {
     "state": "opened",
-    "participants": 1,
-    "winner": "일신이엔씨주식회사",
-    "amount": 49345200.0,
-    "rate": 90.909,
+    "participants": null,
+    "winner": "",
+    "amount": 0,
+    "rate": 0,
     "opened_at": "2026-11-04T16:30+09:00",
-    "note": null
+    "note": "전자시담(수의시담) 건 — 경쟁입찰이 아니므로 참가·낙찰 집계가 없습니다. 나라장터 안내: \"계약대상자가 아닌 업체는 참가할 수 없습니다.\""
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01808557&bidPbancOrd=000",
@@ -7240,8 +7251,9 @@
    "keywords": [
     "GIS DB"
    ],
-   "note": "",
-   "owner": ""
+   "note": "나라장터 입찰공고 상세 확인(2026-11-20): 파일첨부 0건, 전자시담(수의시담) 건.",
+   "owner": "",
+   "attachments_checked": true
   },
   {
    "id": "b-R26BK01809522",
@@ -10445,11 +10457,11 @@
    "deadline_note": null,
    "open_at": "2026-11-20T12:00+09:00",
    "open_label": "11.20 12:00",
-   "status": "개찰대기",
+   "status": "개찰완료",
    "progress": null,
    "budget": 2602000000,
    "budget_text": "26억 200만",
-   "price_est": "2365454545",
+   "price_est": 2365454545,
    "base_amount": null,
    "lowest_rate": null,
    "contract": "수의계약 수의시담",
@@ -10464,9 +10476,13 @@
     "items": []
    },
    "result": {
-    "state": "pending",
+    "state": "opened",
     "participants": null,
-    "note": "마감 후 개찰결과 미게시"
+    "winner": "",
+    "amount": 0,
+    "rate": 0,
+    "opened_at": "2026-11-20T12:00+09:00",
+    "note": "전자시담(수의시담) 건 — 경쟁입찰이 아니므로 참가·낙찰 집계가 없습니다. 나라장터 안내: \"계약대상자가 아닌 업체는 참가할 수 없습니다.\""
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843061&bidPbancOrd=000",
@@ -10477,8 +10493,9 @@
    "keywords": [
     "공간정보"
    ],
-   "note": "",
-   "owner": ""
+   "note": "나라장터 입찰공고 상세 확인(2026-11-20): 파일첨부 0건, 전자시담(수의시담) 건.",
+   "owner": "",
+   "attachments_checked": true
   },
   {
    "id": "b-R26BK01843040",
@@ -10499,11 +10516,11 @@
    "deadline_note": null,
    "open_at": "2026-11-20T12:00+09:00",
    "open_label": "11.20 12:00",
-   "status": "개찰대기",
+   "status": "개찰완료",
    "progress": null,
    "budget": 1748000000,
    "budget_text": "17억 4,800만",
-   "price_est": "1589090909",
+   "price_est": 1589090909,
    "base_amount": null,
    "lowest_rate": null,
    "contract": "수의계약 수의시담",
@@ -10518,9 +10535,13 @@
     "items": []
    },
    "result": {
-    "state": "pending",
+    "state": "opened",
     "participants": null,
-    "note": "마감 후 개찰결과 미게시"
+    "winner": "",
+    "amount": 0,
+    "rate": 0,
+    "opened_at": "2026-11-20T12:00+09:00",
+    "note": "전자시담(수의시담) 건 — 경쟁입찰이 아니므로 참가·낙찰 집계가 없습니다. 나라장터 안내: \"계약대상자가 아닌 업체는 참가할 수 없습니다.\""
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843040&bidPbancOrd=000",
@@ -10531,8 +10552,9 @@
    "keywords": [
     "공간정보"
    ],
-   "note": "",
-   "owner": ""
+   "note": "나라장터 입찰공고 상세 확인(2026-11-20): 파일첨부 0건, 전자시담(수의시담) 건.",
+   "owner": "",
+   "attachments_checked": true
   },
   {
    "id": "b-R26BK01841573",
@@ -15733,7 +15755,7 @@
   "total": 236,
   "bids": 148,
   "prespec": 88,
-  "opened": 48,
+  "opened": 52,
   "failed": 19,
   "attachments": 152,
   "regions": 18
