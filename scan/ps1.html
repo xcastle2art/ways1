@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Step 401: 페이지별 title·description (OgMetaAdvice pageTitle/pageDescription) -->
+  <title>나라장터 용역 사전규격 조회 | 프리시그널</title>
+  <meta name="description" content="입찰공고 전 단계인 용역 사전규격을 조회합니다. 사전규격은 공고보다 평균 일주일 앞서 공개됩니다.">
+  
+  
+  <link rel="canonical" href="https://presignal.co.kr/notices/pre-spec">
+  <meta name="naver-site-verification" content="12ae15bcb68283d20480353282c27ce18756f601">
+  <!-- Step 385: Open Graph (SNS 미리보기). Step 401: title/description을 페이지 메타와 동일하게 -->
+  <!-- Step 398: 공유 카드 이미지 자산 추가(800x400) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="presignal">
+  <meta property="og:title" content="나라장터 용역 사전규격 조회 | 프리시그널">
+  <meta property="og:description" content="입찰공고 전 단계인 용역 사전규격을 조회합니다. 사전규격은 공고보다 평균 일주일 앞서 공개됩니다.">
+  <meta property="og:url" content="https://presignal.co.kr/notices/pre-spec?keyword=%EB%8F%84%EB%A1%9C%EB%8C%80%EC%9E%A5">
+  <meta property="og:image" content="https://presignal.co.kr/images/og-card.png">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="400">
+  <meta property="og:locale" content="ko_KR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://presignal.co.kr/images/og-card.png">
+  <meta name="twitter:title" content="나라장터 용역 사전규격 조회 | 프리시그널">
+  <meta name="twitter:description" content="입찰공고 전 단계인 용역 사전규격을 조회합니다. 사전규격은 공고보다 평균 일주일 앞서 공개됩니다.">
+  <!-- Step 401: 홈에만 WebSite JSON-LD (한글 브랜드명 alternateName) -->
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://presignal.co.kr"},{"@type":"ListItem","position":2,"name":"용역 사전규격","item":"https://presignal.co.kr/notices/pre-spec"}]}</script>
+  
+  <link href="/vendor/bootstrap/bootstrap.min-fe7fdfec700d100dc745dc64d3600cb2.css" rel="stylesheet">
+  <link href="/vendor/pretendard/pretendard-a618fdbc71cd4798975ea20522787156.css" rel="stylesheet">
+  <link href="/vendor/jetbrains-mono/jetbrains-mono-51f24018942e95bbd5a8a5ad539a58e3.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/favicon-efc1c01f6ca9be599519d5a898134eca.svg">
+  <link rel="alternate icon" href="/favicon-93af97a00fe37181b65345f3b1eaf55d.ico">
+  <link href="/css/presignal-b72d3c9d5633950790a5dbd8de4b08e9.css" rel="stylesheet">
+  <link href="/css/ui-kit-d2472f1e02e6c34206d1aa8e5ef63ed8.css" rel="stylesheet">
+</head>
+<body class="ps-pc" data-auth="0">
+  <div class="ps-progress" id="psProgress"><div class="ps-progress__fill"></div></div>
+  <!-- 전역 차단형 로딩 오버레이 (페이지 이동·AJAX 공용) -->
+  <div class="ps-loading-overlay" id="psLoadingOverlay" aria-hidden="true" role="status" aria-live="polite" aria-busy="false">
+    <div class="ps-loading-card">
+      <div class="ps-loading-spinner" aria-hidden="true">
+        <svg class="ps-loading-svg" viewBox="0 0 48 48" width="48" height="48" focusable="false">
+          <circle class="ps-loading-ring ps-loading-ring--track" cx="24" cy="24" r="18" fill="none" stroke-width="3"/>
+          <circle class="ps-loading-ring ps-loading-ring--arc" cx="24" cy="24" r="18" fill="none" stroke-width="3"/>
+        </svg>
+        <span class="ps-loading-core"></span>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Topbar Fragment Slot -->
+  <header class="ui-header">
+    <!-- Row 1: Top Bar (64px) -->
+    <div class="ui-header__top">
+      <a href="/" class="ui-header__brand" aria-label="홈으로 이동">
+        <i class="ui-header__logo-badge" aria-hidden="true">P</i>
+        <span class="ui-header__brand-name">presignal</span>
+      </a>
+
+      <!-- 전역 검색 -->
+      <form action="/search" method="get" class="ui-header__search-form" role="search">
+        <div class="ui-header__search-wrap">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <circle cx="7" cy="7" r="5"></circle>
+            <path d="M11 11l3.5 3.5"></path>
+          </svg>
+          <input type="search"
+                 name="q"
+                 class="ui-header__search-input"
+                 placeholder="공고명 · 공고번호 · 발주기관"
+                 aria-label="전역 검색">
+        </div>
+      </form>
+
+      <div class="ui-header__spacer"></div>
+
+      <!-- 상단 액션: 테마 전환 · 알림 · 사용자 / 로그인 -->
+      <div class="ui-header__actions">
+        <!-- 테마 전환 -->
+        <button type="button"
+                class="ui-header__icon-btn ps-theme-toggle"
+                data-theme-toggle
+                onclick="toggleTheme()" aria-label="다크 모드로 전환" title="다크 모드로 전환">
+          <svg class="ui-header__theme-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <path d="M13 9.5A5.5 5.5 0 016.5 3a5.5 5.5 0 106.5 6.5z"/>
+          </svg>
+          
+        </button>
+
+        <!-- 알림 바로가기 -->
+        <a href="/alerts"
+           class="ui-header__icon-btn"
+           aria-label="알림"
+           title="알림">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <path d="M5 14V9a5 5 0 0110 0v5l1.5 1.5h-13zM8 17a2 2 0 004 0"></path>
+          </svg>
+          
+        </a>
+
+        <!-- 비로그인: 로그인 버튼 -->
+        <a href="/login"
+           class="ui-header__login-btn"
+           title="로그인">
+          로그인
+        </a>
+
+        <!-- 로그인: 사용자 메뉴 ▾ -->
+        
+      </div>
+    </div>
+
+    <!-- Row 2: GNB (52px) -->
+    <nav class="ui-gnb ps-shell-nav" aria-label="주요 서비스 메뉴">
+      
+        <div class="ui-gnb__item  is-active">
+          <a href="/notices/bid"
+             class="ui-gnb__link  active is-active"
+             id="ps-bid-menu-parent" data-bid-menu-parent="true">
+            <span>입찰정보</span>
+          </a>
+
+          <!-- 2-Level Subpanel (Step 610: 판 하나 · 메뉴 영역 이탈 시에만 150ms 지연 닫힘) -->
+          <div class="ui-gnb__panel ps-bid-menu__panel"
+               role="region"
+               aria-label="입찰정보 하위 메뉴" id="ps-bid-menu-list">
+            <div class="ui-gnb__panel-grid">
+              <div class="ui-gnb__panel-title">입찰정보</div>
+              
+                <a href="/notices/bid"
+                   class="ui-gnb__panel-link"
+                   data-bid-item="용역">
+                  <span>
+                    <span>입찰공고</span>
+                    
+                  </span>
+                  <span class="ui-badge ui-badge--info">용역</span>
+                </a>
+              
+                <a href="/construction"
+                   class="ui-gnb__panel-link"
+                   data-bid-item="공사">
+                  <span>
+                    <span>입찰공고</span>
+                    
+                  </span>
+                  <span class="ui-badge ui-badge--neutral">공사</span>
+                </a>
+              
+                <a href="/goods"
+                   class="ui-gnb__panel-link"
+                   data-bid-item="물품">
+                  <span>
+                    <span>입찰공고</span>
+                    
+                  </span>
+                  <span class="ui-badge ui-badge--accent">물품</span>
+                </a>
+              
+                <a href="/notices/pre-spec"
+                   class="ui-gnb__panel-link  is-current">
+                  <span>
+                    <span>사전규격</span>
+                    
+                  </span>
+                  
+                </a>
+              
+                <a href="/upcoming"
+                   class="ui-gnb__panel-link">
+                  <span>
+                    <span>발주예정</span>
+                    
+                  </span>
+                  
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="ui-gnb__item">
+          <a href="/notices/result"
+             class="ui-gnb__link">
+            <span>결과정보</span>
+          </a>
+
+          <!-- 2-Level Subpanel (Step 610: 판 하나 · 메뉴 영역 이탈 시에만 150ms 지연 닫힘) -->
+          <div class="ui-gnb__panel ps-bid-menu__panel"
+               role="region"
+               aria-label="결과정보 하위 메뉴">
+            <div class="ui-gnb__panel-grid">
+              <div class="ui-gnb__panel-title">결과정보</div>
+              
+                <a href="/notices/result"
+                   class="ui-gnb__panel-link">
+                  <span>
+                    <span>개찰·계약</span>
+                    
+                  </span>
+                  
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="ui-gnb__item">
+          <a href="/agencies"
+             class="ui-gnb__link">
+            <span>발주처·업체</span>
+          </a>
+
+          <!-- 2-Level Subpanel (Step 610: 판 하나 · 메뉴 영역 이탈 시에만 150ms 지연 닫힘) -->
+          <div class="ui-gnb__panel ps-bid-menu__panel"
+               role="region"
+               aria-label="발주처·업체 하위 메뉴">
+            <div class="ui-gnb__panel-grid">
+              <div class="ui-gnb__panel-title">발주처·업체</div>
+              
+                <a href="/agencies"
+                   class="ui-gnb__panel-link"
+                   title="로그인 후 이용">
+                  <span>
+                    <span>발주처</span>
+                    <span class="ui-gnb__lock">🔒</span>
+                  </span>
+                  
+                </a>
+              
+                <a href="/vendors"
+                   class="ui-gnb__panel-link"
+                   title="로그인 후 이용">
+                  <span>
+                    <span>업체</span>
+                    <span class="ui-gnb__lock">🔒</span>
+                  </span>
+                  
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="ui-gnb__item">
+          <a href="/insights"
+             class="ui-gnb__link">
+            <span>인사이트</span>
+          </a>
+
+          <!-- 2-Level Subpanel (Step 610: 판 하나 · 메뉴 영역 이탈 시에만 150ms 지연 닫힘) -->
+          <div class="ui-gnb__panel ps-bid-menu__panel"
+               role="region"
+               aria-label="인사이트 하위 메뉴">
+            <div class="ui-gnb__panel-grid">
+              <div class="ui-gnb__panel-title">인사이트</div>
+              
+                <a href="/insights"
+                   class="ui-gnb__panel-link">
+                  <span>
+                    <span>주간 브리핑</span>
+                    
+                  </span>
+                  
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="ui-gnb__item">
+          <a href="/favorites"
+             class="ui-gnb__link">
+            <span>나의 공고</span>
+          </a>
+
+          <!-- 2-Level Subpanel (Step 610: 판 하나 · 메뉴 영역 이탈 시에만 150ms 지연 닫힘) -->
+          <div class="ui-gnb__panel ps-bid-menu__panel"
+               role="region"
+               aria-label="나의 공고 하위 메뉴">
+            <div class="ui-gnb__panel-grid">
+              <div class="ui-gnb__panel-title">나의 공고</div>
+              
+                <a href="/favorites"
+                   class="ui-gnb__panel-link"
+                   title="로그인 후 이용">
+                  <span>
+                    <span>관심공고 · 🔔 알림</span>
+                    <span class="ui-gnb__lock">🔒</span>
+                  </span>
+                  
+                </a>
+              
+                <a href="/alerts"
+                   class="ui-gnb__panel-link"
+                   title="로그인 후 이용">
+                  <span>
+                    <span>받은 알림</span>
+                    <span class="ui-gnb__lock">🔒</span>
+                  </span>
+                  
+                </a>
+              
+                <a href="/settings/notifications"
+                   class="ui-gnb__panel-link"
+                   title="로그인 후 이용">
+                  <span>
+                    <span>알림 설정</span>
+                    <span class="ui-gnb__lock">🔒</span>
+                  </span>
+                  
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="ui-gnb__item">
+          <a href="/announcements"
+             class="ui-gnb__link">
+            <span>고객지원</span>
+          </a>
+
+          <!-- 2-Level Subpanel (Step 610: 판 하나 · 메뉴 영역 이탈 시에만 150ms 지연 닫힘) -->
+          <div class="ui-gnb__panel ps-bid-menu__panel"
+               role="region"
+               aria-label="고객지원 하위 메뉴">
+            <div class="ui-gnb__panel-grid">
+              <div class="ui-gnb__panel-title">고객지원</div>
+              
+                <a href="/announcements"
+                   class="ui-gnb__panel-link">
+                  <span>
+                    <span>공지사항</span>
+                    
+                  </span>
+                  
+                </a>
+              
+                <a href="/guide"
+                   class="ui-gnb__panel-link">
+                  <span>
+                    <span>이용 가이드</span>
+                    
+                  </span>
+                  
+                </a>
+              
+                <a href="/guide/opening-alert"
+                   class="ui-gnb__panel-link">
+                  <span>
+                    <span>개찰 알림 안내</span>
+                    
+                  </span>
+                  
+                </a>
+              
+                <a href="/feedback"
+                   class="ui-gnb__panel-link"
+                   title="로그인 후 이용">
+                  <span>
+                    <span>피드백</span>
+                    <span class="ui-gnb__lock">🔒</span>
+                  </span>
+                  
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+
+      <div class="ui-gnb__spacer"></div>
+
+      <!-- ≡ 전체 메뉴 버튼 -->
+      <button type="button"
+              class="ui-gnb__all-btn"
+              id="btnMainMegaMenu"
+              data-target="mainMegaMenu"
+              aria-label="전체 메뉴 열기"
+              aria-expanded="false">
+        <span>≡ 전체메뉴</span>
+      </button>
+    </nav>
+
+    <!-- Mega Menu Panel (전체 메뉴 ≡ 열림 판) -->
+    <div class="ui-megamenu" id="mainMegaMenu" role="region" aria-label="전체 메뉴">
+      <div class="ui-megamenu__inner">
+        <div class="ui-megamenu__grid">
+          <!-- 6개 카테고리 열 -->
+          
+            <div class="ui-megamenu__col">
+              <h3 class="ui-megamenu__cat">
+                <small>01</small>
+                <span>입찰정보</span>
+              </h3>
+              
+                <a href="/notices/bid"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">입찰공고</span>
+                  <span class="ui-megamenu__link-sub">용역</span>
+                  
+                </a>
+              
+                <a href="/construction"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">입찰공고</span>
+                  <span class="ui-megamenu__link-sub">공사</span>
+                  
+                </a>
+              
+                <a href="/goods"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">입찰공고</span>
+                  <span class="ui-megamenu__link-sub">물품</span>
+                  
+                </a>
+              
+                <a href="/notices/pre-spec"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">사전규격</span>
+                  
+                  
+                </a>
+              
+                <a href="/upcoming"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">발주예정</span>
+                  
+                  
+                </a>
+              
+            </div>
+          
+            <div class="ui-megamenu__col">
+              <h3 class="ui-megamenu__cat">
+                <small>02</small>
+                <span>결과정보</span>
+              </h3>
+              
+                <a href="/notices/result"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">개찰·계약</span>
+                  
+                  
+                </a>
+              
+            </div>
+          
+            <div class="ui-megamenu__col">
+              <h3 class="ui-megamenu__cat">
+                <small>03</small>
+                <span>발주처·업체</span>
+              </h3>
+              
+                <a href="/agencies"
+                   class="ui-megamenu__link"
+                   title="로그인 후 이용">
+                  <span class="ui-megamenu__link-title">발주처</span>
+                  
+                  <span class="ui-gnb__lock">🔒</span>
+                </a>
+              
+                <a href="/vendors"
+                   class="ui-megamenu__link"
+                   title="로그인 후 이용">
+                  <span class="ui-megamenu__link-title">업체</span>
+                  
+                  <span class="ui-gnb__lock">🔒</span>
+                </a>
+              
+            </div>
+          
+            <div class="ui-megamenu__col">
+              <h3 class="ui-megamenu__cat">
+                <small>04</small>
+                <span>인사이트</span>
+              </h3>
+              
+                <a href="/insights"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">주간 브리핑</span>
+                  
+                  
+                </a>
+              
+            </div>
+          
+            <div class="ui-megamenu__col">
+              <h3 class="ui-megamenu__cat">
+                <small>05</small>
+                <span>나의 공고</span>
+              </h3>
+              
+                <a href="/favorites"
+                   class="ui-megamenu__link"
+                   title="로그인 후 이용">
+                  <span class="ui-megamenu__link-title">관심공고 · 🔔 알림</span>
+                  
+                  <span class="ui-gnb__lock">🔒</span>
+                </a>
+              
+                <a href="/alerts"
+                   class="ui-megamenu__link"
+                   title="로그인 후 이용">
+                  <span class="ui-megamenu__link-title">받은 알림</span>
+                  
+                  <span class="ui-gnb__lock">🔒</span>
+                </a>
+              
+                <a href="/settings/notifications"
+                   class="ui-megamenu__link"
+                   title="로그인 후 이용">
+                  <span class="ui-megamenu__link-title">알림 설정</span>
+                  
+                  <span class="ui-gnb__lock">🔒</span>
+                </a>
+              
+            </div>
+          
+            <div class="ui-megamenu__col">
+              <h3 class="ui-megamenu__cat">
+                <small>06</small>
+                <span>고객지원</span>
+              </h3>
+              
+                <a href="/announcements"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">공지사항</span>
+                  
+                  
+                </a>
+              
+                <a href="/guide"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">이용 가이드</span>
+                  
+                  
+                </a>
+              
+                <a href="/guide/opening-alert"
+                   class="ui-megamenu__link">
+                  <span class="ui-megamenu__link-title">개찰 알림 안내</span>
+                  
+                  
+                </a>
+              
+                <a href="/feedback"
+                   class="ui-megamenu__link"
+                   title="로그인 후 이용">
+                  <span class="ui-megamenu__link-title">피드백</span>
+                  
+                  <span class="ui-gnb__lock">🔒</span>
+                </a>
+              
+            </div>
+          
+
+          <!-- 사이드 프로모션 열 (주력 업무구분 · 주간 브리핑) -->
+          <div class="ui-megamenu__side">
+            
+            <div class="ui-megamenu__promo">
+              <b>이번 주 브리핑</b>
+              <a href="/insights">사전규격 2,284건, 1,041개 기관이 움직였습니다</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main Content Slot -->
+  <div class="container my-4">
+    <div id="notice-list">
+    
+    
+      <div>
+    <div class="ui-page">
+
+  <div class="ui-page__head">
+    <h1 class="ui-page__title">사전규격</h1>
+    <div class="ui-page__meta">
+      
+      입찰공고 전에 규격서를 공개하고 의견을 받는 단계입니다.
+    </div>
+  </div>
+
+  
+  <nav class="ui-tabs ui-tabs--bid" aria-label="업무구분 탭">
+    
+      <a class="ui-tab  is-active"
+         href="/notices/pre-spec"
+         aria-current="page">용역</a>
+      
+    
+      <a class="ui-tab"
+         href="/construction/pre-spec">공사</a>
+      
+    
+      <a class="ui-tab"
+         href="/goods/pre-spec">물품</a>
+      
+    
+  </nav>
+  <nav class="ui-tabs" aria-label="단계 탭">
+    <a class="ui-tab  is-active"
+       href="/notices/pre-spec">사전규격</a>
+    <a class="ui-tab"
+       href="/notices/bid">입찰공고</a>
+    <a class="ui-tab"
+       href="/notices/result">개찰·계약</a>
+  </nav>
+
+
+  
+
+  
+
+  <form id="preSpecForm" data-ps-savedfilter-form="1" method="get" action="/notices/pre-spec">
+    <input type="hidden" name="page" id="stageListPage" value="0">
+    <input type="hidden" name="keywordChanged" value="0">
+    <input type="hidden" name="dateTouched" value="0">
+    <input type="hidden" name="closingTouched" value="0">
+    <input type="hidden" name="sort" id="stageSort" value="latest">
+    <input type="hidden" name="noticeTypes" value="PRE_SPEC">
+    
+    
+    
+    
+
+    <div class="ui-filter">
+      
+      <!-- Step 737: 사전규격 발주처 고르기 줄 -->
+      <div class="ui-filter__row">
+        <div class="ui-filter__cell ui-filter__cell--full">
+          <span class="ui-filter__label">발주처</span>
+          <div class="ui-multi-select ui-multi-select--full ui-multi-select--remote" data-ui-multi="agencyIds" data-ui-multi-empty="전체 발주처" data-ui-multi-max="3" data-ui-multi-url="/api/agencies/search">
+            <button type="button" class="ui-multi-select__trigger" role="combobox" aria-haspopup="dialog" aria-expanded="false" aria-label="발주처">
+              <div class="ui-multi-select__label-wrap">
+                <span class="ui-multi-select__label">전체 발주처</span>
+                <span class="ui-multi-select__badge" hidden="hidden">0</span>
+              </div>
+              <svg class="ui-multi-select__chevron" width="12" height="12" viewBox="0 0 12 12"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+            </button>
+            <div class="ui-multi-select__menu" role="dialog">
+              <div class="ui-multi-select__search-box">
+                <input type="text" class="ui-multi-select__search" placeholder="발주처 이름으로 찾기" aria-label="발주처 이름으로 찾기">
+              </div>
+              <div class="ui-multi-select__toolbar">
+                <span class="ui-multi-select__selected-count">선택 <strong>0</strong>/3</span>
+                <button type="button" class="ui-multi-select__clear-btn">전체 해제</button>
+              </div>
+              <div class="ui-multi-select__list">
+                
+              </div>
+              <div class="ui-multi-select__guide">
+                고른 발주처 중 한 곳의 공고면 맞는 것으로 봅니다 · 하위 기관은 따로 고르세요
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui-filter__row">
+        <div class="ui-filter__cell">
+          <span class="ui-filter__label">관심 분류</span>
+          <div class="ui-chips" data-ui-multi-chips="industryGroups">
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="industryGroups" value="IT·정보통신"
+                     onchange="this.form.submit()">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">IT·정보통신</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="industryGroups" value="연구·학술"
+                     onchange="this.form.submit()">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">연구·학술</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="industryGroups" value="건설·엔지니어링"
+                     onchange="this.form.submit()">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">건설·엔지니어링</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="industryGroups" value="환경·폐기물"
+                     onchange="this.form.submit()">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">환경·폐기물</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="industryGroups" value="여행·행사·미디어"
+                     onchange="this.form.submit()">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">여행·행사·미디어</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="industryGroups" value="시설·일반용역"
+                     onchange="this.form.submit()">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">시설·일반용역</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="industryGroups" value="기타"
+                     onchange="this.form.submit()">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">기타</span>
+            </label>
+          </div>
+        </div>
+        <div class="ui-filter__cell">
+          <span class="ui-filter__label">사업유형</span>
+          <div class="ui-chips">
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="bsnsTypes" value="SI">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">SI</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="bsnsTypes" value="SM">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">SM</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="bsnsTypes" value="감리">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">감리</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="bsnsTypes" value="컨설팅">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">컨설팅</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="bsnsTypes" value="기타">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">기타</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-filter__row">
+        <div class="ui-filter__cell">
+    <span class="ui-filter__label">사업유형</span>
+    <div class="ui-multi-select" data-ui-multi="businessTypes" data-ui-multi-parent="industryGroups" data-ui-multi-empty="전체">
+      <button type="button" class="ui-multi-select__trigger" role="combobox" aria-haspopup="dialog" aria-expanded="false"
+              aria-label="사업유형 전체">
+        <div class="ui-multi-select__label-wrap">
+          <span class="ui-multi-select__label">전체</span>
+          <span class="ui-multi-select__badge" hidden="hidden">0</span>
+        </div>
+        <svg class="ui-multi-select__chevron" width="12" height="12" viewBox="0 0 12 12"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+      </button>
+      <div class="ui-multi-select__menu" role="dialog">
+        <div class="ui-multi-select__search-box">
+          <input type="text" class="ui-multi-select__search" placeholder="사업유형 검색…" aria-label="사업유형 검색">
+        </div>
+        <div class="ui-multi-select__toolbar">
+          <span class="ui-multi-select__selected-count">선택 <strong>0</strong>개</span>
+          <button type="button" class="ui-multi-select__clear-btn">전체 해제</button>
+        </div>
+        <div class="ui-multi-select__list">
+          <div class="ui-multi-select__group" data-parent="IT·정보통신" hidden="hidden">
+            <div class="ui-multi-select__group-title">IT·정보통신</div>
+            <label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|운영 및 유지관리" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">운영 및 유지관리</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|SW 및 시스템 개발" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">SW 및 시스템 개발</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|학술연구서비스" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">학술연구서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|ICT사업 컨설팅" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">ICT사업 컨설팅</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|기타" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">기타</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|시스템 운영환경 구축" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">시스템 운영환경 구축</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|DB구축 및 자료입력" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">DB구축 및 자료입력</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|디지털콘텐츠 개발" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">디지털콘텐츠 개발</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|교육서비스" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">교육서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|행사 기획 및 대행" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">행사 기획 및 대행</span>
+            </label><label class="ui-multi-select__item" data-parent="IT·정보통신">
+              <input type="checkbox" name="businessTypes" value="IT·정보통신|__UNCLASSIFIED__" data-parent="IT·정보통신">
+              <span class="ui-multi-select__item-text">미분류</span>
+            </label>
+          </div>
+          <div class="ui-multi-select__group" data-parent="연구·학술" hidden="hidden">
+            <div class="ui-multi-select__group-title">연구·학술</div>
+            <label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|학술연구서비스" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">학술연구서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|교육서비스" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">교육서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|기술시험,검사 및 분석" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">기술시험,검사 및 분석</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|회계서비스" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">회계서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|시장 및 여론조사" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">시장 및 여론조사</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|문화재 조사/발굴 및 수리" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">문화재 조사/발굴 및 수리</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|환경관리 서비스" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">환경관리 서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|보건서비스" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">보건서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|법무서비스" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">법무서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|번역 및 통역서비스" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">번역 및 통역서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="연구·학술">
+              <input type="checkbox" name="businessTypes" value="연구·학술|__UNCLASSIFIED__" data-parent="연구·학술">
+              <span class="ui-multi-select__item-text">미분류</span>
+            </label>
+          </div>
+          <div class="ui-multi-select__group" data-parent="건설·엔지니어링" hidden="hidden">
+            <div class="ui-multi-select__group-title">건설·엔지니어링</div>
+            <label class="ui-multi-select__item" data-parent="건설·엔지니어링">
+              <input type="checkbox" name="businessTypes" value="건설·엔지니어링|설계" data-parent="건설·엔지니어링">
+              <span class="ui-multi-select__item-text">설계</span>
+            </label><label class="ui-multi-select__item" data-parent="건설·엔지니어링">
+              <input type="checkbox" name="businessTypes" value="건설·엔지니어링|감리" data-parent="건설·엔지니어링">
+              <span class="ui-multi-select__item-text">감리</span>
+            </label><label class="ui-multi-select__item" data-parent="건설·엔지니어링">
+              <input type="checkbox" name="businessTypes" value="건설·엔지니어링|CM" data-parent="건설·엔지니어링">
+              <span class="ui-multi-select__item-text">CM</span>
+            </label><label class="ui-multi-select__item" data-parent="건설·엔지니어링">
+              <input type="checkbox" name="businessTypes" value="건설·엔지니어링|측량" data-parent="건설·엔지니어링">
+              <span class="ui-multi-select__item-text">측량</span>
+            </label><label class="ui-multi-select__item" data-parent="건설·엔지니어링">
+              <input type="checkbox" name="businessTypes" value="건설·엔지니어링|선박" data-parent="건설·엔지니어링">
+              <span class="ui-multi-select__item-text">선박</span>
+            </label><label class="ui-multi-select__item" data-parent="건설·엔지니어링">
+              <input type="checkbox" name="businessTypes" value="건설·엔지니어링|기타" data-parent="건설·엔지니어링">
+              <span class="ui-multi-select__item-text">기타</span>
+            </label><label class="ui-multi-select__item" data-parent="건설·엔지니어링">
+              <input type="checkbox" name="businessTypes" value="건설·엔지니어링|기술시험,검사 및 분석" data-parent="건설·엔지니어링">
+              <span class="ui-multi-select__item-text">기술시험,검사 및 분석</span>
+            </label><label class="ui-multi-select__item" data-parent="건설·엔지니어링">
+              <input type="checkbox" name="businessTypes" value="건설·엔지니어링|__UNCLASSIFIED__" data-parent="건설·엔지니어링">
+              <span class="ui-multi-select__item-text">미분류</span>
+            </label>
+          </div>
+          <div class="ui-multi-select__group" data-parent="환경·폐기물" hidden="hidden">
+            <div class="ui-multi-select__group-title">환경·폐기물</div>
+            <label class="ui-multi-select__item" data-parent="환경·폐기물">
+              <input type="checkbox" name="businessTypes" value="환경·폐기물|폐기물 처리" data-parent="환경·폐기물">
+              <span class="ui-multi-select__item-text">폐기물 처리</span>
+            </label><label class="ui-multi-select__item" data-parent="환경·폐기물">
+              <input type="checkbox" name="businessTypes" value="환경·폐기물|폐기물 재활용" data-parent="환경·폐기물">
+              <span class="ui-multi-select__item-text">폐기물 재활용</span>
+            </label><label class="ui-multi-select__item" data-parent="환경·폐기물">
+              <input type="checkbox" name="businessTypes" value="환경·폐기물|기술시험,검사 및 분석" data-parent="환경·폐기물">
+              <span class="ui-multi-select__item-text">기술시험,검사 및 분석</span>
+            </label><label class="ui-multi-select__item" data-parent="환경·폐기물">
+              <input type="checkbox" name="businessTypes" value="환경·폐기물|__UNCLASSIFIED__" data-parent="환경·폐기물">
+              <span class="ui-multi-select__item-text">미분류</span>
+            </label>
+          </div>
+          <div class="ui-multi-select__group" data-parent="여행·행사·미디어" hidden="hidden">
+            <div class="ui-multi-select__group-title">여행·행사·미디어</div>
+            <label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|기타" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">기타</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|행사 기획 및 대행" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">행사 기획 및 대행</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|운송서비스" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">운송서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|여행서비스" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">여행서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|매체제작" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">매체제작</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|보험서비스" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">보험서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|홍보 및 마케팅" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">홍보 및 마케팅</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|음식서비스" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">음식서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|디자인" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">디자인</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|전시관 및 홍보관 설치" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">전시관 및 홍보관 설치</span>
+            </label><label class="ui-multi-select__item" data-parent="여행·행사·미디어">
+              <input type="checkbox" name="businessTypes" value="여행·행사·미디어|__UNCLASSIFIED__" data-parent="여행·행사·미디어">
+              <span class="ui-multi-select__item-text">미분류</span>
+            </label>
+          </div>
+          <div class="ui-multi-select__group" data-parent="시설·일반용역" hidden="hidden">
+            <div class="ui-multi-select__group-title">시설·일반용역</div>
+            <label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|시설물관리, 청소 등" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">시설물관리, 청소 등</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|임대" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">임대</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|수리" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">수리</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|사업장 위탁" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">사업장 위탁</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|교육서비스" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">교육서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|음식서비스" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">음식서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|여행서비스" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">여행서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|기타" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">기타</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|행사 기획 및 대행" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">행사 기획 및 대행</span>
+            </label><label class="ui-multi-select__item" data-parent="시설·일반용역">
+              <input type="checkbox" name="businessTypes" value="시설·일반용역|__UNCLASSIFIED__" data-parent="시설·일반용역">
+              <span class="ui-multi-select__item-text">미분류</span>
+            </label>
+          </div>
+          <div class="ui-multi-select__group" data-parent="기타" hidden="hidden">
+            <div class="ui-multi-select__group-title">기타</div>
+            <label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|기타" data-parent="기타">
+              <span class="ui-multi-select__item-text">기타</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|학술연구서비스" data-parent="기타">
+              <span class="ui-multi-select__item-text">학술연구서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|행사 기획 및 대행" data-parent="기타">
+              <span class="ui-multi-select__item-text">행사 기획 및 대행</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|설계" data-parent="기타">
+              <span class="ui-multi-select__item-text">설계</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|폐기물 처리" data-parent="기타">
+              <span class="ui-multi-select__item-text">폐기물 처리</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|여행서비스" data-parent="기타">
+              <span class="ui-multi-select__item-text">여행서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|교육서비스" data-parent="기타">
+              <span class="ui-multi-select__item-text">교육서비스</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|감리" data-parent="기타">
+              <span class="ui-multi-select__item-text">감리</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|시설물관리, 청소 등" data-parent="기타">
+              <span class="ui-multi-select__item-text">시설물관리, 청소 등</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|매체제작" data-parent="기타">
+              <span class="ui-multi-select__item-text">매체제작</span>
+            </label><label class="ui-multi-select__item" data-parent="기타">
+              <input type="checkbox" name="businessTypes" value="기타|__UNCLASSIFIED__" data-parent="기타">
+              <span class="ui-multi-select__item-text">미분류</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+
+      <div class="ui-filter__row">
+        <div class="ui-filter__cell">
+          <span class="ui-filter__label">일정 · 상태</span>
+          <div class="ui-chips">
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="scheduleFilters" value="ongoing">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">진행중</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="scheduleFilters" value="recentlyAdded">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">7일 이내 등록</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="scheduleFilters" value="preSpec">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">사전규격 선행</span>
+            </label>
+          </div>
+        </div>
+        <div class="ui-filter__cell">
+          <span class="ui-filter__label">입찰 기준</span>
+          <div class="ui-chips">
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="bidConditions" value="hasContact">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">담당자 연락처 있음</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="ui-filter__row">
+        <div class="ui-filter__cell">
+          <span class="ui-filter__label">기간</span>
+          <div class="ui-filter__inline">
+            <span class="ui-filter__basis">공고일 기준</span>
+            <input type="date" class="ui-input" name="dateFrom" id="stageDateFrom"
+                   value="2026-10-21">
+            <span class="ui-filter__sep">~</span>
+            <input type="date" class="ui-input" name="dateTo" id="stageDateTo"
+                   value="2026-11-20">
+            <button type="button" class="ui-filter__quick" onclick="stageQuickDate(7)">1주</button>
+            <button type="button" class="ui-filter__quick" onclick="stageQuickDate(14)">2주</button>
+            <button type="button" class="ui-filter__quick" onclick="stageQuickDate(30)">1개월</button>
+          </div>
+        </div>
+        <div class="ui-filter__cell">
+          <span class="ui-filter__label">예산</span>
+          <div class="ui-chips">
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="budgetBands" value="under1">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">1억 미만</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="budgetBands" value="1to5">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">1억~5억</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="budgetBands" value="5to20">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">5억~20억</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="budgetBands" value="20to100">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">20억~100억</span>
+            </label>
+            <label class="ui-chip">
+              <input type="checkbox" class="ui-chip__input" name="budgetBands" value="over100">
+              <span class="ui-chip__box" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></span>
+              <span class="ui-chip__label">100억 이상</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-filter__row">
+        <div class="ui-filter__cell">
+          <span class="ui-filter__label">마감임박</span>
+          <div class="ui-seg" role="radiogroup" aria-label="마감임박">
+            <label class="ui-seg__choice">
+              <input type="radio" name="closingWithinDays" value="" checked="checked">
+              <span>전체</span>
+            </label>
+            <label class="ui-seg__choice">
+              <input type="radio" name="closingWithinDays" value="7">
+              <span>7일 이내</span>
+            </label>
+            <label class="ui-seg__choice">
+              <input type="radio" name="closingWithinDays" value="30">
+              <span>30일 이내</span>
+            </label>
+            <label class="ui-seg__choice">
+              <input type="radio" name="closingWithinDays" value="60">
+              <span>60일 이내</span>
+            </label>
+          </div>
+        </div>
+        <div class="ui-filter__cell">
+          <span class="ui-filter__label">보기 범위</span>
+          <div class="ui-filter__inline ui-filter__inline--switches">
+            <label class="ui-switch">
+              <span class="ui-switch__label">취소 공고</span>
+              <input type="checkbox" class="ui-switch__input" name="includeCancelled" value="true" role="switch">
+              <span class="ui-switch__track"><span class="ui-switch__thumb"></span></span>
+              <span class="ui-switch__state">빼고 보기</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      
+
+      
+    </div>
+
+    <div class="ui-searchbar">
+      <input type="search" class="ui-input ui-searchbar__input" name="keyword"
+             value="도로대장"
+             placeholder="공고명, 발주처, 공고번호 검색"
+             aria-label="검색어">
+      <button type="submit" class="ui-btn ui-btn--primary ui-searchbar__btn"
+              onclick="document.getElementById('stageListPage').value=0">검색</button>
+      <a class="ui-btn ui-btn--outline ui-searchbar__btn" href="/notices/pre-spec">초기화</a>
+      <button type="button" class="ui-btn ui-btn--outline ui-searchbar__btn ps-savedfilter-trigger"
+              data-ps-savedfilter-open="1" data-screen-key="preSpec" data-date-window-days="30">
+        <span class="ps-savedfilter-trigger-label">저장한 조건 ▾</span>
+        <span class="ps-savedfilter-trigger-count" data-ps-savedfilter-count>0</span>
+      </button>
+    </div>
+  </form>
+
+  <div class="ui-applied ui-applied--after-search">
+    
+      <span class="ui-applied-pill">
+        <span class="ui-applied-pill__label">&quot;도로대장&quot;</span>
+        <button type="button" class="ui-applied-pill__remove" onclick="stageClearFilterField('keyword', '')" aria-label="제거">×</button>
+      </span>
+      
+      <!-- 기간 칩 (검색 기본 1개월 · 사전규격 기본 30일) -->
+      
+        
+        <span class="ui-applied-pill">
+          <span class="ui-applied-pill__label"><span>공고일 10.21~11.20</span><small class="ui-applied-pill__default">(기본)</small></span>
+        </span>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  </div>
+
+  
+
+  <div class="ui-resultbar">
+    
+    <div class="ui-resultbar__count">검색 결과 <em>0</em>건</div>
+  </div>
+
+  <div class="ui-table-wrap">
+    <table class="ui-table ui-table--bid" aria-label="사전규격 목록">
+      <thead>
+        <tr>
+          <th>공고명 · 발주기관 [번호]</th>
+          <th>사업유형</th>
+          
+          <th class=" is-sortable">
+            <a href="javascript:void(0)" class="ui-table__sort-link" onclick="stageSetSort('budget')">예산 <span class="ui-table__sort-icon">⇅</span></a>
+          </th>
+          <th>입찰방식 · 공동수급</th>
+          <th aria-sort="descending" class=" is-sortable is-sorted">
+            <a href="javascript:void(0)" class="ui-table__sort-link" onclick="stageSetSort('latest')">공고일 <span class="ui-table__sort-icon">▼</span></a>
+          </th>
+          <th class=" is-sortable">
+            <a href="javascript:void(0)" class="ui-table__sort-link" onclick="stageSetSort('closingSoon')">의견등록마감 <span class="ui-table__sort-icon">⇅</span></a>
+          </th>
+          <th>개찰</th>
+          <th>상태</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td class="ui-table__empty" colspan="9">
+            <p class="ui-empty">조건에 일치하는 사전규격이 없습니다.</p>
+            <a class="ui-btn ui-btn--outline" href="/notices/pre-spec">초기화</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  
+
+  
+  
+<style>
+  .ps-pagination { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; margin-top:16px; }
+  .ps-pagination-meta { font-size:12px; color:var(--text-3, #667); }
+  .ps-pagination-links { display:flex; flex-wrap:wrap; align-items:center; gap:4px; max-width:100%; overflow-x:auto; }
+  .ps-page-link {
+    display:inline-flex; align-items:center; justify-content:center;
+    box-sizing:border-box;
+    min-width:32px; min-height:32px; height:32px; padding:0 8px;
+    border:1px solid var(--border, #d8dde6); border-radius:6px;
+    font-size:13px; color:var(--text-2, #334); text-decoration:none; background:var(--surface, rgba(255,255,255,.04));
+    cursor:pointer; white-space:nowrap;
+  }
+  .ps-page-link:hover { border-color:var(--accent, #3b82f6); color:var(--accent, #3b82f6); }
+  .ps-page-link.active { background:var(--accent, #3b82f6); border-color:var(--accent, #3b82f6); color:#fff; font-weight:600; }
+  .ps-page-link.disabled { opacity:0.4; pointer-events:none; cursor:default; }
+  .ps-page-ellipsis { color:var(--text-4, #99a); padding:0 2px; font-size:13px; }
+  @media (max-width: 640px) {
+    .ps-pagination { flex-direction:column; align-items:stretch; }
+    .ps-page-link { min-width:28px; min-height:28px; height:28px; font-size:12px; padding:0 6px; }
+  }
+</style>
+<script>
+  function psPaginationGo(el) {
+    if (!el || el.classList.contains('disabled')) return;
+    var fn = el.getAttribute('data-fn');
+    var page = Number(el.getAttribute('data-page'));
+    if (!fn || isNaN(page)) return;
+    var f = window[fn];
+    if (typeof f === 'function') f(page);
+  }
+</script>
+
+
+  <script>
+  function stageForm() {
+    return document.getElementById('preSpecForm') || document.getElementById('resultForm');
+  }
+  function stageGoPage(p) {
+    var input = document.getElementById('stageListPage');
+    var form = stageForm();
+    if (input && form) { input.value = p; form.submit(); }
+  }
+  function stageSetSort(v) {
+    var s = document.getElementById('stageSort');
+    var p = document.getElementById('stageListPage');
+    var form = stageForm();
+    if (s) s.value = v;
+    if (p) p.value = 0;
+    if (form) form.submit();
+  }
+  function stagePad(n) { return n < 10 ? '0' + n : '' + n; }
+  function stageFmt(d) { return d.getFullYear() + '-' + stagePad(d.getMonth() + 1) + '-' + stagePad(d.getDate()); }
+  function stageQuickDate(days) {
+    stageMarkDateTouched();
+    var to = new Date();
+    var from = new Date();
+    from.setDate(to.getDate() - (days - 1));
+    var a = document.getElementById('stageDateFrom');
+    var b = document.getElementById('stageDateTo');
+    if (a) a.value = stageFmt(from);
+    if (b) b.value = stageFmt(to);
+  }
+  function stageMarkPeriodRange() {
+    var m = document.getElementById('periodMode');
+    if (m) m.value = 'range';
+  }
+  function stageSetPeriodMonths(n) {
+    stageMarkDateTouched();
+    var to = new Date();
+    var from = new Date();
+    from.setMonth(from.getMonth() - n);
+    var a = document.getElementById('stageDateFrom');
+    var b = document.getElementById('stageDateTo');
+    var m = document.getElementById('periodMode');
+    if (a) a.value = stageFmt(from);
+    if (b) b.value = stageFmt(to);
+    if (m) m.value = 'range';
+  }
+  function stageSetPeriodYear() {
+    stageMarkDateTouched();
+    var y = new Date().getFullYear();
+    var a = document.getElementById('stageDateFrom');
+    var b = document.getElementById('stageDateTo');
+    var m = document.getElementById('periodMode');
+    if (a) a.value = y + '-01-01';
+    if (b) b.value = stageFmt(new Date());
+    if (m) m.value = 'range';
+  }
+  function stageSetPeriodAll() {
+    stageMarkDateTouched();
+    var a = document.getElementById('stageDateFrom');
+    var b = document.getElementById('stageDateTo');
+    var m = document.getElementById('periodMode');
+    if (a) a.value = '';
+    if (b) b.value = '';
+    if (m) m.value = 'all';
+  }
+  function stageSetAmount(min, max) {
+    var a = document.getElementById('stageAmountMin');
+    var b = document.getElementById('stageAmountMax');
+    if (a) a.value = min == null ? '' : min;
+    if (b) b.value = max == null ? '' : max;
+  }
+  function stageClearFilterField(name, val) {
+    var form = stageForm();
+    if (!form) return;
+    var inputs = form.querySelectorAll('[name="' + name + '"]');
+    var emptyRadio = null;
+    inputs.forEach(function(inp) {
+      if (inp.type === 'radio' && (inp.value === '' || inp.value === '0')) emptyRadio = inp;
+    });
+    if (val === undefined || val === null || val === '') {
+      if (emptyRadio) {
+        emptyRadio.checked = true;
+      } else if (name === 'closingWithinDays') {
+        var hidden = document.createElement('input');
+        hidden.type = 'hidden';
+        hidden.name = name;
+        hidden.value = '';
+        form.appendChild(hidden);
+      } else {
+        inputs.forEach(function(inp) {
+          if (inp.type === 'checkbox' || inp.type === 'radio') inp.checked = false;
+          else inp.value = '';
+        });
+      }
+    } else {
+      inputs.forEach(function(inp) {
+        if (inp.value === val) inp.checked = false;
+      });
+    }
+    var p = document.getElementById('stageListPage');
+    if (p) p.value = 0;
+    form.submit();
+  }
+  function stageClearFilterFields(names) {
+    var form = stageForm();
+    if (!form) return;
+    names.forEach(function(name) {
+      var inputs = form.querySelectorAll('[name="' + name + '"]');
+      inputs.forEach(function(inp) {
+        if (inp.type === 'checkbox' || inp.type === 'radio') inp.checked = false;
+        else inp.value = '';
+      });
+    });
+    var p = document.getElementById('stageListPage');
+    if (p) p.value = 0;
+    form.submit();
+  }
+  function stageMarkDateTouched() {
+    var form = stageForm();
+    var input = form && form.querySelector('[name="dateTouched"]');
+    if (input) input.value = '1';
+  }
+  (function () {
+    var form = stageForm();
+    if (!form) return;
+    var keyword = form.querySelector('[name="keyword"]');
+    if (keyword) keyword.addEventListener('input', function () {
+      var marker = form.querySelector('[name="keywordChanged"]');
+      if (marker) marker.value = keyword.value.trim() !== keyword.defaultValue.trim() ? '1' : '0';
+    });
+    form.querySelectorAll('[name="dateFrom"], [name="dateTo"]').forEach(function (input) {
+      input.addEventListener('change', stageMarkDateTouched);
+    });
+    form.querySelectorAll('[name="closingWithinDays"]').forEach(function (input) {
+      input.addEventListener('change', function () {
+        var marker = form.querySelector('[name="closingTouched"]');
+        if (marker) marker.value = '1';
+      });
+    });
+  })();
+  </script>
+</div>
+  </div>
+    
+  </div>
+  </div>
+
+  <!-- Footer (Step 372) -->
+  <footer class="ps-footer">
+    <div class="ps-footer-content">
+      <div class="ps-footer-links">
+        <a href="/guide/opening-alert">개찰알림 안내</a>
+        <a href="/insights">주간 브리핑</a>
+        <a href="/terms">이용약관</a>
+        <a href="/about">소개</a>
+        <a href="/privacy" class="ps-footer-link--bold">개인정보처리방침</a>
+      </div>
+      <div class="ps-footer-info">
+        <span>상호: 클라웍스</span>
+        <span>대표자: 정선원</span>
+        <span>사업자등록번호: 875-38-01444</span>
+        <span>주소: 서울특별시 금천구 디지털로9길 68, 1층 111-154호(가산동, 대륭포스트타워 5차)</span>
+      </div>
+      <div class="ps-footer-contact">
+        문의: <a href="mailto:support@presignal.co.kr">support@presignal.co.kr</a>
+      </div>
+      <div class="ps-footer-copyright">
+        &copy; 2026 클라웍스. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <div class="ps-savedfilter-backdrop" id="psSavedFilterModal"
+     role="dialog" aria-modal="true" aria-labelledby="psSavedFilterTitle">
+  <div class="ps-savedfilter-dialog">
+    <div class="ps-savedfilter-head">
+      <div>
+        <h3 class="ps-savedfilter-title" id="psSavedFilterTitle">조회조건 저장</h3>
+        <p class="ps-savedfilter-sub">현재 필터를 저장하면 다른 PC에서도 같은 조건으로 볼 수 있습니다. <strong>최대 3개</strong></p>
+      </div>
+      <button type="button" class="ps-savedfilter-close" data-ps-savedfilter-close aria-label="닫기">✕</button>
+    </div>
+    <div class="ps-savedfilter-body">
+      <div class="ps-savedfilter-guest" data-ps-savedfilter-guest hidden>
+        <p class="ps-savedfilter-guest-msg">로그인하면 조회조건을 저장할 수 있습니다. 저장한 조건은 계정에 따라 다른 기기에서도 그대로 나옵니다.</p>
+        <a class="ps-savedfilter-login" href="/login">로그인하기</a>
+      </div>
+      <div data-ps-savedfilter-authed>
+        <div class="ps-savedfilter-form">
+          <label class="ps-savedfilter-form-label" for="psSavedFilterName">저장 이름</label>
+          <div class="ps-savedfilter-form-row">
+            <input type="text" id="psSavedFilterName" class="ps-savedfilter-input" maxlength="40"
+                   placeholder="비워 두면 『조건저장 N』으로 저장">
+            <button type="button" class="ps-savedfilter-save" data-ps-savedfilter-save>현재 조건 저장</button>
+          </div>
+          <div class="ps-savedfilter-chips" data-ps-savedfilter-chips></div>
+        </div>
+        <hr class="ps-savedfilter-divider">
+        <div class="ps-savedfilter-list-head">
+          <h4>최근 저장한 조건</h4>
+          <span class="ps-savedfilter-status" data-ps-savedfilter-status>저장 현황 <strong>0/3</strong></span>
+        </div>
+        <p class="ps-savedfilter-hint" data-ps-savedfilter-hint hidden>최대 3개까지 저장되었습니다. 추가하려면 삭제 또는 덮어쓰기를 하세요.</p>
+        <table class="ps-savedfilter-table">
+          <thead>
+            <tr>
+              <th>저장일</th>
+              <th>저장 이름</th>
+              <th>알림</th>
+              <th>조건 요약</th>
+              <th>적용</th>
+              <th>관리</th>
+            </tr>
+          </thead>
+          <tbody data-ps-savedfilter-tbody>
+            <tr><td colspan="6" class="ps-savedfilter-empty">저장된 조건이 없습니다.</td></tr>
+          </tbody>
+        </table>
+        <div class="ps-savedfilter-cards" data-ps-savedfilter-cards>
+          <div class="ps-savedfilter-empty">저장된 조건이 없습니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="/vendor/bootstrap/bootstrap.bundle.min-849e6db145f2905ce210f628bddd9de5.js"></script>
+  <script src="/js/presignal-2facddf899d32572031e17333aaa3a29.js"></script>
+  <script src="/js/bid-share-c9edec8c67cfa52c1c2f328f7f5dc2e3.js"></script>
+  <script src="/js/ui-kit-db6747f9dd1fb9833a72ed1eb4df2b87.js"></script>
+  <script src="/js/alert-inbox-12bdfa82a9cd027c7ecb7619193e9be8.js"></script>
+  
+</body>
+</html>
