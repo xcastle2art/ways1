@@ -193,7 +193,8 @@ for raw in RAW:
         result = {"state": "failed", "participants": int(participants) if participants is not None else None, "note": "유찰 (참가 0)" if participants == 0 else "유찰"}
     elif status == "개찰완료":
         result = {"state": "opened", "participants": int(participants) if participants else None, "winner": winner, "amount": amount,
-                  "rate": d.get("winner_rate"), "opened_at": iso(parse_dt(d.get("opened_at", ""))),
+                  "rate": d.get("winner_rate"),
+                  "opened_at": iso(open_at or parse_dt(d.get("opened_at", ""))),
                   "note": None}
         if not any([participants, winner, amount]):
             result["note"] = "개찰은 완료됐으나 참가·낙찰 정보가 수집원에 없음"

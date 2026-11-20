@@ -121,6 +121,13 @@
       if (state.sort === 'budget') {
         return (b.budget || 0) - (a.budget || 0);
       }
+      if (state.tab === 'result') {
+        var oa = parseDate(a.deadline), ob = parseDate(b.deadline);
+        if (!oa && !ob) return 0;
+        if (!oa) return 1;
+        if (!ob) return -1;
+        return ob - oa;
+      }
       var da = parseDate(a.deadline), db = parseDate(b.deadline);
       if (!da && !db) return 0;
       if (!da) return 1;
@@ -367,7 +374,9 @@
         '<div class="result-cell"><span>낙찰·계약업체</span><b>' + esc(r.winner || '미확인') + '</b></div>' +
         '<div class="result-cell"><span>낙찰·계약금액</span><b>' + (r.amount ? won(r.amount) : '미확인') + '</b></div>' +
         '<div class="result-cell"><span>낙찰률</span><b>' + (r.rate ? r.rate + '%' : '미공개') + '</b></div>' +
-        '</div>' + (r.note ? '<p class="small muted" style="margin:10px 0 0">' + esc(r.note) + '</p>' : '') + '</div></div>';
+        '</div>' + (r.note ? '<p class="small muted" style="margin:10px 0 0">' + esc(r.note) + '</p>' : '') +
+        '<p class="small muted" style="margin:8px 0 0">참가업체 수·낙찰 정보는 수집원(presignal·공공일감) 표기값입니다.</p>' +
+        '</div></div>';
     } else if (r.state === 'failed') {
       resultHtml = '<div class="result-box"><div class="result-box__head"><span class="badge badge--failed">유찰</span>' +
         '<span class="muted small">' + (r.participants != null ? '참가 ' + r.participants + '곳' : '참가 정보 없음') + '</span></div></div>';

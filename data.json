@@ -720,7 +720,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-11T23:59+09:00",
+    "opened_at": "2026-11-11T11:00+09:00",
     "note": null
    },
    "links": {
@@ -1008,7 +1008,7 @@
     "winner": "성원기술개발 주식회사",
     "amount": 48400000.0,
     "rate": null,
-    "opened_at": "2026-11-17T23:59+09:00",
+    "opened_at": "2026-11-17T11:00+09:00",
     "note": null
    },
    "links": {
@@ -1137,7 +1137,7 @@
     "winner": "주식회사 강원엔지니어링",
     "amount": 21310000.0,
     "rate": 88.002,
-    "opened_at": "2026-10-21T23:59+09:00",
+    "opened_at": "2026-10-21T17:00+09:00",
     "note": null
    },
    "links": {
@@ -3693,7 +3693,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-18T23:59+09:00",
+    "opened_at": "2026-11-18T11:00+09:00",
     "note": null
    },
    "links": {
@@ -3770,7 +3770,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-18T23:59+09:00",
+    "opened_at": "2026-11-18T11:00+09:00",
     "note": null
    },
    "links": {
@@ -3847,7 +3847,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-18T23:59+09:00",
+    "opened_at": "2026-11-18T11:00+09:00",
     "note": null
    },
    "links": {
@@ -4002,7 +4002,7 @@
     "winner": "명성중기",
     "amount": 2742300.0,
     "rate": null,
-    "opened_at": "2026-11-10T23:59+09:00",
+    "opened_at": "2026-11-10T11:00+09:00",
     "note": null
    },
    "links": {
@@ -4076,7 +4076,7 @@
     "winner": "명성중기",
     "amount": 2804000.0,
     "rate": null,
-    "opened_at": "2026-11-10T23:59+09:00",
+    "opened_at": "2026-11-10T11:00+09:00",
     "note": null
    },
    "links": {
@@ -4149,7 +4149,7 @@
     "winner": "주식회사 삼안",
     "amount": 699380000.0,
     "rate": null,
-    "opened_at": "2026-11-10T23:59+09:00",
+    "opened_at": "2026-11-10T11:00+09:00",
     "note": null
    },
    "links": {
@@ -4222,7 +4222,7 @@
     "winner": "주식회사 더원이엔지",
     "amount": 33130000.0,
     "rate": 88.016,
-    "opened_at": "2026-11-03T23:59+09:00",
+    "opened_at": "2026-11-03T11:00+09:00",
     "note": null
    },
    "links": {
@@ -5218,7 +5218,7 @@
     "winner": "주식회사 중앙지도",
     "amount": 84550000.0,
     "rate": null,
-    "opened_at": "2026-11-03T23:59+09:00",
+    "opened_at": "2026-11-03T11:00+09:00",
     "note": null
    },
    "links": {
@@ -5993,7 +5993,7 @@
     "winner": "주식회사 영원지리정보",
     "amount": 57000000.0,
     "rate": null,
-    "opened_at": "2026-11-19T23:59+09:00",
+    "opened_at": "2026-11-19T11:00+09:00",
     "note": null
    },
    "links": {
@@ -6080,7 +6080,7 @@
     "winner": "주식회사 내가시스템",
     "amount": 85878000.0,
     "rate": null,
-    "opened_at": "2026-11-18T23:59+09:00",
+    "opened_at": "2026-11-18T11:00+09:00",
     "note": null
    },
    "links": {
@@ -6298,7 +6298,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-18T23:59+09:00",
+    "opened_at": "2026-11-18T11:00+09:00",
     "note": null
    },
    "links": {
@@ -6371,7 +6371,7 @@
     "winner": "주식회사정원지리정보",
     "amount": 83155700.0,
     "rate": null,
-    "opened_at": "2026-11-18T23:59+09:00",
+    "opened_at": "2026-11-18T11:00+09:00",
     "note": null
    },
    "links": {
@@ -6448,7 +6448,7 @@
     "winner": "주식회사 내포기술",
     "amount": 41786800.0,
     "rate": null,
-    "opened_at": "2026-11-16T23:59+09:00",
+    "opened_at": "2026-11-16T16:00+09:00",
     "note": null
    },
    "links": {
@@ -6521,7 +6521,7 @@
     "winner": "주식회사 큰길엔지니어링",
     "amount": 23368500.0,
     "rate": null,
-    "opened_at": "2026-11-16T23:59+09:00",
+    "opened_at": "2026-11-16T13:00+09:00",
     "note": null
    },
    "links": {
@@ -6595,7 +6595,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-13T23:59+09:00",
+    "opened_at": "2026-11-13T11:00+09:00",
     "note": null
    },
    "links": {
@@ -6668,7 +6668,7 @@
     "winner": "승평건설이엔지 주식회사",
     "amount": 55741000.0,
     "rate": 88.012,
-    "opened_at": "2026-11-13T23:59+09:00",
+    "opened_at": "2026-11-13T11:00+09:00",
     "note": null
    },
    "links": {
@@ -6741,7 +6741,7 @@
     "winner": "주식회사 사성공간정보",
     "amount": 56001000.0,
     "rate": 88.154,
-    "opened_at": "2026-11-13T23:59+09:00",
+    "opened_at": "2026-11-13T11:00+09:00",
     "note": null
    },
    "links": {
@@ -6818,7 +6818,7 @@
     "winner": "(주)성율이앤지",
     "amount": 31103990.0,
     "rate": null,
-    "opened_at": "2026-11-11T23:59+09:00",
+    "opened_at": "2026-11-11T13:30+09:00",
     "note": null
    },
    "links": {
@@ -6892,7 +6892,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-11T23:59+09:00",
+    "opened_at": "2026-11-11T13:00+09:00",
     "note": null
    },
    "links": {
@@ -7026,7 +7026,7 @@
     "winner": "주식회사 코아콤",
     "amount": 33450000.0,
     "rate": 88.026,
-    "opened_at": "2026-11-05T23:59+09:00",
+    "opened_at": "2026-11-05T13:00+09:00",
     "note": null
    },
    "links": {
@@ -7099,7 +7099,7 @@
     "winner": "주식회사 월영지엔티",
     "amount": 20660700.0,
     "rate": null,
-    "opened_at": "2026-11-10T23:59+09:00",
+    "opened_at": "2026-11-10T11:00+09:00",
     "note": null
    },
    "links": {
@@ -7160,7 +7160,7 @@
     "winner": "일신이엔씨주식회사",
     "amount": 49345200.0,
     "rate": 90.909,
-    "opened_at": "2026-11-04T23:59+09:00",
+    "opened_at": "2026-11-04T16:30+09:00",
     "note": null
    },
    "links": {
@@ -7239,7 +7239,7 @@
     "winner": "(주)명시스템",
     "amount": 86700000.0,
     "rate": null,
-    "opened_at": "2026-11-10T23:59+09:00",
+    "opened_at": "2026-11-10T11:00+09:00",
     "note": null
    },
    "links": {
@@ -7313,7 +7313,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-10T23:59+09:00",
+    "opened_at": "2026-11-10T13:00+09:00",
     "note": null
    },
    "links": {
@@ -7386,7 +7386,7 @@
     "winner": "주식회사 정우",
     "amount": 45577000.0,
     "rate": null,
-    "opened_at": "2026-11-09T23:59+09:00",
+    "opened_at": "2026-11-09T16:20+09:00",
     "note": null
    },
    "links": {
@@ -7532,7 +7532,7 @@
     "winner": "주식회사 다온이앤씨",
     "amount": 25399000.0,
     "rate": 88.137,
-    "opened_at": "2026-11-06T23:59+09:00",
+    "opened_at": "2026-11-06T15:00+09:00",
     "note": null
    },
    "links": {
@@ -7605,7 +7605,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-06T23:59+09:00",
+    "opened_at": "2026-11-06T16:00+09:00",
     "note": null
    },
    "links": {
@@ -7678,7 +7678,7 @@
     "winner": "주식회사 제이원지리정보",
     "amount": 23330600.0,
     "rate": null,
-    "opened_at": "2026-11-06T23:59+09:00",
+    "opened_at": "2026-11-06T14:10+09:00",
     "note": null
    },
    "links": {
@@ -7747,7 +7747,7 @@
     "winner": "주식회사 이화엔지니어링",
     "amount": 45758500.0,
     "rate": null,
-    "opened_at": "2026-11-04T23:59+09:00",
+    "opened_at": "2026-11-04T11:00+09:00",
     "note": null
    },
    "links": {
@@ -7905,7 +7905,7 @@
     "winner": "(주)한국지중정보",
     "amount": 154249000.0,
     "rate": null,
-    "opened_at": "2026-11-06T23:59+09:00",
+    "opened_at": "2026-11-06T15:00+09:00",
     "note": null
    },
    "links": {
@@ -7985,7 +7985,7 @@
     "winner": "(주)명시스템",
     "amount": 79723000.0,
     "rate": 88.1,
-    "opened_at": "2026-11-04T23:59+09:00",
+    "opened_at": "2026-11-04T11:00+09:00",
     "note": null
    },
    "links": {
@@ -8063,7 +8063,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-06T23:59+09:00",
+    "opened_at": "2026-11-06T11:00+09:00",
     "note": null
    },
    "links": {
@@ -8138,7 +8138,7 @@
     "winner": "(주)명시스템",
     "amount": 67803000.0,
     "rate": 88.642,
-    "opened_at": "2026-11-03T23:59+09:00",
+    "opened_at": "2026-11-03T15:00+09:00",
     "note": null
    },
    "links": {
@@ -8211,7 +8211,7 @@
     "winner": "주식회사 해인공간정보",
     "amount": 62085000.0,
     "rate": 88.28,
-    "opened_at": "2026-11-03T23:59+09:00",
+    "opened_at": "2026-11-03T11:00+09:00",
     "note": null
    },
    "links": {
@@ -8284,7 +8284,7 @@
     "winner": "주식회사 유진이엔씨",
     "amount": 34610800.0,
     "rate": 88.009,
-    "opened_at": "2026-10-30T23:59+09:00",
+    "opened_at": "2026-10-30T11:00+09:00",
     "note": null
    },
    "links": {
@@ -8353,7 +8353,7 @@
     "winner": "주식회사 내포기술",
     "amount": 46044900.0,
     "rate": 88.378,
-    "opened_at": "2026-11-05T23:59+09:00",
+    "opened_at": "2026-10-30T15:00+09:00",
     "note": null
    },
    "links": {
@@ -8422,7 +8422,7 @@
     "winner": "주식회사 유진이엔씨",
     "amount": 70746100.0,
     "rate": 88.114,
-    "opened_at": "2026-10-29T23:59+09:00",
+    "opened_at": "2026-10-29T11:00+09:00",
     "note": null
    },
    "links": {
@@ -8501,7 +8501,7 @@
     "winner": "주식회사 내가시스템",
     "amount": 102330000.0,
     "rate": null,
-    "opened_at": "2026-11-03T23:59+09:00",
+    "opened_at": "2026-11-03T16:00+09:00",
     "note": null
    },
    "links": {
@@ -8580,7 +8580,7 @@
     "winner": "(주)한국지중정보",
     "amount": 132606000.0,
     "rate": null,
-    "opened_at": "2026-11-03T23:59+09:00",
+    "opened_at": "2026-11-03T15:00+09:00",
     "note": null
    },
    "links": {
@@ -8736,7 +8736,7 @@
     "winner": "주식회사정영",
     "amount": 186600000.0,
     "rate": 87.907,
-    "opened_at": "2026-10-27T23:59+09:00",
+    "opened_at": "2026-10-27T13:00+09:00",
     "note": null
    },
    "links": {
@@ -8809,7 +8809,7 @@
     "winner": "대웅엔지니어링주식회사",
     "amount": 82690000.0,
     "rate": 88.033,
-    "opened_at": "2026-10-27T23:59+09:00",
+    "opened_at": "2026-10-27T11:00+09:00",
     "note": null
    },
    "links": {
@@ -8882,7 +8882,7 @@
     "winner": "주식회사 부린",
     "amount": 92922900.0,
     "rate": 88.196,
-    "opened_at": "2026-10-28T23:59+09:00",
+    "opened_at": "2026-10-28T11:00+09:00",
     "note": null
    },
    "links": {
@@ -13006,7 +13006,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-13T23:59+09:00",
+    "opened_at": "2026-11-13T11:00+09:00",
     "note": null
    },
    "links": {
@@ -13398,7 +13398,7 @@
     "winner": null,
     "amount": null,
     "rate": null,
-    "opened_at": "2026-11-06T23:59+09:00",
+    "opened_at": "2026-11-06T11:00+09:00",
     "note": null
    },
    "links": {
@@ -15548,7 +15548,7 @@
     "winner": "이엘피",
     "amount": 14396200.0,
     "rate": 98.0,
-    "opened_at": "2026-11-17T23:59+09:00",
+    "opened_at": "2026-11-17T16:00+09:00",
     "note": null
    },
    "links": {
