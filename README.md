@@ -13,13 +13,16 @@
 | `style.css` | 반응형 스타일. PC(≥901px)는 테이블, 모바일(≤900px)은 카드형 리스트로 전환 |
 | `app.js` | `data.json` fetch → D-day 자동 계산 → 필터·검색·정렬·렌더링 |
 | `data.json` | 표시할 모든 데이터(마지막 업데이트, 요약 지표, 입찰공고·사전규격·참고·특별 추적) |
+| `build_data.py` | `data.json` 생성 스크립트(스캔 문서 기준 데이터를 코드로 관리, `python3 build_data.py`) |
+| `build-standalone.py` | CSS·JS·데이터를 한 HTML로 인라인한 `g2b-dashboard-standalone.html` 생성 |
+| `deploy.sh` | push → Pages 활성화 → HTTP 200 확인(대상 저장소 `xcastle2art/ways1`) |
 | `README.md` | 이 문서 |
 
 ---
 
 ## 2. 화면 구성
 
-1. **특별 추적 배너** — 강릉시 토지적성평가(미게시), 경산시 사전규격 R26BD00299726(의견마감 D-day 자동 표시).
+1. **특별 추적 배너** — 강릉시 토지적성평가(미게시), LX 토적 표준프로그램 재공고(12-01), 경산시 사전규격(의견마감 후 본공고 대기), 부안군 도로대장(개찰결과 미게시). 마감일이 있는 카드는 D-day를 자동 표시합니다.
 2. **요약 KPI 5장** — 진행 중 입찰 / D-2 이내 임박(입찰공고 기준) / 담당 권역 건수 / 사전규격(의견마감 전) / 마지막 업데이트.
 3. **필터 & 검색**
    - 구분 탭: 전체 · 입찰공고 · 사전규격 · 참고(키워드외) — 탭 라벨에 현재 조건의 건수가 함께 표시됩니다.
@@ -88,11 +91,13 @@ D-day는 저장된 값이 아니라 **접속한 날짜(KST) 기준으로 매번 
    - `updated_at` / `updated_label` 을 현재 시각으로 바꿉니다.
    - `scan_basis`(최신 스캔 시각·신규 건수·정정 건수)를 갱신합니다.
    - 신규 건을 `bids` / `pre_specs` / `others`에 추가하거나 마감된 건을 삭제합니다.
-   - `watchlist`의 강릉·경산 상태 문구를 갱신합니다.
+   - `watchlist`의 강릉·LX·경산·부안 상태 문구를 갱신합니다.
    - `summary`의 숫자를 실제 건수로 맞춥니다(화면 KPI는 파일에서 자동 계산되지만, 값이 어긋나면 혼동을 줍니다).
 3. 브라우저에서 새로고침하면 반영됩니다(상단 `새로고침` 버튼은 캐시를 무시하고 다시 받습니다).
 
-> **원칙**: 금액·마감·자격은 스캔 시점 정리값입니다. 응찰 판단 전에는 반드시 공고문·제안요청서 원문으로 재확인하십시오. 특히 부안 접수시간(13:00~16:00), 영월·대전 D-1 일정.
+> **원칙**: 금액·마감·자격은 스캔 시점 정리값입니다. 응찰 판단 전에는 반드시 공고문·제안요청서 원문으로 재확인하십시오. 특히 동해시 도로대장 직접방문 접수(11-30 09:30–16:00), 동해 질의 마감(11-23 16:00), 아산·광주과기원처럼 수집 사이트에 개찰시각만 표기된 건의 투찰 마감.
+>
+> 현재 `data.json`은 `build_data.py`로 생성됐습니다(스캔 문서 → 코드). 손으로 고치는 대신 이 스크립트를 수정해 다시 생성하는 쪽이 수치 오타를 줄입니다.
 
 ---
 
@@ -112,13 +117,17 @@ python3 -m http.server 8000
 
 | 항목 | 값 |
 |---|---|
-| 접속 URL | https://xcastle2art.github.io/g2b-dashboard/ (저장소 생성·Pages 설정 후 활성) |
-| 저장소 | https://github.com/xcastle2art/g2b-dashboard (public 예정) |
+| 접속 URL | https://xcastle2art.github.io/ways1/ (**Pages 미활성 — 현재 404**) |
+| 저장소 | https://github.com/xcastle2art/ways1 (**PRIVATE**) |
 | Pages 설정 | Deploy from a branch · `main` · `/ (root)` |
 | 로컬 소스 | `work/g2b-dashboard/` (이 폴더가 원본, 배포는 이 폴더를 push) |
 | 배포 스크립트 | `bash deploy.sh` (push → Pages 활성화 → HTTP 200 확인) |
 
-> 상태(2026-11-16 10:36 KST): 로컬 커밋·배포 스크립트까지 준비 완료. Pickle의 GitHub 연결에 **저장소 생성 권한이 없어** 저장소 생성·Pages 활성화 단계만 대기 중입니다. 저장소가 연결에 공유되면 위 `deploy.sh`로 배포됩니다.
+> 상태(2026-11-20 16:20 KST): 코드는 `xcastle2art/ways1` main에 푸시 완료. **GitHub Pages는 두 가지 이유로 열리지 않았습니다.**
+> ① Pickle의 GitHub 연동 토큰에 Pages 권한이 없어 API 호출이 `403 Resource not accessible by integration`으로 거절됩니다(같은 토큰이 저장소에는 admin 권한 보유).
+> ② 저장소가 PRIVATE이고 무료 플랜이므로, 권한이 있어도 GitHub Pages는 private 저장소에서 동작하지 않습니다(Pro 이상 필요).
+> 무료로 웹 주소를 쓰려면 Settings → Danger Zone → Change visibility → **Public** 전환이 필요하지만, 이 저장소에는 공고 원문 외에 응찰 전략·정량배점 해석 메모가 들어 있어 공개 여부는 사용자가 결정해야 합니다.
+> 서버 없이 지금 바로 보는 방법은 아래 단일 파일본입니다.
 > 대신 서버 없이 바로 열 수 있는 단일 파일본도 함께 생성됩니다: `python3 build-standalone.py` → `g2b-dashboard-standalone.html`(CSS·JS·데이터 인라인, 폰으로 파일만 열면 동작).
 
 **갱신 방법**은 이 폴더에서 파일을 고친 뒤 push만 하면 됩니다. Pages가 1분 안팎으로 자동 재빌드합니다.
@@ -128,7 +137,7 @@ cd work/g2b-dashboard
 git add -A && git commit -m "스캔 갱신 2026-11-16" && git push origin main
 ```
 
-> 저장소는 **public**입니다(무료 플랜에서 GitHub Pages를 쓰기 위한 조건). 이 문서·데이터에는 공개 공고 원문 외에 응찰 전략 메모가 포함되므로, 외부에 알려지면 곤란한 내용은 `data.json`에 넣지 마십시오. 저장소를 private으로 돌리려면 GitHub Pro 이상 플랜이 필요합니다.
+> 저장소는 **private**입니다(위 상태 참고). 이 문서·데이터에는 공개 공고 원문 외에 응찰 전략 메모가 포함되므로, 외부에 알려지면 곤란한 내용은 `data.json`에 넣지 마십시오. 저장소를 private으로 돌리려면 GitHub Pro 이상 플랜이 필요합니다.
 
 휴대폰 브라우저에서 위 URL을 연 뒤 **홈 화면에 추가**하면 앱처럼 쓸 수 있습니다.
 
@@ -138,4 +147,5 @@ git add -A && git commit -m "스캔 갱신 2026-11-16" && git push origin main
 
 - 원문 출처: presignal.co.kr(나라장터 OpenAPI 수집), g2b.go.kr(공고번호 검색)
 - 정리본 시트: [나라장터 입찰·사전규격 모니터링 (2026-11-16)](https://docs.google.com/spreadsheets/d/1z7o28YuNfoprOY_Ob1OoBsA_6ztUo2auJdDDMJfggbM/edit)
-- 데이터 기준: 2026-11-16(월) 09:50 KST / 최신 스캔 2026-11-16 08:50 KST
+- 데이터 기준: 2026-11-20(금) 16:20 KST / 최신 스캔 2026-11-20 16:00 KST
+- 정리 시트는 2026-11-16 스냅샷이라 11-16 이후 신규·정정분이 반영되어 있지 않습니다(화면에 `시트 미기재` 배지로 표시)

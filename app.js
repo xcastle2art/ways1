@@ -239,7 +239,7 @@
     if (hint) {
       hint.textContent = '데이터 기준 ' + (DATA.updated_label || '') +
         ' · D-day는 접속한 날짜로 자동 계산' +
-        (DATA.scan_basis ? ' · 11-14~11-16 신규 ' + DATA.scan_basis.new_items + '건 / 정정 ' + DATA.scan_basis.changes + '건' : '');
+        (DATA.scan_basis ? ' · 최신 스캔 신규 ' + DATA.scan_basis.new_items + '건 / 정정 ' + DATA.scan_basis.changes + '건' : '');
     }
   }
 
