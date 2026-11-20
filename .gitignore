@@ -1,2 +1,4 @@
 g2b-dashboard-standalone.html
 __pycache__/
+scan/*.html
+scan/*.bin
