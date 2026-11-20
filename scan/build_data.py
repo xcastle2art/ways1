@@ -163,8 +163,12 @@ for raw in RAW:
     deadline = parse_dt(ps.get("deadline")) or parse_deadline_from_list(raw.get("deadline_text"))
     open_at = parse_dt(ps.get("open"))
     manual = MANUAL_DEADLINE.get(no)
+    deadline_note = (manual[1] if manual else None)
     if manual:
         deadline = parse_dt(manual[0])
+    if not deadline and open_at and kind == "bid":
+        deadline = open_at
+        deadline_note = "개찰 시각 기준(투찰 마감은 공고문 확인)"
     budget_text = raw.get("budget_text", "")
     budget = norm_budget(budget_text) or d.get("budget") or d.get("estimated_price")
     kind = raw["kind"]
@@ -233,7 +237,7 @@ for raw in RAW:
         "deadline_label": (deadline.strftime("%Y-%m-%d(%a) %H:%M") if deadline else "일정 확인"),
         "deadline_short": (deadline.strftime("%m.%d %H:%M") if deadline else "—"),
         "deadline_kind": "의견등록 마감" if kind == "prespec" else "입찰 마감",
-        "deadline_note": (MANUAL_DEADLINE.get(no) or (None, None))[1],
+        "deadline_note": deadline_note,
         "open_at": iso(open_at),
         "open_label": open_at.strftime("%m.%d %H:%M") if open_at else "",
         "status": status,
