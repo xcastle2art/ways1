@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 # 나라장터 대시보드 → GitHub Pages 배포/갱신 스크립트
 # 사용: bash deploy.sh
-# 전제: 저장소 xcastle2art/g2b-dashboard 가 이미 존재하고 Pickle의 GitHub 연결에 공유되어 있어야 함.
+# 전제: 저장소 xcastle2art/ways1 (PRIVATE) 이 Pickle의 GitHub 연결에 공유되어 있어야 함.
+#       Private 저장소는 무료 플랜에서 GitHub Pages가 거절되므로 3~4) 단계가 실패할 수 있음(정상).
 set -uo pipefail
 
 OWNER="xcastle2art"
-REPO="g2b-dashboard"
+REPO="ways1"
 BRANCH="main"
 SITE="https://${OWNER}.github.io/${REPO}/"
 cd "$(dirname "$0")" || exit 1
