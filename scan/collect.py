@@ -4,7 +4,7 @@ import json, re, html, time, urllib.parse, pathlib, urllib.request
 
 KEYWORDS = ["토지적성평가", "재해취약성", "연속도면", "용도지역지구", "자율주행", "정밀지도",
             "공원관리", "공원녹지", "도보뷰", "도보네트워크", "도로대장", "GIS DB", "공간정보", "라이다"]
-DATE_FROM, DATE_TO = "2026-10-21", "2026-11-20"
+DATE_FROM, DATE_TO = "2026-10-22", "2026-11-21"
 UA = {"User-Agent": "Mozilla/5.0 (dashboard refresh)"}
 OUT = pathlib.Path(__file__).with_name("raw_items.json")
 

@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
-"""data.json 생성 — 전국 30일(2026-10-21~11-20) 14개 키워드 입찰공고·사전규격."""
+"""data.json 생성 — 전국 30일(2026-10-22~11-21) 14개 키워드 입찰공고·사전규격."""
 import json, re, pathlib
 from datetime import datetime, timedelta, timezone
 
 HERE = pathlib.Path(__file__).parent
 OUT = HERE.parent / "data.json"
 KST = timezone(timedelta(hours=9))
-NOW = datetime(2026, 11, 20, 16, 40, tzinfo=KST)
+NOW = datetime(2026, 11, 21, 9, 0, tzinfo=KST)
+BACKUP = HERE / "data.before_20261121.json"
+
+# 기존 data.json의 사전규격 수작업 보강분(첨부·질의응답·나라장터 직링크) 보존
+_prev = {}
+if BACKUP.exists():
+    for _it in json.loads(BACKUP.read_text(encoding="utf-8"))["items"]:
+        if _it["kind"] == "prespec":
+            _prev[_it["id"]] = _it
 
 RAW = json.loads((HERE / "raw_items.json").read_text(encoding="utf-8"))
 DET = json.loads((HERE / "enriched.json").read_text(encoding="utf-8"))["detail"]
@@ -59,6 +67,17 @@ NOTES = {
     "R26BK01819376": "11-11 게시 누락 보완분. SW사업 가격 80% 미만 투찰 시 가격점수 30% 페널티. 12-08 10:00 마감.",
     "R26BK01824629": "11-12 게시 누락 보완분. 수집 사이트에 마감이 개찰시각(11-23 18:00)으로만 표기 — 공고문 확인 필요.",
     "R26BD00303729": "여주시 하수관로 GIS DB — 배정 4.481억, 의견등록 11-25 23:59.",
+    "R26BD00304066": "영동군(충북) 토적 사전규격. 배정 4억 368만 5천원(부가세 포함)·조달청 대행(참조 재무과-30836)·납품기한 착수 후 300일·SW사업 대상. 첨부 제안요청서 1건(261112 작성), 규격서 의견 0건. 의견등록 11-25 23:59.",
+    "R26BK01844693": "LX 2027년 지하공간통합지도 수정갱신 — 추정 15억 182만·배정 16억 6,414만. 사전규격 R26BD00295336 본공고. 업종: SW사업자(DB제작·검색서비스)·측량업(지하시설물·수치지도·공공·측지) 중 1. 공동수급 허용·지역제한 없음. 12-31 10:00 마감(개찰 11:00). 첨부: 제안요청서(hwpx)·입찰공고서(pdf).",
+    "R26BK01844583": "LX 2027년 지하정보통합체계 운영·관리 — 추정 9억 1,818만·배정 10억 1,875만. 사전규격 R26BD00295335 본공고. 업종: SW사업자(컴퓨터관련서비스사업). 공동수급 허용·지역제한 없음. 12-31 10:00 마감. 첨부: 제안요청서(hwpx)·입찰공고서(pdf).",
+    "R26BK01843782": "이천시 배수관로 GIS DB 현행화 1권역 재공고(소액수의). 추정 9,087만·배정 9,996만. **지역제한 경기도 이천시** — 이천 관내 업체만 참가 가능. 11-26 10:00 마감·11:00 개찰. 첨부 3종(과업지시서·재공고문 hwpx/pdf).",
+    "R26BK01843805": "이천시 배수관로 GIS DB 현행화 2권역 재공고(소액수의). 1권역과 동일 조건(추정 9,087만·배정 9,996만·지역제한 이천시) — 두 권역 분리 발주. 11-26 10:00 마감.",
+    "R26BK01843041": "죽천금평지구 농어촌생활용수 GIS DB(전북 무주). 추정 3억 5,548만·배정 3억 9,102만. 지역제한 전북, SW·측량업. 사전규격 R26BD00299492 본공고. 11-26 10:00 마감.",
+    "R26BK01845405": "2027년 부산자율주행버스 위탁운영 — 추정 8억 782만·배정 8억 8,860만. 일반경쟁 협상, 업종 제한 없음. 사전규격 R26BD00295791 본공고. 12-11 10:00 마감. 첨부 6종(공고문·제안요청서·과업지시서·상생결제 안내).",
+    "R26BK01845322": "자율주행 실증도시 홍보 강화 방안 연구 재공고(국토부). 원공고 R26BK01818370 11-20 10:00 유찰(참가 0) → 금액 동일(추정 2,455만·배정 2,700만) 재공고. 학술·연구용역, 12-01 10:00 마감.",
+    "R26BK01843040": "국토부 2027년 공간정보오픈플랫폼 민간위탁(운영) — 11-20 12:00 개찰완료·참가 1(1인 수의시담·지정업체). 낙찰자·낙찰금액은 공개 수집원(공공일감)에 미등록.",
+    "R26BK01843061": "국토부 2027년 공간정보오픈플랫폼 민간위탁(유지보수) — 11-20 12:00 개찰완료·참가 1(1인 수의시담). 낙찰자 미등록. 추정 23억 6,545만·배정 26억 200만.",
+    "R26BK01818370": "국토부 자율주행 실증도시 홍보 강화 방안 연구 — 11-20 10:00 유찰(참가 0) → R26BK01845322로 재공고.",
     "R26BD00299726_dummy": "",
 }
 
@@ -156,6 +175,7 @@ def norm_budget(text):
 items = []
 for raw in RAW:
     no = raw["no"]
+    kind = raw["kind"]
     d = DET.get(no, {})
     ps = PS.get(no, {})
     org = (ps.get("org") or raw.get("org") or "").strip()
@@ -172,7 +192,6 @@ for raw in RAW:
         deadline_note = "개찰 시각 기준(투찰 마감은 공고문 확인)"
     budget_text = raw.get("budget_text", "")
     budget = norm_budget(budget_text) or d.get("budget") or d.get("estimated_price")
-    kind = raw["kind"]
 
     attachments = d.get("attachments") or []
     progress = d.get("progress")
@@ -211,6 +230,12 @@ for raw in RAW:
     qna = {"state": "unknown",
            "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
            "items": []}
+    if kind == "prespec" and no == "R26BD00304066":
+        attachments = [{"name": "제안요청서_영동군 토지적성평가 및 재해취약성분석_261112.hwpx",
+                        "size": "185.2KB", "url": ""}]
+        qna = {"state": "confirmed",
+               "summary": "11-21 08:55 나라장터 사전규격 상세(PRVA004_02) 직접 확인 — 첨부 1건(제안요청서 hwpx, 김범준 등록 11-20 15:49), 규격서 의견 0건. 의견등록 11-25 23:59까지.",
+               "items": [{"q": "규격서 의견 등록", "a": "0건 (2026-11-21 08:55 기준)"}]}
     if kind == "bid" and no == "R26BK01842043":
         qna = {"state": "noted",
                "summary": "질의 접수 11-23 16:00까지(서식 문서 1회). 공고문 기준 별도 사전 질의·답변 공개분은 확인되지 않았습니다.",
@@ -258,8 +283,8 @@ for raw in RAW:
         "result": result,
         "links": {
             "g2b": (f"https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo={no}&bidPbancOrd={raw.get('order','000')}"
-                    if kind == "bid" else "https://www.g2b.go.kr/"),
-            "g2b_kind": "입찰공고 상세" if kind == "bid" else "나라장터(사전규격은 번호 복사 후 검색)",
+                    if kind == "bid" else f"https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo={no}"),
+            "g2b_kind": "입찰공고 상세" if kind == "bid" else "나라장터 사전규격 상세",
             "presignal": raw.get("presignal") or "",
             "data00": f"https://work.00data.kr/projects/{no}" if kind == "bid" else "",
         },
@@ -268,8 +293,23 @@ for raw in RAW:
         "owner": raw.get("owner", ""),
     })
 
+# 사전규격 보강분(첨부·질의·직링크) 복원 — build_data가 덮어쓰지 않도록 기존 값 우선
+for it in items:
+    if it["kind"] != "prespec":
+        continue
+    prev = _prev.get(it["id"])
+    if not prev:
+        continue
+    if not it["attachments"] and prev.get("attachments"):
+        it["attachments"] = prev["attachments"]
+    if prev.get("qna", {}).get("items") and not it["qna"].get("items"):
+        it["qna"] = prev["qna"]
+    if prev.get("links", {}).get("g2b", "").startswith("https://www.g2b.go.kr/link/PRVA004_02"):
+        it["links"]["g2b"] = prev["links"]["g2b"]
+        it["links"]["g2b_kind"] = prev["links"].get("g2b_kind", "나라장터 사전규격 상세")
+
 # 30일 창 필터(공고일 기준) — 수집 기본 조건과 동일하지만 안전하게 재확인
-win_from = datetime(2026, 10, 21, tzinfo=KST)
+win_from = datetime(2026, 10, 22, tzinfo=KST)
 items = [i for i in items if not i["posted"] or datetime.fromisoformat(i["posted"]) >= win_from]
 
 # 키워드 통계
@@ -281,7 +321,7 @@ for kw in KEYWORDS:
 
 WATCH = [
     {"id": "wl-gangneung", "label": "강릉시 토지적성평가 용역", "status": "미게시", "tone": "wait",
-     "meta": "11-13 이후 11-20 16:00까지 입찰공고·사전규격 모두 0건",
+     "meta": "11-13 이후 11-21 09:00까지 입찰공고·사전규격 모두 0건",
      "note": "2027년 본예산 확정 후 발주 예상 — 게시 즉시 확인 대상",
      "g2b": "https://www.g2b.go.kr/"},
     {"id": "wl-lx", "label": "LX 2027 토지적성평가 표준프로그램", "status": "재공고", "tone": "urgent",
@@ -289,23 +329,31 @@ WATCH = [
      "note": "금액·자격 동일, 일정만 재설정. 업체는 11-30 18:00까지 참가등록·공동수급협정",
      "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843852&bidPbancOrd=000"},
     {"id": "wl-gyeongsan", "label": "경산시 토지적성평가 사전규격", "status": "본공고 대기", "tone": "wait",
-     "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-20 16:00)",
+     "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-21 09:00 재확인)",
      "note": "본공고 전환 시 추적", "g2b": "https://www.g2b.go.kr/"},
     {"id": "wl-buan", "label": "부안군 도로대장", "status": "개찰결과 미게시", "tone": "wait",
-     "meta": "R26BK01812769 11-18 16:00 개찰 · 11-20 14:00 제안서 평가",
-     "note": "개찰결과 등록 여부 다음 회차 확인",
+     "meta": "R26BK01812769 11-18 16:00 개찰(직찰) · 11-21 09:00 나라장터 진행정보에 개찰결과 없음",
+     "note": "11-20 14:00 부안군청 제안서 평가 진행 — 협상 결과 등록 여부 계속 추적",
      "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01812769&bidPbancOrd=000"},
+    {"id": "wl-yeongdong", "label": "영동군 토지적성평가·재해취약성분석(사전규격)", "status": "의견등록중", "tone": "urgent",
+     "meta": "R26BD00304066 배정 4억 368만 · 의견등록 11-25 23:59 마감(조달청 대행)",
+     "note": "김충열 담당(충북). 규격서 의견 0건 — 본공고 전환 시 즉시 확인",
+     "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00304066"},
+    {"id": "wl-lx-underground", "label": "LX 2027 지하공간통합지도·지하정보통합체계", "status": "입찰중", "tone": "watch",
+     "meta": "R26BK01844693(배정 16.64억)·R26BK01844583(배정 10.19억) 모두 12-31 10:00 마감",
+     "note": "LX 전국 발주·공동수급 허용·지역제한 없음. 지하공간통합지도는 SW+측량업 동시 보유 필요",
+     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01844693&bidPbancOrd=000"},
 ]
 
 now_iso = NOW.isoformat(timespec="minutes")
 data = {
     "updated_at": now_iso,
-    "updated_label": "2026-11-20(금) 16:40 KST",
-    "window": {"from": "2026-10-21", "to": "2026-11-20", "days": 30},
+    "updated_label": "2026-11-21(토) 09:00 KST",
+    "window": {"from": "2026-10-22", "to": "2026-11-21", "days": 30},
     "scan_basis": {
-        "latest_scan": "2026-11-20 16:00 KST (오전 09:00 + 오후 16:00)",
+        "latest_scan": "2026-11-21 09:00 KST (오전 스캔)",
         "sources": "presignal.co.kr 14개 키워드 검색(입찰공고·사전규격) + work.00data.kr(공공일감) 상세(첨부·개찰결과) + 나라장터 원문 링크",
-        "note": "공고일 기준 최근 30일(2026-10-21~11-20) 수집. 키워드별 검색 결과 전수(페이지 전체) 기준.",
+        "note": "공고일 기준 최근 30일(2026-10-22~11-21) 수집. 키워드별 검색 결과 전수(페이지 전체) 기준. 11-21 08:50~09:00 나라장터 사전규격 상세(PRVA004_02)로 영동군 R26BD00304066 첨부·의견 확인",
     },
     "managers": MANAGERS,
     "watchlist": WATCH,
