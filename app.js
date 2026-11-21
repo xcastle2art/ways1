@@ -79,6 +79,7 @@
       '개찰대기': ['badge--pending', '개찰대기'],
       '개찰완료': ['badge--opened', '개찰완료'],
       '유찰': ['badge--failed', '유찰'],
+      '재입찰': ['badge--pending', '재입찰'],
       '의견등록중': ['badge--pre', '의견등록중'],
       '의견마감': ['badge--wait', '의견마감']
     };
