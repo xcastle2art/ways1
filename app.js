@@ -339,6 +339,17 @@
     return m ? m[1].toUpperCase().slice(0, 4) : 'FILE';
   }
 
+  function dedupeAtts(list) {
+    var seen = {}, out = [];
+    list.forEach(function (f) {
+      var key = (f.name || '').trim();
+      if (!key) return;
+      if (seen[key] == null) { seen[key] = out.length; out.push(f); }
+      else if (!out[seen[key]].url && f.url) { out[seen[key]] = f; }
+    });
+    return out;
+  }
+
   function openDrawer(id) {
     var it = ITEMS.filter(function (i) { return i.id === id; })[0];
     if (!it) return;
@@ -346,8 +357,9 @@
     var r = it.result || {};
     var amt = amountOf(it);
 
-    var files = (it.attachments || []).length
-      ? it.attachments.map(function (f) {
+    var atts = dedupeAtts(it.attachments || []);
+    var files = atts.length
+      ? atts.map(function (f) {
         var href = f.url || it.links.g2b;
         return '<a class="file" href="' + esc(href) + '" target="_blank" rel="noopener">' +
           '<span class="file__ext">' + esc(fileExt(f.name)) + '</span>' +
@@ -415,15 +427,16 @@
       '<div class="stat stat--wide"><span>' + esc(it.deadline_kind) + '</span><b>' + esc(it.deadline_label || '공고문 확인') + '</b>' +
       (it.deadline_note ? '<span class="muted small" style="font-weight:600;margin-top:2px">' + esc(it.deadline_note) + '</span>' : '') + '</div>' +
       '<div class="stat"><span>개찰</span><b>' + esc(it.open_label || '공고문 확인') + '</b></div>' +
-      '<div class="stat"><span>' + (amt.label || '금액') + '</span><b>' + esc(amt.text || '미확인') + '</b></div>' +
       '<div class="stat"><span>추정가격</span><b>' + (it.price_est ? wonShort(it.price_est) : '—') + '</b></div>' +
-      '<div class="stat"><span>배정예산</span><b>' + (it.budget ? wonShort(it.budget) : '—') + '</b></div>' +
+      '<div class="stat"><span>배정예산</span><b>' + esc(it.budget ? wonShort(it.budget) : (it.budget_text ? String(it.budget_text).replace(/\s*원$/, '') : '—')) + '</b></div>' +
       '</div></div>' +
       '<div class="dw-sec"><h3>참가 조건</h3><dl class="kv">' + cond +
       '<dt>키워드</dt><dd>' + esc((it.keywords || []).join(' · ') || '—') + '</dd></dl></div>' +
       '<div class="dw-sec"><h3>첨부파일 <span class="pill pill--wait">' + ((it.attachments || []).length || '미확인') + '</span></h3><div class="files">' + files + '</div></div>' +
-      '<div class="dw-sec"><h3>사전규격 질의 <span class="pill ' + qnaCls + '">' + qnaState + '</span></h3>' +
-      '<div class="qa">' + esc(it.qna.summary || '') + qnaItems + '</div></div>' +
+      (it.kind === 'prespec' || it.qna.state === 'confirmed' || it.qna.state === 'noted'
+        ? '<div class="dw-sec"><h3>사전규격 질의 <span class="pill ' + qnaCls + '">' + qnaState + '</span></h3>' +
+          '<div class="qa">' + esc(it.qna.summary || '') + qnaItems + '</div></div>'
+        : '') +
       '<div class="dw-sec"><h3>개찰결과</h3>' + resultHtml + '</div>' +
       '<div class="dw-sec"><h3>원문 · 출처</h3><dl class="kv">' +
       '<dt>나라장터</dt><dd><a href="' + esc(it.links.g2b) + '" target="_blank" rel="noopener">' + esc(it.links.g2b_kind || '공고 상세') + ' ↗</a></dd>' +
