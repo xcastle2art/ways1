@@ -103,6 +103,13 @@
     var v = it.region_limit || '';
     return v && v.indexOf('없음') < 0 ? v : '';
   }
+  /* 발주기관 앞의 시·도 이름은 목록에서 빼고 읽기 쉽게 (예: 경기도 화성시 → 화성시) */
+  var SIDO_PREFIX = /^(서울특별시|부산광역시|대구광역시|인천광역시|광주광역시|대전광역시|울산광역시|세종특별자치시|경기도|강원특별자치도|강원도|충청북도|충청남도|전라북도|전북특별자치도|전라남도|경상북도|경상남도|제주특별자치도)\s*/;
+  function shortOrg(org) {
+    var s = String(org || '');
+    var t = s.replace(SIDO_PREFIX, '');
+    return t.length >= 2 ? t : s;
+  }
 
   /* ------------------------------------------------------------- 내비게이션 */
   function renderSido() {
@@ -131,7 +138,7 @@
     var all = baseItems().filter(isUrgent).sort(function (a, b) {
       return new Date(a.deadline) - new Date(b.deadline);
     });
-    var shown = all.slice(0, 7);
+    var shown = all.slice(0, window.innerWidth <= 760 ? 5 : 7);
     var head = '<div class="urgent__head"><span class="urgent__title"><i></i>지금 챙길 것</span>' +
       '<span class="urgent__sub">D-3 이내 마감 ' + all.length + '건</span>' +
       (all.length > shown.length ? '<button class="linkbtn" id="urgentAll" type="button">' + all.length + '건 전체 보기</button>' : '') +
@@ -232,7 +239,7 @@
     else if (n !== null && n >= 0 && n <= 3) cls += ' row--soon';
     else cls += ' row--open';
 
-    var meta = '<span class="row__org">' + esc(it.org) + '</span>' +
+    var meta = '<span class="row__org">' + esc(shortOrg(it.org)) + '</span>' +
       '<span class="sep">·</span><span>' + esc(it.no) + '</span>' +
       (it.kind === 'prespec' ? '<span class="sep">·</span><span>사전규격</span>' : '') +
       (regionLimited(it) ? '<span class="sep">·</span><span class="row__flag">지역제한</span>' : '') +
