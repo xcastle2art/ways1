@@ -13,7 +13,7 @@
 
   var DATA = null;
   var ITEMS = [];
-  var state = { sido: 'all', kind: 'all', q: '', kw: 'all', sort: 'deadline', limit: PAGE, urgentOnly: false, includePast: false };
+  var state = { sido: 'all', kind: 'all', q: '', kw: 'all', sort: 'deadline', limit: PAGE, urgentOnly: false, includePast: true };
 
   /* ------------------------------------------------------------- helpers */
   function $(s, r) { return (r || document).querySelector(s); }
@@ -287,15 +287,15 @@
 
     var opens = rows.filter(function (i) { return isOpen(i); }).length;
     $('#listMeta').textContent = rows.length + '건' + (state.includePast ? ' (진행 중 ' + opens + ')' : '');
-    $('#resetBtn').hidden = !(state.urgentOnly || state.kw !== 'all' || state.q || state.sido !== 'all' || state.kind !== 'all' || state.includePast);
+    $('#resetBtn').hidden = !(state.urgentOnly || state.kw !== 'all' || state.q || state.sido !== 'all' || state.kind !== 'all' || !state.includePast);
 
     var pastN = scoped().filter(function (i) {
       var dd = ddayOf(i.deadline);
       return dd !== null && dd < 0 && (state.kind === 'all' || (state.kind === 'bid' && i.kind === 'bid') || (state.kind === 'prespec' && i.kind === 'prespec'));
     }).length;
     var pb = $('#pastBtn');
-    pb.hidden = state.kind === 'result' || (!pastN && !state.includePast);
-    pb.textContent = state.includePast ? '지난 건 숨기기' : '지난 건 포함 ' + pastN;      
+    pb.hidden = state.kind === 'result' || !pastN;
+    pb.textContent = state.includePast ? '지난 건 숨기기' : '지난 건 포함 ' + pastN;
 
     var shown = rows.slice(0, state.limit);
     $('#list').innerHTML = shown.map(state.kind === 'result' ? resultRow : rowHtml).join('');
@@ -479,7 +479,7 @@
 
   function resetAll() {
     state.sido = 'all'; state.kind = 'all'; state.q = ''; state.kw = 'all';
-    state.urgentOnly = false; state.limit = PAGE; state.includePast = false;
+    state.urgentOnly = false; state.limit = PAGE; state.includePast = true;
     $('#q').value = '';
     $('#sortSel').value = 'deadline';
     state.sort = 'deadline';
