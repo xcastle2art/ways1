@@ -432,7 +432,7 @@
       '</div></div>' +
       '<div class="dw-sec"><h3>참가 조건</h3><dl class="kv">' + cond +
       '<dt>키워드</dt><dd>' + esc((it.keywords || []).join(' · ') || '—') + '</dd></dl></div>' +
-      '<div class="dw-sec"><h3>첨부파일 <span class="pill pill--wait">' + ((it.attachments || []).length || '미확인') + '</span></h3><div class="files">' + files + '</div></div>' +
+      '<div class="dw-sec"><h3>첨부파일 <span class="pill pill--wait">' + (atts.length || '미확인') + '</span></h3><div class="files">' + files + '</div></div>' +
       (it.kind === 'prespec' || it.qna.state === 'confirmed' || it.qna.state === 'noted'
         ? '<div class="dw-sec"><h3>사전규격 질의 <span class="pill ' + qnaCls + '">' + qnaState + '</span></h3>' +
           '<div class="qa">' + esc(it.qna.summary || '') + qnaItems + '</div></div>'
