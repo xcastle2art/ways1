@@ -343,20 +343,26 @@ select:focus{border-color:var(--accent)}
   .sido{padding:0 10px 6px}
   .wrap{padding:12px 12px 48px}
   .urgent{margin-bottom:11px}
-  .urg{padding:8px 12px}
-  .urg__t{font-size:13px}
+  .urg{
+    grid-template-columns:auto minmax(0,1fr);grid-template-areas:"d t" "d w";
+    row-gap:1px;column-gap:8px;padding:8px 12px;
+  }
+  .urg .dd{grid-area:d;align-self:center}
+  .urg__k{display:none}
+  .urg__t{grid-area:t;font-size:13px}
+  .urg__w{grid-area:w;font-size:11px}
   .toolbar{gap:8px}
   .seg{width:100%;justify-content:space-between}
   .seg button{flex:1;padding:6px 6px;font-size:12.5px}
   .toolbar__row{width:100%}
   .search{flex:1}
   .search input{width:100%}
-  .row{grid-template-columns:56px minmax(0,1fr);grid-template-areas:"d main" "aside aside";row-gap:7px;padding:11px 13px 11px 15px}
+  .row{grid-template-columns:66px minmax(0,1fr);grid-template-areas:"d main" "aside aside";row-gap:7px;padding:11px 13px 11px 15px}
   .row__d{grid-area:d;align-self:start}
   .row__main{grid-area:main}
   .row__aside{grid-area:aside;flex-direction:row-reverse;align-items:center;justify-content:space-between;width:100%}
   .row__title{font-size:14px}
-  .row__dl{font-size:10.5px}
+  .row__dl{font-size:10px}
   .row__org{max-width:48%}
   .res{grid-template-columns:minmax(0,1fr) 64px;grid-template-areas:"main n" "win win";row-gap:6px}
   .res__main{grid-area:main}
