@@ -19,8 +19,8 @@ shim = (
     "</script>\n"
 )
 
-out = html.replace('<link rel="stylesheet" href="style.css" />', "<style>\n" + css + "\n</style>")
-out = out.replace('<script src="app.js"></script>', shim + "<script>\n" + js + "\n</script>")
+out = re.sub(r'<link rel="stylesheet" href="style\.css[^"]*" />', lambda m: "<style>\n" + css + "\n</style>", html)
+out = re.sub(r'<script src="app\.js[^"]*"></script>', lambda m: shim + "<script>\n" + js + "\n</script>", out)
 if "href=\"style.css\"" in out or "src=\"app.js\"" in out:
     raise SystemExit("인라인 치환 실패 — index.html 구조를 확인하세요")
 
