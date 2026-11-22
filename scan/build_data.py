@@ -1,19 +1,31 @@
 #!/usr/bin/env python3
-"""data.json 생성 — 전국 30일(2026-10-22~11-21) 14개 키워드 입찰공고·사전규격."""
+"""data.json 생성 — 전국 30일(2026-10-23~11-22) 입찰공고·사전규격.
+
+수집(collect.py)은 14개 키워드 그대로 — 이 스크립트에서만 웹 대시보드 표시용으로
+'공원녹지·라이다·도보네트워크·GIS DB'만 걸린 건을 걸러낸다(09:00·16:00 정기 알림은 영향 없음).
+시·도는 담당자 권역 대신 발주기관 소재 기준으로 정규화한다.
+"""
 import json, re, pathlib
 from datetime import datetime, timedelta, timezone
 
 HERE = pathlib.Path(__file__).parent
 OUT = HERE.parent / "data.json"
 KST = timezone(timedelta(hours=9))
-NOW = datetime(2026, 11, 21, 16, 0, tzinfo=KST)
-BACKUP = HERE / "data.before_20261121_1600.json"
-
-# 기존 data.json의 사전규격 수작업 보강분(첨부·질의응답·나라장터 직링크) 보존
+NOW = datetime(2026, 11, 22, 15, 0, tzinfo=KST)
+WIN_FROM = datetime(2026, 10, 23, tzinfo=KST)
+# 사전규격 수작업 보강분(첨부·질의응답·나라장터 직링크) 보존 — 오래된 백업부터 읽어 최신이 덮어쓴다
+BACKUPS = [
+    HERE / "data.before_20261120_prespec.json",
+    HERE / "data.before_20261121.json",
+    HERE / "data.before_20261121_1600.json",
+    HERE.parent / "data.before_20261122.json",
+]
 _prev = {}
-if BACKUP.exists():
-    for _it in json.loads(BACKUP.read_text(encoding="utf-8"))["items"]:
-        if _it["kind"] == "prespec":
+for _bp in BACKUPS:
+    if not _bp.exists():
+        continue
+    for _it in json.loads(_bp.read_text(encoding="utf-8"))["items"]:
+        if _it.get("kind") == "prespec" and (_it.get("attachments") or _it.get("qna", {}).get("items")):
             _prev[_it["id"]] = _it
 
 RAW = json.loads((HERE / "raw_items.json").read_text(encoding="utf-8"))
@@ -85,18 +97,22 @@ NOTES = {
     "R26BD00299726_dummy": "",
 }
 
+# 수집(09:00·16:00 정기 스캔)이 쓰는 14개 키워드 — collect.py와 동일하게 유지
 KEYWORDS = ["토지적성평가", "재해취약성", "연속도면", "용도지역지구", "자율주행", "정밀지도",
             "공원관리", "공원녹지", "도보뷰", "도보네트워크", "도로대장", "GIS DB", "공간정보", "라이다"]
 
-MANAGERS = [
-    {"id": "park", "name": "박정수", "regions": ["경남"], "color": "#2563eb"},
-    {"id": "jo", "name": "조준래", "regions": ["경북", "전남", "전북"], "color": "#7c3aed"},
-    {"id": "oh", "name": "오창민", "regions": ["경기", "강원"], "color": "#059669"},
-    {"id": "kim", "name": "김충열", "regions": ["경기", "충남", "충북"], "color": "#d97706"},
-]
+# 웹 대시보드에서만 제외하는 키워드(2026-11-22 사용자 지시) — 수집·정기 알림은 그대로
+EXCLUDE_KEYWORDS = ["공원녹지", "라이다", "도보네트워크", "GIS DB"]
+
+# 시·도 표시 순서·이름 (발주기관 소재 기준, 건수 0인 시·도는 화면에서 숨김)
+SIDO_ORDER = ["전국", "서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종",
+              "경기", "강원", "충북", "충남", "전북", "전남", "경북", "경남", "제주"]
+SIDO_NAME = {"전국": "전국·중앙부처"}
+WEEKDAY = "월화수목금토일"
 
 
 def region_of(org):
+    """발주기관 문자열 → 시·도. 중앙부처·전국 단위 공기업은 '전국'."""
     s = org or ""
     if "전남광주통합" in s:
         if re.search(r"(동구|서구|남구|북구|광산구)", s):
@@ -109,16 +125,19 @@ def region_of(org):
                        ("광주", "광주"), ("대전", "대전"), ("울산", "울산"), ("세종", "세종")]:
         if token in s:
             return key, s
-    m = re.match(r"^(\S+?)(?:도시공사|도시관리공사|시설공단|시설관리공단|도시개발공사|문화재단)", s)
+    # 시·도 산하 공사·공단 (예: 화성도시공사, 김포도시관리공사)
+    m = re.match(r"^(\S+?)(?:도시공사|도시관리공사|시설공단|시설관리공단|도시개발공사|문화재단|환경사업소|공원관리사업소)", s)
     if m:
         stem = m.group(1)
         for prov, names in CITY.items():
             for n in names:
                 if stem == n or stem == n + "시":
                     return prov, s
+    # 같은 이름의 시·군이 둘 이상인 경우(고성: 강원/경남) 도 이름이 함께 있을 때만 단정
     for prov, names in CITY.items():
         for n in names:
-            if re.search(re.escape(n) + r"(시|군)?(\s|$|\b|·|,)", s) or f"{n}시" in s or f"{n}군" in s:
+            m2 = re.search(r"(?<![\w])" + re.escape(n) + r"(시|군)?(?![\w])", s)
+            if m2 or f"{n}시" in s or f"{n}군" in s:
                 return prov, s
     return "전국", s
 
@@ -232,7 +251,7 @@ for raw in RAW:
         if not any([participants, winner, amount]):
             result["note"] = "개찰은 완료됐으나 참가·낙찰 정보가 수집원에 없음"
     elif status == "개찰대기":
-        result = {"state": "pending", "participants": None, "note": "마감 후 개찰결과 미게시"}
+        result = {"state": "pending", "participants": None, "note": "마감 후 개찰결과 미등록"}
     else:
         result = {"state": "before", "note": "마감 전"}
 
@@ -254,8 +273,6 @@ for raw in RAW:
                "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
                "items": []}
 
-    managers = [m["name"] for m in MANAGERS if region in m["regions"]]
-
     items.append({
         "id": ("ps-" if kind == "prespec" else "b-") + no,
         "kind": kind,
@@ -264,13 +281,13 @@ for raw in RAW:
         "order": raw.get("order", "000"),
         "org": org or "기관 미상",
         "region": region,
+        "sido": SIDO_NAME.get(region, region),
         "region_detail": detail,
-        "managers": managers,
         "posted": iso(posted),
         "posted_label": posted.strftime("%m-%d") if posted else "",
         "deadline": iso(deadline),
-        "deadline_label": (deadline.strftime("%Y-%m-%d(%a) %H:%M") if deadline else "일정 확인"),
-        "deadline_short": (deadline.strftime("%m.%d %H:%M") if deadline else "—"),
+        "deadline_label": (deadline.strftime("%Y-%m-%d") + "(" + WEEKDAY[deadline.weekday()] + ") " + deadline.strftime("%H:%M") if deadline else "일정 확인"),
+        "deadline_short": (deadline.strftime("%m.%d") + "(" + WEEKDAY[deadline.weekday()] + ") " + deadline.strftime("%H:%M") if deadline else "—"),
         "deadline_kind": "의견등록 마감" if kind == "prespec" else "입찰 마감",
         "deadline_note": deadline_note,
         "open_at": iso(open_at),
@@ -318,54 +335,90 @@ for it in items:
         it["links"]["g2b_kind"] = prev["links"].get("g2b_kind", "나라장터 사전규격 상세")
 
 # 30일 창 필터(공고일 기준) — 수집 기본 조건과 동일하지만 안전하게 재확인
-win_from = datetime(2026, 10, 22, tzinfo=KST)
-items = [i for i in items if not i["posted"] or datetime.fromisoformat(i["posted"]) >= win_from]
+items = [i for i in items if not i["posted"] or datetime.fromisoformat(i["posted"]) >= WIN_FROM]
+window_count = len(items)
 
-# 키워드 통계
+# ── 웹 대시보드 전용 제외 필터 ─────────────────────────────────────────────
+# 사용자 지시(2026-11-22): 키워드 '공원녹지·라이다·도보네트워크·GIS DB'에서 걸린 건은
+# 대시보드에서만 뺀다. 수집(collect.py 14개 키워드)과 09:00·16:00 정기 알림은 그대로 둔다.
+# 규칙: 한 공고의 매칭 키워드가 모두 제외 대상 4개 안에 있을 때만 제외한다.
+#       다른 핵심 키워드(토지적성평가·공간정보·도로대장 등)에도 함께 걸린 건은 남긴다.
+def only_excluded(it):
+    kws = it.get("keywords") or []
+    return bool(kws) and all(k in EXCLUDE_KEYWORDS for k in kws)
+
+dropped = [i for i in items if only_excluded(i)]
+items = [i for i in items if not only_excluded(i)]
+
+# ── 시·도 집계 ────────────────────────────────────────────────────────────
+def is_urgent(it):
+    if not it["deadline"] or it["status"] not in ("입찰중", "의견등록중"):
+        return False
+    left = datetime.fromisoformat(it["deadline"]) - NOW
+    return 0 <= left.total_seconds() / 86400 <= 3
+
+provinces = []
+for code in SIDO_ORDER:
+    sub = [i for i in items if i["region"] == code]
+    if not sub:
+        continue
+    provinces.append({
+        "code": code,
+        "name": SIDO_NAME.get(code, code),
+        "count": len(sub),
+        "bids": sum(1 for i in sub if i["kind"] == "bid"),
+        "prespec": sum(1 for i in sub if i["kind"] == "prespec"),
+        "urgent": sum(1 for i in sub if is_urgent(i)),
+    })
+
+# 키워드 통계 — 대시보드에 남은 10개 키워드만
+DASH_KEYWORDS = [k for k in KEYWORDS if k not in EXCLUDE_KEYWORDS]
 kstats = []
-for kw in KEYWORDS:
+for kw in DASH_KEYWORDS:
     b = sum(1 for i in items if i["kind"] == "bid" and kw in i["keywords"])
     p = sum(1 for i in items if i["kind"] == "prespec" and kw in i["keywords"])
     kstats.append({"keyword": kw, "bids": b, "prespec": p})
 
+# 추적 목록 — 나라장터에 아직 게시되지 않은 '미게시' 항목은 넣지 않는다(강릉 토적 제외).
 WATCH = [
-    {"id": "wl-gangneung", "label": "강릉시 토지적성평가 용역", "status": "미게시", "tone": "wait",
-     "meta": "11-13 이후 11-21 16:00까지 입찰공고·사전규격 모두 0건",
-     "note": "2027년 본예산 확정 후 발주 예상 — 게시 즉시 확인 대상",
-     "g2b": "https://www.g2b.go.kr/"},
     {"id": "wl-lx", "label": "LX 2027 토지적성평가 표준프로그램", "status": "재공고", "tone": "urgent",
      "meta": "원공고 유찰(참가 0) → 재공고 R26BK01843852 / 12-01 10:00 마감",
      "note": "금액·자격 동일, 일정만 재설정. 업체는 11-30 18:00까지 참가등록·공동수급협정",
      "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843852&bidPbancOrd=000"},
-    {"id": "wl-gyeongsan", "label": "경산시 토지적성평가 사전규격", "status": "본공고 대기", "tone": "wait",
-     "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-21 16:00 재확인)",
-     "note": "본공고 전환 시 추적", "g2b": "https://www.g2b.go.kr/"},
-    {"id": "wl-buan", "label": "부안군 도로대장", "status": "개찰결과 미게시", "tone": "wait",
-     "meta": "R26BK01812769 11-18 16:00 개찰(직찰) · 11-21 16:00 나라장터 진행정보에 개찰결과 없음",
+    {"id": "wl-gyeongsan", "label": "경산시 토지적성평가 사전규격", "status": "본공고 전환 대기", "tone": "wait",
+     "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-22 09:00 재확인)",
+     "note": "사전규격은 게시 상태. 본공고 전환 시 즉시 반영", "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299726"},
+    {"id": "wl-buan", "label": "부안군 도로대장", "status": "개찰결과 미등록", "tone": "wait",
+     "meta": "R26BK01812769 11-18 16:00 개찰(직찰) · 11-22 09:00 나라장터 진행정보에 개찰결과 없음",
      "note": "11-20 14:00 부안군청 제안서 평가 진행 — 협상 결과 등록 여부 계속 추적",
      "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01812769&bidPbancOrd=000"},
-    {"id": "wl-yeongdong", "label": "영동군 토지적성평가·재해취약성분석(사전규격)", "status": "의견등록중", "tone": "urgent",
-     "meta": "R26BD00304066 배정 4억 368만 · 의견등록 11-25 23:59 마감(조달청 대행)",
-     "note": "김충열 담당(충북). 규격서 의견 0건 — 본공고 전환 시 즉시 확인",
-     "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00304066"},
     {"id": "wl-lx-underground", "label": "LX 2027 지하공간통합지도·지하정보통합체계", "status": "입찰중", "tone": "watch",
      "meta": "R26BK01844693(배정 16.64억)·R26BK01844583(배정 10.19억) 모두 12-31 10:00 마감",
      "note": "LX 전국 발주·공동수급 허용·지역제한 없음. 지하공간통합지도는 SW+측량업 동시 보유 필요",
      "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01844693&bidPbancOrd=000"},
 ]
 
-now_iso = NOW.isoformat(timespec="minutes")
 data = {
-    "updated_at": now_iso,
-    "updated_label": "2026-11-21(토) 16:00 KST",
-    "window": {"from": "2026-10-22", "to": "2026-11-21", "days": 30},
+    "updated_at": NOW.isoformat(timespec="minutes"),
+    "updated_label": "2026-11-22(일) 15:00 KST",
+    "window": {"from": "2026-10-23", "to": "2026-11-22", "days": 30},
     "scan_basis": {
-        "latest_scan": "2026-11-21 16:00 KST (오후 스캔 — 14개 키워드 신규·변동 0건, 추적 6건 재확인)",
+        "latest_scan": "2026-11-22 09:00 KST (일요일 오전 스캔 — 14개 키워드 신규·변동 0건, 추적 건 재확인)",
         "sources": "presignal.co.kr 14개 키워드 검색(입찰공고·사전규격) + work.00data.kr(공공일감) 상세(첨부·개찰결과) + 나라장터 원문 링크",
-        "note": "공고일 기준 최근 30일(2026-10-22~11-21) 수집. 키워드별 검색 결과 전수(페이지 전체) 기준. 16:00 스캔에서 09:00 대비 신규 공고·정정·개찰결과 변동 없음(토요일). 키워드 외 LX 재공고 R26BK01845358(노후계획도시정비플랫폼, 11-20 유찰→12-01 14:00)만 추가.",
+        "note": "공고일 기준 최근 30일(2026-10-23~11-22). 11-22 09:00 스캔에서 11-21 16:00 대비 신규·정정·개찰결과 변동 0건.",
     },
-    "managers": MANAGERS,
+    "collect_keywords": KEYWORDS,
+    "dashboard_keywords": DASH_KEYWORDS,
+    "dashboard_filter": {
+        "excluded_keywords": EXCLUDE_KEYWORDS,
+        "excluded_items": len(dropped),
+        "kept_items": len(items),
+        "window_items": window_count,
+        "samples": [{"no": i["no"], "title": i["title"], "keywords": i["keywords"]} for i in dropped[:6]],
+        "note": "웹 대시보드 표시에서만 제외. 09:00·16:00 정기 스캔과 알림은 14개 키워드 그대로 유지.",
+    },
     "watchlist": WATCH,
+    "provinces": provinces,
     "keyword_stats": kstats,
     "items": items,
     "counts": {
@@ -375,12 +428,15 @@ data = {
         "opened": sum(1 for i in items if i["result"]["state"] == "opened"),
         "failed": sum(1 for i in items if i["result"]["state"] == "failed"),
         "attachments": sum(1 for i in items if i["attachments"]),
-        "regions": len({i["region"] for i in items}),
+        "provinces": len({i["region"] for i in items}),
+        "urgent": sum(1 for i in items if is_urgent(i)),
+        "open_bids": sum(1 for i in items if i["kind"] == "bid" and i["status"] == "입찰중"),
+        "open_prespec": sum(1 for i in items if i["kind"] == "prespec" and i["status"] == "의견등록중"),
     },
 }
 OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-print("items", len(items), data["counts"])
+print("items", len(items), "excluded", len(dropped), data["counts"])
 from collections import Counter
 print(Counter(i["region"] for i in items).most_common())
-print(Counter(len(i["managers"]) for i in items))
-print("with attachments", data["counts"]["attachments"])
+print("prespec with attachments", sum(1 for i in items if i["kind"] == "prespec" and i["attachments"]))
+print("urgent", data["counts"]["urgent"])

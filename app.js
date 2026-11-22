@@ -1,30 +1,20 @@
 /* =========================================================================
-   나라장터 입찰 모니터링 대시보드
-   - data.json 을 fetch 해서 렌더링 (단일 파일 빌드에서는 인라인 데이터)
-   - 30일 창은 접속 시각 기준으로 매번 다시 계산
+   나라장터 입찰 모니터링 — 시·도별 대시보드 (data.json 기반, 빌드 없음)
+   화면 순서: 시·도 내비 → 지금 챙길 것(D-3 이내) → 종류/검색 → 목록 → 추적 → 출처
    ========================================================================== */
 (function () {
   'use strict';
 
   var DATA_URL = 'data.json';
-  var PAGE = 60;
-
-  var DATA = null;
-  var ITEMS = [];
+  var PAGE = 80;
   var NOW = new Date();
   var CUTOFF = new Date(NOW.getTime() - 30 * 86400000);
 
-  var state = {
-    tab: 'all',
-    q: '',
-    region: 'all',
-    manager: 'all',
-    keyword: 'all',
-    sort: 'deadline',
-    limit: PAGE
-  };
+  var DATA = null;
+  var ITEMS = [];
+  var state = { sido: 'all', kind: 'all', q: '', kw: 'all', sort: 'deadline', limit: PAGE, urgentOnly: false };
 
-  /* ---------------------------------------------------------------- utils */
+  /* ------------------------------------------------------------- helpers */
   function $(s, r) { return (r || document).querySelector(s); }
   function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
   function esc(v) {
@@ -32,34 +22,19 @@
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
-  function won(n) {
-    if (n == null || isNaN(n) || n === 0) return '—';
-    n = Math.abs(Number(n));
-    var eok = Math.floor(n / 1e8);
-    var man = Math.floor((n % 1e8) / 1e4);
-    var out = '';
-    if (eok) out += eok.toLocaleString('ko-KR') + '억';
-    if (man) out += (out ? ' ' : '') + man.toLocaleString('ko-KR') + '만';
-    if (!out) out = n.toLocaleString('ko-KR');
-    return out + '원';
-  }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
   function parseDate(iso) {
     if (!iso) return null;
     var d = new Date(iso);
     return isNaN(d.getTime()) ? null : d;
   }
-  function dday(iso) {
+  /* 달력 기준 D-day (자정 넘어가면 하루 줄어듦) */
+  function ddayOf(iso) {
     var d = parseDate(iso);
     if (!d) return null;
-    return Math.ceil((d.getTime() - NOW.getTime()) / 86400000);
-  }
-  function ddayClass(n) {
-    if (n === null) return 'dday--past';
-    if (n < 0) return 'dday--past';
-    if (n <= 1) return 'dday--urgent';
-    if (n <= 3) return 'dday--soon';
-    if (n <= 7) return 'dday--ok';
-    return '';
+    var a = Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
+    var b = Date.UTC(NOW.getFullYear(), NOW.getMonth(), NOW.getDate());
+    return Math.round((a - b) / 86400000);
   }
   function ddayText(n) {
     if (n === null) return '—';
@@ -67,48 +42,149 @@
     if (n === 0) return 'D-DAY';
     return 'D-' + n;
   }
+  function ddayCls(n) {
+    if (n === null || n < 0) return 'dd--past';
+    if (n <= 1) return 'dd--u1';
+    if (n <= 3) return 'dd--u3';
+    return 'dd--ok';
+  }
+  /* 금액: 4.4억 / 8,949만 */
+  function wonShort(n) {
+    n = Number(n);
+    if (!n || isNaN(n)) return '';
+    if (n >= 1e8) {
+      var eok = Math.round(n / 1e7) / 10;
+      return (eok % 1 === 0 ? eok.toFixed(0) : eok.toFixed(1)) + '억';
+    }
+    return Math.round(n / 1e4).toLocaleString('ko-KR') + '만';
+  }
+  function isoShort(iso) {
+    var d = parseDate(iso);
+    if (!d) return '';
+    return pad(d.getMonth() + 1) + '.' + pad(d.getDate());
+  }
   function inWindow(it) {
     var p = parseDate(it.posted);
-    if (!p) return true;
-    return p.getTime() >= CUTOFF.getTime();
+    return !p || p.getTime() >= CUTOFF.getTime();
   }
-  function statusBadge(it) {
+  function baseItems() { return ITEMS.filter(inWindow); }
+  function isOpen(it) { return it.status === '입찰중' || it.status === '의견등록중'; }
+  function isUrgent(it) {
+    var n = ddayOf(it.deadline);
+    return n !== null && n >= 0 && n <= 3 && isOpen(it);
+  }
+  function amountOf(it) {
+    if (it.budget) return { label: '배정', text: wonShort(it.budget), raw: it.budget };
+    if (it.price_est) return { label: '추정', text: wonShort(it.price_est), raw: it.price_est };
+    if (it.budget_text) return { label: '', text: String(it.budget_text).replace(/\s*원$/, ''), raw: 0 };
+    return { label: '', text: '', raw: 0 };
+  }
+  function pillOf(it) {
     var s = it.status || '';
     var map = {
-      '입찰중': ['badge--bid', '입찰중'],
-      '개찰대기': ['badge--pending', '개찰대기'],
-      '개찰완료': ['badge--opened', '개찰완료'],
-      '유찰': ['badge--failed', '유찰'],
-      '재입찰': ['badge--pending', '재입찰'],
-      '의견등록중': ['badge--pre', '의견등록중'],
-      '의견마감': ['badge--wait', '의견마감']
+      '입찰중': 'pill--bid', '개찰대기': 'pill--pending', '개찰완료': 'pill--opened',
+      '유찰': 'pill--failed', '재입찰': 'pill--pending', '의견등록중': 'pill--pre', '의견마감': 'pill--wait'
     };
-    var v = map[s] || ['badge--wait', s || '—'];
-    return '<span class="badge ' + v[0] + '">' + esc(v[1]) + '</span>';
+    return '<span class="pill ' + (map[s] || 'pill--wait') + '">' + esc(s || '—') + '</span>';
   }
-  function kindBadge(it) {
+  function kindPill(it) {
     return it.kind === 'prespec'
-      ? '<span class="badge badge--pre">사전규격</span>'
-      : '<span class="badge badge--bid">입찰</span>';
+      ? '<span class="pill pill--pre">사전규격</span>'
+      : '<span class="pill pill--bid">입찰공고</span>';
   }
-  function deadlineOf(it) { return it.deadline; }
+  function regionLimited(it) {
+    var v = it.region_limit || '';
+    return v && v.indexOf('없음') < 0 ? v : '';
+  }
 
-  /* --------------------------------------------------------------- filter */
-  function baseItems() {
-    return ITEMS.filter(inWindow);
+  /* ------------------------------------------------------------- 내비게이션 */
+  function renderSido() {
+    var base = baseItems();
+    var counts = {};
+    base.forEach(function (i) { counts[i.region] = (counts[i.region] || 0) + 1; });
+    var total = base.length;
+    var html = '<button class="sido__btn' + (state.sido === 'all' ? ' is-active' : '') + '" data-sido="all" type="button">전체<span class="sido__n">' + total + '</span></button>';
+    (DATA.provinces || []).forEach(function (p) {
+      var n = counts[p.code] || 0;
+      html += '<button class="sido__btn' + (state.sido === p.code ? ' is-active' : '') + (n ? '' : ' is-zero') +
+        '" data-sido="' + esc(p.code) + '" type="button"' + (n ? '' : ' aria-disabled="true"') + '>' +
+        esc(p.name) + '<span class="sido__n">' + n + '</span></button>';
+    });
+    $('#sidoNav').innerHTML = html;
   }
+
+  function scoped() {
+    var base = baseItems();
+    return state.sido === 'all' ? base : base.filter(function (i) { return i.region === state.sido; });
+  }
+
+  /* -------------------------------------------------- 지금 챙길 것 (긴급) */
+  function renderUrgent() {
+    var box = $('#urgent');
+    var all = baseItems().filter(isUrgent).sort(function (a, b) {
+      return new Date(a.deadline) - new Date(b.deadline);
+    });
+    var shown = all.slice(0, 7);
+    var head = '<div class="urgent__head"><span class="urgent__title"><i></i>지금 챙길 것</span>' +
+      '<span class="urgent__sub">D-3 이내 마감 ' + all.length + '건</span>' +
+      (all.length > shown.length ? '<button class="linkbtn" id="urgentAll" type="button">' + all.length + '건 전체 보기</button>' : '') +
+      '</div>';
+
+    if (!all.length) {
+      box.innerHTML = head + '<div class="urgent__empty"><b>3일 안에 마감되는 건이 없습니다.</b> 목록에서 여유 있는 건을 확인하세요.</div>';
+      box.hidden = false;
+      return;
+    }
+    var rows = shown.map(function (it) {
+      var n = ddayOf(it.deadline);
+      return '<button class="urg" type="button" data-id="' + esc(it.id) + '">' +
+        '<span class="dd ' + ddayCls(n) + '">' + ddayText(n) + '</span>' +
+        '<span class="urg__k' + (it.kind === 'prespec' ? ' urg__k--pre' : '') + '">' + (it.kind === 'prespec' ? '의견' : '입찰') + '</span>' +
+        '<span class="urg__t">' + esc(it.title) + '</span>' +
+        '<span class="urg__w">' + esc(it.deadline_short || '') + '</span>' +
+        '</button>';
+    }).join('');
+    box.innerHTML = head + '<div class="urgent__grid">' + rows + '</div>';
+    box.hidden = false;
+  }
+
+  /* -------------------------------------------------------------- 툴바 */
+  function renderKind() {
+    var sub = scoped();
+    var bids = sub.filter(function (i) { return i.kind === 'bid'; });
+    var res = bids.filter(function (i) { return i.result && ['opened', 'failed', 'pending'].indexOf(i.result.state) >= 0; });
+    var c = { all: sub.length, bid: bids.length, prespec: sub.length - bids.length, result: res.length };
+    var defs = [['all', '전체'], ['bid', '입찰공고'], ['prespec', '사전규격'], ['result', '개찰결과']];
+    $('#kindSeg').innerHTML = defs.map(function (d) {
+      return '<button type="button" role="tab" data-kind="' + d[0] + '" class="' + (state.kind === d[0] ? 'is-active' : '') +
+        '" aria-selected="' + (state.kind === d[0]) + '">' + d[1] + '<b>' + c[d[0]] + '</b></button>';
+    }).join('');
+
+    var kws = {};
+    sub.forEach(function (i) {
+      (i.keywords || []).forEach(function (k) { kws[k] = (kws[k] || 0) + 1; });
+    });
+    var list = (DATA.dashboard_keywords || Object.keys(kws)).filter(function (k) { return kws[k]; });
+    list.sort(function (a, b) { return kws[b] - kws[a]; });
+    $('#kwRow').innerHTML = '<span class="kwrow__label">키워드</span>' +
+      '<button class="kw' + (state.kw === 'all' ? ' is-active' : '') + '" data-kw="all" type="button">전체</button>' +
+      list.map(function (k) {
+        return '<button class="kw' + (state.kw === k ? ' is-active' : '') + '" data-kw="' + esc(k) + '" type="button">' +
+          esc(k) + '<span class="kw__n">' + kws[k] + '</span></button>';
+      }).join('');
+  }
+
+  /* -------------------------------------------------------------- 목록 */
   function filtered() {
     var q = state.q.trim().toLowerCase().replace(/\s+/g, '');
-    var out = baseItems().filter(function (it) {
-      if (state.tab === 'bid' && it.kind !== 'bid') return false;
-      if (state.tab === 'prespec' && it.kind !== 'prespec') return false;
-      if (state.tab === 'result') {
-        if (it.kind !== 'bid') return false;
-        if (!it.result || ['opened', 'failed', 'pending'].indexOf(it.result.state) < 0) return false;
+    var out = scoped().filter(function (it) {
+      if (state.urgentOnly && !isUrgent(it)) return false;
+      if (state.kind === 'bid' && it.kind !== 'bid') return false;
+      if (state.kind === 'prespec' && it.kind !== 'prespec') return false;
+      if (state.kind === 'result') {
+        if (it.kind !== 'bid' || !it.result || ['opened', 'failed', 'pending'].indexOf(it.result.state) < 0) return false;
       }
-      if (state.region !== 'all' && it.region !== state.region) return false;
-      if (state.manager !== 'all' && (it.managers || []).indexOf(state.manager) < 0) return false;
-      if (state.keyword !== 'all' && (it.keywords || []).indexOf(state.keyword) < 0) return false;
+      if (state.kw !== 'all' && (it.keywords || []).indexOf(state.kw) < 0) return false;
       if (q) {
         var hay = (it.title + it.org + it.no + (it.region_detail || '') + (it.keywords || []).join('')).toLowerCase().replace(/\s+/g, '');
         if (hay.indexOf(q) < 0) return false;
@@ -116,226 +192,122 @@
       return true;
     });
     out.sort(function (a, b) {
-      if (state.sort === 'posted') {
-        return (parseDate(b.posted) || 0) - (parseDate(a.posted) || 0);
-      }
-      if (state.sort === 'budget') {
-        return (b.budget || 0) - (a.budget || 0);
-      }
-      if (state.tab === 'result') {
+      if (state.sort === 'posted') return (parseDate(b.posted) || 0) - (parseDate(a.posted) || 0);
+      if (state.sort === 'budget') return (b.budget || b.price_est || 0) - (a.budget || a.price_est || 0);
+      if (state.kind === 'result') {
         var oa = parseDate(a.deadline), ob = parseDate(b.deadline);
-        if (!oa && !ob) return 0;
-        if (!oa) return 1;
-        if (!ob) return -1;
-        return ob - oa;
+        return (ob || 0) - (oa || 0);
       }
       var da = parseDate(a.deadline), db = parseDate(b.deadline);
       if (!da && !db) return 0;
       if (!da) return 1;
       if (!db) return -1;
       var na = da - NOW, nb = db - NOW;
-      // 마감 전 → 임박 순, 지난 건은 뒤로
-      if (na >= 0 && nb < 0) return -1;
+      if (na >= 0 && nb < 0) return -1;   // 마감 전 → 임박 순, 지난 건은 뒤로
       if (na < 0 && nb >= 0) return 1;
       return na - nb;
     });
     return out;
   }
 
-  /* ----------------------------------------------------------------- KPI */
-  function renderKpis() {
-    var base = baseItems();
-    var bids = base.filter(function (i) { return i.kind === 'bid'; });
-    var openBids = bids.filter(function (i) { return i.status === '입찰중'; });
-    var urgent = openBids.filter(function (i) {
-      var d = dday(deadlineOf(i));
-      return d !== null && d >= 0 && d <= 3;
-    });
-    var prespec = base.filter(function (i) { return i.kind === 'prespec' && i.status === '의견등록중'; });
-    var opened = bids.filter(function (i) { return i.result && i.result.state === 'opened'; });
-    var failed = bids.filter(function (i) { return i.result && i.result.state === 'failed'; });
-
-    var cards = [
-      { label: '진행 중 입찰', value: openBids.length, sub: '전국 · 입찰공고 마감 전', cls: 'kpi--accent' },
-      { label: '마감 임박 D-3', value: urgent.length, sub: '3일 안에 입찰 마감', cls: 'kpi--warn' },
-      { label: '사전규격 의견등록중', value: prespec.length, sub: '의견등록 마감 전', cls: '' },
-      { label: '개찰결과', value: opened.length + failed.length, sub: '개찰완료 ' + opened.length + ' · 유찰 ' + failed.length, cls: '' },
-      { label: '최근 30일 수집', value: base.length, sub: '입찰 ' + bids.length + ' · 사전규격 ' + (base.length - bids.length), cls: '' }
-    ];
-    $('#kpis').innerHTML = cards.map(function (c) {
-      return '<div class="kpi ' + c.cls + '">' +
-        '<div class="kpi__label">' + c.label + '</div>' +
-        '<div class="kpi__value">' + c.value + '<small>건</small></div>' +
-        '<div class="kpi__sub">' + esc(c.sub) + '</div></div>';
-    }).join('');
-
-    var counts = { all: base.length, bid: bids.length, prespec: (base.length - bids.length), result: opened.length + failed.length + bids.filter(function (i) { return i.result && i.result.state === 'pending'; }).length };
-    $$('[data-count]').forEach(function (el) {
-      var k = el.getAttribute('data-count');
-      el.textContent = counts[k] != null ? counts[k] : '';
-    });
-  }
-
-  /* --------------------------------------------------------------- watch */
-  function renderWatch() {
-    var list = DATA.watchlist || [];
-    if (!list.length) { $('#watch').hidden = true; return; }
-    $('#watch').innerHTML = list.map(function (w) {
-      var cls = w.tone === 'urgent' ? ' watch__card--urgent' : '';
-      return '<div class="watch__card' + cls + '">' +
-        '<div class="watch__body">' +
-        '<div class="watch__title">' + esc(w.label) + ' <span class="badge ' + (w.tone === 'urgent' ? 'badge--pending' : 'badge--wait') + '">' + esc(w.status) + '</span></div>' +
-        '<div class="watch__meta">' + esc(w.meta || '') + '</div>' +
-        '<div class="watch__note">' + esc(w.note || '') + '</div>' +
-        '</div>' +
-        (w.g2b ? '<a class="btn" href="' + esc(w.g2b) + '" target="_blank" rel="noopener">나라장터</a>' : '') +
-        '</div>';
-    }).join('');
-  }
-
-  /* ------------------------------------------------------------ managers */
-  function renderManagers() {
-    var base = baseItems();
-    var mgrs = DATA.managers || [];
-    var regions = {};
-    base.forEach(function (i) { regions[i.region] = (regions[i.region] || 0) + 1; });
-
-    $('#managerGrid').innerHTML = mgrs.map(function (m) {
-      var mine = base.filter(function (i) { return (i.managers || []).indexOf(m.name) >= 0; });
-      var openBids = mine.filter(function (i) { return i.kind === 'bid' && i.status === '입찰중'; });
-      var ps = mine.filter(function (i) { return i.kind === 'prespec' && i.status === '의견등록중'; });
-      var urgent = openBids.filter(function (i) { var d = dday(deadlineOf(i)); return d !== null && d >= 0 && d <= 3; });
-      var sum = openBids.reduce(function (a, i) { return a + (i.budget || 0); }, 0);
-      var byRegion = {};
-      mine.forEach(function (i) { byRegion[i.region] = (byRegion[i.region] || 0) + 1; });
-      var total = mine.length || 1;
-      var bar = Object.keys(byRegion).sort(function (a, b) { return byRegion[b] - byRegion[a]; }).slice(0, 6).map(function (r, idx) {
-        var colors = ['#2563eb', '#7c3aed', '#059669', '#d97706', '#0ea5e9', '#dc2626'];
-        return '<i style="width:' + (byRegion[r] / total * 100) + '%;background:' + colors[idx % 6] + '" title="' + esc(r) + ' ' + byRegion[r] + '건"></i>';
-      }).join('');
-
-      return '<article class="mgr" data-mgr="' + esc(m.name) + '" tabindex="0" role="button">' +
-        '<div class="mgr__top">' +
-        '<span class="mgr__dot" style="background:' + m.color + '"></span>' +
-        '<span class="mgr__name">' + esc(m.name) + '</span>' +
-        '<span class="mgr__regions">' + esc(m.regions.join(' · ')) + '</span>' +
-        '</div>' +
-        '<div class="mgr__stats">' +
-        '<div class="mgr__stat"><b>' + openBids.length + '</b><span>진행 중 입찰</span></div>' +
-        '<div class="mgr__stat"><b>' + ps.length + '</b><span>사전규격</span></div>' +
-        '<div class="mgr__stat"><b>' + urgent.length + '</b><span>마감 임박 D-3</span></div>' +
-        '<div class="mgr__stat"><b>' + (sum ? (Math.round(sum / 1e8 * 10) / 10) + '억' : '—') + '</b><span>예산 합계</span></div>' +
-        '</div>' +
-        '<div class="mgr__foot"><span>권역 ' + mine.length + '건</span><span class="mgr__bar">' + bar + '</span><span>' + (m.regions.indexOf('경기') >= 0 ? '경기 중복' : '') + '</span></div>' +
-        '</article>';
-    }).join('');
-
-    var chips = Object.keys(regions).sort(function (a, b) { return regions[b] - regions[a]; }).map(function (r) {
-      return '<button class="chip' + (state.region === r ? ' is-active' : '') + '" data-region="' + esc(r) + '">' + esc(r) + '<span class="chip__n">' + regions[r] + '</span></button>';
-    }).join('');
-    $('#regionStrip').innerHTML = '<button class="chip' + (state.region === 'all' ? ' is-active' : '') + '" data-region="all">전체 지역</button>' + chips;
-  }
-
-  /* -------------------------------------------------------------- filters */
-  function renderFilters() {
-    var base = baseItems();
-    var regions = {};
-    base.forEach(function (i) { regions[i.region] = (regions[i.region] || 0) + 1; });
-    var opts = ['<option value="all">전체 지역</option>'].concat(Object.keys(regions).sort(function (a, b) {
-      return regions[b] - regions[a];
-    }).map(function (r) {
-      return '<option value="' + esc(r) + '"' + (state.region === r ? ' selected' : '') + '>' + esc(r) + ' (' + regions[r] + ')</option>';
-    }));
-    var sel = $('#regionSel');
-    sel.innerHTML = opts.join('');
-
-    var mgrNames = (DATA.managers || []).map(function (m) { return m.name; });
-    $('#managerChips').innerHTML = '<button class="chip chip--mgr' + (state.manager === 'all' ? ' is-active' : '') + '" data-mgr="all">담당자 전체</button>' +
-      mgrNames.map(function (n) {
-        var c = base.filter(function (i) { return (i.managers || []).indexOf(n) >= 0; }).length;
-        return '<button class="chip chip--mgr' + (state.manager === n ? ' is-active' : '') + '" data-mgr="' + esc(n) + '">' + esc(n) + '<span class="chip__n">' + c + '</span></button>';
-      }).join('');
-
-    var stats = (DATA.keyword_stats || []).filter(function (k) { return k.bids + k.prespec > 0; });
-    $('#keywordChips').innerHTML = '<button class="chip' + (state.keyword === 'all' ? ' is-active' : '') + '" data-kw="all">키워드 전체</button>' +
-      stats.map(function (k) {
-        return '<button class="chip' + (state.keyword === k.keyword ? ' is-active' : '') + '" data-kw="' + esc(k.keyword) + '">' + esc(k.keyword) +
-          '<span class="chip__n">' + (k.bids + k.prespec) + '</span></button>';
-      }).join('');
-  }
-
-  /* ----------------------------------------------------------------- list */
   function rowHtml(it) {
-    var d = dday(deadlineOf(it));
-    var tags = (it.keywords || []).slice(0, 3).map(function (k) { return '<span class="tag tag--kw">' + esc(k) + '</span>'; }).join('');
-    var mgrs = (it.managers || []).map(function (m) { return '<span class="tag tag--mgr">' + esc(m) + '</span>'; }).join('');
-    var att = it.attachments && it.attachments.length ? '<span class="tag tag--she">첨부 ' + it.attachments.length + '</span>' : '';
-    return '<article class="row" data-id="' + esc(it.id) + '" tabindex="0" role="button">' +
-      '<div class="dday ' + ddayClass(d) + '">' + ddayText(d) + '<small>' + esc(it.deadline_short || '') + '</small></div>' +
+    var n = ddayOf(it.deadline);
+    var amt = amountOf(it);
+    var cls = 'row';
+    if (n !== null && n < 0) cls += ' is-past';
+    if (it.status === '개찰완료') cls += ' row--done';
+    else if (it.status === '유찰' || it.status === '재입찰') cls += ' row--fail';
+    else if (n !== null && n >= 0 && n <= 1) cls += ' row--urgent';
+    else if (n !== null && n >= 0 && n <= 3) cls += ' row--soon';
+    else cls += ' row--open';
+
+    var meta = '<span class="row__org">' + esc(it.org) + '</span>' +
+      '<span class="sep">·</span><span>' + esc(it.no) + '</span>' +
+      (it.kind === 'prespec' ? '<span class="sep">·</span><span>사전규격</span>' : '') +
+      (regionLimited(it) ? '<span class="sep">·</span><span class="row__flag">지역제한</span>' : '') +
+      (it.attachments && it.attachments.length ? '<span class="sep">·</span><span>첨부 ' + it.attachments.length + '</span>' : '');
+
+    var badge = it.status === '개찰완료' || it.status === '유찰' || it.status === '재입찰' || it.status === '의견마감'
+      ? pillOf(it)
+      : (n !== null && n >= 0 && n <= 3 && isOpen(it)
+        ? '<span class="pill pill--urgent">' + ddayText(n) + ' 마감</span>'
+        : pillOf(it));
+
+    return '<article class="' + cls + '" data-id="' + esc(it.id) + '" tabindex="0" role="button">' +
+      '<div class="row__d"><span class="dd ' + ddayCls(n) + '">' + ddayText(n) + '</span>' +
+      '<span class="row__dl">' + esc(it.deadline_short || '일정 확인') + '</span></div>' +
       '<div class="row__main">' +
       '<div class="row__title">' + esc(it.title) + '</div>' +
-      '<div class="row__meta"><span>' + esc(it.org) + '</span><span class="dot">·</span><span>' + esc(it.region_detail || it.region) + '</span><span class="dot">·</span><span>' + esc(it.no) + '</span></div>' +
-      '<div class="row__tags">' + tags + mgrs + att + '</div>' +
+      '<div class="row__meta">' + meta + '</div>' +
       '</div>' +
-      '<div class="row__money"><b>' + esc(it.budget ? won(it.budget) : (it.budget_text || '—')) + '</b><small>' + esc(it.contract || it.biz || '') + '</small></div>' +
-      '<div class="row__when"><b>' + esc(it.deadline_short || '일정 확인') + '</b><small>' + esc(it.deadline_kind) + '</small></div>' +
-      '<div class="row__state">' + kindBadge(it) + ' ' + statusBadge(it) + '</div>' +
+      '<div class="row__aside">' + badge +
+      '<span class="row__amt' + (amt.text ? '' : ' row__amt--none') + '">' +
+      (amt.text ? (amt.label ? '<span>' + amt.label + '</span>' : '') + esc(amt.text) : '금액 미확인') +
+      '</span></div>' +
       '</article>';
   }
 
   function resultRow(it) {
     var r = it.result || {};
     var label = r.state === 'opened' ? '개찰완료' : (r.state === 'failed' ? '유찰' : '개찰대기');
-    var cls = r.state === 'opened' ? 'badge--opened' : (r.state === 'failed' ? 'badge--failed' : 'badge--pending');
-    var winner = r.winner || (r.state === 'failed' ? '유찰 (참가 ' + (r.participants == null ? '?' : r.participants) + ')' : '결과 미게시');
+    var cls = r.state === 'opened' ? 'pill--opened' : (r.state === 'failed' ? 'pill--failed' : 'pill--pending');
+    var winner = r.winner || (r.state === 'failed'
+      ? '참가 ' + (r.participants == null ? '?' : r.participants) + '곳 · 유찰'
+      : '낙찰자 미확인');
     return '<article class="res" data-id="' + esc(it.id) + '" tabindex="0" role="button">' +
       '<div class="res__main">' +
       '<div class="row__title">' + esc(it.title) + '</div>' +
-      '<div class="row__meta"><span>' + esc(it.org) + '</span><span class="dot">·</span><span>' + esc(it.region) + '</span><span class="dot">·</span><span>' + esc(it.no) + '</span>' +
-      '<span class="badge ' + cls + '" style="margin-left:4px">' + label + '</span></div>' +
+      '<div class="row__meta"><span class="pill ' + cls + '">' + label + '</span>' +
+      '<span class="row__org">' + esc(it.org) + '</span><span class="sep">·</span><span>' + esc(it.no) + '</span>' +
+      '<span class="sep">·</span><span>' + esc(it.region) + '</span></div>' +
       '</div>' +
-      '<div class="res__num"><b>' + (r.participants == null ? '—' : r.participants) + '</b><small>참가업체</small></div>' +
-      '<div class="res__win"><b>' + esc(winner) + '</b><small>' + esc(r.amount ? won(r.amount) + (r.rate ? ' · 낙찰률 ' + r.rate + '%' : '') : (r.note || '')) + '</small></div>' +
-      '<div class="row__when"><b>' + esc(it.deadline_short || '—') + '</b><small>개찰 ' + esc(it.open_label || '—') + '</small></div>' +
+      '<div class="res__n"><b>' + (r.participants == null ? '—' : r.participants) + '</b><small>참가업체</small></div>' +
+      '<div class="res__win"><b>' + esc(winner) + '</b><small>' +
+      (r.amount ? wonShort(r.amount) + (r.rate ? ' · 낙찰률 ' + r.rate + '%' : '') : (it.open_label ? '개찰 ' + esc(it.open_label) : esc(r.note || ''))) +
+      '</small></div>' +
       '</article>';
   }
 
   function renderList() {
     var rows = filtered();
-    var titleMap = { all: '전체', bid: '입찰공고', prespec: '사전규격', result: '개찰결과' };
-    $('#listTitle').textContent = titleMap[state.tab] || '전체';
-    var bits = [];
-    if (state.manager !== 'all') bits.push('담당 ' + state.manager);
-    if (state.region !== 'all') bits.push(state.region);
-    if (state.keyword !== 'all') bits.push('키워드 ' + state.keyword);
-    $('#listMeta').textContent = rows.length + '건' + (bits.length ? ' · ' + bits.join(' · ') : '');
+    var title = state.sido === 'all' ? '전국' : (state.sido === '전국' ? '전국·중앙부처' : state.sido);
+    if (state.kind === 'bid') title += ' 입찰공고';
+    if (state.kind === 'prespec') title += ' 사전규격';
+    if (state.kind === 'result') title += ' 개찰결과';
+    if (state.urgentOnly) title = 'D-3 이내 마감';
+    if (state.kw !== 'all') title += ' · ' + state.kw;
+    $('#listTitle').textContent = title;
+
+    var opens = rows.filter(function (i) { return isOpen(i); }).length;
+    $('#listMeta').textContent = rows.length + '건 (진행 중 ' + opens + ')';
+    $('#resetBtn').hidden = !(state.urgentOnly || state.kw !== 'all' || state.q || state.sido !== 'all' || state.kind !== 'all');
 
     var shown = rows.slice(0, state.limit);
-    var html = state.tab === 'result' ? shown.map(resultRow).join('') : shown.map(rowHtml).join('');
-    $('#list').innerHTML = html;
+    $('#list').innerHTML = shown.map(state.kind === 'result' ? resultRow : rowHtml).join('');
 
-    if (!rows.length) {
-      $('#emptyState').hidden = false;
-      $('#emptyState').textContent = '조건에 맞는 건이 없습니다. 필터를 풀거나 data.json 기준일(' + (DATA.updated_label || '') + ')을 확인하세요.';
-    } else {
-      $('#emptyState').hidden = true;
-    }
     var more = $('#list').nextElementSibling;
     if (rows.length > shown.length) {
+      var label = '더 보기 (' + (rows.length - shown.length) + '건)';
       if (!more || !more.classList.contains('more')) {
         var div = document.createElement('div');
         div.className = 'more';
-        div.innerHTML = '<button class="btn" id="moreBtn">더 보기 (' + (rows.length - shown.length) + '건)</button>';
+        div.innerHTML = '<button class="btn" id="moreBtn" type="button">' + label + '</button>';
         $('#list').after(div);
       } else {
-        more.innerHTML = '<button class="btn" id="moreBtn">더 보기 (' + (rows.length - shown.length) + '건)</button>';
+        more.innerHTML = '<button class="btn" id="moreBtn" type="button">' + label + '</button>';
       }
     } else if (more && more.classList.contains('more')) {
       more.remove();
     }
+
+    var empty = $('#emptyState');
+    empty.hidden = rows.length > 0;
+    if (!rows.length) {
+      empty.textContent = '조건에 맞는 건이 없습니다. 시·도를 "전체"로 바꾸거나 검색어를 지워 보세요.';
+    }
   }
 
-  /* --------------------------------------------------------------- drawer */
+  /* -------------------------------------------------------------- 드로어 */
   function fileExt(name) {
     var m = /\.([a-z0-9]+)$/i.exec(name || '');
     return m ? m[1].toUpperCase().slice(0, 4) : 'FILE';
@@ -344,102 +316,105 @@
   function openDrawer(id) {
     var it = ITEMS.filter(function (i) { return i.id === id; })[0];
     if (!it) return;
-    var d = dday(deadlineOf(it));
+    var n = ddayOf(it.deadline);
     var r = it.result || {};
+    var amt = amountOf(it);
 
     var files = (it.attachments || []).length
       ? it.attachments.map(function (f) {
         var href = f.url || it.links.g2b;
-        var act = f.url ? '열기' : '상세';
         return '<a class="file" href="' + esc(href) + '" target="_blank" rel="noopener">' +
           '<span class="file__ext">' + esc(fileExt(f.name)) + '</span>' +
-          '<span class="file__name">' + esc(f.name) + (f.size ? ' <span class="small muted">' + esc(f.size) + '</span>' : '') + '</span>' +
-          '<span class="file__dl">' + act + '</span></a>';
+          '<span class="file__name">' + esc(f.name) + (f.size ? ' <span class="muted small">' + esc(f.size) + '</span>' : '') + '</span>' +
+          '<span class="file__act">' + (f.url ? '내려받기' : '공고 상세') + '</span></a>';
       }).join('')
       : '<div class="qa">' + (it.attachments_checked
-        ? '나라장터 공고 상세 확인 결과 공고문·과업지시서 등 <b>첨부파일이 없는 공고</b>입니다(전자시담·수의시담 건).'
+        ? '나라장터 공고 상세 확인 결과 <b>첨부파일이 없는 공고</b>입니다(전자시담·수의시담).'
         : (it.kind === 'prespec'
-          ? '이 건의 첨부 규격서 목록은 아직 나라장터 로그인 상세에서 확인하지 못했습니다. 위 <b>나라장터 사전규격 상세</b>로 열어 파일첨부를 확인하세요.'
+          ? '첨부 규격서 목록은 나라장터 로그인 상세에서 확인할 수 있습니다. 위 <b>나라장터 사전규격</b>을 열어 확인하세요.'
           : '첨부파일 목록을 확인하지 못했습니다. 나라장터 원문에서 확인하세요.')) + '</div>';
 
     var qnaState = { confirmed: '확인', noted: '일부 확인', none: '등록된 질의 없음', unknown: '미확인' }[it.qna.state] || '미확인';
-    var qnaCls = it.qna.state === 'none' ? 'badge--wait' : (it.qna.state === 'unknown' ? 'badge--unknown' : 'badge--pre');
+    var qnaCls = it.qna.state === 'confirmed' || it.qna.state === 'noted' ? 'pill--pre' : 'pill--wait';
     var qnaItems = (it.qna.items || []).map(function (q) {
       var meta = [q.kind, q.writer, q.registered].filter(Boolean).join(' · ');
-      return '<div class="qa__item">' +
-        '<b>Q. ' + esc(q.q) + '</b>' +
-        (meta ? '<span class="small muted"> ' + esc(meta) + '</span>' : '') +
+      return '<div class="qa__item"><b>Q. ' + esc(q.q) + '</b>' +
+        (meta ? '<span class="muted small"> ' + esc(meta) + '</span>' : '') +
         (q.body ? '<br><span>' + esc(q.body) + '</span>' : '') +
         '<br><b>A. ' + esc(q.a || '답변 미등록') + '</b></div>';
     }).join('');
 
     var resultHtml;
     if (it.kind === 'prespec') {
-      resultHtml = '<div class="qa">사전규격 단계입니다. 본공고 전환 후 개찰결과가 표시됩니다.</div>';
+      resultHtml = '<div class="qa">사전규격 단계입니다. 본공고로 전환된 뒤 개찰결과가 표시됩니다.</div>';
     } else if (r.state === 'opened') {
-      resultHtml = '<div class="result-box"><div class="result-box__head"><span class="badge badge--opened">개찰완료</span>' +
+      resultHtml = '<div class="rbox"><div class="rbox__head"><span class="pill pill--opened">개찰완료</span>' +
         (r.opened_at ? '<span class="muted small">개찰 ' + esc(r.opened_at.slice(0, 16).replace('T', ' ')) + '</span>' : '') + '</div>' +
-        '<div class="result-box__body"><div class="result-grid">' +
-        '<div class="result-cell"><span>참가업체</span><b>' + (r.participants == null ? '미확인' : r.participants + '곳') + '</b></div>' +
-        '<div class="result-cell"><span>낙찰·계약업체</span><b>' + esc(r.winner || '미확인') + '</b></div>' +
-        '<div class="result-cell"><span>낙찰·계약금액</span><b>' + (r.amount ? won(r.amount) : '미확인') + '</b></div>' +
-        '<div class="result-cell"><span>낙찰률</span><b>' + (r.rate ? r.rate + '%' : '미공개') + '</b></div>' +
-        '</div>' + (r.note ? '<p class="small muted" style="margin:10px 0 0">' + esc(r.note) + '</p>' : '') +
-        '<p class="small muted" style="margin:8px 0 0">참가업체 수·낙찰 정보는 수집원(presignal·공공일감) 표기값입니다.</p>' +
-        '</div></div>';
+        '<div class="rbox__body"><div class="rgrid">' +
+        '<div class="rcell"><span>참가업체</span><b>' + (r.participants == null ? '미확인' : r.participants + '곳') + '</b></div>' +
+        '<div class="rcell"><span>낙찰·계약업체</span><b>' + esc(r.winner || '미확인') + '</b></div>' +
+        '<div class="rcell"><span>낙찰·계약금액</span><b>' + (r.amount ? wonShort(r.amount) : '미확인') + '</b></div>' +
+        '<div class="rcell"><span>낙찰률</span><b>' + (r.rate ? r.rate + '%' : '미공개') + '</b></div>' +
+        '</div>' + (r.note ? '<p class="small muted" style="margin:8px 0 0">' + esc(r.note) + '</p>' : '') + '</div></div>';
     } else if (r.state === 'failed') {
-      resultHtml = '<div class="result-box"><div class="result-box__head"><span class="badge badge--failed">유찰</span>' +
+      resultHtml = '<div class="rbox"><div class="rbox__head"><span class="pill pill--failed">유찰</span>' +
         '<span class="muted small">' + (r.participants != null ? '참가 ' + r.participants + '곳' : '참가 정보 없음') + '</span></div></div>';
     } else if (r.state === 'pending') {
-      resultHtml = '<div class="result-box"><div class="result-box__head"><span class="badge badge--pending">개찰결과 대기</span></div>' +
-        '<div class="result-box__body small muted">마감은 지났지만 개찰결과가 아직 게시되지 않았습니다. (' + esc(r.note || '') + ')</div></div>';
+      resultHtml = '<div class="rbox"><div class="rbox__head"><span class="pill pill--pending">개찰결과 대기</span></div>' +
+        '<div class="rbox__body small muted">마감은 지났지만 개찰결과가 아직 등록되지 않았습니다. (' + esc(r.note || '') + ')</div></div>';
     } else {
-      resultHtml = '<div class="qa">마감 전입니다. 개찰결과는 개찰 후 표시됩니다.</div>';
+      resultHtml = '<div class="qa">마감 전입니다. 개찰결과는 개찰 뒤 표시됩니다.</div>';
     }
 
     var copyTarget = it.kind === 'prespec' ? it.no : it.no + '-' + (it.order || '000');
+    var cond = [
+      ['계약방법', it.contract || '—'],
+      ['지역제한', it.region_limit || '공고문 확인'],
+      ['업종제한', it.industry_limit || '공고문 확인'],
+      ['참가조건', it.conditions || '공고문 확인']
+    ].map(function (p) { return '<dt>' + p[0] + '</dt><dd>' + esc(p[1]) + '</dd>'; }).join('');
 
     $('#drawer').innerHTML =
       '<div class="dw-head">' +
-      '<div class="dw-head__top">' + kindBadge(it) + statusBadge(it) +
-      '<span class="dday ' + ddayClass(d) + '" style="margin-left:6px;padding:3px 8px">' + ddayText(d) + '</span>' +
+      '<div class="dw-top">' + kindPill(it) + pillOf(it) +
+      '<span class="dd ' + ddayCls(n) + '">' + ddayText(n) + '</span>' +
       '<button class="dw-close" data-close="1" aria-label="닫기">✕</button></div>' +
-      '<div class="dw-title">' + esc(it.title) + '</div>' +
-      '<div class="dw-sub"><span>' + esc(it.org) + '</span><span>·</span><span>' + esc(it.no) + '</span><span>·</span><span>' + esc(it.region_detail || it.region) + '</span></div>' +
+      '<h2 class="dw-title">' + esc(it.title) + '</h2>' +
+      '<div class="dw-sub"><span>' + esc(it.org) + '</span><span>·</span><span>' + esc(it.no) + '</span>' +
+      '<span>·</span><span>' + esc(it.region === '전국' ? '전국·중앙부처' : it.region) + '</span></div>' +
       '</div>' +
       '<div class="dw-body">' +
       (it.note ? '<div class="dw-sec"><div class="note">' + esc(it.note) + '</div></div>' : '') +
-      '<div class="dw-sec"><h3>핵심 정보</h3><dl class="kv">' +
-      '<dt>추정가격</dt><dd>' + esc(it.price_est ? won(it.price_est) : '—') + '</dd>' +
-      '<dt>배정예산</dt><dd>' + esc(it.budget ? won(it.budget) : (it.budget_text || '—')) + '</dd>' +
-      '<dt>' + esc(it.deadline_kind) + '</dt><dd>' + esc(it.deadline_label || '공고문 확인') + (it.deadline_note ? ' <span class="small muted">(' + esc(it.deadline_note) + ')</span>' : '') + '</dd>' +
-      '<dt>개찰</dt><dd>' + esc(it.open_label || '공고문 확인') + '</dd>' +
-      '<dt>계약방법</dt><dd>' + esc(it.contract || '—') + '</dd>' +
-      '<dt>지역제한</dt><dd>' + esc(it.region_limit || '공고문 확인') + '</dd>' +
-      '<dt>업종제한</dt><dd>' + esc(it.industry_limit || '공고문 확인') + '</dd>' +
-      '<dt>참가조건</dt><dd>' + esc(it.conditions || '공고문 확인') + '</dd>' +
-      '<dt>담당권역</dt><dd>' + esc((it.managers || []).length ? it.managers.join(' · ') : '권역 외(전국·타 지역)') + '</dd>' +
-      '<dt>키워드</dt><dd>' + esc((it.keywords || []).join(' · ')) + '</dd>' +
-      '</dl></div>' +
-      '<div class="dw-sec"><h3>첨부파일 <span class="badge badge--pre">' + ((it.attachments || []).length || '미확인') + '</span></h3><div class="files">' + files + '</div></div>' +
-      '<div class="dw-sec"><h3>사전규격 질의 <span class="badge ' + qnaCls + '">' + qnaState + '</span></h3>' +
+      '<div class="dw-sec"><div class="stats">' +
+      '<div class="stat stat--wide"><span>' + esc(it.deadline_kind) + '</span><b>' + esc(it.deadline_label || '공고문 확인') + '</b>' +
+      (it.deadline_note ? '<span class="muted small" style="font-weight:600;margin-top:2px">' + esc(it.deadline_note) + '</span>' : '') + '</div>' +
+      '<div class="stat"><span>개찰</span><b>' + esc(it.open_label || '공고문 확인') + '</b></div>' +
+      '<div class="stat"><span>' + (amt.label || '금액') + '</span><b>' + esc(amt.text || '미확인') + '</b></div>' +
+      '<div class="stat"><span>추정가격</span><b>' + (it.price_est ? wonShort(it.price_est) : '—') + '</b></div>' +
+      '<div class="stat"><span>배정예산</span><b>' + (it.budget ? wonShort(it.budget) : '—') + '</b></div>' +
+      '</div></div>' +
+      '<div class="dw-sec"><h3>참가 조건</h3><dl class="kv">' + cond +
+      '<dt>키워드</dt><dd>' + esc((it.keywords || []).join(' · ') || '—') + '</dd></dl></div>' +
+      '<div class="dw-sec"><h3>첨부파일 <span class="pill pill--wait">' + ((it.attachments || []).length || '미확인') + '</span></h3><div class="files">' + files + '</div></div>' +
+      '<div class="dw-sec"><h3>사전규격 질의 <span class="pill ' + qnaCls + '">' + qnaState + '</span></h3>' +
       '<div class="qa">' + esc(it.qna.summary || '') + qnaItems + '</div></div>' +
       '<div class="dw-sec"><h3>개찰결과</h3>' + resultHtml + '</div>' +
-      '<div class="dw-sec"><h3>원문 · 링크</h3><div class="actions">' +
-      '<a class="btn btn--primary" href="' + esc(it.links.g2b) + '" target="_blank" rel="noopener">나라장터 ' + (it.kind === 'prespec' ? '열기' : '공고 상세') + '</a>' +
+      '<div class="dw-sec"><h3>원문 · 출처</h3><dl class="kv">' +
+      '<dt>나라장터</dt><dd><a href="' + esc(it.links.g2b) + '" target="_blank" rel="noopener">' + esc(it.links.g2b_kind || '공고 상세') + ' ↗</a></dd>' +
+      (it.links.presignal ? '<dt>수집원</dt><dd><a href="' + esc(it.links.presignal) + '" target="_blank" rel="noopener">presignal 원문 ↗</a></dd>' : '') +
+      (it.links.data00 ? '<dt>공공일감</dt><dd><a href="' + esc(it.links.data00) + '" target="_blank" rel="noopener">첨부·개찰 상세 ↗</a></dd>' : '') +
+      '</dl></div>' +
+      '</div>' +
+      '<div class="dw-bar">' +
+      '<a class="btn btn--primary" href="' + esc(it.links.g2b) + '" target="_blank" rel="noopener">나라장터 ' + (it.kind === 'prespec' ? '사전규격 열기' : '공고 상세') + '</a>' +
       '<button class="btn" type="button" data-copy="' + esc(copyTarget) + '">공고번호 복사</button>' +
-      '<a class="btn" href="' + esc(it.links.presignal) + '" target="_blank" rel="noopener">수집원 상세</a>' +
-      (it.links.data00 ? '<a class="btn" href="' + esc(it.links.data00) + '" target="_blank" rel="noopener">공공일감</a>' : '') +
       '<span class="copy-hint" id="copyHint">복사됨</span>' +
-      '</div><p class="small muted" style="margin:8px 0 0">' +
-      (it.kind === 'prespec'
-        ? '사전규격 상세가 바로 열립니다(나라장터 로그인 필요 · bfSpecRegNo 직링크). 첨부 규격서·규격서 의견은 그 화면에서 확인하세요.'
-        : '나라장터 입찰공고 상세로 바로 열립니다.') + '</p></div>' +
       '</div>';
 
     $('#drawerWrap').hidden = false;
     document.body.style.overflow = 'hidden';
     $('#drawer').scrollTop = 0;
+    $('#drawer').focus && $('#drawer').focus();
   }
 
   function closeDrawer() {
@@ -447,76 +422,92 @@
     document.body.style.overflow = '';
   }
 
-  /* -------------------------------------------------------------- footer */
+  /* --------------------------------------------------------------- 추적 */
+  function renderWatch() {
+    var list = DATA.watchlist || [];
+    var box = $('#watch');
+    if (!list.length) { box.hidden = true; return; }
+    box.hidden = false;
+    $('#watchN').textContent = list.length + '건';
+    $('#watchBody').innerHTML = list.map(function (w) {
+      return '<div class="wcard"><b>' + esc(w.label) + ' <span class="pill ' + (w.tone === 'urgent' ? 'pill--pending' : 'pill--wait') + '">' + esc(w.status) + '</span></b>' +
+        '<div class="wcard__m">' + esc(w.meta || '') + '</div>' +
+        (w.note ? '<div class="wcard__n">' + esc(w.note) + '</div>' : '') +
+        (w.g2b ? '<a href="' + esc(w.g2b) + '" target="_blank" rel="noopener">나라장터에서 보기 ↗</a>' : '') +
+        '</div>';
+    }).join('');
+  }
+
+  /* --------------------------------------------------------------- 푸터 */
   function renderFooter() {
     var w = DATA.window || {};
     var c = DATA.counts || {};
+    var f = DATA.dashboard_filter || {};
+    $('#brandSub').textContent = '전국 · 최근 ' + (w.days || 30) + '일 · ' + (DATA.dashboard_keywords || []).length + '개 키워드';
     $('#foot').innerHTML =
-      '<div><b>데이터 기준</b> ' + esc(DATA.updated_label || '') + ' · 조회 구간 ' + esc(w.from || '') + ' ~ ' + esc(w.to || '') + ' (최근 ' + (w.days || 30) + '일, 공고일 기준)</div>' +
-      '<div><b>수집 현황</b> 입찰공고 ' + (c.bids || 0) + '건 · 사전규격 ' + (c.prespec || 0) + '건 · 첨부 확인 ' + (c.attachments || 0) + '건 · 개찰완료 ' + (c.opened || 0) + '건 · 유찰 ' + (c.failed || 0) + '건</div>' +
+      '<div><b>데이터 기준</b> ' + esc(DATA.updated_label || '') + ' · 조회 구간 ' + esc(w.from || '') + ' ~ ' + esc(w.to || '') + ' (공고일 기준 ' + (w.days || 30) + '일)</div>' +
+      '<div><b>수록</b> 입찰공고 ' + (c.bids || 0) + '건 · 사전규격 ' + (c.prespec || 0) + '건 · 첨부 확인 ' + (c.attachments || 0) + '건 · 개찰완료 ' + (c.opened || 0) + '건 · 유찰 ' + (c.failed || 0) + '건</div>' +
+      '<div><b>시·도 구분</b> 발주기관 소재 기준입니다. 중앙부처·전국 단위 공기업은 <code>전국·중앙부처</code>로 묶었습니다.</div>' +
+      (f.excluded_keywords ? '<div><b>대시보드 제외 키워드</b> ' + esc(f.excluded_keywords.join(' · ')) + ' — 이 키워드만 걸린 ' + (f.excluded_items || 0) + '건은 표시하지 않습니다. 09:00·16:00 정기 스캔과 알림은 14개 키워드 그대로 수집합니다.</div>' : '') +
       '<div><b>출처</b> ' + esc((DATA.scan_basis && DATA.scan_basis.sources) || '') + '</div>' +
-      '<div><b>주의</b> 금액·마감·자격은 수집 시점 정리값입니다. 응찰 판단 전 나라장터 공고문·제안요청서 원문으로 재확인하십시오. 화면의 D-day는 접속한 날짜 기준으로 자동 계산되며, 30일이 지난 공고는 자동으로 빠집니다.</div>';
+      '<div><b>주의</b> 금액·마감·자격은 수집 시점 정리값입니다. 응찰 판단 전 나라장터 공고문·제안요청서 원문으로 다시 확인하세요. D-day는 접속한 날짜 기준으로 계산되며 30일이 지난 공고는 자동으로 빠집니다.</div>';
   }
 
-  /* --------------------------------------------------------------- events */
-  function setTab(tab) {
-    state.tab = tab;
-    state.limit = PAGE;
-    $$('.tab').forEach(function (b) { b.classList.toggle('is-active', b.getAttribute('data-tab') === tab); });
-    var isMgr = tab === 'managers';
-    $('#managerView').hidden = !isMgr;
-    $('#listView').hidden = isMgr;
-    if (isMgr) {
-      renderManagers();
-    } else {
-      renderFilters();
-      renderList();
-    }
+  /* --------------------------------------------------------------- 이벤트 */
+  function paint() {
+    renderSido();
+    renderKind();
+    renderList();
+  }
+
+  function resetAll() {
+    state.sido = 'all'; state.kind = 'all'; state.q = ''; state.kw = 'all';
+    state.urgentOnly = false; state.limit = PAGE;
+    $('#q').value = '';
+    $('#sortSel').value = 'deadline';
+    state.sort = 'deadline';
+    paint();
   }
 
   function bind() {
-    $('#tabs').addEventListener('click', function (e) {
-      var b = e.target.closest('.tab');
-      if (b) setTab(b.getAttribute('data-tab'));
+    $('#sidoNav').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-sido]');
+      if (!b || b.classList.contains('is-zero')) return;
+      state.sido = b.getAttribute('data-sido');
+      state.kind = 'all'; state.limit = PAGE; state.urgentOnly = false;
+      paint();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    $('#kindSeg').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-kind]');
+      if (!b) return;
+      state.kind = b.getAttribute('data-kind'); state.limit = PAGE;
+      renderKind(); renderList();
+    });
+    $('#kwRow').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-kw]');
+      if (!b) return;
+      state.kw = b.getAttribute('data-kw'); state.limit = PAGE;
+      renderKind(); renderList();
     });
     $('#q').addEventListener('input', function (e) {
       state.q = e.target.value; state.limit = PAGE; renderList();
     });
-    $('#regionSel').addEventListener('change', function (e) {
-      state.region = e.target.value; state.limit = PAGE; renderList();
-    });
     $('#sortSel').addEventListener('change', function (e) {
       state.sort = e.target.value; state.limit = PAGE; renderList();
     });
-    $('#managerChips').addEventListener('click', function (e) {
-      var b = e.target.closest('[data-mgr]');
-      if (!b) return;
-      state.manager = b.getAttribute('data-mgr'); state.limit = PAGE; renderFilters(); renderList();
-    });
-    $('#keywordChips').addEventListener('click', function (e) {
-      var b = e.target.closest('[data-kw]');
-      if (!b) return;
-      state.keyword = b.getAttribute('data-kw'); state.limit = PAGE; renderFilters(); renderList();
-    });
-    $('#regionStrip').addEventListener('click', function (e) {
-      var b = e.target.closest('[data-region]');
-      if (!b) return;
-      state.region = b.getAttribute('data-region');
-      setTab('all');
-    });
-    $('#managerGrid').addEventListener('click', function (e) {
-      var card = e.target.closest('[data-mgr]');
-      if (!card) return;
-      state.manager = card.getAttribute('data-mgr');
-      setTab('all');
-    });
-    $('#managerGrid').addEventListener('keydown', function (e) {
-      if (e.key !== 'Enter' && e.key !== ' ') return;
-      var card = e.target.closest('[data-mgr]');
-      if (!card) return;
-      e.preventDefault();
-      state.manager = card.getAttribute('data-mgr');
-      setTab('all');
+    $('#resetBtn').addEventListener('click', resetAll);
+    $('#urgent').addEventListener('click', function (e) {
+      var all = e.target.closest('#urgentAll');
+      if (all) {
+        state.urgentOnly = true; state.sido = 'all'; state.kind = 'all'; state.limit = PAGE;
+        state.sort = 'deadline'; $('#sortSel').value = 'deadline';
+        paint();
+        $('#listTitle').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+      var row = e.target.closest('[data-id]');
+      if (row) openDrawer(row.getAttribute('data-id'));
     });
     $('#list').addEventListener('click', function (e) {
       var row = e.target.closest('[data-id]');
@@ -530,16 +521,17 @@
       openDrawer(row.getAttribute('data-id'));
     });
     document.addEventListener('click', function (e) {
-      var more = e.target.closest('#moreBtn');
-      if (more) { state.limit += PAGE; renderList(); return; }
+      if (e.target.closest('#moreBtn')) { state.limit += PAGE; renderList(); return; }
       if (e.target.closest('[data-close]')) { closeDrawer(); return; }
+      var zero = e.target.closest('.sido__btn.is-zero');
+      if (zero) { e.preventDefault(); return; }
       var cp = e.target.closest('[data-copy]');
       if (cp) copyText(cp.getAttribute('data-copy'));
     });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && !$('#drawerWrap').hidden) closeDrawer();
     });
-    $('#reloadBtn').addEventListener('click', function () { location.reload(true); });
+    $('#reloadBtn').addEventListener('click', function () { location.reload(); });
   }
 
   function copyText(text) {
@@ -549,9 +541,7 @@
     };
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text).then(done, fallback);
-    } else {
-      fallback();
-    }
+    } else { fallback(); }
     function fallback() {
       var ta = document.createElement('textarea');
       ta.value = text;
@@ -559,7 +549,7 @@
       ta.style.opacity = '0';
       document.body.appendChild(ta);
       ta.select();
-      try { document.execCommand('copy'); done(); } catch (err) { alert('복사 실패: ' + text); }
+      try { document.execCommand('copy'); done(); } catch (err) { window.prompt('공고번호', text); }
       document.body.removeChild(ta);
     }
   }
@@ -568,13 +558,16 @@
   function boot(data) {
     DATA = data;
     ITEMS = (data.items || []).slice();
-    $('#updatedStamp').textContent = (data.updated_label || '') + ' 기준 · 30일';
-    renderKpis();
-    renderWatch();
-    renderFilters();
-    renderList();
+    $('#updatedStamp').textContent = (data.updated_label || '') + ' 기준';
     renderFooter();
+    renderSido();
+    renderUrgent();
+    renderKind();
+    renderList();
+    renderWatch();
     bind();
+    var act = $('#sidoNav .is-active');
+    if (act && act.scrollIntoView) act.scrollIntoView({ block: 'nearest', inline: 'center' });
   }
 
   function fail(msg) {
@@ -590,7 +583,6 @@
     })
     .then(boot)
     .catch(function (err) {
-      fail('데이터를 불러오지 못했습니다 (' + esc(err.message) + '). <br>' +
-        'index.html을 파일로 직접 열었다면 로컬 서버로 열어 주세요: <code>python3 -m http.server 8000</code>');
+      fail('데이터를 불러오지 못했습니다 (' + esc(err.message) + ').<br>index.html을 파일로 직접 열었다면 로컬 서버로 여세요: <code>python3 -m http.server 8000</code>');
     });
 })();
