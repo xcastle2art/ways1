@@ -8,11 +8,12 @@
   var DATA_URL = 'data.json';
   var PAGE = 80;
   var NOW = new Date();
-  var CUTOFF = new Date(NOW.getTime() - 30 * 86400000);
+  /* 30일 창은 날짜 기준(자정)으로 계산해 data.json 구간과 어긋나지 않게 */
+  var CUTOFF = new Date(NOW.getFullYear(), NOW.getMonth(), NOW.getDate() - 30);
 
   var DATA = null;
   var ITEMS = [];
-  var state = { sido: 'all', kind: 'all', q: '', kw: 'all', sort: 'deadline', limit: PAGE, urgentOnly: false };
+  var state = { sido: 'all', kind: 'all', q: '', kw: 'all', sort: 'deadline', limit: PAGE, urgentOnly: false, includePast: false };
 
   /* ------------------------------------------------------------- helpers */
   function $(s, r) { return (r || document).querySelector(s); }
@@ -62,6 +63,12 @@
     var d = parseDate(iso);
     if (!d) return '';
     return pad(d.getMonth() + 1) + '.' + pad(d.getDate());
+  }
+  /* 행 왼쪽 칸용 짧은 마감 표기: 11.24 10:00 */
+  function dlShort(it) {
+    var d = parseDate(it.deadline);
+    if (!d) return '일정 확인';
+    return pad(d.getMonth() + 1) + '.' + pad(d.getDate()) + ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes());
   }
   function inWindow(it) {
     var p = parseDate(it.posted);
@@ -179,6 +186,10 @@
     var q = state.q.trim().toLowerCase().replace(/\s+/g, '');
     var out = scoped().filter(function (it) {
       if (state.urgentOnly && !isUrgent(it)) return false;
+      if (!state.includePast && state.kind !== 'result') {
+        var dd = ddayOf(it.deadline);
+        if (dd !== null && dd < 0) return false;
+      }
       if (state.kind === 'bid' && it.kind !== 'bid') return false;
       if (state.kind === 'prespec' && it.kind !== 'prespec') return false;
       if (state.kind === 'result') {
@@ -227,15 +238,11 @@
       (regionLimited(it) ? '<span class="sep">·</span><span class="row__flag">지역제한</span>' : '') +
       (it.attachments && it.attachments.length ? '<span class="sep">·</span><span>첨부 ' + it.attachments.length + '</span>' : '');
 
-    var badge = it.status === '개찰완료' || it.status === '유찰' || it.status === '재입찰' || it.status === '의견마감'
-      ? pillOf(it)
-      : (n !== null && n >= 0 && n <= 3 && isOpen(it)
-        ? '<span class="pill pill--urgent">' + ddayText(n) + ' 마감</span>'
-        : pillOf(it));
+    var badge = pillOf(it);
 
     return '<article class="' + cls + '" data-id="' + esc(it.id) + '" tabindex="0" role="button">' +
       '<div class="row__d"><span class="dd ' + ddayCls(n) + '">' + ddayText(n) + '</span>' +
-      '<span class="row__dl">' + esc(it.deadline_short || '일정 확인') + '</span></div>' +
+      '<span class="row__dl">' + esc(dlShort(it)) + '</span></div>' +
       '<div class="row__main">' +
       '<div class="row__title">' + esc(it.title) + '</div>' +
       '<div class="row__meta">' + meta + '</div>' +
@@ -279,8 +286,16 @@
     $('#listTitle').textContent = title;
 
     var opens = rows.filter(function (i) { return isOpen(i); }).length;
-    $('#listMeta').textContent = rows.length + '건 (진행 중 ' + opens + ')';
-    $('#resetBtn').hidden = !(state.urgentOnly || state.kw !== 'all' || state.q || state.sido !== 'all' || state.kind !== 'all');
+    $('#listMeta').textContent = rows.length + '건' + (state.includePast ? ' (진행 중 ' + opens + ')' : '');
+    $('#resetBtn').hidden = !(state.urgentOnly || state.kw !== 'all' || state.q || state.sido !== 'all' || state.kind !== 'all' || state.includePast);
+
+    var pastN = scoped().filter(function (i) {
+      var dd = ddayOf(i.deadline);
+      return dd !== null && dd < 0 && (state.kind === 'all' || (state.kind === 'bid' && i.kind === 'bid') || (state.kind === 'prespec' && i.kind === 'prespec'));
+    }).length;
+    var pb = $('#pastBtn');
+    pb.hidden = state.kind === 'result' || (!pastN && !state.includePast);
+    pb.textContent = state.includePast ? '지난 건 숨기기' : '지난 건 포함 ' + pastN;      
 
     var shown = rows.slice(0, state.limit);
     $('#list').innerHTML = shown.map(state.kind === 'result' ? resultRow : rowHtml).join('');
@@ -303,7 +318,9 @@
     var empty = $('#emptyState');
     empty.hidden = rows.length > 0;
     if (!rows.length) {
-      empty.textContent = '조건에 맞는 건이 없습니다. 시·도를 "전체"로 바꾸거나 검색어를 지워 보세요.';
+      empty.textContent = pastN
+        ? '진행 중인 건이 없습니다. 오른쪽 "지난 건 포함 ' + pastN + '"을 누르면 마감된 건까지 볼 수 있습니다.'
+        : '조건에 맞는 건이 없습니다. 시·도를 "전체"로 바꾸거나 검색어를 지워 보세요.';
     }
   }
 
@@ -462,7 +479,7 @@
 
   function resetAll() {
     state.sido = 'all'; state.kind = 'all'; state.q = ''; state.kw = 'all';
-    state.urgentOnly = false; state.limit = PAGE;
+    state.urgentOnly = false; state.limit = PAGE; state.includePast = false;
     $('#q').value = '';
     $('#sortSel').value = 'deadline';
     state.sort = 'deadline';
@@ -497,6 +514,9 @@
       state.sort = e.target.value; state.limit = PAGE; renderList();
     });
     $('#resetBtn').addEventListener('click', resetAll);
+    $('#pastBtn').addEventListener('click', function () {
+      state.includePast = !state.includePast; state.limit = PAGE; renderList();
+    });
     $('#urgent').addEventListener('click', function (e) {
       var all = e.target.closest('#urgentAll');
       if (all) {
