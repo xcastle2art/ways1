@@ -349,7 +349,10 @@ select:focus{border-color:var(--accent)}
   }
   .urg .dd{grid-area:d;align-self:center}
   .urg__k{display:none}
-  .urg__t{grid-area:t;font-size:13px}
+  .urg__t{
+    grid-area:t;font-size:13px;white-space:normal;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
   .urg__w{grid-area:w;font-size:11px}
   .toolbar{gap:8px}
   .seg{width:100%;justify-content:space-between}
