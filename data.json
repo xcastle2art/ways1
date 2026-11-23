@@ -1,15 +1,15 @@
 {
- "updated_at": "2026-11-22T15:00+09:00",
- "updated_label": "2026-11-22(일) 15:00 KST",
+ "updated_at": "2026-11-23T16:00+09:00",
+ "updated_label": "2026-11-23(월) 16:00 KST",
  "window": {
-  "from": "2026-10-23",
-  "to": "2026-11-22",
+  "from": "2026-10-24",
+  "to": "2026-11-23",
   "days": 30
  },
  "scan_basis": {
-  "latest_scan": "2026-11-22 09:00 KST (일요일 오전 스캔 — 14개 키워드 신규·변동 0건, 추적 건 재확인)",
+  "latest_scan": "2026-11-23 16:00 KST (월요일 오후 스캔 — 신규 1건(강동구 라이다 사전규격), 정정·개찰결과 변동 0건)",
   "sources": "presignal.co.kr 14개 키워드 검색(입찰공고·사전규격) + work.00data.kr(공공일감) 상세(첨부·개찰결과) + 나라장터 원문 링크",
-  "note": "공고일 기준 최근 30일(2026-10-23~11-22). 11-22 09:00 스캔에서 11-21 16:00 대비 신규·정정·개찰결과 변동 0건."
+  "note": "공고일 기준 최근 30일(2026-10-24~11-23). 11-23 16:00 스캔에서 09:00 대비 신규 사전규격 1건(라이다 전용 → 웹 제외), 정정·개찰결과 변동 0건."
  },
  "collect_keywords": [
   "토지적성평가",
@@ -46,9 +46,9 @@
    "도보네트워크",
    "GIS DB"
   ],
-  "excluded_items": 98,
-  "kept_items": 133,
-  "window_items": 231,
+  "excluded_items": 94,
+  "kept_items": 129,
+  "window_items": 223,
   "samples": [
    {
     "no": "R26BK01843237",
@@ -164,7 +164,7 @@
    "count": 2,
    "bids": 1,
    "prespec": 1,
-   "urgent": 0
+   "urgent": 1
   },
   {
    "code": "인천",
@@ -209,9 +209,9 @@
   {
    "code": "경기",
    "name": "경기",
-   "count": 27,
+   "count": 25,
    "bids": 16,
-   "prespec": 11,
+   "prespec": 9,
    "urgent": 7
   },
   {
@@ -228,14 +228,14 @@
    "count": 1,
    "bids": 0,
    "prespec": 1,
-   "urgent": 0
+   "urgent": 1
   },
   {
    "code": "충남",
    "name": "충남",
-   "count": 7,
+   "count": 6,
    "bids": 4,
-   "prespec": 3,
+   "prespec": 2,
    "urgent": 0
   },
   {
@@ -244,7 +244,7 @@
    "count": 2,
    "bids": 1,
    "prespec": 1,
-   "urgent": 1
+   "urgent": 0
   },
   {
    "code": "전남",
@@ -260,7 +260,7 @@
    "count": 12,
    "bids": 8,
    "prespec": 4,
-   "urgent": 0
+   "urgent": 1
   },
   {
    "code": "경남",
@@ -273,9 +273,9 @@
   {
    "code": "제주",
    "name": "제주",
-   "count": 4,
+   "count": 3,
    "bids": 3,
-   "prespec": 1,
+   "prespec": 0,
    "urgent": 0
   }
  ],
@@ -283,12 +283,12 @@
   {
    "keyword": "토지적성평가",
    "bids": 8,
-   "prespec": 5
+   "prespec": 4
   },
   {
    "keyword": "재해취약성",
    "bids": 8,
-   "prespec": 3
+   "prespec": 2
   },
   {
    "keyword": "연속도면",
@@ -328,7 +328,7 @@
   {
    "keyword": "공간정보",
    "bids": 44,
-   "prespec": 34
+   "prespec": 31
   }
  ],
  "items": [
@@ -1164,59 +1164,6 @@
    ],
    "note": "",
    "owner": "백제환"
-  },
-  {
-   "id": "ps-R26BD00289305",
-   "kind": "prespec",
-   "title": "공주시 토지적성평가 및 재해취약성분석 용역",
-   "no": "R26BD00289305",
-   "order": "000",
-   "org": "충청남도 공주시",
-   "region": "충남",
-   "sido": "충남",
-   "region_detail": "충청남도 공주시",
-   "posted": "2026-10-23T00:00+09:00",
-   "posted_label": "10-23",
-   "deadline": "2026-10-28T23:59+09:00",
-   "deadline_label": "2026-10-28(수) 23:59",
-   "deadline_short": "10.28(수) 23:59",
-   "deadline_kind": "의견등록 마감",
-   "deadline_note": null,
-   "open_at": null,
-   "open_label": "",
-   "status": "의견마감",
-   "progress": null,
-   "budget": 302840000,
-   "budget_text": "3억 284만",
-   "price_est": null,
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "",
-   "biz": "용역",
-   "conditions": "",
-   "region_limit": null,
-   "industry_limit": null,
-   "attachments": [],
-   "qna": {
-    "state": "unknown",
-    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "none"
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289305",
-    "g2b_kind": "나라장터 사전규격 상세",
-    "presignal": "https://presignal.co.kr/p/s/R26BD00289305",
-    "data00": ""
-   },
-   "keywords": [
-    "토지적성평가",
-    "재해취약성"
-   ],
-   "note": "",
-   "owner": "이유림"
   },
   {
    "id": "b-R26BK01822074",
@@ -2585,7 +2532,7 @@
    "deadline_note": null,
    "open_at": null,
    "open_label": "",
-   "status": "의견등록중",
+   "status": "의견마감",
    "progress": null,
    "budget": 1400000000,
    "budget_text": "14억",
@@ -2607,7 +2554,7 @@
    ],
    "qna": {
     "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
     "items": []
    },
    "result": {
@@ -8490,162 +8437,6 @@
    "owner": "최찬수"
   },
   {
-   "id": "ps-R26BD00289784",
-   "kind": "prespec",
-   "title": "2027년 성남시 공간정보시스템 통합유지관리 용역",
-   "no": "R26BD00289784",
-   "order": "000",
-   "org": "경기도 성남시",
-   "region": "경기",
-   "sido": "경기",
-   "region_detail": "경기도 성남시",
-   "posted": "2026-10-23T00:00+09:00",
-   "posted_label": "10-23",
-   "deadline": "2026-10-28T23:59+09:00",
-   "deadline_label": "2026-10-28(수) 23:59",
-   "deadline_short": "10.28(수) 23:59",
-   "deadline_kind": "의견등록 마감",
-   "deadline_note": null,
-   "open_at": null,
-   "open_label": "",
-   "status": "의견마감",
-   "progress": null,
-   "budget": 169740000,
-   "budget_text": "1억 6,974만",
-   "price_est": null,
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "",
-   "biz": "용역",
-   "conditions": "",
-   "region_limit": null,
-   "industry_limit": null,
-   "attachments": [],
-   "qna": {
-    "state": "unknown",
-    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "none"
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289784",
-    "g2b_kind": "나라장터 사전규격 상세",
-    "presignal": "https://presignal.co.kr/p/s/R26BD00289784",
-    "data00": ""
-   },
-   "keywords": [
-    "공간정보"
-   ],
-   "note": "",
-   "owner": "오윤범"
-  },
-  {
-   "id": "ps-R26BD00289566",
-   "kind": "prespec",
-   "title": "2027년 공간정보시스템(누리맵) 통합유지관리 용역",
-   "no": "R26BD00289566",
-   "order": "000",
-   "org": "경기도 파주시",
-   "region": "경기",
-   "sido": "경기",
-   "region_detail": "경기도 파주시",
-   "posted": "2026-10-23T00:00+09:00",
-   "posted_label": "10-23",
-   "deadline": "2026-10-28T23:59+09:00",
-   "deadline_label": "2026-10-28(수) 23:59",
-   "deadline_short": "10.28(수) 23:59",
-   "deadline_kind": "의견등록 마감",
-   "deadline_note": null,
-   "open_at": null,
-   "open_label": "",
-   "status": "의견마감",
-   "progress": null,
-   "budget": 151590000,
-   "budget_text": "1억 5,159만",
-   "price_est": null,
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "",
-   "biz": "용역",
-   "conditions": "",
-   "region_limit": null,
-   "industry_limit": null,
-   "attachments": [],
-   "qna": {
-    "state": "unknown",
-    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "none"
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289566",
-    "g2b_kind": "나라장터 사전규격 상세",
-    "presignal": "https://presignal.co.kr/p/s/R26BD00289566",
-    "data00": ""
-   },
-   "keywords": [
-    "공간정보"
-   ],
-   "note": "",
-   "owner": "장민우"
-  },
-  {
-   "id": "ps-R26BD00289453",
-   "kind": "prespec",
-   "title": "2027년 공간정보시스템 HW，상용SW 유지관리 용역",
-   "no": "R26BD00289453",
-   "order": "000",
-   "org": "제주특별자치도교육청",
-   "region": "제주",
-   "sido": "제주",
-   "region_detail": "제주특별자치도교육청",
-   "posted": "2026-10-23T00:00+09:00",
-   "posted_label": "10-23",
-   "deadline": "2026-10-28T23:59+09:00",
-   "deadline_label": "2026-10-28(수) 23:59",
-   "deadline_short": "10.28(수) 23:59",
-   "deadline_kind": "의견등록 마감",
-   "deadline_note": null,
-   "open_at": null,
-   "open_label": "",
-   "status": "의견마감",
-   "progress": null,
-   "budget": 229660000,
-   "budget_text": "2억 2,966만",
-   "price_est": null,
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "",
-   "biz": "용역",
-   "conditions": "",
-   "region_limit": null,
-   "industry_limit": null,
-   "attachments": [],
-   "qna": {
-    "state": "unknown",
-    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "none"
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00289453",
-    "g2b_kind": "나라장터 사전규격 상세",
-    "presignal": "https://presignal.co.kr/p/s/R26BD00289453",
-    "data00": ""
-   },
-   "keywords": [
-    "공간정보"
-   ],
-   "note": "",
-   "owner": "송선아"
-  },
-  {
    "id": "b-R26BK01844693",
    "kind": "bid",
    "title": "2027년 지하공간통합지도 수정갱신 사업",
@@ -8839,15 +8630,15 @@
   }
  ],
  "counts": {
-  "total": 133,
+  "total": 129,
   "bids": 79,
-  "prespec": 54,
+  "prespec": 50,
   "opened": 6,
   "failed": 16,
   "attachments": 84,
   "provinces": 18,
-  "urgent": 16,
+  "urgent": 18,
   "open_bids": 49,
-  "open_prespec": 5
+  "open_prespec": 4
  }
 }

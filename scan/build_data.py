@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""data.json 생성 — 전국 30일(2026-10-23~11-22) 입찰공고·사전규격.
+"""data.json 생성 — 전국 30일(2026-10-24~11-23) 입찰공고·사전규격.
 
 수집(collect.py)은 14개 키워드 그대로 — 이 스크립트에서만 웹 대시보드 표시용으로
 '공원녹지·라이다·도보네트워크·GIS DB'만 걸린 건을 걸러낸다(09:00·16:00 정기 알림은 영향 없음).
@@ -11,8 +11,8 @@ from datetime import datetime, timedelta, timezone
 HERE = pathlib.Path(__file__).parent
 OUT = HERE.parent / "data.json"
 KST = timezone(timedelta(hours=9))
-NOW = datetime(2026, 11, 22, 15, 0, tzinfo=KST)
-WIN_FROM = datetime(2026, 10, 23, tzinfo=KST)
+NOW = datetime(2026, 11, 23, 16, 0, tzinfo=KST)
+WIN_FROM = datetime(2026, 10, 24, tzinfo=KST)
 # 사전규격 수작업 보강분(첨부·질의응답·나라장터 직링크) 보존 — 오래된 백업부터 읽어 최신이 덮어쓴다
 BACKUPS = [
     HERE / "data.before_20261120_prespec.json",
@@ -400,12 +400,12 @@ WATCH = [
 
 data = {
     "updated_at": NOW.isoformat(timespec="minutes"),
-    "updated_label": "2026-11-22(일) 15:00 KST",
-    "window": {"from": "2026-10-23", "to": "2026-11-22", "days": 30},
+    "updated_label": "2026-11-23(월) 16:00 KST",
+    "window": {"from": "2026-10-24", "to": "2026-11-23", "days": 30},
     "scan_basis": {
-        "latest_scan": "2026-11-22 09:00 KST (일요일 오전 스캔 — 14개 키워드 신규·변동 0건, 추적 건 재확인)",
+        "latest_scan": "2026-11-23 16:00 KST (월요일 오후 스캔 — 신규 1건(강동구 라이다 사전규격), 정정·개찰결과 변동 0건)",
         "sources": "presignal.co.kr 14개 키워드 검색(입찰공고·사전규격) + work.00data.kr(공공일감) 상세(첨부·개찰결과) + 나라장터 원문 링크",
-        "note": "공고일 기준 최근 30일(2026-10-23~11-22). 11-22 09:00 스캔에서 11-21 16:00 대비 신규·정정·개찰결과 변동 0건.",
+        "note": "공고일 기준 최근 30일(2026-10-24~11-23). 11-23 16:00 스캔에서 09:00 대비 신규 사전규격 1건(라이다 전용 → 웹 제외), 정정·개찰결과 변동 0건.",
     },
     "collect_keywords": KEYWORDS,
     "dashboard_keywords": DASH_KEYWORDS,

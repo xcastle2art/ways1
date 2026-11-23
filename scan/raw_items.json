@@ -10,7 +10,7 @@
   "budget_text": "2억 490만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.20",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -57,7 +57,7 @@
   "budget_text": "1억 2,100만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.18",
-  "deadline_text": "D-2 11.24 10:00",
+  "deadline_text": "D-1 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -80,7 +80,7 @@
   "budget_text": "3억 284만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.12",
-  "deadline_text": "D-11 12.03 10:00",
+  "deadline_text": "D-10 12.03 10:00",
   "open_text": "12.03 11:00",
   "status": "입찰중",
   "cats": [
@@ -193,7 +193,7 @@
   "biz_type": "기타",
   "budget_text": "4억 368만",
   "posted": "26.11.20",
-  "deadline_text": "D-3",
+  "deadline_text": "D-2",
   "status": "사전규격",
   "cats": [
    "기타"
@@ -341,7 +341,7 @@
   "budget_text": "8억 8,860만",
   "contract": "일반경쟁 협상에의한계약",
   "posted": "26.11.20",
-  "deadline_text": "D-19 12.11 10:00",
+  "deadline_text": "D-18 12.11 10:00",
   "open_text": "12.11 11:00",
   "status": "입찰중",
   "cats": [
@@ -363,7 +363,7 @@
   "budget_text": "2,700만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.20",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -386,7 +386,7 @@
   "budget_text": "3억 5,000만",
   "contract": "일반경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-9 12.01 15:00",
+  "deadline_text": "D-8 12.01 15:00",
   "open_text": "12.01 16:00",
   "status": "입찰중",
   "cats": [
@@ -409,7 +409,7 @@
   "budget_text": "5억 5,500만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-8 11.30 10:00",
+  "deadline_text": "D-7 11.30 10:00",
   "open_text": "11.30 11:00",
   "status": "입찰중",
   "cats": [
@@ -431,7 +431,7 @@
   "budget_text": "9,500만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -520,7 +520,7 @@
   "budget_text": "5,742만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.12",
-  "deadline_text": "D-1 11.23 16:00",
+  "deadline_text": "D-DAY 11.23 16:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -711,28 +711,6 @@
   ]
  },
  {
-  "kind": "bid",
-  "no": "R26BK01785113",
-  "order": "000",
-  "title": "자율주행 자동차 상용화를 위한 보험체계 연구",
-  "org": "국토교통부",
-  "phone": "070-4056-8326",
-  "conditions": "공동수급 허용",
-  "budget_text": "1억 6,152만",
-  "contract": "제한경쟁 협상에의한계약",
-  "posted": "26.10.22",
-  "deadline_text": "마감 11.04 10:00",
-  "open_text": "11.04 11:00",
-  "status": "유찰 참가 0",
-  "cats": [
-   "학술연구서비스"
-  ],
-  "presignal": "https://presignal.co.kr/p/R26BK01785113",
-  "keywords": [
-   "자율주행"
-  ]
- },
- {
   "kind": "prespec",
   "no": "R26BD00303189",
   "order": "000",
@@ -742,7 +720,7 @@
   "biz_type": "기타",
   "budget_text": "14억",
   "posted": "26.11.19",
-  "deadline_text": "D-DAY",
+  "deadline_text": "마감",
   "status": "사전규격",
   "cats": [
    "기타"
@@ -762,7 +740,7 @@
   "biz_type": "SI",
   "budget_text": "17억 8,000만",
   "posted": "26.11.18",
-  "deadline_text": "D-1",
+  "deadline_text": "D-DAY",
   "status": "사전규격",
   "cats": [
    "SI"
@@ -1023,7 +1001,7 @@
   "budget_text": "6,177만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-3 11.25 10:00",
+  "deadline_text": "D-2 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -1087,7 +1065,7 @@
   "budget_text": "5,000만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-2 11.24 10:00",
+  "deadline_text": "D-1 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1109,7 +1087,7 @@
   "budget_text": "14억 9,487만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.17",
-  "deadline_text": "D-3 11.25 10:00",
+  "deadline_text": "D-2 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -1153,7 +1131,7 @@
   "budget_text": "22억 5,118만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.16",
-  "deadline_text": "D-2 11.24 10:00",
+  "deadline_text": "D-1 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1175,7 +1153,7 @@
   "budget_text": "25억 5,381만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.16",
-  "deadline_text": "D-2 11.24 10:00",
+  "deadline_text": "D-1 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1263,7 +1241,7 @@
   "budget_text": "14억 6,771만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.04",
-  "deadline_text": "D-3 11.25 10:00",
+  "deadline_text": "D-2 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -1533,7 +1511,7 @@
   "budget_text": "1억 1,000만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.17",
-  "deadline_text": "D-1 11.23 18:00",
+  "deadline_text": "D-DAY 11.23 18:00",
   "open_text": "11.24 14:00",
   "status": "입찰중",
   "cats": [
@@ -1598,7 +1576,7 @@
   "budget_text": "5억 411만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.09",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -1709,7 +1687,7 @@
   "budget_text": "9,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.20",
-  "deadline_text": "D-4 11.26 10:00",
+  "deadline_text": "D-3 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -1731,7 +1709,7 @@
   "budget_text": "9,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.20",
-  "deadline_text": "D-4 11.26 10:00",
+  "deadline_text": "D-3 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -1753,7 +1731,7 @@
   "budget_text": "3억 9,102만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.20",
-  "deadline_text": "D-4 11.26 10:00",
+  "deadline_text": "D-3 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -1775,7 +1753,7 @@
   "budget_text": "1억 5,935만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-5 11.27 10:00",
+  "deadline_text": "D-4 11.27 10:00",
   "open_text": "11.27 11:00",
   "status": "입찰중",
   "cats": [
@@ -1797,7 +1775,7 @@
   "budget_text": "2억 6,555만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-5 11.27 10:00",
+  "deadline_text": "D-4 11.27 10:00",
   "open_text": "11.27 11:00",
   "status": "입찰중",
   "cats": [
@@ -1819,7 +1797,7 @@
   "budget_text": "1억 5,655만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-5 11.27 10:00",
+  "deadline_text": "D-4 11.27 10:00",
   "open_text": "11.27 11:00",
   "status": "입찰중",
   "cats": [
@@ -1841,7 +1819,7 @@
   "budget_text": "15억",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-9 12.01 16:00",
+  "deadline_text": "D-8 12.01 16:00",
   "open_text": "12.01 17:00",
   "status": "입찰중",
   "cats": [
@@ -1864,7 +1842,7 @@
   "budget_text": "4억 3,580만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-4 11.26 12:00",
+  "deadline_text": "D-3 11.26 12:00",
   "open_text": "11.26 13:00",
   "status": "입찰중",
   "cats": [
@@ -1887,7 +1865,7 @@
   "budget_text": "1억 1,013만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.18",
-  "deadline_text": "D-4 11.26 16:00",
+  "deadline_text": "D-3 11.26 16:00",
   "open_text": "11.26 17:00",
   "status": "입찰중",
   "cats": [
@@ -1909,7 +1887,7 @@
   "budget_text": "1억 7,107만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.18",
-  "deadline_text": "D-2 11.24 10:00",
+  "deadline_text": "D-1 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1932,7 +1910,7 @@
   "budget_text": "9,237만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-2 11.24 10:00",
+  "deadline_text": "D-1 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1954,7 +1932,7 @@
   "budget_text": "5,400만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-2 11.24 10:00",
+  "deadline_text": "D-1 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -2065,7 +2043,7 @@
   "budget_text": "3억 9,193만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-16 12.08 10:00",
+  "deadline_text": "D-15 12.08 10:00",
   "open_text": "12.08 11:00",
   "status": "입찰중",
   "cats": [
@@ -2788,28 +2766,6 @@
   ]
  },
  {
-  "kind": "bid",
-  "no": "R26BK01785871",
-  "order": "000",
-  "title": "2026년 하수관로 개량공사 GIS DB구축 용역(치수팀)",
-  "org": "서울특별시 강동구",
-  "phone": "02-3425-5486",
-  "conditions": "—",
-  "budget_text": "9,023만",
-  "contract": "수의계약 소액수의견적",
-  "posted": "26.10.22",
-  "deadline_text": "마감 10.28 10:00",
-  "open_text": "10.28 11:00",
-  "status": "유찰 참가 4",
-  "cats": [
-   "DB구축 및 자료입력"
-  ],
-  "presignal": "https://presignal.co.kr/p/R26BK01785871",
-  "keywords": [
-   "GIS DB"
-  ]
- },
- {
   "kind": "prespec",
   "no": "R26BD00303729",
   "order": "000",
@@ -2819,7 +2775,7 @@
   "biz_type": "SI",
   "budget_text": "4억 4,810만",
   "posted": "26.11.20",
-  "deadline_text": "D-3",
+  "deadline_text": "D-2",
   "status": "사전규격",
   "cats": [
    "SI"
@@ -2839,7 +2795,7 @@
   "biz_type": "SI",
   "budget_text": "1억 9,956만",
   "posted": "26.11.18",
-  "deadline_text": "D-1",
+  "deadline_text": "D-DAY",
   "status": "사전규격",
   "cats": [
    "SI"
@@ -2860,7 +2816,7 @@
   "biz_type": "SM",
   "budget_text": "6억 9,832만",
   "posted": "26.11.18",
-  "deadline_text": "D-1",
+  "deadline_text": "D-DAY",
   "status": "사전규격",
   "cats": [
    "SM"
@@ -2880,7 +2836,7 @@
   "biz_type": "SI",
   "budget_text": "860만",
   "posted": "26.11.17",
-  "deadline_text": "D-DAY",
+  "deadline_text": "마감",
   "status": "사전규격",
   "cats": [
    "SI"
@@ -3232,86 +3188,6 @@
   ]
  },
  {
-  "kind": "prespec",
-  "no": "R26BD00289241",
-  "order": "000",
-  "title": "청소농어촌 지방상수도 시설공사 GIS DB 구축 용역",
-  "org": "충청남도 보령시 경제도시국 수도과",
-  "owner": "조민영",
-  "biz_type": "SI",
-  "budget_text": "2억 7,820만",
-  "posted": "26.10.22",
-  "deadline_text": "마감",
-  "status": "사전규격",
-  "cats": [
-   "SI"
-  ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00289241",
-  "keywords": [
-   "GIS DB"
-  ]
- },
- {
-  "kind": "prespec",
-  "no": "R26BD00289165",
-  "order": "000",
-  "title": "신정처리분구 하수관로 정비사업 GIS DB 구축 용역",
-  "org": "충청남도 아산시",
-  "owner": "전지선",
-  "biz_type": "SI",
-  "budget_text": "4억 4,627만",
-  "posted": "26.10.22",
-  "deadline_text": "마감",
-  "status": "사전규격",
-  "cats": [
-   "SI"
-  ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00289165",
-  "keywords": [
-   "GIS DB"
-  ]
- },
- {
-  "kind": "prespec",
-  "no": "R26BD00288783",
-  "order": "000",
-  "title": "탑동지구 도시개발사업 GIS DB 구축 용역",
-  "org": "수원도시공사",
-  "owner": "전길수",
-  "biz_type": "SI",
-  "budget_text": "2억 90만",
-  "posted": "26.10.22",
-  "deadline_text": "마감",
-  "status": "사전규격",
-  "cats": [
-   "SI"
-  ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00288783",
-  "keywords": [
-   "GIS DB"
-  ]
- },
- {
-  "kind": "prespec",
-  "no": "R26BD00288674",
-  "order": "000",
-  "title": "문산·파주 하수관로 정비사업 전산화 용역(GIS DB구축)(전체분)",
-  "org": "경기도 파주시",
-  "owner": "이정애",
-  "biz_type": "SI",
-  "budget_text": "2억 2,690만",
-  "posted": "26.10.22",
-  "deadline_text": "마감",
-  "status": "사전규격",
-  "cats": [
-   "SI"
-  ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00288674",
-  "keywords": [
-   "GIS DB"
-  ]
- },
- {
   "kind": "bid",
   "no": "R26BK01843660",
   "order": "000",
@@ -3388,7 +3264,7 @@
   "budget_text": "2억 2,966만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3411,7 +3287,7 @@
   "budget_text": "5,435만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-3 11.25 10:00",
+  "deadline_text": "D-2 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -3433,7 +3309,7 @@
   "budget_text": "5,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-4 11.26 10:00",
+  "deadline_text": "D-3 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -3455,7 +3331,7 @@
   "budget_text": "1억 5,928만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-10 12.02 10:00",
+  "deadline_text": "D-9 12.02 10:00",
   "open_text": "12.02 11:00",
   "status": "입찰중",
   "cats": [
@@ -3477,7 +3353,7 @@
   "budget_text": "1억 8,026만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3499,7 +3375,7 @@
   "budget_text": "1억 945만",
   "contract": "일반경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-9 12.01 17:00",
+  "deadline_text": "D-8 12.01 17:00",
   "open_text": "12.01 18:00",
   "status": "입찰중",
   "cats": [
@@ -3522,7 +3398,7 @@
   "budget_text": "5억 6,379만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.18",
-  "deadline_text": "D-9 12.01 15:00",
+  "deadline_text": "D-8 12.01 15:00",
   "open_text": "12.01 16:00",
   "status": "입찰중",
   "cats": [
@@ -3544,7 +3420,7 @@
   "budget_text": "3억 6,115만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.18",
-  "deadline_text": "D-23 12.15 10:00",
+  "deadline_text": "D-22 12.15 10:00",
   "open_text": "12.15 11:00",
   "status": "입찰중",
   "cats": [
@@ -3566,7 +3442,7 @@
   "budget_text": "1억 1,439만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.18",
-  "deadline_text": "D-11 12.03 10:00",
+  "deadline_text": "D-10 12.03 10:00",
   "open_text": "12.03 11:00",
   "status": "입찰중",
   "cats": [
@@ -3588,7 +3464,7 @@
   "budget_text": "3억 6,381만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.18",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3610,7 +3486,7 @@
   "budget_text": "13억 3,748만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.17",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3633,7 +3509,7 @@
   "budget_text": "1억 5,632만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.17",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3678,7 +3554,7 @@
   "budget_text": "1억 1,812만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.17",
-  "deadline_text": "D-3 11.25 10:00",
+  "deadline_text": "D-2 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -3700,7 +3576,7 @@
   "budget_text": "1억 5,050만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.16",
-  "deadline_text": "D-5 11.27 10:00",
+  "deadline_text": "D-4 11.27 10:00",
   "open_text": "11.27 11:00",
   "status": "입찰중",
   "cats": [
@@ -3723,7 +3599,7 @@
   "budget_text": "1억 2,515만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.15",
-  "deadline_text": "D-15 12.07 17:00",
+  "deadline_text": "D-14 12.07 17:00",
   "open_text": "12.07 18:00",
   "status": "입찰중",
   "cats": [
@@ -3745,7 +3621,7 @@
   "budget_text": "8,949만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.13",
-  "deadline_text": "D-2 11.24 16:00",
+  "deadline_text": "D-1 11.24 16:00",
   "open_text": "11.26 17:00",
   "status": "입찰중",
   "cats": [
@@ -3789,7 +3665,7 @@
   "budget_text": "1억 5,159만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.12",
-  "deadline_text": "D-3 11.25 10:00",
+  "deadline_text": "D-2 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -3812,7 +3688,7 @@
   "budget_text": "1억 816만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-10 12.02 10:00",
+  "deadline_text": "D-9 12.02 10:00",
   "open_text": "12.02 11:00",
   "status": "입찰중",
   "cats": [
@@ -3834,7 +3710,7 @@
   "budget_text": "1억 1,585만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-10 12.02 10:00",
+  "deadline_text": "D-9 12.02 10:00",
   "open_text": "12.02 11:00",
   "status": "입찰중",
   "cats": [
@@ -3878,7 +3754,7 @@
   "budget_text": "1억 5,094만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-2 11.24 10:00",
+  "deadline_text": "D-1 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -3901,7 +3777,7 @@
   "budget_text": "1억 4,786만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-2 11.24 17:00",
+  "deadline_text": "D-1 11.24 17:00",
   "open_text": "11.24 18:00",
   "status": "입찰중",
   "cats": [
@@ -3923,7 +3799,7 @@
   "budget_text": "3억 9,522만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.10",
-  "deadline_text": "D-12 12.04 10:00",
+  "deadline_text": "D-11 12.04 10:00",
   "open_text": "12.04 11:00",
   "status": "입찰중",
   "cats": [
@@ -3945,7 +3821,7 @@
   "budget_text": "3억 6,505만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.10",
-  "deadline_text": "D-10 12.02 10:00",
+  "deadline_text": "D-9 12.02 10:00",
   "open_text": "12.02 11:00",
   "status": "입찰중",
   "cats": [
@@ -4033,7 +3909,7 @@
   "budget_text": "1억 1,409만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.05",
-  "deadline_text": "D-9 12.01 10:00",
+  "deadline_text": "D-8 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -4055,7 +3931,7 @@
   "budget_text": "35억 5,809만",
   "contract": "일반경쟁 협상에의한계약",
   "posted": "26.11.05",
-  "deadline_text": "D-16 12.08 10:00",
+  "deadline_text": "D-15 12.08 10:00",
   "open_text": "12.08 11:00",
   "status": "입찰중",
   "cats": [
@@ -4077,7 +3953,7 @@
   "budget_text": "1억 9,000만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.05",
-  "deadline_text": "D-4 11.26 10:00",
+  "deadline_text": "D-3 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -4144,7 +4020,7 @@
   "budget_text": "1억 6,974만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.03",
-  "deadline_text": "D-3 11.25 10:00",
+  "deadline_text": "D-2 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -4253,7 +4129,7 @@
   "biz_type": "기타",
   "budget_text": "1억",
   "posted": "26.11.19",
-  "deadline_text": "D-2",
+  "deadline_text": "D-1",
   "status": "사전규격",
   "cats": [
    "기타"
@@ -4273,7 +4149,7 @@
   "biz_type": "기타",
   "budget_text": "1억 3,200만",
   "posted": "26.11.17",
-  "deadline_text": "D-1",
+  "deadline_text": "D-DAY",
   "status": "사전규격",
   "cats": [
    "기타"
@@ -4934,9 +4810,9 @@
   "budget_text": "8,912만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.17",
-  "deadline_text": "D-1 11.23 10:00",
+  "deadline_text": "마감 11.23 10:00",
   "open_text": "11.23 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "측량"
   ],
@@ -4956,9 +4832,9 @@
   "budget_text": "1억 970만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.17",
-  "deadline_text": "D-1 11.23 10:00",
+  "deadline_text": "마감 11.23 10:00",
   "open_text": "11.23 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "측량"
   ],
@@ -4978,9 +4854,9 @@
   "budget_text": "7,147만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.17",
-  "deadline_text": "D-1 11.23 10:00",
+  "deadline_text": "마감 11.23 10:00",
   "open_text": "11.23 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "측량"
   ],
@@ -5007,6 +4883,26 @@
    "수리"
   ],
   "presignal": "https://presignal.co.kr/p/R26BK01833555",
+  "keywords": [
+   "라이다"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00304608",
+  "order": "000",
+  "title": "2026년 강동구 치수과 사각형거 보수공사 라이다 측량 및 DB 구축 용역",
+  "org": "서울특별시 강동구",
+  "owner": "정지원",
+  "biz_type": "SI",
+  "budget_text": "1억 561만",
+  "posted": "26.11.23",
+  "deadline_text": "D-5",
+  "status": "사전규격",
+  "cats": [
+   "SI"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00304608",
   "keywords": [
    "라이다"
   ]
