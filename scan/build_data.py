@@ -11,7 +11,7 @@ from datetime import datetime, timedelta, timezone
 HERE = pathlib.Path(__file__).parent
 OUT = HERE.parent / "data.json"
 KST = timezone(timedelta(hours=9))
-NOW = datetime(2026, 11, 23, 16, 0, tzinfo=KST)
+NOW = datetime(2026, 11, 24, 9, 0, tzinfo=KST)
 WIN_FROM = datetime(2026, 10, 24, tzinfo=KST)
 # 사전규격 수작업 보강분(첨부·질의응답·나라장터 직링크) 보존 — 오래된 백업부터 읽어 최신이 덮어쓴다
 BACKUPS = [
@@ -386,10 +386,10 @@ WATCH = [
      "note": "금액·자격 동일, 일정만 재설정. 업체는 11-30 18:00까지 참가등록·공동수급협정",
      "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01843852&bidPbancOrd=000"},
     {"id": "wl-gyeongsan", "label": "경산시 토지적성평가 사전규격", "status": "본공고 전환 대기", "tone": "wait",
-     "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-23 16:00 재확인, 규격서 의견 4건·답변 없음)",
+     "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-24 09:00 재확인, 규격서 의견 4건·답변 없음)",
      "note": "사전규격은 게시 상태. 본공고 전환 시 즉시 반영", "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299726"},
     {"id": "wl-buan", "label": "부안군 도로대장", "status": "개찰결과 미등록", "tone": "wait",
-     "meta": "R26BK01812769 11-18 16:00 개찰(직찰) · 11-23 16:00 나라장터 진행정보에 개찰결과·협상순위 없음(5일째)",
+     "meta": "R26BK01812769 11-18 16:00 개찰(직찰) · 11-24 09:00 재확인에도 개찰결과·협상순위 미등록(6일째)",
      "note": "11-20 14:00 부안군청 제안서 평가 진행 — 협상 결과 등록 여부 계속 추적",
      "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01812769&bidPbancOrd=000"},
     {"id": "wl-lx-underground", "label": "LX 2027 지하공간통합지도·지하정보통합체계", "status": "입찰중", "tone": "watch",
@@ -400,12 +400,12 @@ WATCH = [
 
 data = {
     "updated_at": NOW.isoformat(timespec="minutes"),
-    "updated_label": "2026-11-23(월) 16:00 KST",
-    "window": {"from": "2026-10-24", "to": "2026-11-23", "days": 30},
+    "updated_label": "2026-11-24(화) 09:00 KST",
+    "window": {"from": "2026-10-25", "to": "2026-11-24", "days": 30},
     "scan_basis": {
-        "latest_scan": "2026-11-23 16:00 KST (월요일 오후 스캔 — 신규 1건(강동구 라이다 사전규격), 정정·개찰결과 변동 0건)",
+        "latest_scan": "2026-11-24 09:00 KST (화요일 오전 스캔 — 신규 입찰공고 11건·사전규격 12건(11-23 게시), 개찰결과 7건 갱신 · 웹 반영 6건)",
         "sources": "presignal.co.kr 14개 키워드 검색(입찰공고·사전규격) + work.00data.kr(공공일감) 상세(첨부·개찰결과) + 나라장터 원문 링크",
-        "note": "공고일 기준 최근 30일(2026-10-24~11-23). 11-23 16:00 스캔에서 09:00 대비 신규 사전규격 1건(라이다 전용 → 웹 제외), 정정·개찰결과 변동 0건.",
+        "note": "공고일 기준 최근 30일(2026-10-25~11-24). 11-24 09:00 스캔에서 11-23 게시 신규 입찰 11건·사전규격 12건 확인 — 웹에는 6건 반영(라이다·GIS DB·공원녹지 제외 키워드 및 중복 제외). 개찰결과는 유찰 4건(라이다 2·자율주행 2)·개찰완료 3건 갱신.",
     },
     "collect_keywords": KEYWORDS,
     "dashboard_keywords": DASH_KEYWORDS,

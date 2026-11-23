@@ -10,7 +10,7 @@
   "budget_text": "2억 490만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.20",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -57,7 +57,7 @@
   "budget_text": "1억 2,100만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.18",
-  "deadline_text": "D-1 11.24 10:00",
+  "deadline_text": "D-DAY 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -80,7 +80,7 @@
   "budget_text": "3억 284만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.12",
-  "deadline_text": "D-10 12.03 10:00",
+  "deadline_text": "D-9 12.03 10:00",
   "open_text": "12.03 11:00",
   "status": "입찰중",
   "cats": [
@@ -193,7 +193,7 @@
   "biz_type": "기타",
   "budget_text": "4억 368만",
   "posted": "26.11.20",
-  "deadline_text": "D-2",
+  "deadline_text": "D-1",
   "status": "사전규격",
   "cats": [
    "기타"
@@ -266,27 +266,6 @@
   ]
  },
  {
-  "kind": "prespec",
-  "no": "R26BD00289305",
-  "order": "000",
-  "title": "공주시 토지적성평가 및 재해취약성분석 용역",
-  "org": "충청남도 공주시",
-  "owner": "이유림",
-  "biz_type": "기타",
-  "budget_text": "3억 284만",
-  "posted": "26.10.23",
-  "deadline_text": "마감",
-  "status": "사전규격",
-  "cats": [
-   "기타"
-  ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00289305",
-  "keywords": [
-   "토지적성평가",
-   "재해취약성"
-  ]
- },
- {
   "kind": "bid",
   "no": "R26BK01822074",
   "order": "000",
@@ -332,6 +311,29 @@
  },
  {
   "kind": "bid",
+  "no": "R26BK01849559",
+  "order": "000",
+  "title": "『2027년 광명시 자율주행버스 운영 용역』 제안서 제출안내 재공고(긴급) (협상에 의한 계약)",
+  "org": "재공고",
+  "phone": "02-2680-2201",
+  "conditions": "업종 제한 없음",
+  "budget_text": "4억 3,500만",
+  "contract": "일반경쟁 협상에의한계약",
+  "posted": "26.11.23",
+  "deadline_text": "—",
+  "open_text": "12.04 18:00",
+  "status": "입찰중",
+  "cats": [
+   "경기도 광명시",
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01849559",
+  "keywords": [
+   "자율주행"
+  ]
+ },
+ {
+  "kind": "bid",
   "no": "R26BK01845405",
   "order": "000",
   "title": "2027년 부산자율주행버스 위탁운영 용역",
@@ -341,7 +343,7 @@
   "budget_text": "8억 8,860만",
   "contract": "일반경쟁 협상에의한계약",
   "posted": "26.11.20",
-  "deadline_text": "D-18 12.11 10:00",
+  "deadline_text": "D-17 12.11 10:00",
   "open_text": "12.11 11:00",
   "status": "입찰중",
   "cats": [
@@ -363,7 +365,7 @@
   "budget_text": "2,700만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.20",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -386,7 +388,7 @@
   "budget_text": "3억 5,000만",
   "contract": "일반경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-8 12.01 15:00",
+  "deadline_text": "D-7 12.01 15:00",
   "open_text": "12.01 16:00",
   "status": "입찰중",
   "cats": [
@@ -409,7 +411,7 @@
   "budget_text": "5억 5,500만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-7 11.30 10:00",
+  "deadline_text": "D-6 11.30 10:00",
   "open_text": "11.30 11:00",
   "status": "입찰중",
   "cats": [
@@ -431,7 +433,7 @@
   "budget_text": "9,500만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -520,9 +522,9 @@
   "budget_text": "5,742만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.12",
-  "deadline_text": "D-DAY 11.23 16:00",
+  "deadline_text": "마감 11.23 16:00",
   "open_text": "11.25 11:00",
-  "status": "입찰중",
+  "status": "유찰 참가 0",
   "cats": [
    "사업장 위탁"
   ],
@@ -566,7 +568,7 @@
   "posted": "26.11.09",
   "deadline_text": "—",
   "open_text": "11.20 18:00",
-  "status": "입찰중",
+  "status": "유찰 참가 0",
   "cats": [
    "기타"
   ],
@@ -712,6 +714,46 @@
  },
  {
   "kind": "prespec",
+  "no": "R26BD00305038",
+  "order": "000",
+  "title": "자율주행 전기차 충전기 전문위탁운영 및 유지관리 용역",
+  "org": "(재)광주미래차모빌리티진흥원",
+  "owner": "정세호",
+  "biz_type": "SM",
+  "budget_text": "5,742만",
+  "posted": "26.11.23",
+  "deadline_text": "D-5",
+  "status": "사전규격",
+  "cats": [
+   "SM"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305038",
+  "keywords": [
+   "자율주행"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00304766",
+  "order": "000",
+  "title": "앵커 사업 관련 AI 및 자율주행 기반 디봇(Divot) 수리 로봇 개발 용역",
+  "org": "제주한라대학교산학협력단",
+  "owner": "고경란",
+  "biz_type": "기타",
+  "budget_text": "1억 4,000만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00304766",
+  "keywords": [
+   "자율주행"
+  ]
+ },
+ {
+  "kind": "prespec",
   "no": "R26BD00303189",
   "order": "000",
   "title": "익산시 자율주행차량 제작 및 서비스 실증 용역(2차)",
@@ -740,7 +782,7 @@
   "biz_type": "SI",
   "budget_text": "17억 8,000만",
   "posted": "26.11.18",
-  "deadline_text": "D-DAY",
+  "deadline_text": "마감",
   "status": "사전규격",
   "cats": [
    "SI"
@@ -1001,7 +1043,7 @@
   "budget_text": "6,177만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-2 11.25 10:00",
+  "deadline_text": "D-1 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -1030,6 +1072,50 @@
   "presignal": "https://presignal.co.kr/p/s/R26BD00299674",
   "keywords": [
    "공원관리"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01850551",
+  "order": "000",
+  "title": "빛가람동 공원녹지 임목폐기물처리 용역",
+  "org": "전남광주통합특별시 나주시",
+  "phone": "061-339-8689",
+  "conditions": "공동수급 허용 · 재입찰 허용",
+  "budget_text": "3,564만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.23",
+  "deadline_text": "D-3 11.27 10:00",
+  "open_text": "11.27 11:00",
+  "status": "입찰중",
+  "cats": [
+   "폐기물 처리"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01850551",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01849618",
+  "order": "000",
+  "title": "한들공원 리모델링사업 폐토사 폐기물처리용역",
+  "org": "충청남도 천안시 공원녹지사업본부",
+  "phone": "041-521-5558",
+  "conditions": "재입찰 허용 · 업종 제한 없음",
+  "budget_text": "5,699만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.23",
+  "deadline_text": "D-3 11.27 10:00",
+  "open_text": "11.27 11:00",
+  "status": "입찰중",
+  "cats": [
+   "폐기물 처리"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01849618",
+  "keywords": [
+   "공원녹지"
   ]
  },
  {
@@ -1065,7 +1151,7 @@
   "budget_text": "5,000만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-1 11.24 10:00",
+  "deadline_text": "D-DAY 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1087,7 +1173,7 @@
   "budget_text": "14억 9,487만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.17",
-  "deadline_text": "D-2 11.25 10:00",
+  "deadline_text": "D-1 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -1131,7 +1217,7 @@
   "budget_text": "22억 5,118만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.16",
-  "deadline_text": "D-1 11.24 10:00",
+  "deadline_text": "D-DAY 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1153,7 +1239,7 @@
   "budget_text": "25억 5,381만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.16",
-  "deadline_text": "D-1 11.24 10:00",
+  "deadline_text": "D-DAY 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1241,7 +1327,7 @@
   "budget_text": "14억 6,771만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.04",
-  "deadline_text": "D-2 11.25 10:00",
+  "deadline_text": "D-1 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -1336,6 +1422,206 @@
    "설계"
   ],
   "presignal": "https://presignal.co.kr/p/R26BK01796309",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305174",
+  "order": "000",
+  "title": "2027년 구래동 공원녹지 청소 및 관리용역(문화의 거리)",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "1억 6,999만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305174",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305171",
+  "order": "000",
+  "title": "2027년 김포한강신도시 금빛수로 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "2억 7,720만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305171",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305168",
+  "order": "000",
+  "title": "2027년 양곡·마송 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "5억 9,263만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305168",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305167",
+  "order": "000",
+  "title": "2027년 골드밸리·학운산단 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "4억 7,235만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305167",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305163",
+  "order": "000",
+  "title": "2027년 구래동·호수공원 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "3억 5,599만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305163",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305160",
+  "order": "000",
+  "title": "2027년 마산동 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "4억 1,616만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305160",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305157",
+  "order": "000",
+  "title": "2027년 남부2권역(사우·북변·걸포·감정) 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "7억 3,204만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305157",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305153",
+  "order": "000",
+  "title": "2027년 남부1권역(고촌·풍무) 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "7억 7,772만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305153",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305150",
+  "order": "000",
+  "title": "2027년 운양동 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "6억 2,000만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305150",
+  "keywords": [
+   "공원녹지"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305147",
+  "order": "000",
+  "title": "2027년 장기동 공원녹지 청소 및 관리용역",
+  "org": "경기도 김포시",
+  "owner": "나연수",
+  "biz_type": "기타",
+  "budget_text": "6억 2,000만",
+  "posted": "26.11.23",
+  "deadline_text": "D-2",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305147",
   "keywords": [
    "공원녹지"
   ]
@@ -1511,9 +1797,9 @@
   "budget_text": "1억 1,000만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.17",
-  "deadline_text": "D-DAY 11.23 18:00",
+  "deadline_text": "마감 11.23 18:00",
   "open_text": "11.24 14:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "현대자동차(주)",
    "측량"
@@ -1576,7 +1862,7 @@
   "budget_text": "5억 411만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.09",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -1678,6 +1964,72 @@
  },
  {
   "kind": "bid",
+  "no": "R26BK01847039",
+  "order": "000",
+  "title": "인주면 관암1리 상수도 배수지관 매설공사 GIS DB구축 용역",
+  "org": "충청남도 아산시 수도사업소",
+  "phone": "041-537-3504",
+  "conditions": "재입찰 허용",
+  "budget_text": "6,668만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.23",
+  "deadline_text": "D-3 11.27 10:00",
+  "open_text": "11.27 11:00",
+  "status": "입찰중",
+  "cats": [
+   "DB구축 및 자료입력"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01847039",
+  "keywords": [
+   "GIS DB"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01847795",
+  "order": "000",
+  "title": "염곡지구 하수관로 정비사업 외 2개사업 GIS DB구축 용역",
+  "org": "전라남도 곡성군",
+  "phone": "061-360-2822",
+  "conditions": "공동수급 허용 · 재입찰 허용",
+  "budget_text": "3억 4,600만",
+  "contract": "일반경쟁 적격심사제",
+  "posted": "26.11.23",
+  "deadline_text": "D-7 12.01 14:00",
+  "open_text": "12.01 15:00",
+  "status": "입찰중",
+  "cats": [
+   "측량"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01847795",
+  "keywords": [
+   "GIS DB"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01847755",
+  "order": "000",
+  "title": "수리지구 하수관로 정비사업 외 5개사업 GIS DB구축 용역",
+  "org": "전라남도 곡성군",
+  "phone": "061-360-2822",
+  "conditions": "공동수급 허용 · 재입찰 허용",
+  "budget_text": "4억 5,030만",
+  "contract": "일반경쟁 적격심사제",
+  "posted": "26.11.23",
+  "deadline_text": "D-7 12.01 14:00",
+  "open_text": "12.01 15:00",
+  "status": "입찰중",
+  "cats": [
+   "측량"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01847755",
+  "keywords": [
+   "GIS DB"
+  ]
+ },
+ {
+  "kind": "bid",
   "no": "R26BK01843782",
   "order": "000",
   "title": "용역 소액수의 견적제출 재공고(2026년 이천시 배수관로 GIS DB 현행화 구축용역_1권역)",
@@ -1687,7 +2039,7 @@
   "budget_text": "9,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.20",
-  "deadline_text": "D-3 11.26 10:00",
+  "deadline_text": "D-2 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -1709,7 +2061,7 @@
   "budget_text": "9,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.20",
-  "deadline_text": "D-3 11.26 10:00",
+  "deadline_text": "D-2 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -1731,7 +2083,7 @@
   "budget_text": "3억 9,102만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.20",
-  "deadline_text": "D-3 11.26 10:00",
+  "deadline_text": "D-2 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -1753,7 +2105,7 @@
   "budget_text": "1억 5,935만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-4 11.27 10:00",
+  "deadline_text": "D-3 11.27 10:00",
   "open_text": "11.27 11:00",
   "status": "입찰중",
   "cats": [
@@ -1775,7 +2127,7 @@
   "budget_text": "2억 6,555만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-4 11.27 10:00",
+  "deadline_text": "D-3 11.27 10:00",
   "open_text": "11.27 11:00",
   "status": "입찰중",
   "cats": [
@@ -1797,7 +2149,7 @@
   "budget_text": "1억 5,655만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-4 11.27 10:00",
+  "deadline_text": "D-3 11.27 10:00",
   "open_text": "11.27 11:00",
   "status": "입찰중",
   "cats": [
@@ -1819,7 +2171,7 @@
   "budget_text": "15억",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-8 12.01 16:00",
+  "deadline_text": "D-7 12.01 16:00",
   "open_text": "12.01 17:00",
   "status": "입찰중",
   "cats": [
@@ -1842,7 +2194,7 @@
   "budget_text": "4억 3,580만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-3 11.26 12:00",
+  "deadline_text": "D-2 11.26 12:00",
   "open_text": "11.26 13:00",
   "status": "입찰중",
   "cats": [
@@ -1865,7 +2217,7 @@
   "budget_text": "1억 1,013만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.18",
-  "deadline_text": "D-3 11.26 16:00",
+  "deadline_text": "D-2 11.26 16:00",
   "open_text": "11.26 17:00",
   "status": "입찰중",
   "cats": [
@@ -1887,7 +2239,7 @@
   "budget_text": "1억 7,107만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.18",
-  "deadline_text": "D-1 11.24 10:00",
+  "deadline_text": "D-DAY 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1910,7 +2262,7 @@
   "budget_text": "9,237만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-1 11.24 10:00",
+  "deadline_text": "D-DAY 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -1932,7 +2284,7 @@
   "budget_text": "5,400만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-1 11.24 10:00",
+  "deadline_text": "D-DAY 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -2043,7 +2395,7 @@
   "budget_text": "3억 9,193만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-15 12.08 10:00",
+  "deadline_text": "D-14 12.08 10:00",
   "open_text": "12.08 11:00",
   "status": "입찰중",
   "cats": [
@@ -2533,7 +2885,7 @@
   "posted": "26.10.29",
   "deadline_text": "마감 11.17 11:00",
   "open_text": "11.17 12:00",
-  "status": "개찰대기",
+  "status": "개찰완료 참가 2",
   "cats": [
    "한전KDN(주)",
    "운영 및 유지관리"
@@ -2700,72 +3052,6 @@
   ]
  },
  {
-  "kind": "bid",
-  "no": "R26BK01788617",
-  "order": "000",
-  "title": "모래불지구 풍수해생활권 종합정비사업 GIS DB구축 용역",
-  "org": "경상남도 양산시",
-  "phone": "055-392-2283",
-  "conditions": "재입찰 허용 · 업종 제한 없음",
-  "budget_text": "8,110만",
-  "contract": "수의계약 소액수의견적",
-  "posted": "26.10.23",
-  "deadline_text": "마감 10.29 10:00",
-  "open_text": "10.29 11:00",
-  "status": "개찰완료 참가 6",
-  "cats": [
-   "측량"
-  ],
-  "presignal": "https://presignal.co.kr/p/R26BK01788617",
-  "keywords": [
-   "GIS DB"
-  ]
- },
- {
-  "kind": "bid",
-  "no": "R26BK01787903",
-  "order": "000",
-  "title": "2026년 동대문구 사각형거 보수공사 GIS DB 구축 용역",
-  "org": "서울특별시 동대문구",
-  "phone": "02-2127-4532",
-  "conditions": "재입찰 허용",
-  "budget_text": "1억 1,626만",
-  "contract": "제한경쟁 적격심사제",
-  "posted": "26.10.23",
-  "deadline_text": "마감 11.03 15:00",
-  "open_text": "11.03 16:00",
-  "status": "개찰완료 참가 10",
-  "cats": [
-   "측량"
-  ],
-  "presignal": "https://presignal.co.kr/p/R26BK01787903",
-  "keywords": [
-   "GIS DB"
-  ]
- },
- {
-  "kind": "bid",
-  "no": "R26BK01787843",
-  "order": "000",
-  "title": "이문-2 소구역 하수관로 정비공사(1권역, 2차분) GIS DB 구축 용역",
-  "org": "서울특별시 동대문구",
-  "phone": "02-2127-4532",
-  "conditions": "재입찰 허용",
-  "budget_text": "1억 5,071만",
-  "contract": "제한경쟁 적격심사제",
-  "posted": "26.10.23",
-  "deadline_text": "마감 11.03 14:00",
-  "open_text": "11.03 15:00",
-  "status": "개찰완료 참가 10",
-  "cats": [
-   "측량"
-  ],
-  "presignal": "https://presignal.co.kr/p/R26BK01787843",
-  "keywords": [
-   "GIS DB"
-  ]
- },
- {
   "kind": "prespec",
   "no": "R26BD00303729",
   "order": "000",
@@ -2775,7 +3061,7 @@
   "biz_type": "SI",
   "budget_text": "4억 4,810만",
   "posted": "26.11.20",
-  "deadline_text": "D-2",
+  "deadline_text": "D-1",
   "status": "사전규격",
   "cats": [
    "SI"
@@ -2795,7 +3081,7 @@
   "biz_type": "SI",
   "budget_text": "1억 9,956만",
   "posted": "26.11.18",
-  "deadline_text": "D-DAY",
+  "deadline_text": "마감",
   "status": "사전규격",
   "cats": [
    "SI"
@@ -2816,7 +3102,7 @@
   "biz_type": "SM",
   "budget_text": "6억 9,832만",
   "posted": "26.11.18",
-  "deadline_text": "D-DAY",
+  "deadline_text": "마감",
   "status": "사전규격",
   "cats": [
    "SM"
@@ -3147,44 +3433,70 @@
   ]
  },
  {
-  "kind": "prespec",
-  "no": "R26BD00289828",
+  "kind": "bid",
+  "no": "R26BK01849322",
   "order": "000",
-  "title": "2026년 사각형거 보수공사 GIS DB 구축 및 라이다 측량 용역",
-  "org": "서울특별시 노원구",
-  "owner": "김지연",
-  "biz_type": "SI",
-  "budget_text": "1억 7,651만",
-  "posted": "26.10.23",
-  "deadline_text": "마감",
-  "status": "사전규격",
+  "title": "2027년 스마트공간정보플랫폼 운영 및 유지관리",
+  "org": "경상남도",
+  "phone": "070-4056-6754",
+  "conditions": "공동수급 허용",
+  "budget_text": "2억 7,239만",
+  "contract": "제한경쟁 협상에의한계약",
+  "posted": "26.11.23",
+  "deadline_text": "D-10 12.04 10:00",
+  "open_text": "12.04 11:00",
+  "status": "입찰중",
   "cats": [
-   "SI"
+   "운영 및 유지관리"
   ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00289828",
+  "presignal": "https://presignal.co.kr/p/R26BK01849322",
   "keywords": [
-   "GIS DB",
-   "라이다"
+   "공간정보"
   ]
  },
  {
-  "kind": "prespec",
-  "no": "R26BD00289383",
+  "kind": "bid",
+  "no": "R26BK01848643",
   "order": "000",
-  "title": "서부처리구역 하수관로 정비사업(2단계-5공구) GIS DB구축용역",
-  "org": "제주특별자치도교육청",
-  "owner": "송하나",
-  "biz_type": "SI",
-  "budget_text": "1억 5,684만",
-  "posted": "26.10.23",
-  "deadline_text": "마감",
-  "status": "사전규격",
+  "title": "2027년 원주시 공간정보시스템 유지관리 용역",
+  "org": "강원특별자치도 원주시",
+  "phone": "033-737-2434",
+  "conditions": "재입찰 허용 · 업종 제한 없음",
+  "budget_text": "4,985만",
+  "contract": "수의계약 수의시담",
+  "posted": "26.11.23",
+  "deadline_text": "마감 11.23 16:00",
+  "open_text": "11.23 17:00",
+  "status": "개찰대기",
   "cats": [
-   "SI"
+   "운영 및 유지관리"
   ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00289383",
+  "presignal": "https://presignal.co.kr/p/R26BK01848643",
   "keywords": [
-   "GIS DB"
+   "공간정보"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01848373",
+  "order": "000",
+  "title": "2027년 IFEZ 3차원 공간정보서비스 유지보수 용역(재공고)",
+  "org": "재공고",
+  "phone": "032-453-7163",
+  "conditions": "재입찰 허용",
+  "budget_text": "6,900만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.23",
+  "deadline_text": "D-7 12.01 10:00",
+  "open_text": "12.01 11:00",
+  "status": "입찰중",
+  "cats": [
+   "인천광역시 경제자유구역청",
+   "학술연구서비스"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01848373",
+  "keywords": [
+   "공간정보"
   ]
  },
  {
@@ -3264,7 +3576,7 @@
   "budget_text": "2억 2,966만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3287,7 +3599,7 @@
   "budget_text": "5,435만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-2 11.25 10:00",
+  "deadline_text": "D-1 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -3309,7 +3621,7 @@
   "budget_text": "5,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-3 11.26 10:00",
+  "deadline_text": "D-2 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -3331,7 +3643,7 @@
   "budget_text": "1억 5,928만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-9 12.02 10:00",
+  "deadline_text": "D-8 12.02 10:00",
   "open_text": "12.02 11:00",
   "status": "입찰중",
   "cats": [
@@ -3353,7 +3665,7 @@
   "budget_text": "1억 8,026만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3375,7 +3687,7 @@
   "budget_text": "1억 945만",
   "contract": "일반경쟁 협상에의한계약",
   "posted": "26.11.19",
-  "deadline_text": "D-8 12.01 17:00",
+  "deadline_text": "D-7 12.01 17:00",
   "open_text": "12.01 18:00",
   "status": "입찰중",
   "cats": [
@@ -3398,7 +3710,7 @@
   "budget_text": "5억 6,379만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.18",
-  "deadline_text": "D-8 12.01 15:00",
+  "deadline_text": "D-7 12.01 15:00",
   "open_text": "12.01 16:00",
   "status": "입찰중",
   "cats": [
@@ -3420,7 +3732,7 @@
   "budget_text": "3억 6,115만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.18",
-  "deadline_text": "D-22 12.15 10:00",
+  "deadline_text": "D-21 12.15 10:00",
   "open_text": "12.15 11:00",
   "status": "입찰중",
   "cats": [
@@ -3442,7 +3754,7 @@
   "budget_text": "1억 1,439만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.18",
-  "deadline_text": "D-10 12.03 10:00",
+  "deadline_text": "D-9 12.03 10:00",
   "open_text": "12.03 11:00",
   "status": "입찰중",
   "cats": [
@@ -3464,7 +3776,7 @@
   "budget_text": "3억 6,381만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.18",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3486,7 +3798,7 @@
   "budget_text": "13억 3,748만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.17",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3509,7 +3821,7 @@
   "budget_text": "1억 5,632만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.17",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3554,7 +3866,7 @@
   "budget_text": "1억 1,812만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.17",
-  "deadline_text": "D-2 11.25 10:00",
+  "deadline_text": "D-1 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -3576,7 +3888,7 @@
   "budget_text": "1억 5,050만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.16",
-  "deadline_text": "D-4 11.27 10:00",
+  "deadline_text": "D-3 11.27 10:00",
   "open_text": "11.27 11:00",
   "status": "입찰중",
   "cats": [
@@ -3599,7 +3911,7 @@
   "budget_text": "1억 2,515만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.15",
-  "deadline_text": "D-14 12.07 17:00",
+  "deadline_text": "D-13 12.07 17:00",
   "open_text": "12.07 18:00",
   "status": "입찰중",
   "cats": [
@@ -3621,7 +3933,7 @@
   "budget_text": "8,949만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.13",
-  "deadline_text": "D-1 11.24 16:00",
+  "deadline_text": "D-DAY 11.24 16:00",
   "open_text": "11.26 17:00",
   "status": "입찰중",
   "cats": [
@@ -3665,7 +3977,7 @@
   "budget_text": "1억 5,159만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.12",
-  "deadline_text": "D-2 11.25 10:00",
+  "deadline_text": "D-1 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -3688,7 +4000,7 @@
   "budget_text": "1억 816만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-9 12.02 10:00",
+  "deadline_text": "D-8 12.02 10:00",
   "open_text": "12.02 11:00",
   "status": "입찰중",
   "cats": [
@@ -3710,7 +4022,7 @@
   "budget_text": "1억 1,585만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-9 12.02 10:00",
+  "deadline_text": "D-8 12.02 10:00",
   "open_text": "12.02 11:00",
   "status": "입찰중",
   "cats": [
@@ -3754,7 +4066,7 @@
   "budget_text": "1억 5,094만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-1 11.24 10:00",
+  "deadline_text": "D-DAY 11.24 10:00",
   "open_text": "11.24 11:00",
   "status": "입찰중",
   "cats": [
@@ -3777,7 +4089,7 @@
   "budget_text": "1억 4,786만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-1 11.24 17:00",
+  "deadline_text": "D-DAY 11.24 17:00",
   "open_text": "11.24 18:00",
   "status": "입찰중",
   "cats": [
@@ -3799,7 +4111,7 @@
   "budget_text": "3억 9,522만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.10",
-  "deadline_text": "D-11 12.04 10:00",
+  "deadline_text": "D-10 12.04 10:00",
   "open_text": "12.04 11:00",
   "status": "입찰중",
   "cats": [
@@ -3821,7 +4133,7 @@
   "budget_text": "3억 6,505만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.10",
-  "deadline_text": "D-9 12.02 10:00",
+  "deadline_text": "D-8 12.02 10:00",
   "open_text": "12.02 11:00",
   "status": "입찰중",
   "cats": [
@@ -3909,7 +4221,7 @@
   "budget_text": "1억 1,409만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.05",
-  "deadline_text": "D-8 12.01 10:00",
+  "deadline_text": "D-7 12.01 10:00",
   "open_text": "12.01 11:00",
   "status": "입찰중",
   "cats": [
@@ -3931,7 +4243,7 @@
   "budget_text": "35억 5,809만",
   "contract": "일반경쟁 협상에의한계약",
   "posted": "26.11.05",
-  "deadline_text": "D-15 12.08 10:00",
+  "deadline_text": "D-14 12.08 10:00",
   "open_text": "12.08 11:00",
   "status": "입찰중",
   "cats": [
@@ -3953,7 +4265,7 @@
   "budget_text": "1억 9,000만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.05",
-  "deadline_text": "D-3 11.26 10:00",
+  "deadline_text": "D-2 11.26 10:00",
   "open_text": "11.26 11:00",
   "status": "입찰중",
   "cats": [
@@ -3977,7 +4289,7 @@
   "posted": "26.11.04",
   "deadline_text": "마감 11.16 10:00",
   "open_text": "11.16 11:00",
-  "status": "개찰대기",
+  "status": "개찰완료 참가 2",
   "cats": [
    "운영 및 유지관리"
   ],
@@ -4020,7 +4332,7 @@
   "budget_text": "1억 6,974만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.03",
-  "deadline_text": "D-2 11.25 10:00",
+  "deadline_text": "D-1 11.25 10:00",
   "open_text": "11.25 11:00",
   "status": "입찰중",
   "cats": [
@@ -4129,7 +4441,7 @@
   "biz_type": "기타",
   "budget_text": "1억",
   "posted": "26.11.19",
-  "deadline_text": "D-1",
+  "deadline_text": "D-DAY",
   "status": "사전규격",
   "cats": [
    "기타"
@@ -4149,7 +4461,7 @@
   "biz_type": "기타",
   "budget_text": "1억 3,200만",
   "posted": "26.11.17",
-  "deadline_text": "D-DAY",
+  "deadline_text": "마감",
   "status": "사전규격",
   "cats": [
    "기타"
@@ -4740,63 +5052,49 @@
   ]
  },
  {
-  "kind": "prespec",
-  "no": "R26BD00289784",
+  "kind": "bid",
+  "no": "R26BK01848910",
   "order": "000",
-  "title": "2027년 성남시 공간정보시스템 통합유지관리 용역",
-  "org": "경기도 성남시",
-  "owner": "오윤범",
-  "biz_type": "SM",
-  "budget_text": "1억 6,974만",
-  "posted": "26.10.23",
-  "deadline_text": "마감",
-  "status": "사전규격",
+  "title": "관내 사각형거 보수공사 3차원 라이다 측량 및 DB 구축 용역",
+  "org": "재공고",
+  "phone": "02-2627-1207",
+  "conditions": "—",
+  "budget_text": "1억 970만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.23",
+  "deadline_text": "D-3 11.27 10:00",
+  "open_text": "11.27 11:00",
+  "status": "입찰중",
   "cats": [
-   "SM"
+   "서울특별시 금천구",
+   "측량"
   ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00289784",
+  "presignal": "https://presignal.co.kr/p/R26BK01848910",
   "keywords": [
-   "공간정보"
+   "라이다"
   ]
  },
  {
-  "kind": "prespec",
-  "no": "R26BD00289566",
+  "kind": "bid",
+  "no": "R26BK01848840",
   "order": "000",
-  "title": "2027년 공간정보시스템(누리맵) 통합유지관리 용역",
-  "org": "경기도 파주시",
-  "owner": "장민우",
-  "biz_type": "SM",
-  "budget_text": "1억 5,159만",
-  "posted": "26.10.23",
-  "deadline_text": "마감",
-  "status": "사전규격",
+  "title": "2026년 하수사업 맨홀 라이다 측량 및 DB 구축 용역",
+  "org": "재공고",
+  "phone": "02-2627-1207",
+  "conditions": "—",
+  "budget_text": "7,147만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.23",
+  "deadline_text": "D-3 11.27 10:00",
+  "open_text": "11.27 11:00",
+  "status": "입찰중",
   "cats": [
-   "SM"
+   "서울특별시 금천구",
+   "측량"
   ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00289566",
+  "presignal": "https://presignal.co.kr/p/R26BK01848840",
   "keywords": [
-   "공간정보"
-  ]
- },
- {
-  "kind": "prespec",
-  "no": "R26BD00289453",
-  "order": "000",
-  "title": "2027년 공간정보시스템 HW，상용SW 유지관리 용역",
-  "org": "제주특별자치도교육청",
-  "owner": "송선아",
-  "biz_type": "SM",
-  "budget_text": "2억 2,966만",
-  "posted": "26.10.23",
-  "deadline_text": "마감",
-  "status": "사전규격",
-  "cats": [
-   "SM"
-  ],
-  "presignal": "https://presignal.co.kr/p/s/R26BD00289453",
-  "keywords": [
-   "공간정보"
+   "라이다"
   ]
  },
  {
@@ -4812,7 +5110,7 @@
   "posted": "26.11.17",
   "deadline_text": "마감 11.23 10:00",
   "open_text": "11.23 11:00",
-  "status": "개찰대기",
+  "status": "개찰완료 참가 4",
   "cats": [
    "측량"
   ],
@@ -4834,7 +5132,7 @@
   "posted": "26.11.17",
   "deadline_text": "마감 11.23 10:00",
   "open_text": "11.23 11:00",
-  "status": "개찰대기",
+  "status": "유찰 참가 4",
   "cats": [
    "측량"
   ],
@@ -4856,7 +5154,7 @@
   "posted": "26.11.17",
   "deadline_text": "마감 11.23 10:00",
   "open_text": "11.23 11:00",
-  "status": "개찰대기",
+  "status": "유찰 참가 4",
   "cats": [
    "측량"
   ],
@@ -4897,7 +5195,7 @@
   "biz_type": "SI",
   "budget_text": "1억 561만",
   "posted": "26.11.23",
-  "deadline_text": "D-5",
+  "deadline_text": "D-4",
   "status": "사전규격",
   "cats": [
    "SI"

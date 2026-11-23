@@ -107,15 +107,6 @@
   "budget": "1억~5억",
   "method": null
  },
- "R26BD00289305": {
-  "org": "충청남도 공주시",
-  "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-10-28 23:59",
-  "open": null,
-  "budget": "1억~5억",
-  "method": null
- },
  "R26BK01822074": {
   "org": "경상북도 구미시",
   "biz": "용역",
@@ -133,6 +124,15 @@
   "open": "2026-11-04 11:00",
   "budget": "1억 미만",
   "method": "수의계약"
+ },
+ "R26BK01849559": {
+  "org": "경기도 광명시",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "-",
+  "open": "2026-12-04 18:00",
+  "budget": "1억~5억",
+  "method": "일반경쟁"
  },
  "R26BK01845405": {
   "org": "부산광역시",
@@ -287,6 +287,24 @@
   "budget": "1억~5억",
   "method": "제한경쟁"
  },
+ "R26BD00305038": {
+  "org": "(재)광주미래차모빌리티진흥원",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-11-29 23:59",
+  "open": null,
+  "budget": "1억 미만",
+  "method": null
+ },
+ "R26BD00304766": {
+  "org": "제주한라대학교산학협력단",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-11-26 23:59",
+  "open": null,
+  "budget": "1억~5억",
+  "method": null
+ },
  "R26BD00303189": {
   "org": "전북특별자치도 익산시",
   "biz": "용역",
@@ -431,6 +449,18 @@
   "budget": "1억 미만",
   "method": null
  },
+ "R26BK01850551": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "R26BK01849618": {
+  "org": "충청남도 천안시 공원녹지사업본부",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-11-27 10:00",
+  "open": "2026-11-27 11:00",
+  "budget": "1억 미만",
+  "method": "수의계약"
+ },
  "R26BK01843237": {
   "org": "경기도 화성시 공원녹지사업소",
   "biz": "용역",
@@ -556,6 +586,60 @@
   "open": "2026-11-03 11:00",
   "budget": "1억 미만",
   "method": "수의계약"
+ },
+ "R26BD00305174": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "R26BD00305171": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "R26BD00305168": {
+  "org": "경기도 김포시",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-11-26 23:59",
+  "open": null,
+  "budget": "5억~20억",
+  "method": null
+ },
+ "R26BD00305167": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "R26BD00305163": {
+  "org": "경기도 김포시",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-11-26 23:59",
+  "open": null,
+  "budget": "1억~5억",
+  "method": null
+ },
+ "R26BD00305160": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "R26BD00305157": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "R26BD00305153": {
+  "org": "경기도 김포시",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-11-26 23:59",
+  "open": null,
+  "budget": "5억~20억",
+  "method": null
+ },
+ "R26BD00305150": {
+  "org": "경기도 김포시",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-11-26 23:59",
+  "open": null,
+  "budget": "5억~20억",
+  "method": null
+ },
+ "R26BD00305147": {
+  "error": "HTTP Error 429: Too Many Requests"
  },
  "R26BD00296164": {
   "org": "경상남도 창원시 진해구",
@@ -700,6 +784,27 @@
   "open": "2026-11-03 11:00",
   "budget": "1억 미만",
   "method": "수의계약"
+ },
+ "R26BK01847039": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "R26BK01847795": {
+  "org": "전라남도 곡성군",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-12-01 14:00",
+  "open": "2026-12-01 15:00",
+  "budget": "1억~5억",
+  "method": "일반경쟁"
+ },
+ "R26BK01847755": {
+  "org": "전라남도 곡성군",
+  "biz": "용역",
+  "posted": "2026-11-23",
+  "deadline": "2026-12-01 14:00",
+  "open": "2026-12-01 15:00",
+  "budget": "1억~5억",
+  "method": "일반경쟁"
  },
  "R26BK01843782": {
   "org": "경기도 이천시 환경수자원국 수도과",
@@ -1115,33 +1220,6 @@
   "budget": "1억 미만",
   "method": "수의계약"
  },
- "R26BK01788617": {
-  "org": "경상남도 양산시",
-  "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-10-29 10:00",
-  "open": "2026-10-29 11:00",
-  "budget": "1억 미만",
-  "method": "수의계약"
- },
- "R26BK01787903": {
-  "org": "서울특별시 동대문구",
-  "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-11-03 15:00",
-  "open": "2026-11-03 16:00",
-  "budget": "1억~5억",
-  "method": "제한경쟁"
- },
- "R26BK01787843": {
-  "org": "서울특별시 동대문구",
-  "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-11-03 14:00",
-  "open": "2026-11-03 15:00",
-  "budget": "1억~5억",
-  "method": "제한경쟁"
- },
  "R26BD00303729": {
   "org": "경기도 여주시",
   "biz": "용역",
@@ -1313,23 +1391,26 @@
   "budget": "1억~5억",
   "method": null
  },
- "R26BD00289828": {
-  "org": "서울특별시 노원구",
+ "R26BK01849322": {
+  "org": "경상남도",
   "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-10-28 23:59",
-  "open": null,
+  "posted": "2026-11-23",
+  "deadline": "2026-12-04 10:00",
+  "open": "2026-12-04 11:00",
   "budget": "1억~5억",
-  "method": null
+  "method": "제한경쟁"
  },
- "R26BD00289383": {
-  "org": "제주특별자치도교육청",
+ "R26BK01848643": {
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "R26BK01848373": {
+  "org": "인천광역시 경제자유구역청",
   "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-10-28 23:59",
-  "open": null,
-  "budget": "1억~5억",
-  "method": null
+  "posted": "2026-11-23",
+  "deadline": "2026-12-01 10:00",
+  "open": "2026-12-01 11:00",
+  "budget": "1억 미만",
+  "method": "수의계약"
  },
  "R26BK01843660": {
   "org": "광주과학기술원",
@@ -1988,32 +2069,17 @@
   "budget": "1억~5억",
   "method": null
  },
- "R26BD00289784": {
-  "org": "경기도 성남시",
+ "R26BK01848910": {
+  "org": "서울특별시 금천구",
   "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-10-28 23:59",
-  "open": null,
+  "posted": "2026-11-23",
+  "deadline": "2026-11-27 10:00",
+  "open": "2026-11-27 11:00",
   "budget": "1억~5억",
-  "method": null
+  "method": "수의계약"
  },
- "R26BD00289566": {
-  "org": "경기도 파주시",
-  "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-10-28 23:59",
-  "open": null,
-  "budget": "1억~5억",
-  "method": null
- },
- "R26BD00289453": {
-  "org": "제주특별자치도교육청",
-  "biz": "용역",
-  "posted": "2026-10-23",
-  "deadline": "2026-10-28 23:59",
-  "open": null,
-  "budget": "1억~5억",
-  "method": null
+ "R26BK01848840": {
+  "error": "HTTP Error 429: Too Many Requests"
  },
  "R26BK01834708": {
   "org": "서울특별시 금천구",
