@@ -57,9 +57,9 @@
   "budget_text": "1억 2,100만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.18",
-  "deadline_text": "D-DAY 11.24 10:00",
+  "deadline_text": "마감 11.24 10:00",
   "open_text": "11.24 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "기타"
   ],
@@ -1151,9 +1151,9 @@
   "budget_text": "5,000만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-DAY 11.24 10:00",
+  "deadline_text": "마감 11.24 10:00",
   "open_text": "11.24 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "폐기물 처리"
   ],
@@ -1217,9 +1217,9 @@
   "budget_text": "22억 5,118만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.16",
-  "deadline_text": "D-DAY 11.24 10:00",
+  "deadline_text": "마감 11.24 10:00",
   "open_text": "11.24 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "시설물관리, 청소 등"
   ],
@@ -1239,9 +1239,9 @@
   "budget_text": "25억 5,381만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.16",
-  "deadline_text": "D-DAY 11.24 10:00",
+  "deadline_text": "마감 11.24 10:00",
   "open_text": "11.24 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "시설물관리, 청소 등"
   ],
@@ -1964,6 +1964,50 @@
  },
  {
   "kind": "bid",
+  "no": "R26BK01851657",
+  "order": "000",
+  "title": "황산 징의 농어촌마을하수도 정비사업 GIS DB 구축용역",
+  "org": "전라남도 해남군",
+  "phone": "061-530-5278",
+  "conditions": "재입찰 허용 · 업종 제한 없음",
+  "budget_text": "4,142만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.24",
+  "deadline_text": "D-6 11.30 10:00",
+  "open_text": "11.30 11:00",
+  "status": "입찰중",
+  "cats": [
+   "측량"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01851657",
+  "keywords": [
+   "GIS DB"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01851025",
+  "order": "000",
+  "title": "현산 구산 농어촌마을하수도 정비사업 GIS DB 구축용역",
+  "org": "전라남도 해남군",
+  "phone": "061-530-5278",
+  "conditions": "재입찰 허용 · 업종 제한 없음",
+  "budget_text": "7,050만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.24",
+  "deadline_text": "D-6 11.30 10:00",
+  "open_text": "11.30 11:00",
+  "status": "입찰중",
+  "cats": [
+   "측량"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01851025",
+  "keywords": [
+   "GIS DB"
+  ]
+ },
+ {
+  "kind": "bid",
   "no": "R26BK01847039",
   "order": "000",
   "title": "인주면 관암1리 상수도 배수지관 매설공사 GIS DB구축 용역",
@@ -2239,9 +2283,9 @@
   "budget_text": "1억 7,107만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.18",
-  "deadline_text": "D-DAY 11.24 10:00",
+  "deadline_text": "마감 11.24 10:00",
   "open_text": "11.24 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "기타",
    "기타"
@@ -2262,9 +2306,9 @@
   "budget_text": "9,237만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-DAY 11.24 10:00",
+  "deadline_text": "마감 11.24 10:00",
   "open_text": "11.24 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "DB구축 및 자료입력"
   ],
@@ -2284,9 +2328,9 @@
   "budget_text": "5,400만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.18",
-  "deadline_text": "D-DAY 11.24 10:00",
+  "deadline_text": "마감 11.24 10:00",
   "open_text": "11.24 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "측량"
   ],
@@ -3047,6 +3091,26 @@
    "측량"
   ],
   "presignal": "https://presignal.co.kr/p/R26BK01789800",
+  "keywords": [
+   "GIS DB"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305300",
+  "order": "000",
+  "title": "칠곡군(왜관읍 등) 노후관로 정비공사 GIS DB 구축 용역",
+  "org": "경상북도 칠곡군 수도사업소",
+  "owner": "강신승",
+  "biz_type": "SI",
+  "budget_text": "1억 3,052만",
+  "posted": "26.11.24",
+  "deadline_text": "D-5",
+  "status": "사전규격",
+  "cats": [
+   "SI"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305300",
   "keywords": [
    "GIS DB"
   ]
@@ -4066,9 +4130,9 @@
   "budget_text": "1억 5,094만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.11",
-  "deadline_text": "D-DAY 11.24 10:00",
+  "deadline_text": "마감 11.24 10:00",
   "open_text": "11.24 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "경기도 이천시",
    "운영 및 유지관리"
@@ -4427,6 +4491,26 @@
    "운영 및 유지관리"
   ],
   "presignal": "https://presignal.co.kr/p/R26BK01777335",
+  "keywords": [
+   "공간정보"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00305341",
+  "order": "000",
+  "title": "AI 기반 공간정보 플랫폼 고도화 감리",
+  "org": "한국도로공사",
+  "owner": "",
+  "biz_type": "SI",
+  "budget_text": "1억 4,182만",
+  "posted": "26.11.24",
+  "deadline_text": "D-5",
+  "status": "사전규격",
+  "cats": [
+   "SI"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00305341",
   "keywords": [
    "공간정보"
   ]
