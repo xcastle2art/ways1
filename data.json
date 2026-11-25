@@ -46,9 +46,9 @@
    "도보네트워크",
    "GIS DB"
   ],
-  "excluded_items": 123,
-  "kept_items": 137,
-  "window_items": 260,
+  "excluded_items": 125,
+  "kept_items": 139,
+  "window_items": 264,
   "samples": [
    {
     "no": "R26BK01850551",
@@ -233,9 +233,9 @@
   {
    "code": "충남",
    "name": "충남",
-   "count": 6,
+   "count": 7,
    "bids": 4,
-   "prespec": 2,
+   "prespec": 3,
    "urgent": 0
   },
   {
@@ -249,8 +249,8 @@
   {
    "code": "전남",
    "name": "전남",
-   "count": 2,
-   "bids": 0,
+   "count": 3,
+   "bids": 1,
    "prespec": 2,
    "urgent": 0
   },
@@ -312,7 +312,7 @@
   },
   {
    "keyword": "공원관리",
-   "bids": 1,
+   "bids": 2,
    "prespec": 1
   },
   {
@@ -323,7 +323,7 @@
   {
    "keyword": "도로대장",
    "bids": 6,
-   "prespec": 0
+   "prespec": 1
   },
   {
    "keyword": "공간정보",
@@ -3439,6 +3439,76 @@
    "owner": "이가영"
   },
   {
+   "id": "b-R26BK01854588",
+   "kind": "bid",
+   "title": "2027년 동물성잔재물 운반·처리 용역",
+   "no": "R26BK01854588",
+   "order": "000",
+   "org": "전남광주통합특별시 우치공원관리사무소",
+   "region": "전남",
+   "sido": "전남",
+   "region_detail": "전남광주통합특별시 우치공원관리사무소",
+   "posted": "2026-11-25T00:00+09:00",
+   "posted_label": "11-25",
+   "deadline": "2026-12-01T10:00+09:00",
+   "deadline_label": "2026-12-01(화) 10:00",
+   "deadline_short": "12.01(화) 10:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": null,
+   "open_at": "2026-12-01T11:00+09:00",
+   "open_label": "12.01 11:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 35800000,
+   "budget_text": "3,580만",
+   "price_est": "32545455",
+   "base_amount": null,
+   "lowest_rate": "88",
+   "contract": "수의계약 소액수의견적",
+   "biz": "용역",
+   "conditions": "재입찰 허용",
+   "region_limit": "전남광주통합특별시",
+   "industry_limit": "폐기물수집·운반업(사업장비배출시설계폐기물)",
+   "attachments": [
+    {
+     "name": "2-2. [용역] 수의견적 공고문(2027년 동물성 잔재물 운반처리용역).hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01854588&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    },
+    {
+     "name": "2027년 동물성잔재물 처리용역 단가계약서 특수조건.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01854588&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
+    },
+    {
+     "name": "2027년 동물성잔재물 처리용역 과업지시서.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01854588&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03"
+    },
+    {
+     "name": "2-2. [용역] 수의견적 공고문(2027년 동물성 잔재물 운반처리용역).pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01854588&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01854588&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01854588",
+    "data00": "https://work.00data.kr/projects/R26BK01854588"
+   },
+   "keywords": [
+    "공원관리"
+   ],
+   "note": "",
+   "owner": ""
+  },
+  {
    "id": "b-R26BK01829317",
    "kind": "bid",
    "title": "2026년 공원관리2부 어린이놀이터 모래 및 탄성포장 소독 용역",
@@ -3899,7 +3969,7 @@
    },
    "result": {
     "state": "opened",
-    "participants": 1,
+    "participants": 3,
     "winner": null,
     "amount": null,
     "rate": null,
@@ -3992,6 +4062,58 @@
    ],
    "note": "",
    "owner": ""
+  },
+  {
+   "id": "ps-R26BD00306212",
+   "kind": "prespec",
+   "title": "논산시 도로대장 전산화 용역[장기계속](협상에 의한 계약)",
+   "no": "R26BD00306212",
+   "order": "000",
+   "org": "충청남도 논산시",
+   "region": "충남",
+   "sido": "충남",
+   "region_detail": "충청남도 논산시",
+   "posted": "2026-11-25T00:00+09:00",
+   "posted_label": "11-25",
+   "deadline": "2026-11-30T23:59+09:00",
+   "deadline_label": "2026-11-30(월) 23:59",
+   "deadline_short": "11.30(월) 23:59",
+   "deadline_kind": "의견등록 마감",
+   "deadline_note": null,
+   "open_at": null,
+   "open_label": "",
+   "status": "의견등록중",
+   "progress": null,
+   "budget": 779030000,
+   "budget_text": "7억 7,903만",
+   "price_est": null,
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "",
+   "biz": "용역",
+   "conditions": "",
+   "region_limit": null,
+   "industry_limit": null,
+   "attachments": [],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "none"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00306212",
+    "g2b_kind": "나라장터 사전규격 상세",
+    "presignal": "https://presignal.co.kr/p/s/R26BD00306212",
+    "data00": ""
+   },
+   "keywords": [
+    "도로대장"
+   ],
+   "note": "",
+   "owner": "박윤희"
   },
   {
    "id": "b-R26BK01853325",
@@ -4235,7 +4357,7 @@
    "open_at": "2026-11-23T17:00+09:00",
    "open_label": "11.23 17:00",
    "status": "개찰완료",
-   "progress": null,
+   "progress": "개찰완료",
    "budget": 49850000,
    "budget_text": "4,985만",
    "price_est": "45318182",
@@ -4254,12 +4376,12 @@
    },
    "result": {
     "state": "opened",
-    "participants": null,
-    "winner": null,
-    "amount": null,
-    "rate": null,
+    "participants": 1,
+    "winner": "주식회사 커넥트플로우",
+    "amount": 45360000.0,
+    "rate": 91.543,
     "opened_at": "2026-11-23T17:00+09:00",
-    "note": "개찰은 완료됐으나 참가·낙찰 정보가 수집원에 없음"
+    "note": null
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01848643&bidPbancOrd=000",
@@ -9142,15 +9264,15 @@
   }
  ],
  "counts": {
-  "total": 137,
-  "bids": 84,
-  "prespec": 53,
+  "total": 139,
+  "bids": 85,
+  "prespec": 54,
   "opened": 9,
   "failed": 21,
-  "attachments": 88,
+  "attachments": 89,
   "provinces": 18,
   "urgent": 11,
-  "open_bids": 47,
-  "open_prespec": 5
+  "open_bids": 48,
+  "open_prespec": 6
  }
 }

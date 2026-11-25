@@ -1034,6 +1034,29 @@
  },
  {
   "kind": "bid",
+  "no": "R26BK01854588",
+  "order": "000",
+  "title": "2027년 동물성잔재물 운반·처리 용역",
+  "org": "전남광주통합특별시 우치공원관리사무소",
+  "phone": "062-613-5862",
+  "conditions": "재입찰 허용",
+  "budget_text": "3,580만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.25",
+  "deadline_text": "D-6 12.01 10:00",
+  "open_text": "12.01 11:00",
+  "status": "입찰중",
+  "cats": [
+   "폐기물 처리",
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01854588",
+  "keywords": [
+   "공원관리"
+  ]
+ },
+ {
+  "kind": "bid",
   "no": "R26BK01829317",
   "order": "000",
   "title": "2026년 공원관리2부 어린이놀이터 모래 및 탄성포장 소독 용역",
@@ -1043,9 +1066,9 @@
   "budget_text": "6,177만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-DAY 11.25 10:00",
+  "deadline_text": "마감 11.25 10:00",
   "open_text": "11.25 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "시설물관리, 청소 등"
   ],
@@ -1173,9 +1196,9 @@
   "budget_text": "14억 9,487만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.17",
-  "deadline_text": "D-DAY 11.25 10:00",
+  "deadline_text": "마감 11.25 10:00",
   "open_text": "11.25 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "시설물관리, 청소 등"
   ],
@@ -1327,9 +1350,9 @@
   "budget_text": "14억 6,771만",
   "contract": "일반경쟁 적격심사제",
   "posted": "26.11.04",
-  "deadline_text": "D-DAY 11.25 10:00",
+  "deadline_text": "마감 11.25 10:00",
   "open_text": "11.25 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "CM"
   ],
@@ -2020,6 +2043,70 @@
   "presignal": "https://presignal.co.kr/p/R26BK01790064",
   "keywords": [
    "도로대장"
+  ]
+ },
+ {
+  "kind": "prespec",
+  "no": "R26BD00306212",
+  "order": "000",
+  "title": "논산시 도로대장 전산화 용역[장기계속](협상에 의한 계약)",
+  "org": "충청남도 논산시",
+  "owner": "박윤희",
+  "biz_type": "기타",
+  "budget_text": "7억 7,903만",
+  "posted": "26.11.25",
+  "deadline_text": "D-5",
+  "status": "사전규격",
+  "cats": [
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/s/R26BD00306212",
+  "keywords": [
+   "도로대장"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01841060",
+  "order": "000",
+  "title": "도갑사 상수도 시설공사 공공측량 및 GIS DB 구축용역",
+  "org": "전라남도 영암군 수도사업소",
+  "phone": "061-470-6711",
+  "conditions": "재입찰 허용",
+  "budget_text": "5,637만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.25",
+  "deadline_text": "D-6 12.01 14:00",
+  "open_text": "12.01 15:00",
+  "status": "입찰중",
+  "cats": [
+   "측량"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01841060",
+  "keywords": [
+   "GIS DB"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01855086",
+  "order": "000",
+  "title": "공도 진사도로(대로3-21호선) 개설공사 외 3개소 GIS DB 구축 용역",
+  "org": "경기도 안성시",
+  "phone": "031-678-2384",
+  "conditions": "재입찰 허용",
+  "budget_text": "5,620만",
+  "contract": "수의계약 소액수의견적",
+  "posted": "26.11.25",
+  "deadline_text": "D-6 12.01 14:00",
+  "open_text": "12.01 15:00",
+  "status": "입찰중",
+  "cats": [
+   "DB구축 및 자료입력"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01855086",
+  "keywords": [
+   "GIS DB"
   ]
  },
  {
@@ -3916,9 +4003,9 @@
   "budget_text": "5,435만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-DAY 11.25 10:00",
+  "deadline_text": "마감 11.25 10:00",
   "open_text": "11.25 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "운영 및 유지관리"
   ],
@@ -4183,9 +4270,9 @@
   "budget_text": "1억 1,812만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.17",
-  "deadline_text": "D-DAY 11.25 10:00",
+  "deadline_text": "마감 11.25 10:00",
   "open_text": "11.25 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "운영 및 유지관리"
   ],
@@ -4272,9 +4359,9 @@
   "budget_text": "1억 5,159만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.12",
-  "deadline_text": "D-DAY 11.25 10:00",
+  "deadline_text": "마감 11.25 10:00",
   "open_text": "11.25 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "경기도 파주시",
    "운영 및 유지관리"
@@ -4627,9 +4714,9 @@
   "budget_text": "1억 6,974만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.03",
-  "deadline_text": "D-DAY 11.25 10:00",
+  "deadline_text": "마감 11.25 10:00",
   "open_text": "11.25 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "운영 및 유지관리"
   ],
