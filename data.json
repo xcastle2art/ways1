@@ -1,15 +1,15 @@
 {
- "updated_at": "2026-11-25T09:00+09:00",
- "updated_label": "2026-11-25(수) 09:00 KST",
+ "updated_at": "2026-11-26T09:00+09:00",
+ "updated_label": "2026-11-26(목) 09:00 KST",
  "window": {
-  "from": "2026-10-26",
-  "to": "2026-11-25",
+  "from": "2026-10-27",
+  "to": "2026-11-26",
   "days": 30
  },
  "scan_basis": {
-  "latest_scan": "2026-11-25 09:00 KST (수요일 오전 스캔 — 신규 12건(입찰 4·사전규격 8, 모두 11-24 게시) · 개찰결과 신규 확정 7건 · 정정 1건)",
+  "latest_scan": "2026-11-26 09:00 KST (목요일 오전 스캔 — 신규 7건(입찰 4·사전규격 3, 모두 11-25 게시) · 개찰결과 신규 확정 1건 · 영동 사전규격 의견 3건 신규)",
   "sources": "presignal.co.kr 14개 키워드 검색(입찰공고·사전규격) + work.00data.kr(공공일감) 상세(첨부·개찰결과) + 나라장터 원문 링크",
-  "note": "공고일 기준 최근 30일(2026-10-26~11-25). 11-25 09:00 스캔에서 11-24 게시분 12건 신규 확인(어제 16시 색인 전이던 건) — 웹에는 제외 키워드(GIS DB·공원녹지 등) 걸러 실제 표시분만 반영. 11-23~11-24 개찰분(대전 토적·이천 공간정보 유지보수 유찰 등) 개찰결과 7건 신규 확정."
+  "note": "공고일 기준 최근 30일(2026-10-27~11-26). 11-26 09:00 스캔에서 11-25 게시분 7건 신규 확인 — 핵심은 대전시 토적·재해취약성 재공고 R26BK01855247이 지역제한 없이(전국입찰) 나온 것. 경남 3차원 실내공간정보(재공고)·산림청 산림공간정보서비스·자율주행 EV 충전기(재공고) 3건 입찰공고, 익산 자율주행(2차) 재게시와 동대문·춘천 GIS DB 사전규격 2건. 영동군 토적 사전규격에는 의견 3건이 마감 직전 등록됨(답변 미등록)."
  },
  "collect_keywords": [
   "토지적성평가",
@@ -46,9 +46,9 @@
    "도보네트워크",
    "GIS DB"
   ],
-  "excluded_items": 125,
+  "excluded_items": 124,
   "kept_items": 139,
-  "window_items": 264,
+  "window_items": 263,
   "samples": [
    {
     "no": "R26BK01850551",
@@ -97,6 +97,15 @@
  },
  "watchlist": [
   {
+   "id": "wl-daejeon",
+   "label": "대전시 토적·재해취약성 재공고",
+   "status": "입찰중(전국)",
+   "tone": "urgent",
+   "meta": "R26BK01855247 / 기초 1억 2,100만·추정 1억 1,000만 / 12-01 10:00 마감·11:00 개찰",
+   "note": "원공고 참가 0 유찰 후 지역제한 없이 재공고 — 경기 소재도 응찰 가능. 입찰 11-27 10:00~12-01 10:00, 공동수급협정 11-30 18:00, 하한 87.745%·종합 95점",
+   "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01855247&bidPbancOrd=000"
+  },
+  {
    "id": "wl-lx",
    "label": "LX 2027 토지적성평가 표준프로그램",
    "status": "재공고",
@@ -110,7 +119,7 @@
    "label": "경산시 토지적성평가 사전규격",
    "status": "본공고 전환 대기",
    "tone": "wait",
-   "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-24 09:00 재확인, 규격서 의견 4건·답변 없음)",
+   "meta": "R26BD00299726 의견등록 11-18 23:59 마감 · 본공고 미전환(11-26 08:59 재확인, 규격서 의견 4건·답변 없음)",
    "note": "사전규격은 게시 상태. 본공고 전환 시 즉시 반영",
    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00299726"
   },
@@ -119,7 +128,7 @@
    "label": "부안군 도로대장",
    "status": "개찰결과 미등록",
    "tone": "wait",
-   "meta": "R26BK01812769 11-18 16:00 개찰(직찰) · 11-24 09:00 재확인에도 개찰결과·협상순위 미등록(6일째)",
+   "meta": "R26BK01812769 11-18 16:00 개찰(직찰) · 11-26 08:59 재확인에도 개찰결과·협상순위·관련공고 없음(8일째)",
    "note": "11-20 14:00 부안군청 제안서 평가 진행 — 협상 결과 등록 여부 계속 추적",
    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01812769&bidPbancOrd=000"
   },
@@ -138,8 +147,8 @@
    "code": "전국",
    "name": "전국·중앙부처",
    "count": 41,
-   "bids": 25,
-   "prespec": 16,
+   "bids": 26,
+   "prespec": 15,
    "urgent": 3
   },
   {
@@ -169,24 +178,24 @@
   {
    "code": "인천",
    "name": "인천",
-   "count": 7,
-   "bids": 4,
-   "prespec": 3,
-   "urgent": 0
-  },
-  {
-   "code": "광주",
-   "name": "광주",
    "count": 6,
    "bids": 3,
    "prespec": 3,
    "urgent": 0
   },
   {
+   "code": "광주",
+   "name": "광주",
+   "count": 7,
+   "bids": 4,
+   "prespec": 3,
+   "urgent": 0
+  },
+  {
    "code": "대전",
    "name": "대전",
-   "count": 3,
-   "bids": 2,
+   "count": 4,
+   "bids": 3,
    "prespec": 1,
    "urgent": 0
   },
@@ -209,10 +218,10 @@
   {
    "code": "경기",
    "name": "경기",
-   "count": 25,
-   "bids": 17,
-   "prespec": 8,
-   "urgent": 3
+   "count": 22,
+   "bids": 15,
+   "prespec": 7,
+   "urgent": 0
   },
   {
    "code": "강원",
@@ -228,7 +237,7 @@
    "count": 1,
    "bids": 0,
    "prespec": 1,
-   "urgent": 1
+   "urgent": 0
   },
   {
    "code": "충남",
@@ -241,10 +250,10 @@
   {
    "code": "전북",
    "name": "전북",
-   "count": 2,
+   "count": 3,
    "bids": 1,
-   "prespec": 1,
-   "urgent": 0
+   "prespec": 2,
+   "urgent": 1
   },
   {
    "code": "전남",
@@ -265,10 +274,10 @@
   {
    "code": "경남",
    "name": "경남",
-   "count": 14,
-   "bids": 8,
+   "count": 15,
+   "bids": 9,
    "prespec": 6,
-   "urgent": 2
+   "urgent": 0
   },
   {
    "code": "제주",
@@ -302,7 +311,7 @@
   },
   {
    "keyword": "자율주행",
-   "bids": 18,
+   "bids": 19,
    "prespec": 16
   },
   {
@@ -322,16 +331,83 @@
   },
   {
    "keyword": "도로대장",
-   "bids": 6,
+   "bids": 5,
    "prespec": 1
   },
   {
    "keyword": "공간정보",
-   "bids": 48,
-   "prespec": 32
+   "bids": 49,
+   "prespec": 31
   }
  ],
  "items": [
+  {
+   "id": "b-R26BK01855247",
+   "kind": "bid",
+   "title": "대전광역시 토지적성평가 및 재해취약성분석 용역(긴급)",
+   "no": "R26BK01855247",
+   "order": "000",
+   "org": "대전광역시",
+   "region": "대전",
+   "sido": "대전",
+   "region_detail": "대전광역시",
+   "posted": "2026-11-25T00:00+09:00",
+   "posted_label": "11-25",
+   "deadline": "2026-12-01T10:00+09:00",
+   "deadline_label": "2026-12-01(화) 10:00",
+   "deadline_short": "12.01(화) 10:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": null,
+   "open_at": "2026-12-01T11:00+09:00",
+   "open_label": "12.01 11:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 121000000,
+   "budget_text": "1억 2,100만",
+   "price_est": "110000000",
+   "base_amount": null,
+   "lowest_rate": "87.745",
+   "contract": "제한경쟁 적격심사제",
+   "biz": "용역",
+   "conditions": "공동수급 허용 · 재입찰 허용",
+   "region_limit": null,
+   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업),엔지니어링사업(도시계획)",
+   "attachments": [
+    {
+     "name": "(공고문) 대전광역시 토지적성평가 및 재해취약성분석 용역_(전국입찰).hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855247&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=05"
+    },
+    {
+     "name": "대전광역시 토지적성평가 및 재해취약성분석 용역 과업지시서.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855247&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=05"
+    },
+    {
+     "name": "(공고문) 대전광역시 토지적성평가 및 재해취약성분석 용역_(전국입찰).pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855247&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=05"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01855247&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01855247",
+    "data00": "https://work.00data.kr/projects/R26BK01855247"
+   },
+   "keywords": [
+    "토지적성평가",
+    "재해취약성"
+   ],
+   "note": "★대전시 토적·재해취약성 **재공고 — 지역제한 없음(전국입찰)**. 원공고 R26BK01838964(11-24 11:00) 참가 0 유찰(당시 지역제한 대전·충남·충북·세종). 기초(설계)금액 121,000,000원(부가세 포함)/추정 110,000,000원, 용역기간 착수 후 270일, 전자입찰·총액·제한경쟁·적격심사(낙찰하한 87.745%, 종합평점 95점 이상). 자격: 엔지니어링(건설-도시계획) 신고업체 또는 기술사사무소 + SW사업자(컴퓨터관련서비스, 1468)·중소기업 확인서·직접생산확인(공간정보DB구축서비스) + 재해취약성분석 교육 이수 기술인력. 공동도급 가능(5개사 이내, 공동이행 최소지분 5%). 입찰서 11-27 10:00~12-01 10:00, 개찰 12-01 11:00, 공동수급협정 11-30 18:00. 이행실적은 최근 5년 동일 용역(토적·재해취약성) 누계 100% 규모. 문의 도시계획과 042-270-6222.",
+   "owner": ""
+  },
   {
    "id": "b-R26BK01843852",
    "kind": "bid",
@@ -820,86 +896,6 @@
    "owner": ""
   },
   {
-   "id": "b-R26BK01757104",
-   "kind": "bid",
-   "title": "포천시 토지적성평가 및 재해취약성분석 용역",
-   "no": "R26BK01757104",
-   "order": "000",
-   "org": "경기도 포천시",
-   "region": "경기",
-   "sido": "경기",
-   "region_detail": "경기도 포천시",
-   "posted": "2026-10-26T00:00+09:00",
-   "posted_label": "10-26",
-   "deadline": "2026-11-11T10:00+09:00",
-   "deadline_label": "2026-11-11(수) 10:00",
-   "deadline_short": "11.11(수) 10:00",
-   "deadline_kind": "입찰 마감",
-   "deadline_note": null,
-   "open_at": "2026-11-11T11:00+09:00",
-   "open_label": "11.11 11:00",
-   "status": "개찰완료",
-   "progress": "개찰완료",
-   "budget": 353260000,
-   "budget_text": "3억 5,326만",
-   "price_est": "318181818",
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "제한경쟁 협상에의한계약",
-   "biz": "용역",
-   "conditions": "—",
-   "region_limit": null,
-   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업),측량업(기타-수치지도제작업)",
-   "attachments": [
-    {
-     "name": "00 제안요청서_포천시 토지적성평가 및 재해취약성분석(보완)2.0.hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00059647&rfpOrd=000&rfpUntyAtchFileNo=24"
-    },
-    {
-     "name": "00 토적 재취 설계내역서_1억원(1차분).xls",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00059647&rfpOrd=000&rfpUntyAtchFileNo=29"
-    },
-    {
-     "name": "제안요청서 30",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00059647&rfpOrd=000&rfpUntyAtchFileNo=30"
-    },
-    {
-     "name": "입찰공고서(지방_협상_1468+5029_공동불가_온서)_포천시.hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01757104&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
-    },
-    {
-     "name": "입찰공고서(지방_협상_1468+5029_공동불가_온서)_포천시.pdf",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01757104&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
-    }
-   ],
-   "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "opened",
-    "participants": 4,
-    "winner": null,
-    "amount": null,
-    "rate": null,
-    "opened_at": "2026-11-11T11:00+09:00",
-    "note": null
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757104&bidPbancOrd=000",
-    "g2b_kind": "입찰공고 상세",
-    "presignal": "https://presignal.co.kr/p/R26BK01757104",
-    "data00": "https://work.00data.kr/projects/R26BK01757104"
-   },
-   "keywords": [
-    "토지적성평가",
-    "재해취약성"
-   ],
-   "note": "",
-   "owner": ""
-  },
-  {
    "id": "ps-R26BD00304066",
    "kind": "prespec",
    "title": "영동군 토지적성평가 및 재해취약성분석 용역",
@@ -918,7 +914,7 @@
    "deadline_note": null,
    "open_at": null,
    "open_label": "",
-   "status": "의견등록중",
+   "status": "의견마감",
    "progress": null,
    "budget": 403680000,
    "budget_text": "4억 368만",
@@ -1302,6 +1298,76 @@
     "재해취약성"
    ],
    "note": "",
+   "owner": ""
+  },
+  {
+   "id": "b-R26BK01856498",
+   "kind": "bid",
+   "title": "자율주행 전기차 충전기 전문위탁운영 및 유지관리 용역",
+   "no": "R26BK01856498",
+   "order": "000",
+   "org": "(재)광주미래차모빌리티진흥원",
+   "region": "광주",
+   "sido": "광주",
+   "region_detail": "(재)광주미래차모빌리티진흥원",
+   "posted": "2026-11-25T00:00+09:00",
+   "posted_label": "11-25",
+   "deadline": "2026-12-07T16:00+09:00",
+   "deadline_label": "2026-12-07(월) 16:00",
+   "deadline_short": "12.07(월) 16:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": null,
+   "open_at": "2026-12-10T11:00+09:00",
+   "open_label": "12.10 11:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 57420000,
+   "budget_text": "5,742만",
+   "price_est": "52200000",
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "제한경쟁 협상에의한계약",
+   "biz": "용역",
+   "conditions": "공동수급 허용",
+   "region_limit": null,
+   "industry_limit": "전기자동차충전사업",
+   "attachments": [
+    {
+     "name": "0. 공고문(2026-43호)_261125_v1.hwp",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01856498&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    },
+    {
+     "name": "붙임1. 충전시설 운엉사 선정 제안서_V6(최종) (1).hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01856498&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
+    },
+    {
+     "name": "붙임2. 자율주행 전기차량 충전기 설치 도면 (2).zip",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01856498&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03"
+    },
+    {
+     "name": "0. 공고문(2026-43호)_261125_v1.pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01856498&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01856498&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01856498",
+    "data00": "https://work.00data.kr/projects/R26BK01856498"
+   },
+   "keywords": [
+    "자율주행"
+   ],
+   "note": "광주미래차모빌리티진흥원 자율주행 전기차 충전기 전문위탁운영 및 유지관리 **재공고** — 추정 52,200,000원/배정 57,420,000원, 제한경쟁·협상, 업종 전기자동차충전사업, 공동수급 허용. 12-07 16:00 마감·12-10 11:00 개찰. 사전규격 R26BD00296406.",
    "owner": ""
   },
   {
@@ -2587,6 +2653,58 @@
    "owner": ""
   },
   {
+   "id": "ps-R26BD00306669",
+   "kind": "prespec",
+   "title": "익산시 자율주행차량 제작 및 서비스 실증 용역(2차)",
+   "no": "R26BD00306669",
+   "order": "000",
+   "org": "전북특별자치도 익산시",
+   "region": "전북",
+   "sido": "전북",
+   "region_detail": "전북특별자치도 익산시",
+   "posted": "2026-11-25T00:00+09:00",
+   "posted_label": "11-25",
+   "deadline": "2026-11-28T23:59+09:00",
+   "deadline_label": "2026-11-28(토) 23:59",
+   "deadline_short": "11.28(토) 23:59",
+   "deadline_kind": "의견등록 마감",
+   "deadline_note": null,
+   "open_at": null,
+   "open_label": "",
+   "status": "의견등록중",
+   "progress": null,
+   "budget": 1400000000,
+   "budget_text": "14억",
+   "price_est": null,
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "",
+   "biz": "용역",
+   "conditions": "",
+   "region_limit": null,
+   "industry_limit": null,
+   "attachments": [],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "none"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00306669",
+    "g2b_kind": "나라장터 사전규격 상세",
+    "presignal": "https://presignal.co.kr/p/s/R26BD00306669",
+    "data00": ""
+   },
+   "keywords": [
+    "자율주행"
+   ],
+   "note": "익산시 자율주행차량 제작 및 서비스 실증 용역(2차) 사전규격 **재게시** — 배정 14억, 의견등록 11-28 23:59. 11-19 공개된 R26BD00303189(의견마감 경과)와 같은 사업의 새 사전규격번호.",
+   "owner": "신재원"
+  },
+  {
    "id": "ps-R26BD00305038",
    "kind": "prespec",
    "title": "자율주행 전기차 충전기 전문위탁운영 및 유지관리 용역",
@@ -3387,58 +3505,6 @@
    "owner": "손국환"
   },
   {
-   "id": "ps-R26BD00290477",
-   "kind": "prespec",
-   "title": "수원시 자율주행 DRT 서비스 고도화 및 실증사업(협상)",
-   "no": "R26BD00290477",
-   "order": "000",
-   "org": "경기도 수원시",
-   "region": "경기",
-   "sido": "경기",
-   "region_detail": "경기도 수원시",
-   "posted": "2026-10-26T00:00+09:00",
-   "posted_label": "10-26",
-   "deadline": "2026-11-01T23:59+09:00",
-   "deadline_label": "2026-11-01(일) 23:59",
-   "deadline_short": "11.01(일) 23:59",
-   "deadline_kind": "의견등록 마감",
-   "deadline_note": null,
-   "open_at": null,
-   "open_label": "",
-   "status": "의견마감",
-   "progress": null,
-   "budget": 350000000,
-   "budget_text": "3억 5,000만",
-   "price_est": null,
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "",
-   "biz": "용역",
-   "conditions": "",
-   "region_limit": null,
-   "industry_limit": null,
-   "attachments": [],
-   "qna": {
-    "state": "unknown",
-    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "none"
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00290477",
-    "g2b_kind": "나라장터 사전규격 상세",
-    "presignal": "https://presignal.co.kr/p/s/R26BD00290477",
-    "data00": ""
-   },
-   "keywords": [
-    "자율주행"
-   ],
-   "note": "",
-   "owner": "이가영"
-  },
-  {
    "id": "b-R26BK01854588",
    "kind": "bid",
    "title": "2027년 동물성잔재물 운반·처리 용역",
@@ -3527,8 +3593,8 @@
    "deadline_note": null,
    "open_at": "2026-11-25T11:00+09:00",
    "open_label": "11.25 11:00",
-   "status": "입찰중",
-   "progress": null,
+   "status": "개찰완료",
+   "progress": "개찰완료",
    "budget": 61770000,
    "budget_text": "6,177만",
    "price_est": "61591792",
@@ -3555,8 +3621,13 @@
     "items": []
    },
    "result": {
-    "state": "before",
-    "note": "마감 전"
+    "state": "opened",
+    "participants": 47,
+    "winner": null,
+    "amount": null,
+    "rate": null,
+    "opened_at": "2026-11-25T11:00+09:00",
+    "note": null
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01829317&bidPbancOrd=000",
@@ -3989,81 +4060,6 @@
    "owner": ""
   },
   {
-   "id": "b-R26BK01790064",
-   "kind": "bid",
-   "title": "송도11-1공구 기반시설 건설공사 도로대장 작성 용역",
-   "no": "R26BK01790064",
-   "order": "000",
-   "org": "인천광역시 경제자유구역청",
-   "region": "인천",
-   "sido": "인천",
-   "region_detail": "인천광역시 경제자유구역청",
-   "posted": "2026-10-26T00:00+09:00",
-   "posted_label": "10-26",
-   "deadline": "2026-11-03T10:00+09:00",
-   "deadline_label": "2026-11-03(화) 10:00",
-   "deadline_short": "11.03(화) 10:00",
-   "deadline_kind": "입찰 마감",
-   "deadline_note": null,
-   "open_at": "2026-11-03T11:00+09:00",
-   "open_label": "11.03 11:00",
-   "status": "개찰완료",
-   "progress": "개찰완료",
-   "budget": 94700000,
-   "budget_text": "9,470만",
-   "price_est": "86090909",
-   "base_amount": null,
-   "lowest_rate": "88",
-   "contract": "수의계약 소액수의견적",
-   "biz": "용역",
-   "conditions": "재입찰 허용",
-   "region_limit": "인천광역시",
-   "industry_limit": "측량업(기타-수치지도제작업)",
-   "attachments": [
-    {
-     "name": "(붙임1)소액수의 견적제출 안내공고(송도 11-1공구 기반시설 건설공사 도로대장 작성 용역).hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01790064&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=05"
-    },
-    {
-     "name": "(붙임1)소액수의 견적제출 안내공고(송도 11-1공구 기반시설 건설공사 도로대장 작성 용역).pdf",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01790064&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=05"
-    },
-    {
-     "name": "(붙임2)과업내용서.hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01790064&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=05"
-    },
-    {
-     "name": "(붙임3)수급업체 안전보건관리 수준평가 시행 안내.hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01790064&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=05"
-    }
-   ],
-   "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "opened",
-    "participants": 13,
-    "winner": "주식회사 중앙지도",
-    "amount": 84550000.0,
-    "rate": null,
-    "opened_at": "2026-11-03T11:00+09:00",
-    "note": null
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01790064&bidPbancOrd=000",
-    "g2b_kind": "입찰공고 상세",
-    "presignal": "https://presignal.co.kr/p/R26BK01790064",
-    "data00": "https://work.00data.kr/projects/R26BK01790064"
-   },
-   "keywords": [
-    "도로대장"
-   ],
-   "note": "",
-   "owner": ""
-  },
-  {
    "id": "ps-R26BD00306212",
    "kind": "prespec",
    "title": "논산시 도로대장 전산화 용역[장기계속](협상에 의한 계약)",
@@ -4114,6 +4110,138 @@
    ],
    "note": "",
    "owner": "박윤희"
+  },
+  {
+   "id": "b-R26BK01855524",
+   "kind": "bid",
+   "title": "2027년 산림공간정보서비스 운영 및 유지관리",
+   "no": "R26BK01855524",
+   "order": "000",
+   "org": "산림청",
+   "region": "전국",
+   "sido": "전국·중앙부처",
+   "region_detail": "산림청",
+   "posted": "2026-11-25T00:00+09:00",
+   "posted_label": "11-25",
+   "deadline": "2026-12-22T10:00+09:00",
+   "deadline_label": "2026-12-22(화) 10:00",
+   "deadline_short": "12.22(화) 10:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": null,
+   "open_at": "2026-12-22T11:00+09:00",
+   "open_label": "12.22 11:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 537360000,
+   "budget_text": "5억 3,736만",
+   "price_est": "484545455",
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "제한경쟁 협상에의한계약",
+   "biz": "용역",
+   "conditions": "공동수급 허용",
+   "region_limit": null,
+   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업)",
+   "attachments": [
+    {
+     "name": "제안요청서_산림공간정보서비스 운영 및 유지관리.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00063251&rfpOrd=000&rfpUntyAtchFileNo=11"
+    },
+    {
+     "name": "제안요청서 14",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00063251&rfpOrd=000&rfpUntyAtchFileNo=14"
+    },
+    {
+     "name": "입찰공고서_R26BK01855524.pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855524&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01855524&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01855524",
+    "data00": "https://work.00data.kr/projects/R26BK01855524"
+   },
+   "keywords": [
+    "공간정보"
+   ],
+   "note": "산림청 2027년 산림공간정보서비스 운영 및 유지관리 — 추정 484,545,455원/배정 537,360,800원, 제한경쟁·협상에 의한 계약, SW사업자(컴퓨터관련서비스) 업종, 공동수급 허용. 12-22 10:00 마감·11:00 개찰. 사전규격 R26BD00294400 본공고.",
+   "owner": ""
+  },
+  {
+   "id": "b-R26BK01855103",
+   "kind": "bid",
+   "title": "경상남도 3차원 실내공간정보관리시스템 유지관리",
+   "no": "R26BK01855103",
+   "order": "000",
+   "org": "경상남도",
+   "region": "경남",
+   "sido": "경남",
+   "region_detail": "경상남도",
+   "posted": "2026-11-25T00:00+09:00",
+   "posted_label": "11-25",
+   "deadline": "2026-12-07T17:00+09:00",
+   "deadline_label": "2026-12-07(월) 17:00",
+   "deadline_short": "12.07(월) 17:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": "제안서·입찰서 직접 접수 12-07 14:00~17:00(경남도청 토지정보과), 개찰 18:00",
+   "open_at": "2026-12-07T18:00+09:00",
+   "open_label": "12.07 18:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 31070000,
+   "budget_text": "3,107만",
+   "price_est": "28245455",
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "제한경쟁 협상에의한계약",
+   "biz": "용역",
+   "conditions": "공동수급 허용 · 업종 제한 없음",
+   "region_limit": null,
+   "industry_limit": null,
+   "attachments": [
+    {
+     "name": "재공고문.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855103&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    },
+    {
+     "name": "재공고문.pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855103&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
+    },
+    {
+     "name": "2027년 경상남도 3차원 실내공간정보관리시스템 유지관리_제안요청서(유지보수)-최종.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855103&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01855103&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01855103",
+    "data00": "https://work.00data.kr/projects/R26BK01855103"
+   },
+   "keywords": [
+    "공간정보"
+   ],
+   "note": "경남 3차원 실내공간정보관리시스템 유지관리 **재공고** — 원공고 R26BK01824584(11-23 18:00) 참가 0 유찰. 사업예산 31,070,000원(추정 28,245,455원), 협상에 의한 계약, 공동수급 허용·업종 제한 없음, 용역기간 2027-01-01~12-31. 제안서·입찰서 직접 접수 12-07 14:00~17:00(경남도청 토지정보과), 개찰 12-07 18:00. 기술능력 85% 미만은 협상대상 제외, 지역개발공채 1.25% 소화.",
+   "owner": ""
   },
   {
    "id": "b-R26BK01853325",
@@ -4732,8 +4860,8 @@
    "deadline_note": null,
    "open_at": "2026-11-25T11:00+09:00",
    "open_label": "11.25 11:00",
-   "status": "입찰중",
-   "progress": null,
+   "status": "개찰완료",
+   "progress": "개찰완료",
    "budget": 54350000,
    "budget_text": "5,435만",
    "price_est": "49409091",
@@ -4768,8 +4896,13 @@
     "items": []
    },
    "result": {
-    "state": "before",
-    "note": "마감 전"
+    "state": "opened",
+    "participants": 3,
+    "winner": null,
+    "amount": null,
+    "rate": null,
+    "opened_at": "2026-11-25T11:00+09:00",
+    "note": null
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01841899&bidPbancOrd=000",
@@ -5576,8 +5709,8 @@
    "deadline_note": null,
    "open_at": "2026-11-25T11:00+09:00",
    "open_label": "11.25 11:00",
-   "status": "입찰중",
-   "progress": null,
+   "status": "개찰완료",
+   "progress": "개찰완료",
    "budget": 118120000,
    "budget_text": "1억 1,812만",
    "price_est": "107390273",
@@ -5616,8 +5749,13 @@
     "items": []
    },
    "result": {
-    "state": "before",
-    "note": "마감 전"
+    "state": "opened",
+    "participants": 6,
+    "winner": null,
+    "amount": null,
+    "rate": null,
+    "opened_at": "2026-11-25T11:00+09:00",
+    "note": null
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01833663&bidPbancOrd=000",
@@ -5861,8 +5999,8 @@
    "deadline_note": null,
    "open_at": "2026-11-25T11:00+09:00",
    "open_label": "11.25 11:00",
-   "status": "입찰중",
-   "progress": null,
+   "status": "유찰",
+   "progress": "유찰",
    "budget": 151590000,
    "budget_text": "1억 5,159만",
    "price_est": "136363636",
@@ -5905,8 +6043,9 @@
     "items": []
    },
    "result": {
-    "state": "before",
-    "note": "마감 전"
+    "state": "failed",
+    "participants": 0,
+    "note": "유찰 (참가 0)"
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01825843&bidPbancOrd=000",
@@ -7009,7 +7148,7 @@
    "deadline_note": null,
    "open_at": "2026-11-25T11:00+09:00",
    "open_label": "11.25 11:00",
-   "status": "입찰중",
+   "status": "개찰대기",
    "progress": null,
    "budget": 169740000,
    "budget_text": "1억 6,974만",
@@ -7045,8 +7184,9 @@
     "items": []
    },
    "result": {
-    "state": "before",
-    "note": "마감 전"
+    "state": "pending",
+    "participants": null,
+    "note": "마감 후 개찰결과 미등록"
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01804698&bidPbancOrd=000",
@@ -7282,81 +7422,6 @@
     "g2b_kind": "입찰공고 상세",
     "presignal": "https://presignal.co.kr/p/R26BK01788340",
     "data00": "https://work.00data.kr/projects/R26BK01788340"
-   },
-   "keywords": [
-    "공간정보"
-   ],
-   "note": "",
-   "owner": ""
-  },
-  {
-   "id": "b-R26BK01777335",
-   "kind": "bid",
-   "title": "2027년 공간정보시스템 통합 유지관리",
-   "no": "R26BK01777335",
-   "order": "000",
-   "org": "경기도 의정부시",
-   "region": "경기",
-   "sido": "경기",
-   "region_detail": "경기도 의정부시",
-   "posted": "2026-10-26T00:00+09:00",
-   "posted_label": "10-26",
-   "deadline": "2026-11-17T10:00+09:00",
-   "deadline_label": "2026-11-17(화) 10:00",
-   "deadline_short": "11.17(화) 10:00",
-   "deadline_kind": "입찰 마감",
-   "deadline_note": null,
-   "open_at": "2026-11-17T11:00+09:00",
-   "open_label": "11.17 11:00",
-   "status": "유찰",
-   "progress": "유찰",
-   "budget": 156320000,
-   "budget_text": "1억 5,632만",
-   "price_est": "140624545",
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "제한경쟁 협상에의한계약",
-   "biz": "용역",
-   "conditions": "공동수급 허용",
-   "region_limit": null,
-   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업)",
-   "attachments": [
-    {
-     "name": "제안요청서(수정).hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00061129&rfpOrd=000&rfpUntyAtchFileNo=33"
-    },
-    {
-     "name": "(붙임) 2027년 유지보수 등급 측정표.xlsx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00061129&rfpOrd=000&rfpUntyAtchFileNo=36"
-    },
-    {
-     "name": "제안요청서 39",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00061129&rfpOrd=000&rfpUntyAtchFileNo=39"
-    },
-    {
-     "name": "입찰공고서(지방_협상_1468_공동_온서_유지관리)_의정부시.hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01777335&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
-    },
-    {
-     "name": "입찰공고서(지방_협상_1468_공동_온서_유지관리)_의정부시.pdf",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01777335&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
-    }
-   ],
-   "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "failed",
-    "participants": 0,
-    "note": "유찰 (참가 0)"
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01777335&bidPbancOrd=000",
-    "g2b_kind": "입찰공고 상세",
-    "presignal": "https://presignal.co.kr/p/R26BK01777335",
-    "data00": "https://work.00data.kr/projects/R26BK01777335"
    },
    "keywords": [
     "공간정보"
@@ -9019,58 +9084,6 @@
    "owner": "박현민"
   },
   {
-   "id": "ps-R26BD00290521",
-   "kind": "prespec",
-   "title": "27년 국가공간정보통합플랫폼(K-GeoP) 유지관리 및 운영지원",
-   "no": "R26BD00290521",
-   "order": "000",
-   "org": "한국국토정보공사",
-   "region": "전국",
-   "sido": "전국·중앙부처",
-   "region_detail": "한국국토정보공사",
-   "posted": "2026-10-26T00:00+09:00",
-   "posted_label": "10-26",
-   "deadline": "2026-11-01T23:59+09:00",
-   "deadline_label": "2026-11-01(일) 23:59",
-   "deadline_short": "11.01(일) 23:59",
-   "deadline_kind": "의견등록 마감",
-   "deadline_note": null,
-   "open_at": null,
-   "open_label": "",
-   "status": "의견마감",
-   "progress": null,
-   "budget": 3558090000,
-   "budget_text": "35억 5,809만",
-   "price_est": null,
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "",
-   "biz": "용역",
-   "conditions": "",
-   "region_limit": null,
-   "industry_limit": null,
-   "attachments": [],
-   "qna": {
-    "state": "unknown",
-    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "none"
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00290521",
-    "g2b_kind": "나라장터 사전규격 상세",
-    "presignal": "https://presignal.co.kr/p/s/R26BD00290521",
-    "data00": ""
-   },
-   "keywords": [
-    "공간정보"
-   ],
-   "note": "",
-   "owner": "김수현"
-  },
-  {
    "id": "b-R26BK01844693",
    "kind": "bid",
    "title": "2027년 지하공간통합지도 수정갱신 사업",
@@ -9265,14 +9278,14 @@
  ],
  "counts": {
   "total": 139,
-  "bids": 85,
-  "prespec": 54,
-  "opened": 9,
+  "bids": 86,
+  "prespec": 53,
+  "opened": 10,
   "failed": 21,
-  "attachments": 89,
+  "attachments": 90,
   "provinces": 18,
-  "urgent": 11,
-  "open_bids": 48,
+  "urgent": 6,
+  "open_bids": 47,
   "open_prespec": 6
  }
 }
