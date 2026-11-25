@@ -9,9 +9,16 @@ UA = {"User-Agent": "Mozilla/5.0 (dashboard refresh)"}
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return r.read().decode("utf-8", "replace")
+    last = None
+    for attempt in range(5):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.read().decode("utf-8", "replace")
+        except Exception as e:
+            last = e
+            time.sleep(3 + attempt * 4)
+    raise last
 
 
 def arr_after(h, anchor):

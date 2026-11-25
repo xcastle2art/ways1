@@ -4,15 +4,22 @@ import json, re, html, time, urllib.parse, pathlib, urllib.request
 
 KEYWORDS = ["토지적성평가", "재해취약성", "연속도면", "용도지역지구", "자율주행", "정밀지도",
             "공원관리", "공원녹지", "도보뷰", "도보네트워크", "도로대장", "GIS DB", "공간정보", "라이다"]
-DATE_FROM, DATE_TO = "2026-10-25", "2026-11-24"
+DATE_FROM, DATE_TO = "2026-10-26", "2026-11-25"
 UA = {"User-Agent": "Mozilla/5.0 (dashboard refresh)"}
 OUT = pathlib.Path(__file__).with_name("raw_items.json")
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=40) as r:
-        return r.read().decode("utf-8", "replace")
+    last = None
+    for attempt in range(6):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return r.read().decode("utf-8", "replace")
+        except Exception as e:
+            last = e
+            time.sleep(4 + attempt * 5)
+    raise last
 
 
 def txt(s):
@@ -111,8 +118,8 @@ def main():
                     items.append(it)
                 if len(rs) < 10:
                     break
-                time.sleep(0.4)
-            time.sleep(0.4)
+                time.sleep(1.2)
+            time.sleep(1.2)
     # 사전규격 번호는 href에서 확보
     merged = {}
     for it in items:

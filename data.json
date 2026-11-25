@@ -1,15 +1,15 @@
 {
- "updated_at": "2026-11-24T16:00+09:00",
- "updated_label": "2026-11-24(화) 09:00 KST",
+ "updated_at": "2026-11-25T09:00+09:00",
+ "updated_label": "2026-11-25(수) 09:00 KST",
  "window": {
-  "from": "2026-10-25",
-  "to": "2026-11-24",
+  "from": "2026-10-26",
+  "to": "2026-11-25",
   "days": 30
  },
  "scan_basis": {
-  "latest_scan": "2026-11-24 09:00 KST (화요일 오전 스캔 — 신규 입찰공고 11건·사전규격 12건(11-23 게시), 개찰결과 7건 갱신 · 웹 반영 6건)",
+  "latest_scan": "2026-11-25 09:00 KST (수요일 오전 스캔 — 신규 12건(입찰 4·사전규격 8, 모두 11-24 게시) · 개찰결과 신규 확정 7건 · 정정 1건)",
   "sources": "presignal.co.kr 14개 키워드 검색(입찰공고·사전규격) + work.00data.kr(공공일감) 상세(첨부·개찰결과) + 나라장터 원문 링크",
-  "note": "공고일 기준 최근 30일(2026-10-25~11-24). 11-24 09:00 스캔에서 11-23 게시 신규 입찰 11건·사전규격 12건 확인 — 웹에는 6건 반영(라이다·GIS DB·공원녹지 제외 키워드 및 중복 제외). 개찰결과는 유찰 4건(라이다 2·자율주행 2)·개찰완료 3건 갱신."
+  "note": "공고일 기준 최근 30일(2026-10-26~11-25). 11-25 09:00 스캔에서 11-24 게시분 12건 신규 확인(어제 16시 색인 전이던 건) — 웹에는 제외 키워드(GIS DB·공원녹지 등) 걸러 실제 표시분만 반영. 11-23~11-24 개찰분(대전 토적·이천 공간정보 유지보수 유찰 등) 개찰결과 7건 신규 확정."
  },
  "collect_keywords": [
   "토지적성평가",
@@ -46,9 +46,9 @@
    "도보네트워크",
    "GIS DB"
   ],
-  "excluded_items": 114,
-  "kept_items": 135,
-  "window_items": 249,
+  "excluded_items": 123,
+  "kept_items": 137,
+  "window_items": 260,
   "samples": [
    {
     "no": "R26BK01850551",
@@ -140,7 +140,7 @@
    "count": 41,
    "bids": 25,
    "prespec": 16,
-   "urgent": 4
+   "urgent": 3
   },
   {
    "code": "서울",
@@ -177,8 +177,8 @@
   {
    "code": "광주",
    "name": "광주",
-   "count": 5,
-   "bids": 2,
+   "count": 6,
+   "bids": 3,
    "prespec": 3,
    "urgent": 0
   },
@@ -212,14 +212,14 @@
    "count": 25,
    "bids": 17,
    "prespec": 8,
-   "urgent": 4
+   "urgent": 3
   },
   {
    "code": "강원",
    "name": "강원",
-   "count": 4,
+   "count": 5,
    "bids": 4,
-   "prespec": 0,
+   "prespec": 1,
    "urgent": 0
   },
   {
@@ -327,8 +327,8 @@
   },
   {
    "keyword": "공간정보",
-   "bids": 47,
-   "prespec": 31
+   "bids": 48,
+   "prespec": 32
   }
  ],
  "items": [
@@ -492,8 +492,8 @@
    "deadline_note": null,
    "open_at": "2026-11-24T11:00+09:00",
    "open_label": "11.24 11:00",
-   "status": "개찰대기",
-   "progress": null,
+   "status": "유찰",
+   "progress": "유찰",
    "budget": 121000000,
    "budget_text": "1억 2,100만",
    "price_est": "110000000",
@@ -524,9 +524,9 @@
     "items": []
    },
    "result": {
-    "state": "pending",
-    "participants": null,
-    "note": "마감 후 개찰결과 미등록"
+    "state": "failed",
+    "participants": 0,
+    "note": "유찰 (참가 0)"
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01838964&bidPbancOrd=000",
@@ -538,7 +538,7 @@
     "토지적성평가",
     "재해취약성"
    ],
-   "note": "",
+   "note": "대전시 토적·재해취약성분석(긴급) — 11-24 11:00 개찰 **유찰(참가 0)**. 지역제한 대전·충남·충북·세종, SW사업자(컴퓨터관련서비스)+엔지니어링(도시계획), 적격심사(하한 87.745%), 추정 1.1억/배정 1.21억. 재공고 시 지역제한 완화 여부 확인 필요.",
    "owner": ""
   },
   {
@@ -3862,8 +3862,8 @@
    "deadline_note": "개찰 시각 기준(투찰 마감은 공고문 확인)",
    "open_at": "2026-11-09T17:00+09:00",
    "open_label": "11.09 17:00",
-   "status": "개찰대기",
-   "progress": null,
+   "status": "개찰완료",
+   "progress": "개찰완료",
    "budget": 900000000,
    "budget_text": "9억",
    "price_est": "818181818",
@@ -3898,9 +3898,13 @@
     "items": []
    },
    "result": {
-    "state": "pending",
-    "participants": null,
-    "note": "마감 후 개찰결과 미등록"
+    "state": "opened",
+    "participants": 1,
+    "winner": null,
+    "amount": null,
+    "rate": null,
+    "opened_at": "2026-11-09T17:00+09:00",
+    "note": null
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01794265&bidPbancOrd=001",
@@ -3911,7 +3915,7 @@
    "keywords": [
     "도로대장"
    ],
-   "note": "",
+   "note": "산청군 도로대장 전산화 용역 — 11-09 17:00 개찰완료, 참가 1(낙찰자 미표시). 추정 8억 1,818만/배정 9억, 일반경쟁·협상, SW+측량업(지하시설물·수치지도·공공).",
    "owner": ""
   },
   {
@@ -3987,6 +3991,154 @@
     "도로대장"
    ],
    "note": "",
+   "owner": ""
+  },
+  {
+   "id": "b-R26BK01853325",
+   "kind": "bid",
+   "title": "2027년 전남광주통합특별시 공간정보시스템 통합 유지보수 용역(협상)",
+   "no": "R26BK01853325",
+   "order": "000",
+   "org": "광주광역시교육청",
+   "region": "광주",
+   "sido": "광주",
+   "region_detail": "광주광역시교육청",
+   "posted": "2026-11-24T00:00+09:00",
+   "posted_label": "11-24",
+   "deadline": "2026-12-07T17:00+09:00",
+   "deadline_label": "2026-12-07(월) 17:00",
+   "deadline_short": "12.07(월) 17:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": null,
+   "open_at": "2026-12-11T14:00+09:00",
+   "open_label": "12.11 14:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 194370000,
+   "budget_text": "1억 9,437만",
+   "price_est": "176705455",
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "제한경쟁 협상에의한계약",
+   "biz": "용역",
+   "conditions": "공동수급 허용",
+   "region_limit": null,
+   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업)",
+   "attachments": [
+    {
+     "name": "[공고문] 2027년 전남광주통합특별시 공간정보시스템 통합 유지보수 용역.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01853325&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    },
+    {
+     "name": "[과업지시서] 2027년 전남광주통합특별시 공간정보시스템 통합 유지보수 용역.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01853325&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
+    },
+    {
+     "name": "[제안요청서] 2027년 전남광주통합특별시 공간정보시스템 통합 유지보수 용역.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01853325&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03"
+    },
+    {
+     "name": "[물품공급 기술지원 협약서] 2027년도 공간정보시스템 통합 유지보수 용역.pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01853325&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=03"
+    },
+    {
+     "name": "[공고문] 2027년 전남광주통합특별시 공간정보시스템 통합 유지보수 용역.pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01853325&bidPbancOrd=000&fileType=&fileSeq=5&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01853325&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01853325",
+    "data00": "https://work.00data.kr/projects/R26BK01853325"
+   },
+   "keywords": [
+    "공간정보"
+   ],
+   "note": "전남광주통합특별시(광주광역시교육청) 2027년 공간정보시스템 통합 유지보수 — 기초금액 1억 9,437.6만(추정가격 1억 7,670.5만), 협상에의한계약·총액·지역제한 없음·단독 또는 공동이행(2개사 이내, 최소지분 5%). SW사업자(컴퓨터관련서비스업 1468)+중소기업+직접생산확인 4종(정보시스템개발·유지및지원·유지관리·공간정보DB구축). 20억 미만 사업이라 상호출자제한기업집단 참여 불가. 용역기간 2027-01-01~12-31. 가격입찰 12-03 09:00~12-07 17:00, 공동수급협정 12-06 18:00, 제안서 평가 12-11 14:00. 지방의회 예산 심의로 계약금액 조정·미체결 가능. 사전규격 R26BD00299577 본공고. 첨부 5종(공고문·과업지시서·제안요청서·협약서).",
+   "owner": ""
+  },
+  {
+   "id": "b-R26BK01824268",
+   "kind": "bid",
+   "title": "2027년 공간정보시스템 통합유지보수 용역",
+   "no": "R26BK01824268",
+   "order": "001",
+   "org": "경기도 남양주시",
+   "region": "경기",
+   "sido": "경기",
+   "region_detail": "경기도 남양주시",
+   "posted": "2026-11-24T00:00+09:00",
+   "posted_label": "11-24",
+   "deadline": "2026-12-01T16:00+09:00",
+   "deadline_label": "2026-12-01(화) 16:00",
+   "deadline_short": "12.01(화) 16:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": "변경공고(11-24 13:23)로 제안서·입찰서 마감 연장, 개찰 12-01 17:00",
+   "open_at": "2026-12-01T17:00+09:00",
+   "open_label": "12.01 17:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 89490000,
+   "budget_text": "8,949만",
+   "price_est": "81358182",
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "제한경쟁 협상에의한계약",
+   "biz": "용역",
+   "conditions": "—",
+   "region_limit": null,
+   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업)",
+   "attachments": [
+    {
+     "name": "☆2027년 공간정보시스템 통합유지보수 제안요청서.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00065499&rfpOrd=000&rfpUntyAtchFileNo=1"
+    },
+    {
+     "name": "☆(정정)공고문[2027년 공간정보시스템 통합유지보수 용역].hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01824268&bidPbancOrd=001&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    },
+    {
+     "name": "☆(정정)공고문[2027년 공간정보시스템 통합유지보수 용역].pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01824268&bidPbancOrd=001&fileType=&fileSeq=2&prcmBsneSeCd=03"
+    },
+    {
+     "name": "☆2027년 공간정보시스템 통합유지보수 제안요청서.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01824268&bidPbancOrd=001&fileType=&fileSeq=3&prcmBsneSeCd=03"
+    },
+    {
+     "name": "물품공급·기술지원 협약서(공간정보시스템 통합유지보수).pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01824268&bidPbancOrd=001&fileType=&fileSeq=4&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01824268&bidPbancOrd=001",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01824268",
+    "data00": "https://work.00data.kr/projects/R26BK01824268"
+   },
+   "keywords": [
+    "공간정보"
+   ],
+   "note": "남양주시 2027년 공간정보시스템 통합유지보수 — 11-24 13:23 변경공고(R26BK01824268-001) 게시로 제안서·입찰서 마감이 12-01 16:00(개찰 12-01 17:00)으로 연장, 참가자격등록 11-30 18:00·제안서평가 12-03 14:00. 사업금액=배정 8,949.4만·추정 8,135.8만, 기술 90:가격 10, SW사업자 업종, 공동수급 불허. 첨부 4종((정정)공고문 hwpx/pdf·제안요청서·물품공급·기술지원 협약서).",
    "owner": ""
   },
   {
@@ -4080,9 +4232,9 @@
    "deadline_short": "11.23(월) 16:00",
    "deadline_kind": "입찰 마감",
    "deadline_note": null,
-   "open_at": null,
-   "open_label": "",
-   "status": "개찰대기",
+   "open_at": "2026-11-23T17:00+09:00",
+   "open_label": "11.23 17:00",
+   "status": "개찰완료",
    "progress": null,
    "budget": 49850000,
    "budget_text": "4,985만",
@@ -4090,7 +4242,7 @@
    "base_amount": null,
    "lowest_rate": null,
    "contract": "수의계약 수의시담",
-   "biz": "",
+   "biz": "용역",
    "conditions": "재입찰 허용 · 업종 제한 없음",
    "region_limit": null,
    "industry_limit": null,
@@ -4101,9 +4253,13 @@
     "items": []
    },
    "result": {
-    "state": "pending",
+    "state": "opened",
     "participants": null,
-    "note": "마감 후 개찰결과 미등록"
+    "winner": null,
+    "amount": null,
+    "rate": null,
+    "opened_at": "2026-11-23T17:00+09:00",
+    "note": "개찰은 완료됐으나 참가·낙찰 정보가 수집원에 없음"
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01848643&bidPbancOrd=000",
@@ -5498,80 +5654,6 @@
    "owner": ""
   },
   {
-   "id": "b-R26BK01824268",
-   "kind": "bid",
-   "title": "2027년 공간정보시스템 통합유지보수 용역",
-   "no": "R26BK01824268",
-   "order": "000",
-   "org": "경기도 남양주시",
-   "region": "경기",
-   "sido": "경기",
-   "region_detail": "경기도 남양주시",
-   "posted": "2026-11-13T00:00+09:00",
-   "posted_label": "11-13",
-   "deadline": "2026-12-01T16:00+09:00",
-   "deadline_label": "2026-12-01(화) 16:00",
-   "deadline_short": "12.01(화) 16:00",
-   "deadline_kind": "입찰 마감",
-   "deadline_note": "변경공고(11-24 13:23)로 제안서·입찰서 마감 연장, 개찰 12-01 17:00",
-   "open_at": "2026-11-26T17:00+09:00",
-   "open_label": "11.26 17:00",
-   "status": "입찰중",
-   "progress": null,
-   "budget": 89490000,
-   "budget_text": "8,949만",
-   "price_est": "81358182",
-   "base_amount": null,
-   "lowest_rate": null,
-   "contract": "제한경쟁 협상에의한계약",
-   "biz": "용역",
-   "conditions": "—",
-   "region_limit": null,
-   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업)",
-   "attachments": [
-    {
-     "name": "☆2027년 공간정보시스템 통합유지보수 제안요청서.hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00065499&rfpOrd=000&rfpUntyAtchFileNo=1"
-    },
-    {
-     "name": "☆(정정)공고문[2027년 공간정보시스템 통합유지보수 용역].hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01824268&bidPbancOrd=001&fileType=&fileSeq=1&prcmBsneSeCd=03"
-    },
-    {
-     "name": "☆(정정)공고문[2027년 공간정보시스템 통합유지보수 용역].pdf",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01824268&bidPbancOrd=001&fileType=&fileSeq=2&prcmBsneSeCd=03"
-    },
-    {
-     "name": "☆2027년 공간정보시스템 통합유지보수 제안요청서.hwpx",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01824268&bidPbancOrd=001&fileType=&fileSeq=3&prcmBsneSeCd=03"
-    },
-    {
-     "name": "물품공급·기술지원 협약서(공간정보시스템 통합유지보수).pdf",
-     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01824268&bidPbancOrd=001&fileType=&fileSeq=4&prcmBsneSeCd=03"
-    }
-   ],
-   "qna": {
-    "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
-    "items": []
-   },
-   "result": {
-    "state": "before",
-    "note": "마감 전"
-   },
-   "links": {
-    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01824268&bidPbancOrd=000",
-    "g2b_kind": "입찰공고 상세",
-    "presignal": "https://presignal.co.kr/p/R26BK01824268",
-    "data00": "https://work.00data.kr/projects/R26BK01824268"
-   },
-   "keywords": [
-    "공간정보"
-   ],
-   "note": "남양주시 2027년 공간정보시스템 통합유지보수 — 11-24 13:23 변경공고(R26BK01824268-001) 게시로 제안서·입찰서 마감이 12-01 16:00(개찰 12-01 17:00)으로 연장, 참가자격등록 11-30 18:00·제안서평가 12-03 14:00. 사업금액=배정 8,949.4만·추정 8,135.8만, 기술 90:가격 10, SW사업자 업종, 공동수급 불허. 첨부 4종((정정)공고문 hwpx/pdf·제안요청서·물품공급·기술지원 협약서).",
-   "owner": ""
-  },
-  {
    "id": "b-R26BK01825240",
    "kind": "bid",
    "title": "2027년 IFEZ 3차원 공간정보서비스 유지보수 용역",
@@ -5871,8 +5953,8 @@
    "deadline_note": "개찰 시각 기준(투찰 마감은 공고문 확인)",
    "open_at": "2026-11-23T18:00+09:00",
    "open_label": "11.23 18:00",
-   "status": "개찰대기",
-   "progress": null,
+   "status": "유찰",
+   "progress": "유찰",
    "budget": 31070000,
    "budget_text": "3,107만",
    "price_est": "28245455",
@@ -5903,9 +5985,9 @@
     "items": []
    },
    "result": {
-    "state": "pending",
-    "participants": null,
-    "note": "마감 후 개찰결과 미등록"
+    "state": "failed",
+    "participants": 0,
+    "note": "유찰 (참가 0)"
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01824584&bidPbancOrd=000",
@@ -5916,7 +5998,7 @@
    "keywords": [
     "공간정보"
    ],
-   "note": "",
+   "note": "경상남도 3차원 실내공간정보관리시스템 유지관리 — 11-23 18:00 개찰 유찰(참가 0), 추정 2,824.5만/배정 3,107만. 확정 마감이 12-03 14:00로 변경(재공고/일정 변경).",
    "owner": ""
   },
   {
@@ -5938,8 +6020,8 @@
    "deadline_note": null,
    "open_at": "2026-11-24T11:00+09:00",
    "open_label": "11.24 11:00",
-   "status": "개찰대기",
-   "progress": null,
+   "status": "유찰",
+   "progress": "유찰",
    "budget": 150940000,
    "budget_text": "1억 5,094만",
    "price_est": "135775273",
@@ -5974,9 +6056,9 @@
     "items": []
    },
    "result": {
-    "state": "pending",
-    "participants": null,
-    "note": "마감 후 개찰결과 미등록"
+    "state": "failed",
+    "participants": 0,
+    "note": "유찰 (참가 0)"
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01821974&bidPbancOrd=000",
@@ -5987,7 +6069,7 @@
    "keywords": [
     "공간정보"
    ],
-   "note": "",
+   "note": "이천시 2027년 공간정보시스템 통합 유지보수 용역(재공고) — 11-24 10:00 마감·10:32 개찰 **유찰(참가 0)**. 추정 1억 3,577.5만/배정 1억 5,094.2만. 재공고 예상.",
    "owner": ""
   },
   {
@@ -6009,7 +6091,7 @@
    "deadline_note": null,
    "open_at": "2026-11-24T18:00+09:00",
    "open_label": "11.24 18:00",
-   "status": "입찰중",
+   "status": "개찰대기",
    "progress": null,
    "budget": 147860000,
    "budget_text": "1억 4,786만",
@@ -6049,8 +6131,9 @@
     "items": []
    },
    "result": {
-    "state": "before",
-    "note": "마감 전"
+    "state": "pending",
+    "participants": null,
+    "note": "마감 후 개찰결과 미등록"
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01818805&bidPbancOrd=000",
@@ -7160,6 +7243,58 @@
    "owner": ""
   },
   {
+   "id": "ps-R26BD00305785",
+   "kind": "prespec",
+   "title": "2027년 공간정보시스템 통합유지보수 용역",
+   "no": "R26BD00305785",
+   "order": "000",
+   "org": "강원특별자치도 동해시",
+   "region": "강원",
+   "sido": "강원",
+   "region_detail": "강원특별자치도 동해시",
+   "posted": "2026-11-24T00:00+09:00",
+   "posted_label": "11-24",
+   "deadline": "2026-11-29T23:59+09:00",
+   "deadline_label": "2026-11-29(일) 23:59",
+   "deadline_short": "11.29(일) 23:59",
+   "deadline_kind": "의견등록 마감",
+   "deadline_note": null,
+   "open_at": null,
+   "open_label": "",
+   "status": "의견등록중",
+   "progress": null,
+   "budget": 120400000,
+   "budget_text": "1억 2,040만",
+   "price_est": null,
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "",
+   "biz": "용역",
+   "conditions": "",
+   "region_limit": null,
+   "industry_limit": null,
+   "attachments": [],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "none"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00305785",
+    "g2b_kind": "나라장터 사전규격 상세",
+    "presignal": "https://presignal.co.kr/p/s/R26BD00305785",
+    "data00": ""
+   },
+   "keywords": [
+    "공간정보"
+   ],
+   "note": "동해시 2027년 공간정보시스템 통합유지보수 사전규격 — 배정 1억 2,040만(부가세 포함), SW사업 비대상, 의견등록 11-29 23:59, 납품기한 2027-12-31, 발주계획 R26DD20942836, 공개 11-24 16:18. 첨부 과업지시서 1건(124.2KB), 규격서 의견 0건.",
+   "owner": "이유진"
+  },
+  {
    "id": "ps-R26BD00305341",
    "kind": "prespec",
    "title": "AI 기반 공간정보 플랫폼 고도화 감리",
@@ -7230,7 +7365,7 @@
    "deadline_note": null,
    "open_at": null,
    "open_label": "",
-   "status": "의견등록중",
+   "status": "의견마감",
    "progress": null,
    "budget": 100000000,
    "budget_text": "1억",
@@ -7252,7 +7387,7 @@
    ],
    "qna": {
     "state": "unknown",
-    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "summary": "의견등록이 마감된 사전규격입니다. 등록된 질의·답변 요약은 나라장터 사전규격 상세(로그인)에서 확인해야 하며, 공개 수집원에는 없습니다.",
     "items": []
    },
    "result": {
@@ -9007,14 +9142,14 @@
   }
  ],
  "counts": {
-  "total": 135,
-  "bids": 83,
-  "prespec": 52,
-  "opened": 7,
-  "failed": 18,
-  "attachments": 87,
+  "total": 137,
+  "bids": 84,
+  "prespec": 53,
+  "opened": 9,
+  "failed": 21,
+  "attachments": 88,
   "provinces": 18,
-  "urgent": 13,
+  "urgent": 11,
   "open_bids": 47,
   "open_prespec": 5
  }
