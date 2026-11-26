@@ -11,7 +11,7 @@ from datetime import datetime, timedelta, timezone
 HERE = pathlib.Path(__file__).parent
 OUT = HERE.parent / "data.json"
 KST = timezone(timedelta(hours=9))
-NOW = datetime(2026, 11, 26, 9, 0, tzinfo=KST)
+NOW = datetime(2026, 11, 26, 16, 0, tzinfo=KST)
 WIN_FROM = datetime(2026, 10, 27, tzinfo=KST)
 # 사전규격 수작업 보강분(첨부·질의응답·나라장터 직링크) 보존 — 오래된 백업부터 읽어 최신이 덮어쓴다
 BACKUPS = [
@@ -139,6 +139,9 @@ WEEKDAY = "월화수목금토일"
 def region_of(org):
     """발주기관 문자열 → 시·도. 중앙부처·전국 단위 공기업은 '전국'."""
     s = org or ""
+    # LX 지역본부는 본부명보다 사업 대상 지자체 기준으로 표기(하남=경기)
+    if "인천경기남부" in s or "경기북부" in s or "경기남부" in s:
+        return "경기", s
     if "전남광주통합" in s:
         if re.search(r"(동구|서구|남구|북구|광산구)", s):
             return "광주", s

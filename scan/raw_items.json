@@ -334,6 +334,29 @@
  },
  {
   "kind": "bid",
+  "no": "R26BK01857601",
+  "order": "000",
+  "title": "화성시 자율주행 시범서비스 구축·운영 용역",
+  "org": "경기도 화성시",
+  "phone": "031-5189-2491",
+  "conditions": "공동수급 허용",
+  "budget_text": "17억 8,000만",
+  "contract": "제한경쟁 협상에의한계약",
+  "posted": "26.11.26",
+  "deadline_text": "D-12 12.08 16:00",
+  "open_text": "12.08 17:00",
+  "status": "입찰중",
+  "cats": [
+   "SW 및 시스템 개발",
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01857601",
+  "keywords": [
+   "자율주행"
+  ]
+ },
+ {
+  "kind": "bid",
   "no": "R26BK01856498",
   "order": "000",
   "title": "자율주행 전기차 충전기 전문위탁운영 및 유지관리 용역",
@@ -2362,9 +2385,9 @@
   "budget_text": "9,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.20",
-  "deadline_text": "D-DAY 11.26 10:00",
+  "deadline_text": "마감 11.26 10:00",
   "open_text": "11.26 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "측량"
   ],
@@ -2384,9 +2407,9 @@
   "budget_text": "9,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.20",
-  "deadline_text": "D-DAY 11.26 10:00",
+  "deadline_text": "마감 11.26 10:00",
   "open_text": "11.26 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "측량"
   ],
@@ -2406,9 +2429,9 @@
   "budget_text": "3억 9,102만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.20",
-  "deadline_text": "D-DAY 11.26 10:00",
+  "deadline_text": "마감 11.26 10:00",
   "open_text": "11.26 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "기타"
   ],
@@ -2517,9 +2540,9 @@
   "budget_text": "4억 3,580만",
   "contract": "제한경쟁 적격심사제",
   "posted": "26.11.19",
-  "deadline_text": "D-DAY 11.26 12:00",
+  "deadline_text": "마감 11.26 12:00",
   "open_text": "11.26 13:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "경상남도 산청군",
    "측량"
@@ -3877,6 +3900,53 @@
  },
  {
   "kind": "bid",
+  "no": "R26BK01858271",
+  "order": "000",
+  "title": "2027년 하남시 디지털트윈 공간정보 플랫폼 유지관리",
+  "org": "한국국토정보공사 인천경기남부지역본부",
+  "phone": "031-8066-7075",
+  "conditions": "공동수급 허용 · 업종 제한 없음",
+  "budget_text": "1억 1,770만",
+  "contract": "제한경쟁 협상에의한계약",
+  "posted": "26.11.26",
+  "deadline_text": "D-11 12.07 10:00",
+  "open_text": "12.11 15:00",
+  "status": "입찰중",
+  "cats": [
+   "운영 및 유지관리",
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01858271",
+  "keywords": [
+   "공간정보"
+  ]
+ },
+ {
+  "kind": "bid",
+  "no": "R26BK01857441",
+  "order": "000",
+  "title": "2027년 지도 인쇄·공급 공간정보 활용도움터 운영",
+  "org": "재공고",
+  "phone": "031-210-2626",
+  "conditions": "공동수급 허용",
+  "budget_text": "4억 5,000만",
+  "contract": "제한경쟁 협상에의한계약",
+  "posted": "26.11.26",
+  "deadline_text": "D-11 12.07 10:00",
+  "open_text": "12.07 11:00",
+  "status": "입찰중",
+  "cats": [
+   "국토교통부 국토지리정보원",
+   "운영 및 유지관리",
+   "기타"
+  ],
+  "presignal": "https://presignal.co.kr/p/R26BK01857441",
+  "keywords": [
+   "공간정보"
+  ]
+ },
+ {
+  "kind": "bid",
   "no": "R26BK01855524",
   "order": "000",
   "title": "2027년 산림공간정보서비스 운영 및 유지관리",
@@ -4154,9 +4224,9 @@
   "budget_text": "5,996만",
   "contract": "수의계약 소액수의견적",
   "posted": "26.11.19",
-  "deadline_text": "D-DAY 11.26 10:00",
+  "deadline_text": "마감 11.26 10:00",
   "open_text": "11.26 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "감리"
   ],
@@ -4776,9 +4846,9 @@
   "budget_text": "1억 9,000만",
   "contract": "제한경쟁 협상에의한계약",
   "posted": "26.11.05",
-  "deadline_text": "D-DAY 11.26 10:00",
+  "deadline_text": "마감 11.26 10:00",
   "open_text": "11.26 11:00",
-  "status": "입찰중",
+  "status": "개찰대기",
   "cats": [
    "운영 및 유지관리"
   ],
