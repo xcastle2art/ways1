@@ -99,6 +99,29 @@
       ? '<span class="pill pill--pre">사전규격</span>'
       : '<span class="pill pill--bid">입찰공고</span>';
   }
+  /* ------------------------------------------------- 입찰가능 여부(업체 매칭) */
+  var VERDICT = {
+    '가능': { cls: 'ok', mark: '✓', label: '참가가능' },
+    '조건부': { cls: 'cond', mark: '△', label: '조건부' },
+    '불가': { cls: 'no', mark: '✕', label: '불가' },
+    '요건미확인': { cls: 'unk', mark: '?', label: '요건 미확인' }
+  };
+  function V(v) { return VERDICT[v] || VERDICT['요건미확인']; }
+  function eligChip(it) {
+    var e = it && it.elig;
+    if (!e) return '';
+    var v = V(e.verdict);
+    var tip = (e.reasons || []).join(' / ');
+    return '<span class="echip echip--' + v.cls + '"' + (tip ? ' title="' + esc(tip) + '"' : '') + '>' +
+      v.mark + ' 웨이즈원 ' + v.label + '</span>';
+  }
+  function indShort(s) {
+    return String(s || '')
+      .replace('엔지니어링·', '엔지·')
+      .replace('SW사업자 신고', 'SW사업자')
+      .replace('측량업·', '');
+  }
+
   function regionLimited(it) {
     var v = it.region_limit || '';
     return v && v.indexOf('없음') < 0 ? v : '';
@@ -241,7 +264,10 @@
     else if (n !== null && n >= 0 && n <= 3) cls += ' row--soon';
     else cls += ' row--open';
 
-    var meta = '<span class="row__org">' + esc(shortOrg(it.org)) + '</span>' +
+    var meta = eligChip(it) +
+      (it.elig && it.elig.eligible_count ? '<span class="row__elig-n">낙찰사 ' + it.elig.eligible_count + '곳 입찰가능</span>' : '') +
+      (it.elig && it.elig.complement_count ? '<span class="sep">·</span><span class="row__elig-n">보완 ' + it.elig.complement_count + '</span>' : '') +
+      '<span class="sep">·</span><span class="row__org">' + esc(shortOrg(it.org)) + '</span>' +
       '<span class="sep">·</span><span>' + esc(it.no) + '</span>' +
       (it.kind === 'prespec' ? '<span class="sep">·</span><span>사전규격</span>' : '') +
       (regionLimited(it) ? '<span class="sep">·</span><span class="row__flag">지역제한</span>' : '') +
@@ -350,6 +376,69 @@
     return out;
   }
 
+  /* ------------------------------------ 드로어: 입찰참가자격 & 입찰 가능 업체 */
+  function eligSection(it) {
+    var e = it.elig;
+    if (!e) {
+      return '<div class="qa">업체 매칭 정보가 없습니다. (낙찰사 업등록 DB 빌드 전 공고일 수 있습니다)</div>';
+    }
+    var v = V(e.verdict);
+    var req = e.req || {};
+    var selfInds = (DATA.registry && DATA.registry.self_inds) || [];
+    var reasons = (e.reasons || []).map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('');
+    var inds = (req.industries || []).length
+      ? (req.industries || []).map(function (x) { return '<span class="rchip">' + esc(indShort(x)) + '</span>'; }).join('')
+      : '<span class="muted small">' + (req.no_industry ? '업종 제한 없음' : '공고문·메타에서 확인 못함') + '</span>';
+    var region = (req.region || []).length
+      ? (req.region || []).map(function (x) { return '<span class="rchip rchip--area">' + esc(x) + '</span>'; }).join('')
+      : '<span class="muted small">제한 없음·미확인</span>';
+    var extras = (req.extras || []).length
+      ? (req.extras || []).map(function (x) { return '<span class="rchip rchip--etc">' + esc(x) + '</span>'; }).join('')
+      : '<span class="muted small">—</span>';
+    var srcLabel = { field: '나라장터 공고 메타', note: '공고문 정리 노트' };
+    var srcs = (req.sources || []).map(function (s) {
+      if (s.indexOf('att:') === 0) return '<span class="rchip rchip--src">첨부 ' + esc(s.slice(4)) + '</span>';
+      return '<span class="rchip rchip--src">' + esc(srcLabel[s] || s) + '</span>';
+    }).join('') || '<span class="muted small">—</span>';
+
+    var rows = (e.eligible || []).map(function (c) {
+      var field = c.field ? ' · ' + esc(c.field) : '';
+      return '<div class="ecard">' +
+        '<div class="ecard__top"><b>' + esc(c.name) + '</b>' +
+        '<span class="ecard__area">' + esc(c.area || '소재지 미확인') + '</span></div>' +
+        '<div class="ecard__inds">' + (c.inds || []).map(function (i) {
+          return '<span class="rchip rchip--sm">' + esc(indShort(i)) + '</span>';
+        }).join('') + '</div>' +
+        '<div class="ecard__foot">낙찰 ' + (c.wins || 0) + '건' + field + (c.last ? ' · 최근 ' + esc(String(c.last).slice(0, 7)) : '') + '</div>' +
+        '</div>';
+    }).join('');
+
+    var more = e.eligible_count > (e.eligible || []).length
+      ? '<div class="muted small" style="margin-top:6px">외 ' + (e.eligible_count - (e.eligible || []).length) + '곳 — <b>낙찰사 업등록 DB</b>에서 전체 확인</div>'
+      : '';
+
+    return '<div class="eligbox eligbox--' + v.cls + '">' +
+      '<div class="eligbox__top"><span class="ebadge ebadge--' + v.cls + '">' + v.mark + ' ' + v.label + '</span>' +
+      '<span class="eligbox__who">㈜웨이즈원 입찰</span></div>' +
+      (reasons ? '<ul class="eligbox__why">' + reasons + '</ul>' : '') +
+      '<div class="eligbox__self"><span class="small muted">당사 보유</span> ' +
+      (selfInds.length ? selfInds.map(function (i) { return '<span class="rchip rchip--sm">' + esc(indShort(i)) + '</span>'; }).join('')
+        : '<span class="small muted">원부 미확인</span>') + '</div>' +
+      '</div>' +
+      '<dl class="req">' +
+      '<dt>필수 업종</dt><dd>' + inds + '</dd>' +
+      '<dt>지역제한</dt><dd>' + region + '</dd>' +
+      '<dt>공동수급</dt><dd>' + esc(req.consortium || '미확인') + '</dd>' +
+      '<dt>추가 서류·요건</dt><dd>' + extras + '</dd>' +
+      '<dt>근거</dt><dd>' + srcs + '</dd>' +
+      '</dl>' +
+      '<h4 class="sub4">기존 낙찰사 중 단독 입찰 가능 <span class="pill pill--pre">' + (e.eligible_count || 0) + '곳</span></h4>' +
+      (rows ? '<div class="ecards">' + rows + '</div>' + more
+        : '<div class="qa">' + (e.verdict === '요건미확인'
+          ? '참가자격을 확인하지 못해 업체를 매칭하지 않았습니다.'
+          : '등록된 낙찰사 중 이 요건을 모두 충족하는 업체가 없습니다.') + '</div>');
+  }
+
   function openDrawer(id) {
     var it = ITEMS.filter(function (i) { return i.id === id; })[0];
     if (!it) return;
@@ -432,6 +521,7 @@
       '</div></div>' +
       '<div class="dw-sec"><h3>참가 조건</h3><dl class="kv">' + cond +
       '<dt>키워드</dt><dd>' + esc((it.keywords || []).join(' · ') || '—') + '</dd></dl></div>' +
+      '<div class="dw-sec"><h3>입찰참가자격 · 입찰 가능 업체</h3>' + eligSection(it) + '</div>' +
       '<div class="dw-sec"><h3>첨부파일 <span class="pill pill--wait">' + (atts.length || '미확인') + '</span></h3><div class="files">' + files + '</div></div>' +
       (it.kind === 'prespec' || it.qna.state === 'confirmed' || it.qna.state === 'noted'
         ? '<div class="dw-sec"><h3>사전규격 질의 <span class="pill ' + qnaCls + '">' + qnaState + '</span></h3>' +
@@ -458,6 +548,76 @@
 
   function closeDrawer() {
     $('#drawerWrap').hidden = true;
+    document.body.style.overflow = '';
+  }
+
+  /* ------------------------------------------------ 낙찰사 업등록 DB 모달 */
+  var regState = { q: '', field: 'all', sort: 'wins' };
+
+  function regData() { return (DATA && DATA.registry) || null; }
+
+  function renderReg() {
+    var reg = regData();
+    if (!reg) return;
+    var q = regState.q.trim().toLowerCase().replace(/\s+/g, '');
+    var rows = (reg.companies || []).filter(function (c) {
+      if (regState.field !== 'all' && !(c.fields && c.fields[regState.field])) return false;
+      if (!q) return true;
+      var hay = [c.name, c.area, c.addr, (c.inds || []).join(' ')].join('').toLowerCase().replace(/\s+/g, '');
+      return hay.indexOf(q) >= 0;
+    });
+    rows.sort(function (a, b) {
+      if (regState.sort === 'name') return a.name.localeCompare(b.name, 'ko');
+      if (regState.sort === 'amount') return (b.amount || 0) - (a.amount || 0);
+      return (b.wins || 0) - (a.wins || 0) || (b.amount || 0) - (a.amount || 0);
+    });
+    var st = reg.stats || {};
+    $('#regMeta').textContent = '업체 ' + (st.companies || rows.length) + '곳 · 측량업 ' + (st.kasm || 0) +
+      ' · 엔지니어링 ' + (st.etis || 0) + ' · SW사업자 ' + (st.swit || 0) + ' · ' + (reg.updated_at || '').slice(0, 10) + ' 수집';
+
+    var sel = $('#regField');
+    if (!sel.options.length) {
+      var fields = {};
+      (reg.companies || []).forEach(function (c) { Object.keys(c.fields || {}).forEach(function (f) { fields[f] = (fields[f] || 0) + 1; }); });
+      sel.innerHTML = '<option value="all">전체 분야</option>' + Object.keys(fields).sort(function (a, b) { return fields[b] - fields[a]; })
+        .map(function (f) { return '<option value="' + esc(f) + '">' + esc(f) + ' (' + fields[f] + ')</option>'; }).join('');
+    }
+
+    $('#regBody').innerHTML = rows.length ? rows.map(function (c) {
+      var inds = (c.inds || []);
+      var chips = inds.slice(0, 5).map(function (i) { return '<span class="rchip rchip--sm">' + esc(indShort(i)) + '</span>'; }).join('') +
+        (inds.length > 5 ? '<span class="rchip rchip--sm rchip--more">+' + (inds.length - 5) + '</span>' : '');
+      var fields = Object.keys(c.fields || {}).map(function (f) { return esc(f) + ' ' + c.fields[f]; }).join(' · ');
+      return '<div class="regrow' + (c.self ? ' regrow--self' : '') + '">' +
+        '<div class="regrow__top"><b class="regrow__name">' + esc(c.name) + '</b>' +
+        (c.self ? '<span class="pill pill--bid">당사</span>' : '') +
+        (c.sw ? '<span class="rchip rchip--sm">' + esc(c.sw) + '</span>' : '') +
+        (c.flag ? '<span class="rchip rchip--sm rchip--warn" title="원부 간 소재지 불일치: ' + esc(c.flag.join(', ')) + '">동명이인 주의</span>' : '') +
+        '<span class="regrow__area">' + esc(c.area || '소재지 미확인') + '</span></div>' +
+        '<div class="regrow__inds">' + (chips || '<span class="muted small">업종 원부 미확인</span>') + '</div>' +
+        '<div class="regrow__foot"><span>낙찰 <b>' + (c.wins || 0) + '건</b>' + (c.amount ? ' · ' + wonShort(c.amount) : '') + '</span>' +
+        (fields ? '<span class="muted small">' + fields + '</span>' : '') +
+        (c.last ? '<span class="muted small">최근 ' + esc(String(c.last).slice(0, 7)) + '</span>' : '') + '</div>' +
+        '</div>';
+    }).join('') : '<div class="qa">조건에 맞는 업체가 없습니다.</div>';
+
+    var srcs = (reg.sources || {});
+    var srcNote = Object.keys(srcs).map(function (k) {
+      var s = srcs[k];
+      return '<div><b>' + esc(s.name) + '</b> — ' + esc(s.status || (s.method || '') + (s.scope ? ' · ' + s.scope : '')) + '</div>';
+    }).join('');
+    $('#regBody').innerHTML += '<div class="regsrc"><b>원부 출처</b>' + srcNote + '</div>';
+  }
+
+  function openReg() {
+    if (!regData()) return;
+    $('#regWrap').hidden = false;
+    document.body.style.overflow = 'hidden';
+    renderReg();
+  }
+
+  function closeReg() {
+    $('#regWrap').hidden = true;
     document.body.style.overflow = '';
   }
 
@@ -489,6 +649,10 @@
       '<div><b>시·도 구분</b> 발주기관 소재 기준입니다. 중앙부처·전국 단위 공기업은 <code>전국·중앙부처</code>로 묶었습니다.</div>' +
       (f.excluded_keywords ? '<div><b>대시보드 제외 키워드</b> ' + esc(f.excluded_keywords.join(' · ')) + ' — 이 키워드만 걸린 ' + (f.excluded_items || 0) + '건은 표시하지 않습니다. 09:00·16:00 정기 스캔과 알림은 14개 키워드 그대로 수집합니다.</div>' : '') +
       '<div><b>출처</b> ' + esc((DATA.scan_basis && DATA.scan_basis.sources) || '') + '</div>' +
+      (DATA.eligibility ? '<div><b>입찰가능 매칭</b> 공고 ' + (DATA.eligibility.items || 0) + '건 중 참가자격 파싱 ' + (DATA.eligibility.parsed || 0) + '건 — ' +
+        '웨이즈원 <b>참가가능 ' + ((DATA.eligibility.verdicts || {})['가능'] || 0) + '</b> · 조건부 ' + ((DATA.eligibility.verdicts || {})['조건부'] || 0) +
+        ' · 불가 ' + ((DATA.eligibility.verdicts || {})['불가'] || 0) + ' · 요건미확인 ' + ((DATA.eligibility.verdicts || {})['요건미확인'] || 0) +
+        (DATA.registry ? ' / 낙찰사 업등록 DB ' + ((DATA.registry.stats || {}).companies || 0) + '곳' : '') + '</div>' : '') +
       '<div><b>주의</b> 금액·마감·자격은 수집 시점 정리값입니다. 응찰 판단 전 나라장터 공고문·제안요청서 원문으로 다시 확인하세요. D-day는 접속한 날짜 기준으로 계산되며 30일이 지난 공고는 자동으로 빠집니다.</div>';
   }
 
@@ -565,15 +729,21 @@
     document.addEventListener('click', function (e) {
       if (e.target.closest('#moreBtn')) { state.limit += PAGE; renderList(); return; }
       if (e.target.closest('[data-close]')) { closeDrawer(); return; }
+      if (e.target.closest('[data-regclose]')) { closeReg(); return; }
       var zero = e.target.closest('.sido__btn.is-zero');
       if (zero) { e.preventDefault(); return; }
       var cp = e.target.closest('[data-copy]');
       if (cp) copyText(cp.getAttribute('data-copy'));
     });
     document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !$('#regWrap').hidden) { closeReg(); return; }
       if (e.key === 'Escape' && !$('#drawerWrap').hidden) closeDrawer();
     });
     $('#reloadBtn').addEventListener('click', function () { location.reload(); });
+    $('#regBtn').addEventListener('click', openReg);
+    $('#regQ').addEventListener('input', function (e) { regState.q = e.target.value; renderReg(); });
+    $('#regField').addEventListener('change', function (e) { regState.field = e.target.value; renderReg(); });
+    $('#regSort').addEventListener('change', function (e) { regState.sort = e.target.value; renderReg(); });
   }
 
   function copyText(text) {

@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#ffffff" />
 <title>나라장터 입찰 모니터링 · 시·도별</title>
 <meta name="description" content="나라장터 입찰공고·사전규격·개찰결과를 시·도별로 한눈에 보는 대시보드 (최근 30일)" />
-<link rel="stylesheet" href="style.css?v=20261122i" />
+<link rel="stylesheet" href="style.css?v=20261127a" />
 <style>.drawer-wrap[hidden]{display:none !important}</style>
 </head>
 <body>
@@ -21,6 +21,7 @@
       </span>
     </div>
     <div class="bar__right">
+      <button class="dbtab" id="regBtn" type="button" title="협회·공공 원부에서 수집한 낙찰사 업등록 현황">낙찰사 업등록 DB</button>
       <span class="stamp" id="updatedStamp">불러오는 중…</span>
       <button class="iconbtn" id="reloadBtn" type="button" title="새로고침" aria-label="새로고침">
         <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M10 3a7 7 0 1 0 6.32 4H14.2A5 5 0 1 1 10 5v2.5L14.5 4 10 0.5V3Z" fill="currentColor"/></svg>
@@ -78,6 +79,30 @@
   <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="공고 상세"></aside>
 </div>
 
-<script src="app.js?v=20261122i"></script>
+<!-- 낙찰사 업등록 DB -->
+<div class="modal-wrap" id="regWrap" hidden>
+  <div class="modal-veil" data-regclose="1"></div>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="regTitle">
+    <div class="modal__head">
+      <div>
+        <h2 id="regTitle">낙찰사 업등록 DB</h2>
+        <span class="muted small" id="regMeta"></span>
+      </div>
+      <button class="dw-close" data-regclose="1" aria-label="닫기">✕</button>
+    </div>
+    <div class="modal__tools">
+      <input type="search" id="regQ" placeholder="업체명 · 소재지 · 업종 검색" autocomplete="off" />
+      <select id="regField" aria-label="낙찰 분야"></select>
+      <select id="regSort" aria-label="정렬">
+        <option value="wins">낙찰 많은 순</option>
+        <option value="name">이름순</option>
+        <option value="amount">낙찰금액 순</option>
+      </select>
+    </div>
+    <div class="modal__body" id="regBody"></div>
+  </div>
+</div>
+
+<script src="app.js?v=20261127a"></script>
 </body>
 </html>

@@ -1,0 +1,9774 @@
+{
+ "updated_at": "2026-11-27T17:39:25+09:00",
+ "self": {
+  "name": "㈜웨이즈원",
+  "addr": "경기도 의왕시 이미로 40 , 디동 521호, 519호(포일동, 인덕원아이티밸리)",
+  "inds": [
+   "SW사업자",
+   "공간정보사업자",
+   "공공측량업",
+   "수치지도제작업",
+   "엔지니어링:교통",
+   "엔지니어링:도로공항",
+   "엔지니어링:도시계획",
+   "엔지니어링:측량지적",
+   "연안조사측량업",
+   "영상처리업",
+   "지도제작업",
+   "지하시설물측량업",
+   "측지측량업"
+  ]
+ },
+ "summary": {
+  "items": 146,
+  "parsed": 92,
+  "verdicts": {
+   "가능": 72,
+   "조건부": 3,
+   "불가": 7,
+   "요건미확인": 64
+  },
+  "requirement_sources": {
+   "field": 92,
+   "note": 2
+  },
+  "registry_companies": 107
+ },
+ "items": {
+  "b-R26BK01855247": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "엔지니어링·도시계획 + SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [
+     "중소기업 확인서",
+     "직접생산확인(공간정보DB구축서비스)"
+    ],
+    "sources": [
+     "field",
+     "note"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 25,
+   "complement_count": 26,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "지오투정보기술",
+     "name": "주식회사 지오투정보기술",
+     "area": "경기도 안양",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 5,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-07-11"
+    },
+    {
+     "key": "디아이브릿지",
+     "name": "디아이브릿지 주식회사",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 4,
+     "field": "토적·재취",
+     "last": "2026-09-01"
+    },
+    {
+     "key": "성원기술개발",
+     "name": "성원기술개발 주식회사",
+     "area": "전북특별자치도 전주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "토적·재취",
+     "last": "2026-11-10"
+    },
+    {
+     "key": "강원엔지니어링",
+     "name": "주식회사 강원엔지니어링",
+     "area": "강원특별자치도 정선",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "용도지역지구 DB정비",
+     "last": "2024-10-29"
+    }
+   ]
+  },
+  "b-R26BK01843852": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01840743": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01838964": {
+   "verdict": "조건부",
+   "reasons": [
+    "지역제한(대전광역시, 충청남도, 충청북도, 세종특별자치시) — 당사 소재지(경기도 의왕) 미해당, 지역업체 공동수급 필요"
+   ],
+   "req": {
+    "industries": [
+     "엔지니어링·도시계획 + SW사업자 신고"
+    ],
+    "region": [
+     "대전광역시",
+     "충청남도",
+     "충청북도",
+     "세종특별자치시"
+    ],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field",
+     "note"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 2,
+   "complement_count": 96,
+   "eligible": [
+    {
+     "key": "정안",
+     "name": "주식회사 정안",
+     "area": "충청남도 논산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "도로대장",
+     "last": "2026-05-07"
+    },
+    {
+     "key": "지성엔지니어링",
+     "name": "주식회사지성엔지니어링",
+     "area": "충청남도 당진",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01808937": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01822484": {
+   "verdict": "조건부",
+   "reasons": [
+    "지역제한(대전광역시) — 당사 소재지(경기도 의왕) 미해당, 지역업체 공동수급 필요"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 엔지니어링·도시계획"
+    ],
+    "region": [
+     "대전광역시"
+    ],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 2,
+   "complement_count": 105,
+   "eligible": [
+    {
+     "key": "유비즈정보기술",
+     "name": "(주)유비즈정보기술",
+     "area": "대전광역시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "UPIS·KLIP DB",
+     "last": "2023-12-08"
+    },
+    {
+     "key": "한라지리정보",
+     "name": "주식회사 한라지리정보",
+     "area": "대전광역시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "도로대장",
+     "last": "2024-12-02"
+    }
+   ]
+  },
+  "b-R26BK01810145": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01794914": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "ps-R26BD00304066": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00299726": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00295369": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00292255": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01822074": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "엔지니어링·도시계획 또는 SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 88,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01798701": {
+   "verdict": "불가",
+   "reasons": [
+    "지역제한(경상북도) — 당사 소재지 미해당 (공동수급 여부 미확인)"
+   ],
+   "req": {
+    "industries": [
+     "엔지니어링·도시계획 또는 SW사업자 신고"
+    ],
+    "region": [
+     "경상북도"
+    ],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 3,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "정원공간정보",
+     "name": "(주)정원공간정보",
+     "area": "경상북도 김천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-12-08"
+    },
+    {
+     "key": "인데이터",
+     "name": "주식회사 인데이터",
+     "area": "경상북도 경산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-10"
+    },
+    {
+     "key": "정석지아이에스",
+     "name": "주식회사 정석지아이에스",
+     "area": "경상북도 영주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "용도지역지구 DB정비",
+     "last": "2024-07-02"
+    }
+   ]
+  },
+  "b-R26BK01858657": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01857601": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01856498": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01849559": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01845405": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01845322": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01841826": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01841095": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01838997": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01833206": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01827935": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01827548": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01826915": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01818370": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01816466": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01811633": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01814542": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01808831": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01804582": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01800072": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01801398": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "ps-R26BD00307136": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00306669": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00305038": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00304766": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00303189": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00302321": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00299037": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00298244": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00297485": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00297050": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00296406": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00295974": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00295791": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00295678": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00295450": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00294519": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00293800": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01854588": {
+   "verdict": "불가",
+   "reasons": [
+    "지역제한(전남광주통합특별시) — 당사 소재지 미해당 (공동수급 여부 미확인)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [
+     "전남광주통합특별시"
+    ],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01829317": {
+   "verdict": "불가",
+   "reasons": [
+    "지역제한(경기도 화성시) — 당사 소재지 미해당 (공동수급 여부 미확인)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [
+     "경기도 화성시"
+    ],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00299674": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01842043": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01814013": {
+   "verdict": "조건부",
+   "reasons": [
+    "지역제한(경상북도) — 당사 소재지(경기도 의왕) 미해당, 지역업체 공동수급 필요"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 측량업·지도제작업 또는 측량업·공공측량업 또는 측량업·측지측량업"
+    ],
+    "region": [
+     "경상북도"
+    ],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 3,
+   "complement_count": 104,
+   "eligible": [
+    {
+     "key": "정원공간정보",
+     "name": "(주)정원공간정보",
+     "area": "경상북도 김천",
+     "inds": [
+      "SW사업자",
+      "공공측량업"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-12-08"
+    },
+    {
+     "key": "인데이터",
+     "name": "주식회사 인데이터",
+     "area": "경상북도 경산",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-10"
+    },
+    {
+     "key": "정석지아이에스",
+     "name": "주식회사 정석지아이에스",
+     "area": "경상북도 영주",
+     "inds": [
+      "SW사업자",
+      "공공측량업"
+     ],
+     "wins": 1,
+     "field": "용도지역지구 DB정비",
+     "last": "2024-07-02"
+    }
+   ]
+  },
+  "b-R26BK01813931": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01812769": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01794265": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 측량업·지하시설물측량업 또는 측량업·지도제작업 또는 측량업·공공측량업"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 103,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자",
+      "공공측량업",
+      "지하시설물측량업"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자",
+      "공공측량업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자",
+      "공공측량업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자",
+      "지하시설물측량업"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "ps-R26BD00306212": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01855608": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01860541": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01858271": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01857441": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 측량업·지도제작업 또는 측량업·공간영상도화업"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 92,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "지도제작업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자",
+      "공간영상도화업"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01855524": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01855103": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01853325": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01824268": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "불허",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01849322": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 측량업·지도제작업"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 89,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "지도제작업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01848643": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01848373": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01843660": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 업종요건 아님(사업 유형)"
+   ],
+   "req": {
+    "industries": [
+     "업종요건 아님(사업 유형)"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01843061": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01843040": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01841573": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·정보통신공사업 또는 SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01841899": {
+   "verdict": "불가",
+   "reasons": [
+    "지역제한(경상남도) — 당사 소재지 미해당 (공동수급 여부 미확인)"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 측량업·지도제작업"
+    ],
+    "region": [
+     "경상남도"
+    ],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 9,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    },
+    {
+     "key": "한토공간기술",
+     "name": "주식회사 한토공간기술",
+     "area": "경상남도 진주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 4,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-06-11"
+    },
+    {
+     "key": "산들이엔지",
+     "name": "주식회사 산들이엔지",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 3,
+     "field": "도로대장",
+     "last": "2026-04-28"
+    },
+    {
+     "key": "동신지티아이",
+     "name": "주식회사 동신지티아이",
+     "area": "경상남도 창원",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-03-12"
+    },
+    {
+     "key": "시선아이티",
+     "name": "주식회사 시선아이티",
+     "area": "경상남도 김해",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2023-12-28"
+    },
+    {
+     "key": "누리지오텍",
+     "name": "주식회사 누리지오텍",
+     "area": "경상남도 진주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-01-21"
+    },
+    {
+     "key": "뉴비전네트웍스",
+     "name": "주식회사 뉴비전네트웍스",
+     "area": "경상남도 창원",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 1,
+     "field": "도로대장",
+     "last": "2024-04-01"
+    }
+   ]
+  },
+  "b-R26BK01841129": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "원부로 확인되지 않는 업종: 원부 미연결·감리법인"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·감리법인"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01841320": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음 — 지역제한(경기도) 충족"
+   ],
+   "req": {
+    "industries": [],
+    "region": [
+     "경기도"
+    ],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 21,
+   "complement_count": 86,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지안유에이아이",
+     "name": "주식회사 지안유에이아이",
+     "area": "경기도 안양",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 5,
+     "field": "토적·재취",
+     "last": "2026-07-28"
+    },
+    {
+     "key": "지오투정보기술",
+     "name": "주식회사 지오투정보기술",
+     "area": "경기도 안양",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 5,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-07-11"
+    },
+    {
+     "key": "프리다임",
+     "name": "주식회사 프리다임",
+     "area": "경기도 안양",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "도로대장",
+     "last": "2026-04-28"
+    },
+    {
+     "key": "다큐멘테크",
+     "name": "(주)다큐멘테크",
+     "area": "경기도 하남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-02-10"
+    },
+    {
+     "key": "알라딘시스템",
+     "name": "(주)알라딘시스템",
+     "area": "경기도 고양",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "토적·재취",
+     "last": "2026-07-27"
+    }
+   ]
+  },
+  "b-R26BK01837995": {
+   "verdict": "불가",
+   "reasons": [
+    "지역제한(경상남도) — 당사 소재지 미해당 (공동수급 여부 미확인)"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [
+     "경상남도"
+    ],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 9,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    },
+    {
+     "key": "한토공간기술",
+     "name": "주식회사 한토공간기술",
+     "area": "경상남도 진주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 4,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-06-11"
+    },
+    {
+     "key": "산들이엔지",
+     "name": "주식회사 산들이엔지",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 3,
+     "field": "도로대장",
+     "last": "2026-04-28"
+    },
+    {
+     "key": "동신지티아이",
+     "name": "주식회사 동신지티아이",
+     "area": "경상남도 창원",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-03-12"
+    },
+    {
+     "key": "시선아이티",
+     "name": "주식회사 시선아이티",
+     "area": "경상남도 김해",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2023-12-28"
+    },
+    {
+     "key": "누리지오텍",
+     "name": "주식회사 누리지오텍",
+     "area": "경상남도 진주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-01-21"
+    },
+    {
+     "key": "뉴비전네트웍스",
+     "name": "주식회사 뉴비전네트웍스",
+     "area": "경상남도 창원",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "도로대장",
+     "last": "2024-04-01"
+    }
+   ]
+  },
+  "b-R26BK01840656": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·정보통신공사업 또는 SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01840253": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01838911": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01838165": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01836025": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01836161": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01835143": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01835915": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01833663": {
+   "verdict": "불가",
+   "reasons": [
+    "지역제한(경상남도) — 당사 소재지 미해당 (공동수급 여부 미확인)"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·정보통신공사업 또는 SW사업자 신고"
+    ],
+    "region": [
+     "경상남도"
+    ],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 9,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    },
+    {
+     "key": "한토공간기술",
+     "name": "주식회사 한토공간기술",
+     "area": "경상남도 진주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 4,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-06-11"
+    },
+    {
+     "key": "산들이엔지",
+     "name": "주식회사 산들이엔지",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 3,
+     "field": "도로대장",
+     "last": "2026-04-28"
+    },
+    {
+     "key": "동신지티아이",
+     "name": "주식회사 동신지티아이",
+     "area": "경상남도 창원",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-03-12"
+    },
+    {
+     "key": "시선아이티",
+     "name": "주식회사 시선아이티",
+     "area": "경상남도 김해",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2023-12-28"
+    },
+    {
+     "key": "누리지오텍",
+     "name": "주식회사 누리지오텍",
+     "area": "경상남도 진주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-01-21"
+    },
+    {
+     "key": "뉴비전네트웍스",
+     "name": "주식회사 뉴비전네트웍스",
+     "area": "경상남도 창원",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "도로대장",
+     "last": "2024-04-01"
+    }
+   ]
+  },
+  "b-R26BK01832175": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01830982": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·정보통신공사업 또는 SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01825240": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01825843": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01825220": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 측량업·지도제작업 또는 측량업·공간영상도화업"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 92,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "지도제작업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자",
+      "공간영상도화업"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자",
+      "지도제작업"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01823916": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01824584": {
+   "verdict": "가능",
+   "reasons": [
+    "업종 제한 없음"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 107,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "수치지도제작업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01821974": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·정보통신공사업 또는 SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01818805": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01819793": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01819419": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01818949": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01813104": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·정보통신공사업 또는 SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01813917": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·정보통신공사업 또는 SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01809317": {
+   "verdict": "불가",
+   "reasons": [
+    "지역제한(경상북도) — 당사 소재지 미해당 (공동수급 여부 미확인)"
+   ],
+   "req": {
+    "industries": [
+     "원부 미연결·정보통신공사업 또는 SW사업자 신고"
+    ],
+    "region": [
+     "경상북도"
+    ],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 3,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "정원공간정보",
+     "name": "(주)정원공간정보",
+     "area": "경상북도 김천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2025-12-08"
+    },
+    {
+     "key": "인데이터",
+     "name": "주식회사 인데이터",
+     "area": "경상북도 경산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 2,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-10"
+    },
+    {
+     "key": "정석지아이에스",
+     "name": "주식회사 정석지아이에스",
+     "area": "경상북도 영주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 1,
+     "field": "용도지역지구 DB정비",
+     "last": "2024-07-02"
+    }
+   ]
+  },
+  "b-R26BK01811538": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01809547": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01810587": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01810156": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01804698": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01801584": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01796955": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01788340": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "ps-R26BD00305785": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00305341": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00303201": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00301029": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00301723": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00301087": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00299577": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00300448": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00299780": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00299728": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00299084": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00297958": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00297554": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00297348": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00297194": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00296455": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00296344": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00295661": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00295121": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00294400": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00293551": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00293346": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00293279": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00292841": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00291867": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00292569": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00292469": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00292112": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00292005": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00291472": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "ps-R26BD00291093": {
+   "verdict": "요건미확인",
+   "reasons": [
+    "공고문·메타에서 입찰참가자격 업종을 확인하지 못함"
+   ],
+   "req": {
+    "industries": [],
+    "region": [],
+    "consortium": "미확인",
+    "extras": [],
+    "sources": [],
+    "parsed": false
+   },
+   "eligible_count": 0,
+   "complement_count": 0,
+   "eligible": []
+  },
+  "b-R26BK01844693": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고 또는 측량업·지하시설물측량업 또는 측량업·지도제작업 또는 측량업·공공측량업 또는 측량업·측지측량업"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 103,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "정도유아이티",
+     "name": "(주)정도유아이티",
+     "area": "서울특별시 강남구",
+     "inds": [
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 10,
+     "field": "토적·재취",
+     "last": "2026-05-18"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자",
+      "공공측량업",
+      "지하시설물측량업"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자",
+      "공공측량업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자",
+      "공공측량업",
+      "지도제작업",
+      "지하시설물측량업"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자",
+      "지하시설물측량업",
+      "측지측량업"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    }
+   ]
+  },
+  "b-R26BK01844583": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  },
+  "b-R26BK01845358": {
+   "verdict": "가능",
+   "reasons": [
+    "업종·지역 요건 충족"
+   ],
+   "req": {
+    "industries": [
+     "SW사업자 신고"
+    ],
+    "region": [],
+    "consortium": "허용",
+    "extras": [],
+    "sources": [
+     "field"
+    ],
+    "parsed": true
+   },
+   "eligible_count": 87,
+   "complement_count": 0,
+   "eligible": [
+    {
+     "key": "우대칼스",
+     "name": "주식회사 우대칼스",
+     "area": "경기도 성남",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 12,
+     "field": "토적·재취",
+     "last": "2026-06-24"
+    },
+    {
+     "key": "일신이앤씨",
+     "name": "주식회사 일신이앤씨",
+     "area": "강원특별자치도 원주",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 8,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "지오스토리",
+     "name": "주식회사 지오스토리",
+     "area": "서울특별시",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 7,
+     "field": "도로대장",
+     "last": "2026-08-19"
+    },
+    {
+     "key": "웨이즈원",
+     "name": "웨이즈원 주식회사",
+     "area": "경기도 의왕",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-05-26"
+    },
+    {
+     "key": "로우코리아",
+     "name": "주식회사 로우코리아",
+     "area": "경기도 평택",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-06-18"
+    },
+    {
+     "key": "사방정보기술",
+     "name": "주식회사 사방정보기술",
+     "area": "경상남도 함안",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "UPIS·KLIP DB",
+     "last": "2026-03-12"
+    },
+    {
+     "key": "신영이에스디",
+     "name": "주식회사 신영이에스디",
+     "area": "강원특별자치도 춘천",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "토적·재취",
+     "last": "2026-02-11"
+    },
+    {
+     "key": "테라엔지니어링",
+     "name": "주식회사 테라엔지니어링",
+     "area": "경상남도 양산",
+     "inds": [
+      "SW사업자"
+     ],
+     "wins": 6,
+     "field": "도로대장",
+     "last": "2026-10-29"
+    }
+   ]
+  }
+ }
+}

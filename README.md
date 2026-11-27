@@ -16,7 +16,8 @@
 | 종류 | 전체 / 입찰공고 / 사전규격 / 개찰결과 (선택한 시·도의 건수 표시) |
 | 키워드 | 대시보드에 남은 10개 키워드 칩(건수 표시) |
 | 목록 | 행마다 `D-day·마감일시 / 공고명 / 발주기관·공고번호·첨부 / 상태·금액` 순. 마감 전 임박도에 따라 왼쪽 색 띠(빨강 D-1, 주황 D-3, 파랑 진행, 회색 종료) |
-| 상세 드로어 | 마감·개찰·금액 요약 → 참가 조건 → 첨부파일 → 사전규격 질의 → 개찰결과 → 나라장터 직링크. 하단 고정 바에 `나라장터 열기`·`공고번호 복사` |
+| 상세 드로어 | 마감·개찰·금액 요약 → 참가 조건 → **입찰참가자격·입찰 가능 업체** → 첨부파일 → 사전규격 질의 → 개찰결과 → 나라장터 직링크. 하단 고정 바에 `나라장터 열기`·`공고번호 복사` |
+| 낙찰사 업등록 DB | 상단 바 `낙찰사 업등록 DB` 버튼 → 모달. 협회·공공 원부에서 수집한 107곳의 업종·소재지·낙찰 이력을 업체명/소재지/업종으로 검색, 낙찰 분야·정렬 필터 |
 | 계속 지켜보는 건 | 목록 아래 접힘 영역(기본 닫힘) |
 
 - **시·도는 발주기관 소재 기준**입니다. 중앙부처·전국 단위 공기업(LX·국토부·조달청·한국환경공단 등)은 `전국·중앙부처`로 묶습니다.
@@ -85,10 +86,24 @@ cd work/g2b-dashboard/scan
 python3 collect.py        # presignal 14개 키워드 × 입찰·사전규격 목록
 python3 enrich.py         # 공공일감: 첨부파일·개찰결과·금액
 python3 ps_detail.py      # presignal 상세: 마감·개찰 확정 일시
-python3 build_data.py     # ../data.json 생성 (시·도 정규화·대시보드 키워드 필터)
+python3 build_data.py     # ../data.json 생성 (시·도 정규화·필터 + 입찰참가자격 매칭)
 cd .. && python3 build-standalone.py
 git add -A && git commit -m "스캔 갱신 YYYY-MM-DD" && git push origin main
 ```
+
+### 입찰참가자격 매칭 · 낙찰사 업등록 DB (2026-11-27 추가)
+
+```bash
+cd work/g2b-dashboard/scan
+python3 fetch_registry.py            # 주 1회/변동 시 — KASM·ETIS 조회 + SWIT 스냅샷 → registry/company_registry.json
+python3 match_eligibility.py         # (선택) 위 결과만 따로 뽑기 → eligibility.json
+```
+
+- `build_data.py` 가 실행 중에 `match_eligibility.py` 를 import 해 공고별 요건 파싱→업체 매칭을 수행하고 `data.json` 의 `items[].elig`·`eligibility`·`registry` 를 채웁니다. 매 회차 별도 명령은 없습니다.
+- 원부 3종: **KASM**(한국공간정보산업협회 측량업체 검색 — 측량업 11종·공간정보사업자, `POST /mbi/selectEnterpriseList.do`, 비로그인) · **ETIS**(엔지니어링종합정보시스템 — 엔지니어링업 신고·전문분야, `QryChaeList.jsp`→`QryChaeView.jsp`) · **SWIT**(SW산업정보종합시스템 SW사업자 공개검색 — 전체목록 엑셀 스냅샷 `registry/sources/swit_sw_business.json.gz`).
+- **SMPP 직접생산확인**은 기업회원 로그인 없이는 조회할 수 없어 `미연결`로 두고 공고의 `직접생산확인(...)` 요건은 `추가 서류·요건`에만 표시합니다(판정에는 반영하지 않음).
+- SWIT 엑셀 스냅샷 갱신: 브라우저로 `https://www.swit.or.kr/IS/web/birPublic_SearhList.jsp` → 검색어 비운 채 `엑셀다운로드` → 받은 `list__*.xls` 를 `python3 fetch_registry.py swit <파일경로>` 로 변환한다(curl 은 TLS 지문 때문에 연결이 끊김).
+- 판정 기준: 업종요건(공고 메타 `industry_limit` = OR, 공고문 정리 노트의 `+` 결합 = AND) · 지역제한(`region_limit`/노트) · 공동수급 허용 여부. `가능 / 조건부(컨소·지역) / 불가 / 요건미확인` 네 가지로만 표기하고, 근거를 `req.sources`(`field`·`note`·`att:파일명`)로 남깁니다.
 
 - `build_data.py`의 `NOW`·`WIN_FROM`은 스캔 기준시각에 맞춰 갱신합니다(현재 2026-11-22 15:00 / 10-23).
 - 마감일이 비어 있는 직찰·협상 건은 `MANUAL_DEADLINE`에 근거와 함께 추가합니다.

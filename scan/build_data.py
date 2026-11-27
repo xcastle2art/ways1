@@ -430,6 +430,25 @@ WATCH = [
      "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01844693&bidPbancOrd=000"},
 ]
 
+# ── 입찰참가자격 파싱 & 입찰가능 업체 매칭 ─────────────────────────────────
+# 협회·공공 원부(registry/company_registry.json)와 공고별 참가자격을 대조한다.
+# registry 가 없으면(최초 실행 전) 매칭 없이 넘어간다.
+try:
+    import sys as _sys
+    _sys.path.insert(0, str(HERE))
+    import match_eligibility as ME
+    _companies, _regdoc = ME.load_registry()
+    _self = next((c for c in _companies if c.get("key") == "웨이즈원"),
+                 {"key": "웨이즈원", "display": "㈜웨이즈원", "inds": [],
+                  "sido": "경기도", "sigungu": "의왕", "addr": "경기도 의왕시"})
+    _elig, _summary = ME.attach(items, _companies, _self, NOTES, ME.att_texts())
+    for it in items:
+        it["elig"] = _elig.get(it["id"])
+    _registry = ME.registry_block(_regdoc)
+    _registry["self_inds"] = _self.get("inds", [])
+except Exception as _e:                                     # noqa: BLE001
+    _elig, _summary, _registry = {}, {"error": f"{type(_e).__name__}: {_e}"}, None
+
 data = {
     "updated_at": NOW.isoformat(timespec="minutes"),
     "updated_label": "2026-11-26(목) 09:00 KST",
@@ -453,6 +472,8 @@ data = {
     "provinces": provinces,
     "keyword_stats": kstats,
     "items": items,
+    "eligibility": _summary,
+    "registry": _registry,
     "counts": {
         "total": len(items),
         "bids": sum(1 for i in items if i["kind"] == "bid"),
@@ -464,6 +485,8 @@ data = {
         "urgent": sum(1 for i in items if is_urgent(i)),
         "open_bids": sum(1 for i in items if i["kind"] == "bid" and i["status"] == "입찰중"),
         "open_prespec": sum(1 for i in items if i["kind"] == "prespec" and i["status"] == "의견등록중"),
+        "won_possible": sum(1 for i in items if (i.get("elig") or {}).get("verdict") == "가능"),
+        "won_conditional": sum(1 for i in items if (i.get("elig") or {}).get("verdict") == "조건부"),
     },
 }
 OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
