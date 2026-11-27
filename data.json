@@ -46,9 +46,9 @@
    "도보네트워크",
    "GIS DB"
   ],
-  "excluded_items": 124,
-  "kept_items": 142,
-  "window_items": 266,
+  "excluded_items": 127,
+  "kept_items": 145,
+  "window_items": 272,
   "samples": [
    {
     "no": "R26BK01850551",
@@ -146,8 +146,8 @@
   {
    "code": "전국",
    "name": "전국·중앙부처",
-   "count": 42,
-   "bids": 27,
+   "count": 43,
+   "bids": 28,
    "prespec": 15,
    "urgent": 4
   },
@@ -202,9 +202,9 @@
   {
    "code": "울산",
    "name": "울산",
-   "count": 2,
+   "count": 3,
    "bids": 1,
-   "prespec": 1,
+   "prespec": 2,
    "urgent": 0
   },
   {
@@ -218,8 +218,8 @@
   {
    "code": "경기",
    "name": "경기",
-   "count": 25,
-   "bids": 17,
+   "count": 26,
+   "bids": 18,
    "prespec": 8,
    "urgent": 0
   },
@@ -311,8 +311,8 @@
   },
   {
    "keyword": "자율주행",
-   "bids": 20,
-   "prespec": 16
+   "bids": 21,
+   "prespec": 17
   },
   {
    "keyword": "정밀지도",
@@ -336,7 +336,7 @@
   },
   {
    "keyword": "공간정보",
-   "bids": 51,
+   "bids": 52,
    "prespec": 31
   }
  ],
@@ -1296,6 +1296,72 @@
    },
    "keywords": [
     "재해취약성"
+   ],
+   "note": "",
+   "owner": ""
+  },
+  {
+   "id": "b-R26BK01858657",
+   "kind": "bid",
+   "title": "VLA 자율주행 데이터 규격 및 구축 방안 연구",
+   "no": "R26BK01858657",
+   "order": "000",
+   "org": "국토교통부",
+   "region": "전국",
+   "sido": "전국·중앙부처",
+   "region_detail": "국토교통부",
+   "posted": "2026-11-26T00:00+09:00",
+   "posted_label": "11-26",
+   "deadline": "2026-12-08T10:00+09:00",
+   "deadline_label": "2026-12-08(화) 10:00",
+   "deadline_short": "12.08(화) 10:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": null,
+   "open_at": "2026-12-08T11:00+09:00",
+   "open_label": "12.08 11:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 201830000,
+   "budget_text": "2억 183만",
+   "price_est": "181818182",
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "제한경쟁 협상에의한계약",
+   "biz": "용역",
+   "conditions": "공동수급 허용",
+   "region_limit": null,
+   "industry_limit": "학술.연구용역",
+   "attachments": [
+    {
+     "name": "제안요청서(VLA 자율주행 데이터 규격 및 구축 방안 연구용역).hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadRfpFile.do?rfpNo=R26DH00062085&rfpOrd=000&rfpUntyAtchFileNo=1"
+    },
+    {
+     "name": "공고서_국가_공동_학술__1169__R26BK01858657-000.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01858657&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    },
+    {
+     "name": "공고서_국가_공동_학술__1169__R26BK01858657-000.pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01858657&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01858657&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01858657",
+    "data00": "https://work.00data.kr/projects/R26BK01858657"
+   },
+   "keywords": [
+    "자율주행"
    ],
    "note": "",
    "owner": ""
@@ -2721,6 +2787,58 @@
    ],
    "note": "",
    "owner": ""
+  },
+  {
+   "id": "ps-R26BD00307136",
+   "kind": "prespec",
+   "title": "2027년 울산광역시 자율주행버스 운영 용역(긴급, 협상에 의한 계약)",
+   "no": "R26BD00307136",
+   "order": "000",
+   "org": "울산광역시교육청",
+   "region": "울산",
+   "sido": "울산",
+   "region_detail": "울산광역시교육청",
+   "posted": "2026-11-26T00:00+09:00",
+   "posted_label": "11-26",
+   "deadline": "2026-11-29T23:59+09:00",
+   "deadline_label": "2026-11-29(일) 23:59",
+   "deadline_short": "11.29(일) 23:59",
+   "deadline_kind": "의견등록 마감",
+   "deadline_note": null,
+   "open_at": null,
+   "open_label": "",
+   "status": "의견등록중",
+   "progress": null,
+   "budget": 700000000,
+   "budget_text": "7억",
+   "price_est": null,
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "",
+   "biz": "용역",
+   "conditions": "",
+   "region_limit": null,
+   "industry_limit": null,
+   "attachments": [],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "none"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PRVA004_02/?bfSpecRegNo=R26BD00307136",
+    "g2b_kind": "나라장터 사전규격 상세",
+    "presignal": "https://presignal.co.kr/p/s/R26BD00307136",
+    "data00": ""
+   },
+   "keywords": [
+    "자율주행"
+   ],
+   "note": "",
+   "owner": "최인희"
   },
   {
    "id": "ps-R26BD00306669",
@@ -4182,6 +4300,80 @@
    "owner": "박윤희"
   },
   {
+   "id": "b-R26BK01860541",
+   "kind": "bid",
+   "title": "2027년 과천시 공간정보통합관리시스템 유지관리 용역",
+   "no": "R26BK01860541",
+   "order": "000",
+   "org": "경기도 과천시",
+   "region": "경기",
+   "sido": "경기",
+   "region_detail": "경기도 과천시",
+   "posted": "2026-11-26T00:00+09:00",
+   "posted_label": "11-26",
+   "deadline": "2026-12-02T10:00+09:00",
+   "deadline_label": "2026-12-02(수) 10:00",
+   "deadline_short": "12.02(수) 10:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": null,
+   "open_at": "2026-12-02T11:00+09:00",
+   "open_label": "12.02 11:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 47000000,
+   "budget_text": "4,700만",
+   "price_est": "42727273",
+   "base_amount": null,
+   "lowest_rate": "88",
+   "contract": "수의계약 소액수의견적",
+   "biz": "용역",
+   "conditions": "재입찰 허용",
+   "region_limit": null,
+   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업)",
+   "attachments": [
+    {
+     "name": "전자공개 수의계약 견적제출 안내 공고(2027년 과천시 공간정보통합관리시스템 유지관리 용역).hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01860541&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    },
+    {
+     "name": "전자공개 수의계약 견적제출 안내 공고(2027년 과천시 공간정보통합관리시스템 유지관리 용역).pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01860541&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
+    },
+    {
+     "name": "과업지시서(2027년 과천시 공간정보통합관리시스템 유지관리).hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01860541&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03"
+    },
+    {
+     "name": "기술지원협약서(2027).pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01860541&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=03"
+    },
+    {
+     "name": "산출내역서(공고용).hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01860541&bidPbancOrd=000&fileType=&fileSeq=5&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01860541&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01860541",
+    "data00": "https://work.00data.kr/projects/R26BK01860541"
+   },
+   "keywords": [
+    "공간정보"
+   ],
+   "note": "",
+   "owner": ""
+  },
+  {
    "id": "b-R26BK01858271",
    "kind": "bid",
    "title": "2027년 하남시 디지털트윈 공간정보 플랫폼 유지관리",
@@ -5149,8 +5341,8 @@
    "deadline_note": null,
    "open_at": "2026-11-26T11:00+09:00",
    "open_label": "11.26 11:00",
-   "status": "개찰대기",
-   "progress": null,
+   "status": "개찰완료",
+   "progress": "개찰완료",
    "budget": 59960000,
    "budget_text": "5,996만",
    "price_est": "54513636",
@@ -5181,9 +5373,13 @@
     "items": []
    },
    "result": {
-    "state": "pending",
-    "participants": null,
-    "note": "마감 후 개찰결과 미등록"
+    "state": "opened",
+    "participants": 56,
+    "winner": null,
+    "amount": null,
+    "rate": null,
+    "opened_at": "2026-11-26T11:00+09:00",
+    "note": null
    },
    "links": {
     "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01841129&bidPbancOrd=000",
@@ -9493,15 +9689,15 @@
   }
  ],
  "counts": {
-  "total": 142,
-  "bids": 89,
-  "prespec": 53,
-  "opened": 10,
+  "total": 145,
+  "bids": 91,
+  "prespec": 54,
+  "opened": 11,
   "failed": 21,
-  "attachments": 93,
+  "attachments": 95,
   "provinces": 18,
   "urgent": 5,
-  "open_bids": 48,
-  "open_prespec": 6
+  "open_bids": 50,
+  "open_prespec": 7
  }
 }
