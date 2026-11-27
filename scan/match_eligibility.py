@@ -374,7 +374,7 @@ def judge(comp, req):
         return "요건미확인", [f"원부로 확인되지 않는 업종: {', '.join(unmet_unknown)}"]
     if req.get("no_industry") and not req["items"]:
         extra = f" — 지역제한({', '.join(r['raw'] for r in req['regions'])}) 충족" if rok else ""
-        return "가능", ["업종 제한 없음" + extra]
+        return "가능", ["업종 제한 없음" + extra + " · 실적·정량 요건은 공고문 확인"]
     return "가능", (["업종·지역 요건 충족"] if met or rok else ["업종 제한 없음"])
 
 
