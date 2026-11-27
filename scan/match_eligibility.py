@@ -28,7 +28,10 @@ SELF_LABEL = "㈜웨이즈원"
 # ------------------------------------------------------------------ 첨부 텍스트
 def pdf_text(fp):
     try:
-        import fitz
+        try:
+            import pymupdf as fitz          # PyMuPDF 1.24+ (fitz 경고 없이)
+        except ImportError:
+            import fitz
         doc = fitz.open(fp)
         t = "\n".join(p.get_text() for p in doc)
         doc.close()
