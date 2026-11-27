@@ -495,10 +495,9 @@ def sigungu_of(addr):
     if not sido:
         return None
     if sido in METRO:
-        rest = addr
-        for tok in METRO[sido]:
-            rest = rest.replace(tok, " ", 1)
-        m = re.match(r"\s*(\S+?[구군])", rest)
+        rest = re.sub(r"^(서울특별시|서울|부산광역시|부산|대구광역시|대구|인천광역시|인천|"
+                      r"광주광역시|광주|대전광역시|대전|울산광역시|울산|세종특별자치시|세종)\s*", "", addr)
+        m = re.match(r"(\S+?[구군])", rest)
         return m.group(1) if m else None
     for s in SIGUNGU.get(sido, []):
         if re.search(rf"(^|\s){s}(시|군|구)?(\s|$|,)", addr):
