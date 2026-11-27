@@ -46,9 +46,9 @@
    "도보네트워크",
    "GIS DB"
   ],
-  "excluded_items": 127,
-  "kept_items": 145,
-  "window_items": 272,
+  "excluded_items": 128,
+  "kept_items": 146,
+  "window_items": 274,
   "samples": [
    {
     "no": "R26BK01850551",
@@ -146,8 +146,8 @@
   {
    "code": "전국",
    "name": "전국·중앙부처",
-   "count": 43,
-   "bids": 28,
+   "count": 44,
+   "bids": 29,
    "prespec": 15,
    "urgent": 4
   },
@@ -336,7 +336,7 @@
   },
   {
    "keyword": "공간정보",
-   "bids": 52,
+   "bids": 53,
    "prespec": 31
   }
  ],
@@ -4298,6 +4298,76 @@
    ],
    "note": "",
    "owner": "박윤희"
+  },
+  {
+   "id": "b-R26BK01855608",
+   "kind": "bid",
+   "title": "홈페이지 기능 개선 및 정보보안 강화 용역",
+   "no": "R26BK01855608",
+   "order": "000",
+   "org": "(재)공간정보품질관리원",
+   "region": "전국",
+   "sido": "전국·중앙부처",
+   "region_detail": "(재)공간정보품질관리원",
+   "posted": "2026-11-27T00:00+09:00",
+   "posted_label": "11-27",
+   "deadline": "2026-12-08T14:00+09:00",
+   "deadline_label": "2026-12-08(화) 14:00",
+   "deadline_short": "12.08(화) 14:00",
+   "deadline_kind": "입찰 마감",
+   "deadline_note": null,
+   "open_at": "2026-12-08T15:00+09:00",
+   "open_label": "12.08 15:00",
+   "status": "입찰중",
+   "progress": null,
+   "budget": 132000000,
+   "budget_text": "1억 3,200만",
+   "price_est": "120000000",
+   "base_amount": null,
+   "lowest_rate": null,
+   "contract": "제한경쟁 협상에의한계약",
+   "biz": "용역",
+   "conditions": "공동수급 허용",
+   "region_limit": null,
+   "industry_limit": "소프트웨어사업자(컴퓨터관련서비스사업)",
+   "attachments": [
+    {
+     "name": "[붙임 1] 입찰공고문.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855608&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03"
+    },
+    {
+     "name": "[붙임 1] 입찰공고문.pdf",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855608&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03"
+    },
+    {
+     "name": "[붙임 2] 제안요청서.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855608&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03"
+    },
+    {
+     "name": "[붙임 3] 과업지시서.hwpx",
+     "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01855608&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=03"
+    }
+   ],
+   "qna": {
+    "state": "unknown",
+    "summary": "나라장터 사전규격 의견등록(질의·답변)은 로그인 후 상세에서 확인할 수 있어 수집 사이트에 공개되지 않았습니다.",
+    "items": []
+   },
+   "result": {
+    "state": "before",
+    "note": "마감 전"
+   },
+   "links": {
+    "g2b": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01855608&bidPbancOrd=000",
+    "g2b_kind": "입찰공고 상세",
+    "presignal": "https://presignal.co.kr/p/R26BK01855608",
+    "data00": "https://work.00data.kr/projects/R26BK01855608"
+   },
+   "keywords": [
+    "공간정보"
+   ],
+   "note": "",
+   "owner": ""
   },
   {
    "id": "b-R26BK01860541",
@@ -9689,15 +9759,15 @@
   }
  ],
  "counts": {
-  "total": 145,
-  "bids": 91,
+  "total": 146,
+  "bids": 92,
   "prespec": 54,
   "opened": 11,
   "failed": 21,
-  "attachments": 95,
+  "attachments": 96,
   "provinces": 18,
   "urgent": 5,
-  "open_bids": 50,
+  "open_bids": 51,
   "open_prespec": 7
  }
 }
