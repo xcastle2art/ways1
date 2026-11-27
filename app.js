@@ -423,7 +423,8 @@
       '<span class="eligbox__who">㈜웨이즈원 입찰</span></div>' +
       (reasons ? '<ul class="eligbox__why">' + reasons + '</ul>' : '') +
       '<div class="eligbox__self"><span class="small muted">당사 보유</span> ' +
-      (selfInds.length ? selfInds.map(function (i) { return '<span class="rchip rchip--sm">' + esc(indShort(i)) + '</span>'; }).join('')
+      (selfInds.length ? selfInds.slice(0, 8).map(function (i) { return '<span class="rchip rchip--sm">' + esc(indShort(i)) + '</span>'; }).join('') +
+        (selfInds.length > 8 ? '<span class="rchip rchip--sm rchip--more">+' + (selfInds.length - 8) + '</span>' : '')
         : '<span class="small muted">원부 미확인</span>') + '</div>' +
       '</div>' +
       '<dl class="req">' +

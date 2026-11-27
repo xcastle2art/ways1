@@ -408,10 +408,12 @@ def block(item, companies, selfc, notes, atts):
     req = build_req(item, notes, atts)
     verdict, reasons = judge(selfc, req)
     elig_all, comp_need = eligible_list(companies, req)
-    kinds_needed = sum([x["kinds"] for x in req["items"]], [])
+    kinds_needed = [("엔지니어링:" + k[4:] if k.startswith("eng:") else k)
+                    for k in sum([x["kinds"] for x in req["items"]], [])]
     out = []
     for c in elig_all[:8]:
-        matched = [i for i in c["inds"] if i in kinds_needed or i.startswith("SW")][:4] or c["inds"][:3]
+        matched = ([i for i in c["inds"] if i in kinds_needed] +
+                   [i for i in c["inds"] if i.startswith("SW") and i not in kinds_needed])[:4] or c["inds"][:3]
         top = max(c["by_field"].items(), key=lambda kv: kv[1]["n"])[0] if c["by_field"] else None
         out.append({"key": c["key"], "name": c["display"],
                     "area": " ".join(x for x in (c.get("sido"), c.get("sigungu")) if x),
