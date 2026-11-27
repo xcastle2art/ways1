@@ -108,7 +108,9 @@ def build_pool():
         w = v.get("winner_name")
         if w:
             add(w, "최근 공고", v.get("winner_amount"), None, v.get("opened_at"), no, None, "enriched")
-    add("㈜웨이즈원", "당사", None, None, None, None, None, "self")
+    # 당사는 낙찰 이력이 아니라 항상 포함 — 가짜 낙찰 행을 만들지 않는다
+    pool.setdefault(norm("웨이즈원"), {"key": norm("웨이즈원"), "raw_names": {}, "wins": []})
+    pool[norm("웨이즈원")]["raw_names"]["㈜웨이즈원"] = 1
 
     out = []
     for k, e in pool.items():
