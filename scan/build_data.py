@@ -443,15 +443,23 @@ try:
     import sys as _sys
     _sys.path.insert(0, str(HERE))
     import match_eligibility as ME
+    import quant_criteria as QC
     _companies, _regdoc = ME.load_registry()
     _self = next((c for c in _companies if c.get("key") == "웨이즈원"),
                  {"key": "웨이즈원", "display": "㈜웨이즈원", "inds": [],
                   "sido": "경기도", "sigungu": "의왕", "addr": "경기도 의왕시"})
-    _elig, _summary = ME.attach(items, _companies, _self, NOTES, ME.att_texts())
+    _elig, _summary = ME.attach(items, _companies, _self, NOTES, ME.att_texts(), qc=QC)
     for it in items:
         it["elig"] = _elig.get(it["id"])
     _registry = ME.registry_block(_regdoc)
     _registry["self_inds"] = _self.get("inds", [])
+    # 낙찰사 정량 역량 프로필(분야별 3·5년 실적) — 웹 참고용 요약
+    try:
+        _profs = QC.build_profiles(_companies, NOW.date().isoformat())
+        _prof_doc = json.loads(QC.PROF.read_text(encoding="utf-8"))
+        _summary["profiles"] = _prof_doc.get("count", len(_profs))
+    except Exception as _e2:                            # noqa: BLE001
+        _summary["profiles"] = None
 except Exception as _e:                                     # noqa: BLE001
     _elig, _summary, _registry = {}, {"error": f"{type(_e).__name__}: {_e}"}, None
 

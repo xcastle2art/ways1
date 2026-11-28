@@ -122,6 +122,25 @@
       .replace('측량업·', '');
   }
 
+  /* 정량평가 레이어 — 자격+정량 부합 경쟁사 칩 */
+  function quantChip(it) {
+    var e = it && it.elig;
+    if (!e) return '';
+    var q = e.quant;
+    if (!q) return '';
+    if (q.state === 'fit') {
+      return '<span class="qchip qchip--fit" title="입찰참가자격과 정량평가 실적 기준선을 모두 충족한 기존 낙찰사">' +
+        '정량부합 ' + (e.eligible_count || 0) + '곳</span>' +
+        (e.near_count ? '<span class="qchip qchip--near">근접 ' + e.near_count + '</span>' : '');
+    }
+    if (q.state === 'parsed_out') {
+      return '<span class="qchip qchip--out" title="공고문 정량기준은 확인됐지만 우리 실적DB 수집 분야(도로대장·토적·연속도면·UPIS) 밖">' +
+        '정량 확인불가 · 자격 ' + (e.eligibility_count || 0) + '</span>';
+    }
+    return '<span class="qchip qchip--na" title="공고문·첨부에서 정량 배점표를 확인하지 못함">' +
+      '정량 미확인 · 자격 ' + (e.eligibility_count || 0) + '</span>';
+  }
+
   function regionLimited(it) {
     var v = it.region_limit || '';
     return v && v.indexOf('없음') < 0 ? v : '';
@@ -264,8 +283,8 @@
     else if (n !== null && n >= 0 && n <= 3) cls += ' row--soon';
     else cls += ' row--open';
 
-    var meta = eligChip(it) +
-      (it.elig && it.elig.eligible_count && it.elig.req && (it.elig.req.industries || []).length
+    var meta = eligChip(it) + quantChip(it) +
+      (it.elig && it.elig.eligible_count && it.elig.req && (it.elig.req.industries || []).length && !(it.elig.quant && it.elig.quant.state === 'fit')
         ? '<span class="row__elig-n">낙찰사 ' + it.elig.eligible_count + '곳 입찰가능</span>' : '') +
       (it.elig && it.elig.complement_count ? '<span class="sep">·</span><span class="row__elig-n">보완 ' + it.elig.complement_count + '</span>' : '') +
       '<span class="sep">·</span><span class="row__org">' + esc(shortOrg(it.org)) + '</span>' +
@@ -378,6 +397,93 @@
   }
 
   /* ------------------------------------ 드로어: 입찰참가자격 & 입찰 가능 업체 */
+  /* ---------------------------------------- 정량평가 기준 박스 */
+  function bandTxt(bands, unit) {
+    return (bands || []).map(function (b) {
+      var r = b.min === 0 ? ('~' + b.max + (unit || '%')) : (b.max ? b.min + '~' + b.max + (unit || '%') : b.min + (unit || '%') + '↑');
+      var sc = b.score != null ? (b.score + '점') : (b.pct != null ? ('배점의 ' + b.pct + '%') : '');
+      return r + ' ' + sc;
+    }).join(' · ');
+  }
+
+  function quantBox(q) {
+    if (!q) return '';
+    var p = q.perf || null;
+    var st = { parsed: '공고문 배점표 확인', parsed_out: '공고문 확인 · 실적DB 범위 밖', no_criteria: '배점표 미확인', no_attachment: '첨부 없음', error: '파싱 오류' }[q.status] || '';
+    var rows = [];
+    if (q.items && q.items.length) {
+      rows.push('<div class="qrow"><span>배점 구조</span><b>' +
+        (q.total ? '정량 ' + q.total + '점 · ' : '') +
+        q.items.map(function (i) { return esc(i.name) + ' ' + i.score; }).join(' · ') + '</b></div>');
+    }
+    if (p) {
+      var basis = [];
+      if (p.denom) basis.push('기준 ' + wonShort(p.denom) + (p.denom_src === '추정가격' ? '(추정가격)' : ''));
+      if (p.bands && p.bands.length) basis.push('만점 ' + p.top_min + '% 이상');
+      rows.push('<div class="qrow qrow--key"><span>수행실적</span><b>최근 ' + (p.window || 3) + '년 · ' +
+        esc((p.fields || []).join('·') || '인정분야 미확인') + '</b><em>' + esc(basis.join(' · ')) +
+        (p.bands && p.bands.length ? '<br>' + esc(bandTxt(p.bands)) : '') +
+        (p.mode === '적격심사' ? '<br>적격심사 세부기준(지방계약 예규 별표2) — 추정가격 대비 실적 누계 비율' : '') + '</em></div>');
+    }
+    if (q.people && q.people.bands) {
+      rows.push('<div class="qrow"><span>보유인력</span><b>' + esc(bandTxt(q.people.bands, '명')) + '</b>' +
+        '<em>회사 보유기술인력(4대보험 기준)</em></div>');
+    }
+    if (q.region) {
+      var rb = (q.region.share_bands || []).length ? bandTxt(q.region.share_bands) : '';
+      rows.push('<div class="qrow"><span>지역상생</span><b>' + esc(q.region.sido || q.region.keyword || '지역업체 참여') +
+        (rb ? ' · 지분 ' + esc(rb) : '') + '</b><em>지역업체 공통수급 지분율 배점</em></div>');
+    }
+    if (q.credit) {
+      rows.push('<div class="qrow qrow--na"><span>경영상태</span><b>신용평가등급 ' + q.credit.max_score + '점</b>' +
+        '<em>나라장터 신용등급은 공개 조회 불가 — 정량 점수 산정에서 제외</em></div>');
+    }
+    if (!rows.length) return '';
+    var src = (q.sources || []).map(function (s) {
+      return '<span class="rchip rchip--src">' + esc(String(s).slice(0, 34)) + '</span>';
+    }).join('');
+    return '<div class="qbox qbox--' + esc(q.state) + '">' +
+      '<div class="qbox__head"><b>정량평가 기준</b><span class="qbox__st">' + esc(st) + '</span></div>' +
+      rows.join('') +
+      '<div class="qbox__foot">실적은 낙찰사 업등록 DB(도로대장·토적·연속도면·UPIS)에서 집계. 신용등급·보유인력 원부는 미공개라 미확인.</div>' +
+      (src ? '<div class="qbox__src">근거 ' + src + '</div>' : '') +
+      '</div>';
+  }
+
+  function qcard(c) {
+    return '<div class="ecard ecard--q">' +
+      '<div class="ecard__top"><b>' + esc(c.name) + '</b>' +
+      '<span class="ecard__area">' + esc(c.area || '소재지 미확인') + '</span></div>' +
+      (c.why ? '<div class="ecard__why">' + esc(c.why) + '</div>' : '') +
+      '<div class="ecard__foot">낙찰 ' + (c.wins || 0) + '건' + (c.field ? ' · ' + esc(c.field) : '') +
+      (c.last ? ' · 최근 ' + esc(String(c.last).slice(0, 7)) : '') + '</div>' +
+      '</div>';
+  }
+
+  function fold(title, inner, open) {
+    if (!inner) return '';
+    return '<details class="fold"' + (open ? ' open' : '') + '><summary>' + title + '</summary><div class="fold__body">' + inner + '</div></details>';
+  }
+
+  function qualCards(e) {
+    var rows = (e.eligible || []).map(function (c) {
+      var field = c.field ? ' · ' + esc(c.field) : '';
+      return '<div class="ecard">' +
+        '<div class="ecard__top"><b>' + esc(c.name) + '</b>' +
+        '<span class="ecard__area">' + esc(c.area || '소재지 미확인') + '</span></div>' +
+        '<div class="ecard__inds">' + (c.inds || []).map(function (i) {
+          return '<span class="rchip rchip--sm">' + esc(indShort(i)) + '</span>';
+        }).join('') + '</div>' +
+        '<div class="ecard__foot">낙찰 ' + (c.wins || 0) + '건' + field + (c.last ? ' · 최근 ' + esc(String(c.last).slice(0, 7)) : '') + '</div>' +
+        '</div>';
+    }).join('');
+    var more = e.eligibility_count > (e.eligible || []).length
+      ? '<div class="muted small" style="margin-top:6px">외 ' + (e.eligibility_count - (e.eligible || []).length) + '곳 — <b>낙찰사 업등록 DB</b>에서 전체 확인</div>'
+      : '';
+    return rows ? '<div class="ecards">' + rows + '</div>' + more : '';
+  }
+
+  /* ------------------------------------ 드로어: 입찰참가자격 & 입찰 가능 업체 */
   function eligSection(it) {
     var e = it.elig;
     if (!e) {
@@ -402,21 +508,34 @@
       return '<span class="rchip rchip--src">' + esc(srcLabel[s] || s) + '</span>';
     }).join('') || '<span class="muted small">—</span>';
 
-    var rows = (e.eligible || []).map(function (c) {
-      var field = c.field ? ' · ' + esc(c.field) : '';
-      return '<div class="ecard">' +
-        '<div class="ecard__top"><b>' + esc(c.name) + '</b>' +
-        '<span class="ecard__area">' + esc(c.area || '소재지 미확인') + '</span></div>' +
-        '<div class="ecard__inds">' + (c.inds || []).map(function (i) {
-          return '<span class="rchip rchip--sm">' + esc(indShort(i)) + '</span>';
-        }).join('') + '</div>' +
-        '<div class="ecard__foot">낙찰 ' + (c.wins || 0) + '건' + field + (c.last ? ' · 최근 ' + esc(String(c.last).slice(0, 7)) : '') + '</div>' +
-        '</div>';
-    }).join('');
-
-    var more = e.eligible_count > (e.eligible || []).length
-      ? '<div class="muted small" style="margin-top:6px">외 ' + (e.eligible_count - (e.eligible || []).length) + '곳 — <b>낙찰사 업등록 DB</b>에서 전체 확인</div>'
-      : '';
+    var q = e.quant || null;
+    var lists = '';
+    if (q && q.state === 'fit') {
+      var cards = (e.eligible || []).map(qcard).join('');
+      var near = (e.near || []).map(qcard).join('');
+      var low = (e.qual_only || []).map(qcard).join('');
+      lists =
+        '<h4 class="sub4">경쟁사 참여 예상 <span class="pill pill--pre">자격+정량 부합 ' + (e.eligible_count || 0) + '곳</span></h4>' +
+        (cards ? '<div class="ecards">' + cards + '</div>' : '<div class="qa">입찰참가자격을 갖춘 기존 낙찰사 중 이 공고의 정량 실적 기준선을 넘는 업체가 없습니다.</div>') +
+        (e.eligible_count > (e.eligible || []).length
+          ? '<div class="muted small" style="margin-top:6px">외 ' + (e.eligible_count - (e.eligible || []).length) + '곳</div>' : '') +
+        fold('실적 상위 두 번째 구간 — 근접 ' + (e.near_count || 0) + '곳', near ? '<div class="ecards">' + near + '</div>' : '') +
+        fold('자격만 충족 · 정량 부족 ' + (e.qual_only_count || 0) + '곳',
+          (low ? '<div class="ecards">' + low + '</div>' : '') +
+          '<div class="muted small" style="margin-top:6px">위 업체는 입찰참가자격은 갖췄지만 이 공고의 실적 만점 기준선에 못 미칩니다. 정량 배점에서 감점됩니다.</div>') +
+        fold('정량 확인 불가 ' + (e.quant_unknown_count || 0) + '곳',
+          '<div class="muted small">인정분야 실적이 우리 DB에 없거나 사업규모를 확인하지 못한 업체입니다. 미달이 아니라 <b>확인 불가</b>입니다.</div>');
+    } else if (q && q.state === 'parsed_out') {
+      lists =
+        '<h4 class="sub4">기존 낙찰사 중 입찰참가자격 충족 <span class="pill pill--wait">' + (e.eligibility_count || 0) + '곳</span></h4>' +
+        '<div class="qa">공고문 정량기준은 위와 같지만, 실적 인정분야가 우리 실적DB 수집 범위(도로대장·토적·연속도면·UPIS) 밖이라 <b>정량 부합을 판정하지 않았습니다</b>. 자격 충족 목록만 참고용으로 둡니다.</div>' +
+        fold('자격 충족 업체 목록 보기', qualCards(e));
+    } else {
+      lists =
+        '<h4 class="sub4">정량기준 미확인 — 자격기준 ' + (e.eligibility_count || e.eligible_count || 0) + '곳</h4>' +
+        '<div class="qa">첨부 공고문·제안요청서에서 정량 배점표를 확인하지 못했습니다. 아래는 <b>입찰참가자격만</b> 맞춘 목록입니다.</div>' +
+        fold('자격 충족 업체 목록 보기', qualCards(e));
+    }
 
     return '<div class="eligbox eligbox--' + v.cls + '">' +
       '<div class="eligbox__top"><span class="ebadge ebadge--' + v.cls + '">' + v.mark + ' ' + v.label + '</span>' +
@@ -434,11 +553,7 @@
       '<dt>추가 서류·요건</dt><dd>' + extras + '</dd>' +
       '<dt>근거</dt><dd>' + srcs + '</dd>' +
       '</dl>' +
-      '<h4 class="sub4">기존 낙찰사 중 단독 입찰 가능 <span class="pill pill--pre">' + (e.eligible_count || 0) + '곳</span></h4>' +
-      (rows ? '<div class="ecards">' + rows + '</div>' + more
-        : '<div class="qa">' + (e.verdict === '요건미확인'
-          ? '참가자격을 확인하지 못해 업체를 매칭하지 않았습니다.'
-          : '등록된 낙찰사 중 이 요건을 모두 충족하는 업체가 없습니다.') + '</div>');
+      quantBox(q) + lists;
   }
 
   function openDrawer(id) {
@@ -523,7 +638,7 @@
       '</div></div>' +
       '<div class="dw-sec"><h3>참가 조건</h3><dl class="kv">' + cond +
       '<dt>키워드</dt><dd>' + esc((it.keywords || []).join(' · ') || '—') + '</dd></dl></div>' +
-      '<div class="dw-sec"><h3>입찰참가자격 · 입찰 가능 업체</h3>' + eligSection(it) + '</div>' +
+      '<div class="dw-sec"><h3>입찰참가자격 · 경쟁사 참여 예상</h3>' + eligSection(it) + '</div>' +
       '<div class="dw-sec"><h3>첨부파일 <span class="pill pill--wait">' + (atts.length || '미확인') + '</span></h3><div class="files">' + files + '</div></div>' +
       (it.kind === 'prespec' || it.qna.state === 'confirmed' || it.qna.state === 'noted'
         ? '<div class="dw-sec"><h3>사전규격 질의 <span class="pill ' + qnaCls + '">' + qnaState + '</span></h3>' +
@@ -655,6 +770,12 @@
         '웨이즈원 <b>참가가능 ' + ((DATA.eligibility.verdicts || {})['가능'] || 0) + '</b> · 조건부 ' + ((DATA.eligibility.verdicts || {})['조건부'] || 0) +
         ' · 불가 ' + ((DATA.eligibility.verdicts || {})['불가'] || 0) + ' · 요건미확인 ' + ((DATA.eligibility.verdicts || {})['요건미확인'] || 0) +
         (DATA.registry ? ' / 낙찰사 업등록 DB ' + ((DATA.registry.stats || {}).companies || 0) + '곳' : '') + '</div>' : '') +
+      (DATA.eligibility && DATA.eligibility.quant ? '<div><b>정량평가 매칭</b> 정량 배점표 확인 ' +
+        (((DATA.eligibility.quant || {}).fit || 0) + ((DATA.eligibility.quant || {}).parsed_out || 0)) + '건 중 ' +
+        '실적DB 범위 <b>' + ((DATA.eligibility.quant || {}).fit || 0) + '건</b> — 자격+정량 부합 경쟁사가 있는 공고 ' +
+        (DATA.eligibility.quant_fit_items || 0) + '건 · 공고문 확인×실적DB 밖 ' + ((DATA.eligibility.quant || {}).parsed_out || 0) +
+        '건 · 정량표 미확인 ' + ((DATA.eligibility.quant || {}).unparsed || 0) + '건' +
+        (DATA.eligibility.profiles ? ' / 낙찰사 정량 프로필 ' + DATA.eligibility.profiles + '곳' : '') + '</div>' : '') +
       '<div><b>주의</b> 금액·마감·자격은 수집 시점 정리값입니다. 응찰 판단 전 나라장터 공고문·제안요청서 원문으로 다시 확인하세요. D-day는 접속한 날짜 기준으로 계산되며 30일이 지난 공고는 자동으로 빠집니다.</div>';
   }
 

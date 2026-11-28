@@ -7,3 +7,4 @@ scan/registry/raw/
 scan/registry/cache/
 scan/registry/att_text/
 scan/registry/probe_kasm.py
+scan/att/rfp/

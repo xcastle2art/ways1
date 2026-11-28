@@ -428,106 +428,262 @@
      ],
      "parsed": true
     },
-    "eligible_count": 31,
-    "complement_count": 26,
+    "eligibility_count": 31,
+    "eligible_count": 8,
     "eligible": [
-     {
-      "key": "우대칼스",
-      "name": "주식회사 우대칼스",
-      "area": "경기도 성남",
-      "inds": [
-       "엔지니어링:도시계획",
-       "SW사업자"
-      ],
-      "wins": 12,
-      "field": "토적·재취",
-      "last": "2026-06-24"
-     },
      {
       "key": "정도유아이티",
       "name": "(주)정도유아이티",
       "area": "서울특별시 강남구",
       "inds": [
-       "엔지니어링:도시계획",
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:교통"
       ],
       "wins": 10,
       "field": "토적·재취",
-      "last": "2026-05-18"
+      "last": "2026-05-18",
+      "why": "최근 5년 토지적성·재해취약 실적 11.4억(6건) · 기준 1.10억의 1032%",
+      "ratio": 1032.5
      },
      {
-      "key": "일신이앤씨",
-      "name": "주식회사 일신이앤씨",
-      "area": "강원특별자치도 원주",
+      "key": "우대칼스",
+      "name": "주식회사 우대칼스",
+      "area": "경기도 성남",
       "inds": [
-       "엔지니어링:도시계획",
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
       ],
-      "wins": 8,
-      "field": "도로대장",
-      "last": "2026-06-18"
+      "wins": 12,
+      "field": "토적·재취",
+      "last": "2026-06-24",
+      "why": "최근 5년 토지적성·재해취약 실적 9.8억(6건) · 기준 1.10억의 890%",
+      "ratio": 889.8
      },
      {
       "key": "신영이에스디",
       "name": "주식회사 신영이에스디",
       "area": "강원특별자치도 춘천",
       "inds": [
-       "엔지니어링:도시계획",
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
       ],
       "wins": 6,
       "field": "토적·재취",
-      "last": "2026-02-11"
+      "last": "2026-02-11",
+      "why": "최근 5년 토지적성·재해취약 실적 8.7억(5건) · 기준 1.10억의 788%",
+      "ratio": 787.7
      },
      {
       "key": "웨이즈원",
       "name": "웨이즈원 주식회사",
       "area": "경기도 의왕",
       "inds": [
-       "엔지니어링:도시계획",
-       "SW사업자"
+       "SW사업자",
+       "공간정보사업자",
+       "공공측량업"
       ],
       "wins": 5,
       "field": "토적·재취",
-      "last": "2026-05-26"
-     },
-     {
-      "key": "지오투정보기술",
-      "name": "주식회사 지오투정보기술",
-      "area": "경기도 안양",
-      "inds": [
-       "엔지니어링:도시계획",
-       "SW사업자"
-      ],
-      "wins": 5,
-      "field": "UPIS·KLIP DB",
-      "last": "2025-07-11"
+      "last": "2026-05-26",
+      "why": "최근 5년 토지적성·재해취약 실적 7.6억(3건) · 기준 1.10억의 693%",
+      "ratio": 692.7
      },
      {
       "key": "디아이브릿지",
       "name": "디아이브릿지 주식회사",
       "area": "강원특별자치도 원주",
       "inds": [
-       "엔지니어링:도시계획",
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
       ],
       "wins": 4,
       "field": "토적·재취",
-      "last": "2026-09-01"
+      "last": "2026-09-01",
+      "why": "최근 5년 토지적성·재해취약 실적 5.8억(2건) · 기준 1.10억의 526%",
+      "ratio": 526.2
      },
      {
       "key": "성원기술개발",
       "name": "성원기술개발 주식회사",
       "area": "전북특별자치도 전주",
       "inds": [
-       "엔지니어링:도시계획",
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
       ],
       "wins": 2,
       "field": "토적·재취",
-      "last": "2026-11-10"
+      "last": "2026-11-10",
+      "why": "최근 5년 토지적성·재해취약 실적 2.4억(2건) · 기준 1.10억의 216%",
+      "ratio": 216.5
+     },
+     {
+      "key": "지오투정보기술",
+      "name": "주식회사 지오투정보기술",
+      "area": "경기도 안양",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
+      ],
+      "wins": 5,
+      "field": "UPIS·KLIP DB",
+      "last": "2025-07-11",
+      "why": "최근 5년 토지적성·재해취약 실적 1.7억(1건) · 기준 1.10억의 153%",
+      "ratio": 153.3
+     },
+     {
+      "key": "국성건설엔지니어링",
+      "name": "주식회사 국성건설엔지니어링",
+      "area": "전북특별자치도 완주",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
+      "field": "토적·재취",
+      "last": "2026-03-10",
+      "why": "최근 5년 토지적성·재해취약 실적 1.6억(1건) · 기준 1.10억의 142%",
+      "ratio": 142.4
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 23,
+    "qual_only": [
+     {
+      "key": "서흥이엔지",
+      "name": "유한회사 서흥이엔지",
+      "area": "전북특별자치도 무주",
+      "inds": [
+       "SW사업자",
+       "엔지니어링:교통",
+       "엔지니어링:구조"
+      ],
+      "wins": 1,
+      "field": "토적·재취",
+      "last": "2024-05-02",
+      "why": "최근 5년 토지적성·재해취약 실적 0.4억(1건) · 기준 1.10억의 39%",
+      "ratio": 39.4
+     },
+     {
+      "key": "일신이앤씨",
+      "name": "주식회사 일신이앤씨",
+      "area": "강원특별자치도 원주",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
+      ],
+      "wins": 8,
+      "field": "도로대장",
+      "last": "2026-06-18",
+      "why": "최근 5년 토지적성·재해취약 실적 0.0억(0건) · 기준 1.10억의 0%",
+      "ratio": 0.0
+     },
+     {
+      "key": "한신엔지니어링",
+      "name": "주식회사 한신엔지니어링",
+      "area": "울산광역시 울주군",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-04-02",
+      "why": "최근 5년 토지적성·재해취약 실적 0.0억(0건) · 기준 1.10억의 0%",
+      "ratio": 0.0
+     },
+     {
+      "key": "하람엔지니어링",
+      "name": "하람엔지니어링주식회사",
+      "area": "울산광역시 울주군",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-02-20",
+      "why": "최근 5년 토지적성·재해취약 실적 0.0억(0건) · 기준 1.10억의 0%",
+      "ratio": 0.0
+     },
+     {
+      "key": "강원엔지니어링",
+      "name": "주식회사 강원엔지니어링",
+      "area": "강원특별자치도 정선",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
+      ],
+      "wins": 2,
+      "field": "용도지역지구 DB정비",
+      "last": "2024-10-29",
+      "why": "최근 5년 토지적성·재해취약 실적 0.0억(0건) · 기준 1.10억의 0%",
+      "ratio": 0.0
+     },
+     {
+      "key": "케이지엔지니어링종합건축사사무소",
+      "name": "주식회사 케이지엔지니어링종합건축사사무소",
+      "area": "경기도 의정부",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2025-03-17",
+      "why": "최근 5년 토지적성·재해취약 실적 0.0억(0건) · 기준 1.10억의 0%",
+      "ratio": 0.0
+     }
+    ],
+    "quant_unknown_count": 0,
+    "complement_count": 26,
+    "quant": {
+     "state": "fit",
+     "status": "parsed",
+     "kind": "적격심사",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 5,
+      "denom": 110000000,
+      "denom_src": "평가기준 규모",
+      "fields": [
+       "토지적성",
+       "재해취약"
+      ],
+      "bands": [],
+      "top_min": 100,
+      "top_score": null,
+      "max_score": null,
+      "mode": "적격심사",
+      "in_scope": true,
+      "note": "이행실적은 해당용역 추정가격대비 최근 5년간(입찰공고일 기준) 해당용역과 동일한 용역 실적누계금액의 비율에 해당하는 등급점수로 산정합니다. * 동일한 종류의 용역실적 인정범위 : 토지적성평가 및 재해취약성분석 용역 * 평가기준 규모: 110,000,000원(추정가격 기준) ※ 제출실적의 동일 종류의 용역 인정여부는 발주처의 해석에 따릅니다. - 경영상태 평가는 종합평가, 신용평가, 재무평가 중 입찰자가 선택한 방법으로 평가하며"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "(공고문) 대전광역시 토지적성평가 및 재해취약성분석 용역_(전국입찰).hwpx"
+     ],
+     "counts": {
+      "fit": 13,
+      "near": 1,
+      "low": 93,
+      "unknown": 0
+     }
+    }
    }
   },
   {
@@ -616,6 +772,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -707,7 +864,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -795,98 +975,462 @@
      ],
      "parsed": true
     },
-    "eligible_count": 107,
-    "complement_count": 0,
+    "eligibility_count": 107,
+    "eligible_count": 34,
     "eligible": [
      {
-      "key": "우대칼스",
-      "name": "주식회사 우대칼스",
-      "area": "경기도 성남",
+      "key": "테라엔지니어링",
+      "name": "주식회사 테라엔지니어링",
+      "area": "경상남도 양산",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
-      "wins": 12,
-      "field": "토적·재취",
-      "last": "2026-06-24"
-     },
-     {
-      "key": "정도유아이티",
-      "name": "(주)정도유아이티",
-      "area": "서울특별시 강남구",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 10,
-      "field": "토적·재취",
-      "last": "2026-05-18"
+      "wins": 6,
+      "field": "도로대장",
+      "last": "2026-10-29",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 67.2억(6건) · 기준 2.27억의 2956% · 배점 3.0/3.0",
+      "ratio": 2955.9,
+      "qscore": 3.0,
+      "qmax": 3.0
      },
      {
       "key": "일신이앤씨",
       "name": "주식회사 일신이앤씨",
       "area": "강원특별자치도 원주",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
       "wins": 8,
       "field": "도로대장",
-      "last": "2026-06-18"
+      "last": "2026-06-18",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 48.4억(8건) · 기준 2.27억의 2130% · 배점 3.0/3.0",
+      "ratio": 2130.5,
+      "qscore": 3.0,
+      "qmax": 3.0
+     },
+     {
+      "key": "웨이즈원",
+      "name": "웨이즈원 주식회사",
+      "area": "경기도 의왕",
+      "inds": [
+       "SW사업자",
+       "공간정보사업자",
+       "공공측량업"
+      ],
+      "wins": 5,
+      "field": "토적·재취",
+      "last": "2026-05-26",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 36.9억(5건) · 기준 2.27억의 1624% · 배점 3.0/3.0",
+      "ratio": 1624.5,
+      "qscore": 3.0,
+      "qmax": 3.0
+     },
+     {
+      "key": "웨이버스",
+      "name": "주식회사 웨이버스",
+      "area": "서울특별시 구로구",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 4,
+      "field": "도로대장",
+      "last": "2026-08-11",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 30.6억(4건) · 기준 2.27억의 1347% · 배점 3.0/3.0",
+      "ratio": 1347.0,
+      "qscore": 3.0,
+      "qmax": 3.0
      },
      {
       "key": "지오스토리",
       "name": "주식회사 지오스토리",
       "area": "서울특별시 강서구",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
       ],
       "wins": 7,
       "field": "도로대장",
-      "last": "2026-08-19"
+      "last": "2026-08-19",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 30.1억(7건) · 기준 2.27억의 1323% · 배점 3.0/3.0",
+      "ratio": 1322.8,
+      "qscore": 3.0,
+      "qmax": 3.0
+     },
+     {
+      "key": "산들이엔지",
+      "name": "주식회사 산들이엔지",
+      "area": "경상남도 양산",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 3,
+      "field": "도로대장",
+      "last": "2026-04-28",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 23.6억(3건) · 기준 2.27억의 1040% · 배점 3.0/3.0",
+      "ratio": 1039.8,
+      "qscore": 3.0,
+      "qmax": 3.0
      },
      {
       "key": "로우코리아",
       "name": "주식회사 로우코리아",
       "area": "경기도 평택",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도로공항"
       ],
       "wins": 6,
       "field": "도로대장",
-      "last": "2026-06-18"
+      "last": "2026-06-18",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 21.8억(6건) · 기준 2.27억의 961% · 배점 3.0/3.0",
+      "ratio": 961.2,
+      "qscore": 3.0,
+      "qmax": 3.0
      },
      {
-      "key": "사방정보기술",
-      "name": "주식회사 사방정보기술",
-      "area": "경상남도 함안",
+      "key": "케이지엔지니어링종합건축사사무소",
+      "name": "주식회사 케이지엔지니어링종합건축사사무소",
+      "area": "경기도 의정부",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
       ],
-      "wins": 6,
-      "field": "UPIS·KLIP DB",
-      "last": "2026-03-12"
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2025-03-17",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 20.8억(1건) · 기준 2.27억의 914% · 배점 3.0/3.0",
+      "ratio": 914.0,
+      "qscore": 3.0,
+      "qmax": 3.0
      },
      {
-      "key": "신영이에스디",
-      "name": "주식회사 신영이에스디",
-      "area": "강원특별자치도 춘천",
+      "key": "우대칼스",
+      "name": "주식회사 우대칼스",
+      "area": "경기도 성남",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
       ],
-      "wins": 6,
+      "wins": 12,
       "field": "토적·재취",
-      "last": "2026-02-11"
+      "last": "2026-06-24",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 18.4억(11건) · 기준 2.27억의 808% · 배점 3.0/3.0",
+      "ratio": 807.8,
+      "qscore": 3.0,
+      "qmax": 3.0
      },
      {
-      "key": "테라엔지니어링",
-      "name": "주식회사 테라엔지니어링",
-      "area": "경상남도 양산",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 6,
+      "key": "산들지리정보",
+      "name": "주식회사 산들지리정보",
+      "area": "",
+      "inds": [],
+      "wins": 2,
       "field": "도로대장",
-      "last": "2026-10-29"
+      "last": "2024-07-30",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 16.0억(2건) · 기준 2.27억의 704% · 배점 3.0/3.0",
+      "ratio": 704.0,
+      "qscore": 3.0,
+      "qmax": 3.0
      }
-    ]
+    ],
+    "near_count": 10,
+    "near": [
+     {
+      "key": "한토공간기술",
+      "name": "주식회사 한토공간기술",
+      "area": "경상남도 진주",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 4,
+      "field": "UPIS·KLIP DB",
+      "last": "2026-06-11",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 2.2억(4건) · 기준 2.27억의 96% · 배점 2.7/3.0",
+      "ratio": 96.0,
+      "qscore": 2.7,
+      "qmax": 3.0
+     },
+     {
+      "key": "하람엔지니어링",
+      "name": "하람엔지니어링주식회사",
+      "area": "울산광역시 울주군",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-02-20",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 2.0억(2건) · 기준 2.27억의 89% · 배점 2.7/3.0",
+      "ratio": 89.0,
+      "qscore": 2.7,
+      "qmax": 3.0
+     },
+     {
+      "key": "주영엔지니어링",
+      "name": "주식회사 주영엔지니어링",
+      "area": "전북특별자치도 익산",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-03-09",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.8억(1건) · 기준 2.27억의 78% · 배점 2.7/3.0",
+      "ratio": 78.2,
+      "qscore": 2.7,
+      "qmax": 3.0
+     },
+     {
+      "key": "제일항업",
+      "name": "제일항업(주)",
+      "area": "경기도 고양",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:상하수도"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-05-19",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.8억(1건) · 기준 2.27억의 77% · 배점 2.7/3.0",
+      "ratio": 77.4,
+      "qscore": 2.7,
+      "qmax": 3.0
+     },
+     {
+      "key": "도명메타",
+      "name": "주식회사 도명메타",
+      "area": "울산광역시 울주군",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2025-02-03",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.8억(1건) · 기준 2.27억의 77% · 배점 2.7/3.0",
+      "ratio": 77.1,
+      "qscore": 2.7,
+      "qmax": 3.0
+     },
+     {
+      "key": "삼주이앤텍",
+      "name": "주식회사 삼주이앤텍",
+      "area": "강원특별자치도 강릉",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2025-09-04",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.7억(1건) · 기준 2.27억의 77% · 배점 2.7/3.0",
+      "ratio": 77.0,
+      "qscore": 2.7,
+      "qmax": 3.0
+     }
+    ],
+    "qual_only_count": 63,
+    "qual_only": [
+     {
+      "key": "국성건설엔지니어링",
+      "name": "주식회사 국성건설엔지니어링",
+      "area": "전북특별자치도 완주",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
+      "field": "토적·재취",
+      "last": "2026-03-10",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.6억(1건) · 기준 2.27억의 69% · 배점 2.4/3.0",
+      "ratio": 68.9,
+      "qscore": 2.4,
+      "qmax": 3.0
+     },
+     {
+      "key": "지오앤",
+      "name": "주식회사 지오앤",
+      "area": "강원특별자치도 횡성",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2024-06-28",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.4억(1건) · 기준 2.27억의 60% · 배점 2.4/3.0",
+      "ratio": 59.8,
+      "qscore": 2.4,
+      "qmax": 3.0
+     },
+     {
+      "key": "인데이터",
+      "name": "주식회사 인데이터",
+      "area": "경상북도 경산",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "지도제작업"
+      ],
+      "wins": 2,
+      "field": "UPIS·KLIP DB",
+      "last": "2026-03-10",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.3억(2건) · 기준 2.27억의 58% · 배점 2.4/3.0",
+      "ratio": 58.2,
+      "qscore": 2.4,
+      "qmax": 3.0
+     },
+     {
+      "key": "대암엔지니어링",
+      "name": "(주)대암엔지니어링",
+      "area": "강원특별자치도 양구",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
+      "field": "용도지역지구 DB정비",
+      "last": "2024-10-24",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.2억(1건) · 기준 2.27억의 52% · 배점 2.4/3.0",
+      "ratio": 51.6,
+      "qscore": 2.4,
+      "qmax": 3.0
+     },
+     {
+      "key": "대한콘설탄트",
+      "name": "주식회사 대한콘설탄트",
+      "area": "서울특별시 종로구",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2024-07-03",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.1억(1건) · 기준 2.27억의 49% · 배점 2.4/3.0",
+      "ratio": 49.1,
+      "qscore": 2.4,
+      "qmax": 3.0
+     },
+     {
+      "key": "신명이엔씨",
+      "name": "신명이엔씨 주식회사",
+      "area": "경기도 용인",
+      "inds": [
+       "SW사업자",
+       "엔지니어링:교통",
+       "엔지니어링:구조"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-10-19",
+      "why": "최근 3년 공간정보 DB·토지적성·재해취약 실적 1.1억(1건) · 기준 2.27억의 48% · 배점 2.4/3.0",
+      "ratio": 47.6,
+      "qscore": 2.4,
+      "qmax": 3.0
+     }
+    ],
+    "quant_unknown_count": 0,
+    "complement_count": 0,
+    "quant": {
+     "state": "fit",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [
+      {
+       "name": "기술인력보유",
+       "score": 6.0
+      },
+      {
+       "name": "수행실적",
+       "score": 3.0
+      },
+      {
+       "name": "사업관리자",
+       "score": 6.0
+      },
+      {
+       "name": "경영상태",
+       "score": 2.0
+      }
+     ],
+     "perf": {
+      "window": 3,
+      "denom": 227272727,
+      "denom_src": "추정가격",
+      "fields": [
+       "공간정보 DB",
+       "토지적성",
+       "재해취약"
+      ],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 3.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 2.7
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 2.4
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 2.1
+       }
+      ],
+      "top_min": 100,
+      "top_score": 3.0,
+      "max_score": 3.0,
+      "mode": null,
+      "in_scope": true,
+      "note": ". ○ 입찰공고전일 기준 소속 회사 재직자에 대하여 평가한다. 2) 지역업체 참여도 - (3.0점) 지역업체(강원특별자치도) 참여 비율 평가 구 분 30% 이상 25% 이상 20% 이상 20% 미만 점 수 3.0 2.7 2.4 2.1 [주]○ 지역업체(강원특별자치도) 참여도에 대한 평가는 참여 업체의 사업자등록증 상 소재지와 공동수급으로 참여하는 경우 공동수급표준협정서 상의 지역업체 사업 참여 비율로 평가 ○ 강원특별자치도에 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서(영월군 토지적성평가 및 재해취약성분석 용역).hwpx"
+     ],
+     "counts": {
+      "fit": 34,
+      "near": 10,
+      "low": 63,
+      "unknown": 0
+     }
+    }
    }
   },
   {
@@ -979,6 +1523,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 2,
     "eligible_count": 2,
     "complement_count": 96,
     "eligible": [
@@ -1006,7 +1551,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "적격심사",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -1092,64 +1660,184 @@
      ],
      "parsed": true
     },
-    "eligible_count": 96,
-    "complement_count": 0,
+    "eligibility_count": 96,
+    "eligible_count": 7,
     "eligible": [
      {
-      "key": "우대칼스",
-      "name": "주식회사 우대칼스",
-      "area": "경기도 성남",
+      "key": "지안유에이아이",
+      "name": "주식회사 지안유에이아이",
+      "area": "경기도 안양",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "지도제작업"
       ],
-      "wins": 12,
+      "wins": 5,
       "field": "토적·재취",
-      "last": "2026-06-24"
+      "last": "2026-07-28",
+      "why": "최근 3년 토지적성·재해취약 실적 11.8억(5건) · 기준 2.73억의 434% · 배점 6.0/6.0",
+      "ratio": 434.3,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
       "key": "정도유아이티",
       "name": "(주)정도유아이티",
       "area": "서울특별시 강남구",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:교통"
       ],
       "wins": 10,
       "field": "토적·재취",
-      "last": "2026-05-18"
+      "last": "2026-05-18",
+      "why": "최근 3년 토지적성·재해취약 실적 11.4억(6건) · 기준 2.73억의 416% · 배점 6.0/6.0",
+      "ratio": 416.5,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
-      "key": "일신이앤씨",
-      "name": "주식회사 일신이앤씨",
-      "area": "강원특별자치도 원주",
+      "key": "우대칼스",
+      "name": "주식회사 우대칼스",
+      "area": "경기도 성남",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
       ],
-      "wins": 8,
-      "field": "도로대장",
-      "last": "2026-06-18"
+      "wins": 12,
+      "field": "토적·재취",
+      "last": "2026-06-24",
+      "why": "최근 3년 토지적성·재해취약 실적 9.2억(5건) · 기준 2.73억의 336% · 배점 6.0/6.0",
+      "ratio": 336.5,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
-      "key": "지오스토리",
-      "name": "주식회사 지오스토리",
-      "area": "서울특별시 강서구",
+      "key": "신영이에스디",
+      "name": "주식회사 신영이에스디",
+      "area": "강원특별자치도 춘천",
       "inds": [
-       "SW사업자"
-      ],
-      "wins": 7,
-      "field": "도로대장",
-      "last": "2026-08-19"
-     },
-     {
-      "key": "로우코리아",
-      "name": "주식회사 로우코리아",
-      "area": "경기도 평택",
-      "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
       ],
       "wins": 6,
-      "field": "도로대장",
-      "last": "2026-06-18"
+      "field": "토적·재취",
+      "last": "2026-02-11",
+      "why": "최근 3년 토지적성·재해취약 실적 8.7억(5건) · 기준 2.73억의 318% · 배점 6.0/6.0",
+      "ratio": 317.7,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
+     {
+      "key": "웨이즈원",
+      "name": "웨이즈원 주식회사",
+      "area": "경기도 의왕",
+      "inds": [
+       "SW사업자",
+       "공간정보사업자",
+       "공공측량업"
+      ],
+      "wins": 5,
+      "field": "토적·재취",
+      "last": "2026-05-26",
+      "why": "최근 3년 토지적성·재해취약 실적 7.6억(3건) · 기준 2.73억의 279% · 배점 6.0/6.0",
+      "ratio": 279.4,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "디아이브릿지",
+      "name": "디아이브릿지 주식회사",
+      "area": "강원특별자치도 원주",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
+      ],
+      "wins": 4,
+      "field": "토적·재취",
+      "last": "2026-09-01",
+      "why": "최근 3년 토지적성·재해취약 실적 5.8억(2건) · 기준 2.73억의 212% · 배점 6.0/6.0",
+      "ratio": 212.2,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "신명유아이",
+      "name": "신명유아이주식회사",
+      "area": "전라남도 순천",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "지적측량업"
+      ],
+      "wins": 2,
+      "field": "UPIS·KLIP DB",
+      "last": "2026-02-10",
+      "why": "최근 3년 토지적성·재해취약 실적 3.4억(1건) · 기준 2.73억의 123% · 배점 6.0/6.0",
+      "ratio": 123.3,
+      "qscore": 6.0,
+      "qmax": 6.0
+     }
+    ],
+    "near_count": 3,
+    "near": [
+     {
+      "key": "성원기술개발",
+      "name": "성원기술개발 주식회사",
+      "area": "전북특별자치도 전주",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "토적·재취",
+      "last": "2026-11-10",
+      "why": "최근 3년 토지적성·재해취약 실적 2.4억(2건) · 기준 2.73억의 87% · 배점 5.4/6.0",
+      "ratio": 87.3,
+      "qscore": 5.4,
+      "qmax": 6.0
+     },
+     {
+      "key": "드림공간정보",
+      "name": "주식회사 드림공간정보",
+      "area": "전북특별자치도 익산",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "UPIS·KLIP DB",
+      "last": "2026-02-06",
+      "why": "최근 3년 토지적성·재해취약 실적 2.1억(1건) · 기준 2.73억의 77% · 배점 5.4/6.0",
+      "ratio": 76.6,
+      "qscore": 5.4,
+      "qmax": 6.0
+     },
+     {
+      "key": "알라딘정보기술",
+      "name": "주식회사 알라딘정보기술",
+      "area": "전라남도 나주",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업"
+      ],
+      "wins": 4,
+      "field": "UPIS·KLIP DB",
+      "last": "2026-08-07",
+      "why": "최근 3년 토지적성·재해취약 실적 2.0억(1건) · 기준 2.73억의 73% · 배점 5.4/6.0",
+      "ratio": 72.6,
+      "qscore": 5.4,
+      "qmax": 6.0
+     }
+    ],
+    "qual_only_count": 86,
+    "qual_only": [
      {
       "key": "사방정보기술",
       "name": "주식회사 사방정보기술",
@@ -1159,31 +1847,173 @@
       ],
       "wins": 6,
       "field": "UPIS·KLIP DB",
-      "last": "2026-03-12"
+      "last": "2026-03-12",
+      "why": "최근 3년 토지적성·재해취약 실적 1.7억(1건) · 기준 2.73억의 63% · 배점 4.8/6.0",
+      "ratio": 62.9,
+      "qscore": 4.8,
+      "qmax": 6.0
      },
      {
-      "key": "신영이에스디",
-      "name": "주식회사 신영이에스디",
-      "area": "강원특별자치도 춘천",
+      "key": "지오투정보기술",
+      "name": "주식회사 지오투정보기술",
+      "area": "경기도 안양",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
-      "wins": 6,
+      "wins": 5,
+      "field": "UPIS·KLIP DB",
+      "last": "2025-07-11",
+      "why": "최근 3년 토지적성·재해취약 실적 1.7억(1건) · 기준 2.73억의 62% · 배점 4.8/6.0",
+      "ratio": 61.8,
+      "qscore": 4.8,
+      "qmax": 6.0
+     },
+     {
+      "key": "국성건설엔지니어링",
+      "name": "주식회사 국성건설엔지니어링",
+      "area": "전북특별자치도 완주",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
       "field": "토적·재취",
-      "last": "2026-02-11"
+      "last": "2026-03-10",
+      "why": "최근 3년 토지적성·재해취약 실적 1.6억(1건) · 기준 2.73억의 58% · 배점 4.8/6.0",
+      "ratio": 57.5,
+      "qscore": 4.8,
+      "qmax": 6.0
      },
      {
-      "key": "테라엔지니어링",
-      "name": "주식회사 테라엔지니어링",
-      "area": "경상남도 양산",
+      "key": "알라딘시스템",
+      "name": "(주)알라딘시스템",
+      "area": "경기도 고양",
       "inds": [
        "SW사업자"
       ],
-      "wins": 6,
-      "field": "도로대장",
-      "last": "2026-10-29"
+      "wins": 1,
+      "field": "토적·재취",
+      "last": "2026-07-27",
+      "why": "최근 3년 토지적성·재해취약 실적 0.7억(1건) · 기준 2.73억의 25% · 배점 4.2/6.0",
+      "ratio": 24.9,
+      "qscore": 4.2,
+      "qmax": 6.0
+     },
+     {
+      "key": "금강지리정보",
+      "name": "(주)금강지리정보",
+      "area": "강원특별자치도 고성",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
+      "field": "토적·재취",
+      "last": "2025-01-21",
+      "why": "최근 3년 토지적성·재해취약 실적 0.6억(1건) · 기준 2.73억의 21% · 배점 4.2/6.0",
+      "ratio": 21.4,
+      "qscore": 4.2,
+      "qmax": 6.0
+     },
+     {
+      "key": "서흥이엔지",
+      "name": "유한회사 서흥이엔지",
+      "area": "전북특별자치도 무주",
+      "inds": [
+       "SW사업자",
+       "엔지니어링:교통",
+       "엔지니어링:구조"
+      ],
+      "wins": 1,
+      "field": "토적·재취",
+      "last": "2024-05-02",
+      "why": "최근 3년 토지적성·재해취약 실적 0.4억(1건) · 기준 2.73억의 16% · 배점 4.2/6.0",
+      "ratio": 15.9,
+      "qscore": 4.2,
+      "qmax": 6.0
      }
-    ]
+    ],
+    "quant_unknown_count": 0,
+    "complement_count": 0,
+    "quant": {
+     "state": "fit",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [
+      {
+       "name": "경영상태",
+       "score": 2.0
+      },
+      {
+       "name": "수행실적",
+       "score": 6.0
+      },
+      {
+       "name": "사업관리자",
+       "score": 6.0
+      },
+      {
+       "name": "기술인력보유",
+       "score": 6.0
+      }
+     ],
+     "perf": {
+      "window": 3,
+      "denom": 272727273,
+      "denom_src": "추정가격",
+      "fields": [
+       "토지적성",
+       "재해취약"
+      ],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 5.4
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.8
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 4.2
+       }
+      ],
+      "top_min": 100,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": true,
+      "note": " B- B+, B0, B- 1.8 CCC+ 이하 C 이하 CCC+ 이하 1.4 - 입찰공고일 기준 최근 1년 이내에 평가한 회사채·기업어음에 대한 신용평가 등급이나 기업신용평가 등급으로 유효기간 안에 있는 가장 최근의 신용평가등급으로 평가 2 평가 항목 (1) ② 사업관리자(PM) 수행능력 ○ 사업관리자(PM)의 수행능력 평가 구 분 기술사 특급 고급 이하 배 점 6.0 5.1 4.2 - 입찰공고일 기준 최근 5년간 토지적성평"
+     },
+     "people": null,
+     "region": null,
+     "credit": {
+      "max_score": 1.0
+     },
+     "sources": [
+      "제안요청서 및 과업지시서(공주시 토지적성평가 및 재해취약성분석 용역).hwpx"
+     ],
+     "counts": {
+      "fit": 7,
+      "near": 3,
+      "low": 97,
+      "unknown": 0
+     }
+    }
    }
   },
   {
@@ -1272,6 +2102,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 2,
     "eligible_count": 2,
     "complement_count": 105,
     "eligible": [
@@ -1297,7 +2128,30 @@
       "field": "도로대장",
       "last": "2024-12-02"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "적격심사",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -1387,6 +2241,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -1478,7 +2333,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -1557,9 +2435,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -1672,9 +2557,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -1742,9 +2634,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -1811,9 +2710,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -1903,6 +2809,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 98,
     "eligible_count": 98,
     "complement_count": 0,
     "eligible": [
@@ -1998,7 +2905,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -2086,6 +3016,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 3,
     "eligible_count": 3,
     "complement_count": 0,
     "eligible": [
@@ -2122,7 +3053,30 @@
       "field": "용도지역지구 DB정비",
       "last": "2024-07-02"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -2208,6 +3162,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -2299,7 +3254,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -2384,9 +3362,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -2475,6 +3477,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -2566,7 +3569,60 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 1618181818,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 4.0
+       },
+       {
+        "min": 0,
+        "max": 100,
+        "score": 3.0
+       },
+       {
+        "min": 0,
+        "max": 0,
+        "score": 2.0
+       }
+      ],
+      "top_min": 100,
+      "top_score": 4.0,
+      "max_score": 4.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "산업 분야 기술자격자 ㆍ기사자격을 가진 자로서 10년 이상 해당기술분야의 업무를 수행한 자 ㆍ산업기사자격을 가진 자로서 13년 이 상 해당기술분야의 업무를 수행한 자 학력·경력자 ㆍ박사학위를 가진 자로서 3년 이상 해당기술분야의 업무를 수행한 자 ㆍ석사학위를 가진 자로서 9년 이상 해당기술분야의 업무를 수행한 자 ㆍ학사학위를 가진 자로서 12년 이상 해당기술분야의 업무를 수행한 자 ㆍ전문대학을 졸업한 자로서 15년 이상 해당기"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서(화성시 자율주행 시범서비스 구축 운영 용역).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -2655,9 +3711,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -2744,6 +3824,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -2835,7 +3916,74 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [
+      {
+       "name": "수행실적",
+       "score": 5.0
+      },
+      {
+       "name": "경영상태",
+       "score": 5.0
+      }
+     ],
+     "perf": {
+      "window": 3,
+      "denom": 395454545,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 5.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 4.5
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.0
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 3.5
+       }
+      ],
+      "top_min": 100,
+      "top_score": 5.0,
+      "max_score": 5.0,
+      "mode": null,
+      "in_scope": false,
+      "note": " 입찰가격 평가 (10점) * 가격평가 평점산식에 의함 10 합계(기술능력평가 + 입찰가격평가) 100 나. 정량적 지표의 평가기준 〇 정량적 평가 : 20점 평가항목 내용 배점한도 평 가 방 법 배점 합 계 20 - - 1. 수행인력 6 6 · 핵심인력 특급기술자 이상 참여여부 6 · 핵심인력 특급기술자 5인 이상 참여 · 핵심인력 특급기술자 4인 이상 참여 · 핵심인력 특급기술자 3인 이상 참여 · 핵심인력 특급기술자 3인"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서(2027년 광명시 자율주행버스 운영 용역).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -2930,6 +4078,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -3021,7 +4170,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -3106,9 +4278,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -3197,6 +4393,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -3288,7 +4485,65 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 10,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 318181818,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 3.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 2.7
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 2.4
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 2.1
+       }
+      ],
+      "top_min": 100,
+      "top_score": 3.0,
+      "max_score": 3.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "로서 12년 이상 해당기술분야의 업무를 수행한 자 ㆍ전문대학을 졸업한 자로서 15년 이상 해당기술분야의 업무를 수행한 자 1. 기술인력 해당기술자의 개별 재직증명, 자격증 사본, 당 자격자의 근무를 입증하는 증빙서류를 제출 (공고일 기준 근무자에 대한 자격증 사본과 당 자격자가 고용보험에 가입된 사실을 입증하는 자료 제출) 2. 공동수급체의 경우 업체별 투입인력 합산으로 평가 - 사업수행 실적 (3점) 평가항목 기 준 평 점 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "2 제안요청서.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -3381,6 +4636,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -3472,7 +4728,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -3555,6 +4834,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -3646,7 +4926,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -3732,9 +5035,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -3828,6 +5155,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -3919,7 +5247,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -4010,6 +5361,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -4101,7 +5453,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -4195,9 +5570,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -4283,9 +5682,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -4373,6 +5796,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -4464,7 +5888,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -4548,6 +5995,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -4639,7 +6087,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -4729,6 +6200,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -4820,7 +6292,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -4914,9 +6409,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -5010,9 +6529,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -5106,6 +6649,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -5197,7 +6741,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -5281,6 +6848,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -5372,7 +6940,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -5439,9 +7030,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -5508,9 +7106,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -5577,9 +7182,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -5646,9 +7258,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -5722,9 +7341,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -5804,9 +7430,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -5873,9 +7506,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -5942,9 +7582,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6011,9 +7658,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6080,9 +7734,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6149,9 +7810,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6218,9 +7886,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6287,9 +7962,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6356,9 +8038,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6425,9 +8114,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6494,9 +8190,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6563,9 +8266,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6656,9 +8366,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -6746,9 +8480,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -6815,9 +8573,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -6913,98 +8678,414 @@
      ],
      "parsed": true
     },
-    "eligible_count": 107,
-    "complement_count": 0,
+    "eligibility_count": 107,
+    "eligible_count": 9,
     "eligible": [
      {
-      "key": "우대칼스",
-      "name": "주식회사 우대칼스",
-      "area": "경기도 성남",
+      "key": "테라엔지니어링",
+      "name": "주식회사 테라엔지니어링",
+      "area": "경상남도 양산",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
-      "wins": 12,
-      "field": "토적·재취",
-      "last": "2026-06-24"
-     },
-     {
-      "key": "정도유아이티",
-      "name": "(주)정도유아이티",
-      "area": "서울특별시 강남구",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 10,
-      "field": "토적·재취",
-      "last": "2026-05-18"
+      "wins": 6,
+      "field": "도로대장",
+      "last": "2026-10-29",
+      "why": "최근 3년 도로대장·GIS DB 실적 67.2억(6건) · 기준 15.82억의 425% · 배점 6.0/6.0",
+      "ratio": 424.7,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
       "key": "일신이앤씨",
       "name": "주식회사 일신이앤씨",
       "area": "강원특별자치도 원주",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
       "wins": 8,
       "field": "도로대장",
-      "last": "2026-06-18"
+      "last": "2026-06-18",
+      "why": "최근 3년 도로대장·GIS DB 실적 48.4억(8건) · 기준 15.82억의 306% · 배점 6.0/6.0",
+      "ratio": 306.1,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "웨이버스",
+      "name": "주식회사 웨이버스",
+      "area": "서울특별시 구로구",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 4,
+      "field": "도로대장",
+      "last": "2026-08-11",
+      "why": "최근 3년 도로대장·GIS DB 실적 30.6억(4건) · 기준 15.82억의 194% · 배점 6.0/6.0",
+      "ratio": 193.5,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
       "key": "지오스토리",
       "name": "주식회사 지오스토리",
       "area": "서울특별시 강서구",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
       ],
       "wins": 7,
       "field": "도로대장",
-      "last": "2026-08-19"
+      "last": "2026-08-19",
+      "why": "최근 3년 도로대장·GIS DB 실적 30.1억(7건) · 기준 15.82억의 190% · 배점 6.0/6.0",
+      "ratio": 190.1,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "웨이즈원",
+      "name": "웨이즈원 주식회사",
+      "area": "경기도 의왕",
+      "inds": [
+       "SW사업자",
+       "공간정보사업자",
+       "공공측량업"
+      ],
+      "wins": 5,
+      "field": "토적·재취",
+      "last": "2026-05-26",
+      "why": "최근 3년 도로대장·GIS DB 실적 29.3억(2건) · 기준 15.82억의 185% · 배점 6.0/6.0",
+      "ratio": 185.2,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "산들이엔지",
+      "name": "주식회사 산들이엔지",
+      "area": "경상남도 양산",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 3,
+      "field": "도로대장",
+      "last": "2026-04-28",
+      "why": "최근 3년 도로대장·GIS DB 실적 23.6억(3건) · 기준 15.82억의 149% · 배점 6.0/6.0",
+      "ratio": 149.4,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
       "key": "로우코리아",
       "name": "주식회사 로우코리아",
       "area": "경기도 평택",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도로공항"
       ],
       "wins": 6,
       "field": "도로대장",
-      "last": "2026-06-18"
+      "last": "2026-06-18",
+      "why": "최근 3년 도로대장·GIS DB 실적 21.8억(6건) · 기준 15.82억의 138% · 배점 6.0/6.0",
+      "ratio": 138.1,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
-      "key": "사방정보기술",
-      "name": "주식회사 사방정보기술",
-      "area": "경상남도 함안",
+      "key": "케이지엔지니어링종합건축사사무소",
+      "name": "주식회사 케이지엔지니어링종합건축사사무소",
+      "area": "경기도 의정부",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
       ],
-      "wins": 6,
-      "field": "UPIS·KLIP DB",
-      "last": "2026-03-12"
-     },
-     {
-      "key": "신영이에스디",
-      "name": "주식회사 신영이에스디",
-      "area": "강원특별자치도 춘천",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 6,
-      "field": "토적·재취",
-      "last": "2026-02-11"
-     },
-     {
-      "key": "테라엔지니어링",
-      "name": "주식회사 테라엔지니어링",
-      "area": "경상남도 양산",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 6,
+      "wins": 1,
       "field": "도로대장",
-      "last": "2026-10-29"
+      "last": "2025-03-17",
+      "why": "최근 3년 도로대장·GIS DB 실적 20.8억(1건) · 기준 15.82억의 131% · 배점 6.0/6.0",
+      "ratio": 131.3,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "산들지리정보",
+      "name": "주식회사 산들지리정보",
+      "area": "",
+      "inds": [],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2024-07-30",
+      "why": "최근 3년 도로대장·GIS DB 실적 16.0억(2건) · 기준 15.82억의 101% · 배점 6.0/6.0",
+      "ratio": 101.1,
+      "qscore": 6.0,
+      "qmax": 6.0
      }
-    ]
+    ],
+    "near_count": 2,
+    "near": [
+     {
+      "key": "명화지리정보",
+      "name": "명화지리정보주식회사",
+      "area": "경기도 고양",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:측량지적"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2025-08-11",
+      "why": "최근 3년 도로대장·GIS DB 실적 14.8억(1건) · 기준 15.82억의 94% · 배점 5.5/6.0",
+      "ratio": 93.9,
+      "qscore": 5.5,
+      "qmax": 6.0
+     },
+     {
+      "key": "삼아항업",
+      "name": "삼아항업 주식회사",
+      "area": "경기도 고양",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도로공항"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-08-26",
+      "why": "최근 3년 도로대장·GIS DB 실적 11.7억(1건) · 기준 15.82억의 74% · 배점 5.5/6.0",
+      "ratio": 74.2,
+      "qscore": 5.5,
+      "qmax": 6.0
+     }
+    ],
+    "qual_only_count": 96,
+    "qual_only": [
+     {
+      "key": "엘티메트릭",
+      "name": "엘티메트릭 주식회사",
+      "area": "전북특별자치도 전주",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-10-16",
+      "why": "최근 3년 도로대장·GIS DB 실적 10.0억(2건) · 기준 15.82억의 63% · 배점 5.0/6.0",
+      "ratio": 63.1,
+      "qscore": 5.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "새한항업",
+      "name": "새한항업(주)",
+      "area": "충청북도 청주",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2025-09-26",
+      "why": "최근 3년 도로대장·GIS DB 실적 9.7억(2건) · 기준 15.82억의 61% · 배점 5.0/6.0",
+      "ratio": 61.2,
+      "qscore": 5.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "우대칼스",
+      "name": "주식회사 우대칼스",
+      "area": "경기도 성남",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
+      ],
+      "wins": 12,
+      "field": "토적·재취",
+      "last": "2026-06-24",
+      "why": "최근 3년 도로대장·GIS DB 실적 9.2억(6건) · 기준 15.82억의 58% · 배점 5.0/6.0",
+      "ratio": 58.0,
+      "qscore": 5.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "신한항업",
+      "name": "주식회사 신한항업",
+      "area": "",
+      "inds": [],
+      "wins": 3,
+      "field": "도로대장",
+      "last": "2026-06-16",
+      "why": "최근 3년 도로대장·GIS DB 실적 9.0억(3건) · 기준 15.82억의 57% · 배점 5.0/6.0",
+      "ratio": 56.9,
+      "qscore": 5.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "삼인공간정보",
+      "name": "주식회사 삼인공간정보",
+      "area": "경기도 용인",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-06-12",
+      "why": "최근 3년 도로대장·GIS DB 실적 9.0억(1건) · 기준 15.82억의 57% · 배점 5.0/6.0",
+      "ratio": 56.7,
+      "qscore": 5.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "올포랜드",
+      "name": "주식회사 올포랜드",
+      "area": "전북특별자치도 전주",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-06-19",
+      "why": "최근 3년 도로대장·GIS DB 실적 8.3억(2건) · 기준 15.82억의 52% · 배점 5.0/6.0",
+      "ratio": 52.2,
+      "qscore": 5.0,
+      "qmax": 6.0
+     }
+    ],
+    "quant_unknown_count": 0,
+    "complement_count": 0,
+    "quant": {
+     "state": "fit",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [
+      {
+       "name": "상생협력",
+       "score": 3.0
+      },
+      {
+       "name": "기술인력보유",
+       "score": 3.0
+      },
+      {
+       "name": "핵심인력",
+       "score": 6.0
+      },
+      {
+       "name": "회사수행실적",
+       "score": 6.0
+      },
+      {
+       "name": "경영상태",
+       "score": 2.0
+      }
+     ],
+     "perf": {
+      "window": 3,
+      "denom": 1581818182,
+      "denom_src": "추정가격",
+      "fields": [
+       "도로대장",
+       "GIS DB"
+      ],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 5.5
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 5.0
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 4.5
+       }
+      ],
+      "top_min": 100,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": true,
+      "note": ") 회사 수행실적 [6.0] - 최근 공고일 기준 3년간 국가, 지방자치단체, 공공기관에서 발주하여 준공한 (도로대장 전산화 사업 또는 GIS DB구축사업) 실적 에 한하여 평가한다. - 이행실적에 대한 입증책임은 입찰참가업체가 부담하며 의무를 다하지 아니하여 실적확인이 어려운 경우에는 실적을 인정하지 아니한다. - 공동수급체의 경우 구성원별 실적에 분담비율을 곱한 후 그 실적들을 합산한 실적으로 평가 - 산출식 = (A사 실"
+     },
+     "people": {
+      "bands": [
+       {
+        "min": 20,
+        "max": null,
+        "score": 3.0
+       },
+       {
+        "min": 15,
+        "max": 20,
+        "score": 2.7
+       },
+       {
+        "min": 10,
+        "max": 15,
+        "score": 2.4
+       },
+       {
+        "min": 0,
+        "max": 10,
+        "score": 2.1
+       }
+      ],
+      "max_score": 3.0,
+      "note": "기술인력보유 소 계 3.0 기술자 보유인력평가 ○ 회사 기술인력보유 3.0 2. 핵심인력 소 계 6.0 사업책임기술자(PM)의 경력 및 실적 ○ 사업책임기술자 경력 3.0 ○ 사업책임기술자 실적 3.0 3. 회사수행실적 소 계 6.0 사업수행실적 평가 ○ 회사수행실적 6.0 4. 경영상태 소 계 2.0 신용평가등급 ○ 경영상태 2.0 5. 상생협력 소 계 "
+     },
+     "region": {
+      "sido": "강원특별자치도",
+      "keyword": "강원",
+      "share_bands": [
+       {
+        "min": 49,
+        "max": null,
+        "score": 3.0
+       }
+      ],
+      "note": "를 영위하는 신용정보업자가 입찰공고일 이전에 평가한 유효 기간 내에 있는 회사채, 기업어음, 기업신용 평가등급을 기준으로 평가 하되 가장 최근의 신용평가 등급으로 평가한다. * 신 용평가등급 확인서가 확인되지 않은 경우에는 최저등급으로 평가 하며, 유효기간 만료일이 입찰공고일인 경우에도 유효한 것으로 평가한다. * 합병한 업체에 대하여는 합병 후 새로운 신용평가등급으로 심사 하여야 하며, 합병 후의 새로운 신용평가등급이 없는 "
+     },
+     "credit": {
+      "max_score": 2.0
+     },
+     "sources": [
+      "제안요청서(동해시 도로대장 전산화 용역).hwpx"
+     ],
+     "counts": {
+      "fit": 9,
+      "near": 2,
+      "low": 96,
+      "unknown": 0
+     }
+    }
    }
   },
   {
@@ -7091,46 +9172,138 @@
      ],
      "parsed": true
     },
-    "eligible_count": 3,
-    "complement_count": 104,
-    "eligible": [
-     {
-      "key": "정원공간정보",
-      "name": "(주)정원공간정보",
-      "area": "경상북도 김천",
-      "inds": [
-       "공공측량업",
-       "SW사업자"
-      ],
-      "wins": 2,
-      "field": "UPIS·KLIP DB",
-      "last": "2025-12-08"
-     },
+    "eligibility_count": 3,
+    "eligible_count": 0,
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 3,
+    "qual_only": [
      {
       "key": "인데이터",
       "name": "주식회사 인데이터",
       "area": "경상북도 경산",
       "inds": [
-       "지도제작업",
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "지도제작업"
       ],
       "wins": 2,
       "field": "UPIS·KLIP DB",
-      "last": "2026-03-10"
+      "last": "2026-03-10",
+      "why": "최근 3년 도로대장·도로 GIS 실적 0.0억(0건) · 기준 4.55억의 0% · 배점 2.1/3.0",
+      "ratio": 0.0,
+      "qscore": 2.1,
+      "qmax": 3.0
+     },
+     {
+      "key": "정원공간정보",
+      "name": "(주)정원공간정보",
+      "area": "경상북도 김천",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "UPIS·KLIP DB",
+      "last": "2025-12-08",
+      "why": "최근 3년 도로대장·도로 GIS 실적 0.0억(0건) · 기준 4.55억의 0% · 배점 2.1/3.0",
+      "ratio": 0.0,
+      "qscore": 2.1,
+      "qmax": 3.0
      },
      {
       "key": "정석지아이에스",
       "name": "주식회사 정석지아이에스",
       "area": "경상북도 영주",
       "inds": [
+       "SW사업자",
        "공공측량업",
-       "SW사업자"
+       "수치지도제작업"
       ],
       "wins": 1,
       "field": "용도지역지구 DB정비",
-      "last": "2024-07-02"
+      "last": "2024-07-02",
+      "why": "최근 3년 도로대장·도로 GIS 실적 0.0억(0건) · 기준 4.55억의 0% · 배점 2.1/3.0",
+      "ratio": 0.0,
+      "qscore": 2.1,
+      "qmax": 3.0
      }
-    ]
+    ],
+    "quant_unknown_count": 0,
+    "complement_count": 104,
+    "quant": {
+     "state": "fit",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [
+      {
+       "name": "경영상태",
+       "score": 5.0
+      },
+      {
+       "name": "수행실적",
+       "score": 3.0
+      }
+     ],
+     "perf": {
+      "window": 3,
+      "denom": 454545455,
+      "denom_src": "추정가격",
+      "fields": [
+       "도로대장",
+       "도로 GIS"
+      ],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": 3.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": 2.7
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": 2.4
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": 2.1
+       }
+      ],
+      "top_min": 100,
+      "top_score": 3.0,
+      "max_score": 3.0,
+      "mode": null,
+      "in_scope": true,
+      "note": " 확인 할 수 있는 자료(법인인 경우 법인등기부상 법인설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. 6. 중소기업협동조합이 입찰에 참여하는 경우 중소기업협동조합의 신용평가"
+     },
+     "people": null,
+     "region": null,
+     "credit": {
+      "max_score": 2.0
+     },
+     "sources": [
+      "2026.11.03. 제안요청서(수정).hwpx"
+     ],
+     "counts": {
+      "fit": 17,
+      "near": 2,
+      "low": 88,
+      "unknown": 0
+     }
+    }
    }
   },
   {
@@ -7222,98 +9395,429 @@
      ],
      "parsed": true
     },
-    "eligible_count": 107,
-    "complement_count": 0,
+    "eligibility_count": 107,
+    "eligible_count": 9,
     "eligible": [
      {
-      "key": "우대칼스",
-      "name": "주식회사 우대칼스",
-      "area": "경기도 성남",
+      "key": "테라엔지니어링",
+      "name": "주식회사 테라엔지니어링",
+      "area": "경상남도 양산",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
-      "wins": 12,
-      "field": "토적·재취",
-      "last": "2026-06-24"
-     },
-     {
-      "key": "정도유아이티",
-      "name": "(주)정도유아이티",
-      "area": "서울특별시 강남구",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 10,
-      "field": "토적·재취",
-      "last": "2026-05-18"
+      "wins": 6,
+      "field": "도로대장",
+      "last": "2026-10-29",
+      "why": "최근 5년 도로대장·GIS DB 실적 67.2억(6건) · 기준 15.00억의 448% · 배점 4.0/4.0",
+      "ratio": 447.9,
+      "qscore": 4.0,
+      "qmax": 4.0
      },
      {
       "key": "일신이앤씨",
       "name": "주식회사 일신이앤씨",
       "area": "강원특별자치도 원주",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
       "wins": 8,
       "field": "도로대장",
-      "last": "2026-06-18"
+      "last": "2026-06-18",
+      "why": "최근 5년 도로대장·GIS DB 실적 48.4억(8건) · 기준 15.00억의 323% · 배점 4.0/4.0",
+      "ratio": 322.8,
+      "qscore": 4.0,
+      "qmax": 4.0
+     },
+     {
+      "key": "웨이버스",
+      "name": "주식회사 웨이버스",
+      "area": "서울특별시 구로구",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 4,
+      "field": "도로대장",
+      "last": "2026-08-11",
+      "why": "최근 5년 도로대장·GIS DB 실적 30.6억(4건) · 기준 15.00억의 204% · 배점 4.0/4.0",
+      "ratio": 204.1,
+      "qscore": 4.0,
+      "qmax": 4.0
      },
      {
       "key": "지오스토리",
       "name": "주식회사 지오스토리",
       "area": "서울특별시 강서구",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
       ],
       "wins": 7,
       "field": "도로대장",
-      "last": "2026-08-19"
+      "last": "2026-08-19",
+      "why": "최근 5년 도로대장·GIS DB 실적 30.1억(7건) · 기준 15.00억의 200% · 배점 4.0/4.0",
+      "ratio": 200.4,
+      "qscore": 4.0,
+      "qmax": 4.0
+     },
+     {
+      "key": "웨이즈원",
+      "name": "웨이즈원 주식회사",
+      "area": "경기도 의왕",
+      "inds": [
+       "SW사업자",
+       "공간정보사업자",
+       "공공측량업"
+      ],
+      "wins": 5,
+      "field": "토적·재취",
+      "last": "2026-05-26",
+      "why": "최근 5년 도로대장·GIS DB 실적 29.3억(2건) · 기준 15.00억의 195% · 배점 4.0/4.0",
+      "ratio": 195.3,
+      "qscore": 4.0,
+      "qmax": 4.0
+     },
+     {
+      "key": "산들이엔지",
+      "name": "주식회사 산들이엔지",
+      "area": "경상남도 양산",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 3,
+      "field": "도로대장",
+      "last": "2026-04-28",
+      "why": "최근 5년 도로대장·GIS DB 실적 23.6억(3건) · 기준 15.00억의 158% · 배점 4.0/4.0",
+      "ratio": 157.5,
+      "qscore": 4.0,
+      "qmax": 4.0
      },
      {
       "key": "로우코리아",
       "name": "주식회사 로우코리아",
       "area": "경기도 평택",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도로공항"
       ],
       "wins": 6,
       "field": "도로대장",
-      "last": "2026-06-18"
+      "last": "2026-06-18",
+      "why": "최근 5년 도로대장·GIS DB 실적 21.8억(6건) · 기준 15.00억의 146% · 배점 4.0/4.0",
+      "ratio": 145.6,
+      "qscore": 4.0,
+      "qmax": 4.0
      },
      {
-      "key": "사방정보기술",
-      "name": "주식회사 사방정보기술",
-      "area": "경상남도 함안",
+      "key": "케이지엔지니어링종합건축사사무소",
+      "name": "주식회사 케이지엔지니어링종합건축사사무소",
+      "area": "경기도 의정부",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
       ],
-      "wins": 6,
-      "field": "UPIS·KLIP DB",
-      "last": "2026-03-12"
-     },
-     {
-      "key": "신영이에스디",
-      "name": "주식회사 신영이에스디",
-      "area": "강원특별자치도 춘천",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 6,
-      "field": "토적·재취",
-      "last": "2026-02-11"
-     },
-     {
-      "key": "테라엔지니어링",
-      "name": "주식회사 테라엔지니어링",
-      "area": "경상남도 양산",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 6,
+      "wins": 1,
       "field": "도로대장",
-      "last": "2026-10-29"
+      "last": "2025-03-17",
+      "why": "최근 5년 도로대장·GIS DB 실적 20.8억(1건) · 기준 15.00억의 138% · 배점 4.0/4.0",
+      "ratio": 138.5,
+      "qscore": 4.0,
+      "qmax": 4.0
+     },
+     {
+      "key": "산들지리정보",
+      "name": "주식회사 산들지리정보",
+      "area": "",
+      "inds": [],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2024-07-30",
+      "why": "최근 5년 도로대장·GIS DB 실적 16.0억(2건) · 기준 15.00억의 107% · 배점 4.0/4.0",
+      "ratio": 106.7,
+      "qscore": 4.0,
+      "qmax": 4.0
      }
-    ]
+    ],
+    "near_count": 2,
+    "near": [
+     {
+      "key": "명화지리정보",
+      "name": "명화지리정보주식회사",
+      "area": "경기도 고양",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:측량지적"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2025-08-11",
+      "why": "최근 5년 도로대장·GIS DB 실적 14.8억(1건) · 기준 15.00억의 99% · 배점 3.6/4.0",
+      "ratio": 99.0,
+      "qscore": 3.6,
+      "qmax": 4.0
+     },
+     {
+      "key": "삼아항업",
+      "name": "삼아항업 주식회사",
+      "area": "경기도 고양",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도로공항"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-08-26",
+      "why": "최근 5년 도로대장·GIS DB 실적 11.7억(1건) · 기준 15.00억의 78% · 배점 3.6/4.0",
+      "ratio": 78.2,
+      "qscore": 3.6,
+      "qmax": 4.0
+     }
+    ],
+    "qual_only_count": 96,
+    "qual_only": [
+     {
+      "key": "엘티메트릭",
+      "name": "엘티메트릭 주식회사",
+      "area": "전북특별자치도 전주",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-10-16",
+      "why": "최근 5년 도로대장·GIS DB 실적 10.0억(2건) · 기준 15.00억의 67% · 배점 3.2/4.0",
+      "ratio": 66.6,
+      "qscore": 3.2,
+      "qmax": 4.0
+     },
+     {
+      "key": "새한항업",
+      "name": "새한항업(주)",
+      "area": "충청북도 청주",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2025-09-26",
+      "why": "최근 5년 도로대장·GIS DB 실적 9.7억(2건) · 기준 15.00억의 64% · 배점 3.2/4.0",
+      "ratio": 64.5,
+      "qscore": 3.2,
+      "qmax": 4.0
+     },
+     {
+      "key": "우대칼스",
+      "name": "주식회사 우대칼스",
+      "area": "경기도 성남",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
+      ],
+      "wins": 12,
+      "field": "토적·재취",
+      "last": "2026-06-24",
+      "why": "최근 5년 도로대장·GIS DB 실적 9.2억(6건) · 기준 15.00억의 61% · 배점 3.2/4.0",
+      "ratio": 61.2,
+      "qscore": 3.2,
+      "qmax": 4.0
+     },
+     {
+      "key": "신한항업",
+      "name": "주식회사 신한항업",
+      "area": "",
+      "inds": [],
+      "wins": 3,
+      "field": "도로대장",
+      "last": "2026-06-16",
+      "why": "최근 5년 도로대장·GIS DB 실적 9.0억(3건) · 기준 15.00억의 60% · 배점 3.2/4.0",
+      "ratio": 60.0,
+      "qscore": 3.2,
+      "qmax": 4.0
+     },
+     {
+      "key": "삼인공간정보",
+      "name": "주식회사 삼인공간정보",
+      "area": "경기도 용인",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-06-12",
+      "why": "최근 5년 도로대장·GIS DB 실적 9.0억(1건) · 기준 15.00억의 60% · 배점 3.2/4.0",
+      "ratio": 59.8,
+      "qscore": 3.2,
+      "qmax": 4.0
+     },
+     {
+      "key": "올포랜드",
+      "name": "주식회사 올포랜드",
+      "area": "전북특별자치도 전주",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-06-19",
+      "why": "최근 5년 도로대장·GIS DB 실적 8.3억(2건) · 기준 15.00억의 55% · 배점 3.2/4.0",
+      "ratio": 55.1,
+      "qscore": 3.2,
+      "qmax": 4.0
+     }
+    ],
+    "quant_unknown_count": 0,
+    "complement_count": 0,
+    "quant": {
+     "state": "fit",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [
+      {
+       "name": "경영상태",
+       "score": 6.0
+      },
+      {
+       "name": "상생협력",
+       "score": 4.0
+      },
+      {
+       "name": "기술인력보유",
+       "score": 4.0
+      },
+      {
+       "name": "회사수행실적",
+       "score": 6.0
+      },
+      {
+       "name": "회사의인력보유",
+       "score": 4.0
+      }
+     ],
+     "perf": {
+      "window": 5,
+      "denom": 1500000000,
+      "denom_src": "공고문 명시 기준금액",
+      "fields": [
+       "도로대장",
+       "GIS DB"
+      ],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 4.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 3.6
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 3.2
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 2.8
+       }
+      ],
+      "top_min": 100,
+      "top_score": 4.0,
+      "max_score": 4.0,
+      "mode": null,
+      "in_scope": true,
+      "note": " 자사 귀속 실제 이행금액만 인정한 뒤 이번 공동수급 출자지분율로 가중한다. 예: 과거 총 10억원의 자사 40% 이행액 4억원에 이번 지분 60%를 곱하면 2.4억원이다. 이미 자사 지분이 반영된 4억원에 과거 지분 40%를 다시 곱하지 않는다. - 실적비율 = Σ(구성원별 자사 인정 이행금액 × 이번 출자지분율) ÷ 1,500,000,000원 × 100. 단독은 지분율 100%로 한다. 분자·분모는 부가가치세 포함 기준이며"
+     },
+     "people": {
+      "bands": [
+       {
+        "min": 30,
+        "max": null,
+        "score": 4.0
+       },
+       {
+        "min": 25,
+        "max": 30,
+        "score": 3.6
+       },
+       {
+        "min": 20,
+        "max": 25,
+        "score": 3.2
+       },
+       {
+        "min": 0,
+        "max": 20,
+        "score": 2.8
+       }
+      ],
+      "max_score": 4.0,
+      "note": "인력보유[4.0] - 위 주) 1의 직무·재직·자격/경력 기준을 충족하는 기술인력만 평가한다. 사무·영업 인력 및 같은 사람의 복수 등급·복수 회사 중복은 제외한다. - 공동수급체 인정인원은 구성원별 인정 기술인원에 이번 출자지분율을 곱한 값의 합계로 한다. 가중인원은 소수인원 그대로 등급구간을 판정한다. - 가중인원 = Σ(구성원 인정인원 × 이번 출자지"
+     },
+     "region": {
+      "sido": "경상북도",
+      "keyword": "경상북",
+      "share_bands": [
+       {
+        "min": 40,
+        "max": null,
+        "score": 4.0
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 3.0
+       },
+       {
+        "min": 0,
+        "max": 30,
+        "score": 2.0
+       },
+       {
+        "min": 0,
+        "max": 20,
+        "score": 1.0
+       }
+      ],
+      "note": " 인정 이행금액 × 이번 출자지분율) ÷ 1,500,000,000원 × 100. 단독은 지분율 100%로 한다. 분자·분모는 부가가치세 포함 기준이며 법정 면세 실적은 계약상 확인된 이행금액으로 한다. 기준 비율 점수 전체분 15억원 대비 실적비율 (부가가치세 포함) 사업이행실적 평가 A. 100%이상 4.0 B. 70%이상~100%미만 3.6 C. 40%이상~70%미만 3.2 D. 40%미만 2.8 4 ) 상생협력[4.0] "
+     },
+     "credit": {
+      "max_score": 6.0
+     },
+     "sources": [
+      "제안요청서(김천시 도로대장 전산화 구축 용역)_.hwpx"
+     ],
+     "counts": {
+      "fit": 9,
+      "near": 2,
+      "low": 96,
+      "unknown": 0
+     }
+    }
    }
   },
   {
@@ -7401,98 +9905,398 @@
      ],
      "parsed": true
     },
-    "eligible_count": 107,
-    "complement_count": 0,
+    "eligibility_count": 107,
+    "eligible_count": 10,
     "eligible": [
      {
-      "key": "우대칼스",
-      "name": "주식회사 우대칼스",
-      "area": "경기도 성남",
+      "key": "테라엔지니어링",
+      "name": "주식회사 테라엔지니어링",
+      "area": "경상남도 양산",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
-      "wins": 12,
-      "field": "토적·재취",
-      "last": "2026-06-24"
-     },
-     {
-      "key": "정도유아이티",
-      "name": "(주)정도유아이티",
-      "area": "서울특별시 강남구",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 10,
-      "field": "토적·재취",
-      "last": "2026-05-18"
+      "wins": 6,
+      "field": "도로대장",
+      "last": "2026-10-29",
+      "why": "최근 3년 공간정보 DB 실적 67.2억(6건) · 기준 14.58억의 461% · 배점 6.0/6.0",
+      "ratio": 460.7,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
       "key": "일신이앤씨",
       "name": "주식회사 일신이앤씨",
       "area": "강원특별자치도 원주",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공간영상도화업",
+       "공공측량업"
       ],
       "wins": 8,
       "field": "도로대장",
-      "last": "2026-06-18"
+      "last": "2026-06-18",
+      "why": "최근 3년 공간정보 DB 실적 48.4억(8건) · 기준 14.58억의 332% · 배점 6.0/6.0",
+      "ratio": 332.1,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "웨이버스",
+      "name": "주식회사 웨이버스",
+      "area": "서울특별시 구로구",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 4,
+      "field": "도로대장",
+      "last": "2026-08-11",
+      "why": "최근 3년 공간정보 DB 실적 30.6억(4건) · 기준 14.58억의 210% · 배점 6.0/6.0",
+      "ratio": 209.9,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
       "key": "지오스토리",
       "name": "주식회사 지오스토리",
       "area": "서울특별시 강서구",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
       ],
       "wins": 7,
       "field": "도로대장",
-      "last": "2026-08-19"
+      "last": "2026-08-19",
+      "why": "최근 3년 공간정보 DB 실적 30.1억(7건) · 기준 14.58억의 206% · 배점 6.0/6.0",
+      "ratio": 206.2,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "웨이즈원",
+      "name": "웨이즈원 주식회사",
+      "area": "경기도 의왕",
+      "inds": [
+       "SW사업자",
+       "공간정보사업자",
+       "공공측량업"
+      ],
+      "wins": 5,
+      "field": "토적·재취",
+      "last": "2026-05-26",
+      "why": "최근 3년 공간정보 DB 실적 29.3억(2건) · 기준 14.58억의 201% · 배점 6.0/6.0",
+      "ratio": 200.9,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "산들이엔지",
+      "name": "주식회사 산들이엔지",
+      "area": "경상남도 양산",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 3,
+      "field": "도로대장",
+      "last": "2026-04-28",
+      "why": "최근 3년 공간정보 DB 실적 23.6억(3건) · 기준 14.58억의 162% · 배점 6.0/6.0",
+      "ratio": 162.1,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
       "key": "로우코리아",
       "name": "주식회사 로우코리아",
       "area": "경기도 평택",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도로공항"
       ],
       "wins": 6,
       "field": "도로대장",
-      "last": "2026-06-18"
+      "last": "2026-06-18",
+      "why": "최근 3년 공간정보 DB 실적 21.8억(6건) · 기준 14.58억의 150% · 배점 6.0/6.0",
+      "ratio": 149.8,
+      "qscore": 6.0,
+      "qmax": 6.0
      },
      {
-      "key": "사방정보기술",
-      "name": "주식회사 사방정보기술",
-      "area": "경상남도 함안",
+      "key": "케이지엔지니어링종합건축사사무소",
+      "name": "주식회사 케이지엔지니어링종합건축사사무소",
+      "area": "경기도 의정부",
       "inds": [
-       "SW사업자"
+       "SW사업자",
+       "공공측량업",
+       "엔지니어링:교통"
       ],
-      "wins": 6,
-      "field": "UPIS·KLIP DB",
-      "last": "2026-03-12"
-     },
-     {
-      "key": "신영이에스디",
-      "name": "주식회사 신영이에스디",
-      "area": "강원특별자치도 춘천",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 6,
-      "field": "토적·재취",
-      "last": "2026-02-11"
-     },
-     {
-      "key": "테라엔지니어링",
-      "name": "주식회사 테라엔지니어링",
-      "area": "경상남도 양산",
-      "inds": [
-       "SW사업자"
-      ],
-      "wins": 6,
+      "wins": 1,
       "field": "도로대장",
-      "last": "2026-10-29"
+      "last": "2025-03-17",
+      "why": "최근 3년 공간정보 DB 실적 20.8억(1건) · 기준 14.58억의 142% · 배점 6.0/6.0",
+      "ratio": 142.5,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "산들지리정보",
+      "name": "주식회사 산들지리정보",
+      "area": "",
+      "inds": [],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2024-07-30",
+      "why": "최근 3년 공간정보 DB 실적 16.0억(2건) · 기준 14.58억의 110% · 배점 6.0/6.0",
+      "ratio": 109.7,
+      "qscore": 6.0,
+      "qmax": 6.0
+     },
+     {
+      "key": "명화지리정보",
+      "name": "명화지리정보주식회사",
+      "area": "경기도 고양",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:측량지적"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2025-08-11",
+      "why": "최근 3년 공간정보 DB 실적 14.8억(1건) · 기준 14.58억의 102% · 배점 6.0/6.0",
+      "ratio": 101.8,
+      "qscore": 6.0,
+      "qmax": 6.0
      }
-    ]
+    ],
+    "near_count": 1,
+    "near": [
+     {
+      "key": "삼아항업",
+      "name": "삼아항업 주식회사",
+      "area": "경기도 고양",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도로공항"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-08-26",
+      "why": "최근 3년 공간정보 DB 실적 11.7억(1건) · 기준 14.58억의 80% · 배점 5.4/6.0",
+      "ratio": 80.5,
+      "qscore": 5.4,
+      "qmax": 6.0
+     }
+    ],
+    "qual_only_count": 96,
+    "qual_only": [
+     {
+      "key": "엘티메트릭",
+      "name": "엘티메트릭 주식회사",
+      "area": "전북특별자치도 전주",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-10-16",
+      "why": "최근 3년 공간정보 DB 실적 10.0억(2건) · 기준 14.58억의 68% · 배점 4.8/6.0",
+      "ratio": 68.5,
+      "qscore": 4.8,
+      "qmax": 6.0
+     },
+     {
+      "key": "새한항업",
+      "name": "새한항업(주)",
+      "area": "충청북도 청주",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2025-09-26",
+      "why": "최근 3년 공간정보 DB 실적 9.7억(2건) · 기준 14.58억의 66% · 배점 4.8/6.0",
+      "ratio": 66.4,
+      "qscore": 4.8,
+      "qmax": 6.0
+     },
+     {
+      "key": "우대칼스",
+      "name": "주식회사 우대칼스",
+      "area": "경기도 성남",
+      "inds": [
+       "SW사업자",
+       "수치지도제작업",
+       "엔지니어링:도시계획"
+      ],
+      "wins": 12,
+      "field": "토적·재취",
+      "last": "2026-06-24",
+      "why": "최근 3년 공간정보 DB 실적 9.2억(6건) · 기준 14.58억의 63% · 배점 4.8/6.0",
+      "ratio": 63.0,
+      "qscore": 4.8,
+      "qmax": 6.0
+     },
+     {
+      "key": "신한항업",
+      "name": "주식회사 신한항업",
+      "area": "",
+      "inds": [],
+      "wins": 3,
+      "field": "도로대장",
+      "last": "2026-06-16",
+      "why": "최근 3년 공간정보 DB 실적 9.0억(3건) · 기준 14.58억의 62% · 배점 4.8/6.0",
+      "ratio": 61.7,
+      "qscore": 4.8,
+      "qmax": 6.0
+     },
+     {
+      "key": "삼인공간정보",
+      "name": "주식회사 삼인공간정보",
+      "area": "경기도 용인",
+      "inds": [
+       "SW사업자",
+       "공간영상도화업",
+       "수치지도제작업"
+      ],
+      "wins": 1,
+      "field": "도로대장",
+      "last": "2026-06-12",
+      "why": "최근 3년 공간정보 DB 실적 9.0억(1건) · 기준 14.58억의 62% · 배점 4.8/6.0",
+      "ratio": 61.5,
+      "qscore": 4.8,
+      "qmax": 6.0
+     },
+     {
+      "key": "올포랜드",
+      "name": "주식회사 올포랜드",
+      "area": "전북특별자치도 전주",
+      "inds": [
+       "SW사업자",
+       "공공측량업",
+       "수치지도제작업"
+      ],
+      "wins": 2,
+      "field": "도로대장",
+      "last": "2026-06-19",
+      "why": "최근 3년 공간정보 DB 실적 8.3억(2건) · 기준 14.58억의 57% · 배점 4.8/6.0",
+      "ratio": 56.7,
+      "qscore": 4.8,
+      "qmax": 6.0
+     }
+    ],
+    "quant_unknown_count": 0,
+    "complement_count": 0,
+    "quant": {
+     "state": "fit",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [
+      {
+       "name": "경영상태",
+       "score": 6.0
+      },
+      {
+       "name": "수행경험",
+       "score": 6.0
+      },
+      {
+       "name": "보유인원",
+       "score": 4.0
+      },
+      {
+       "name": "안전관리자",
+       "score": 4.0
+      }
+     ],
+     "perf": {
+      "window": 3,
+      "denom": 1458181818,
+      "denom_src": "추정가격",
+      "fields": [
+       "공간정보 DB"
+      ],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 5.4
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.8
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 4.2
+       }
+      ],
+      "top_min": 100,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": true,
+      "note": " 지방자치단체, 공공기관 및 민간기업에서 준공 완료된 공간정보 DB구축 실적에 한한다. - 총괄계약에 의한 년차별 계약은 단일 건으로 한다. - 공공기관의 범위는 정부기관, 지방자치단체, 기타 정부투자기관이며, 민간 기업 실적은 계약서, 세금계산서 등 관련 서류를 첨부한다. ◇ 공동수급체의 경우 구성원별 실적금액에 지분율을 곱한 후 그 실적들을 합산 한 실적금액으로 최종 평가한다. ◇ 산출식 = (A사 실적금액 X A사 지분율"
+     },
+     "people": {
+      "bands": [
+       {
+        "min": 50,
+        "max": null,
+        "score": 4.0
+       },
+       {
+        "min": 45,
+        "max": 50,
+        "score": 3.6
+       },
+       {
+        "min": 40,
+        "max": 45,
+        "score": 3.2
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 2.8
+       }
+      ],
+      "max_score": 4.0,
+      "note": "보유인원 [4.0] ◇ 회사의 보유인원에 대하여 평가한다.(입찰공고일 기준) ◇ 공동수급체의 경우 구성원별 회사 보유 인력에 지분율을 곱한 후 인원들을 합산하여 최종평가한다. ◇ 산출식 = (A사 보유인원 X A사 지분율) + (B사 보유인원 X B사 지분율) 구 분 50명이상 50명미만 ~45명이상 45명미만 ~40명이상 40명미만 평 점 4.0 3.6 "
+     },
+     "region": null,
+     "credit": {
+      "max_score": 6.0
+     },
+     "sources": [
+      "제안요청서(부안군 도로대장 전산화 구축 용역)_.hwpx"
+     ],
+     "counts": {
+      "fit": 10,
+      "near": 1,
+      "low": 96,
+      "unknown": 0
+     }
+    }
    }
   },
   {
@@ -7586,6 +10390,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 103,
     "eligible_count": 103,
     "complement_count": 0,
     "eligible": [
@@ -7687,7 +10492,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -7754,9 +10582,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -7849,9 +10684,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -7936,9 +10795,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -8027,6 +10910,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -8118,7 +11002,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -8211,6 +11118,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -8302,7 +11210,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -8393,6 +11324,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -8484,7 +11416,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -8573,6 +11528,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -8668,7 +11624,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -8753,6 +11732,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -8844,7 +11824,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 484545455,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "기관, 민간기업 등이 발주한 경우 가목 및 나목을 준용하되, 공공기관 이외의 납품실적은 이를 공증하거나 해당국가의 상공회의소 또는 해당 국가에 주재하는 대한민국 공관의 확인을 받은 경우에는 세금계산서 등 증빙 자료 첨부를 생략할 수 있음 마. 이행실적에 대한 입증책임은 입찰자가 부담하며 의무를 다하지 아니하여 실적 확인이 어려운 경우에는 실적으로 인정하지 아니함 공동수급체의 경우 구성원별 실적에 지분율을 곱한 후 그 실적들을 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서_산림공간정보서비스 운영 및 유지관리.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -8927,6 +11969,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -9018,7 +12061,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 28245455,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "전 창업을 확인 할 수 있는 자료(법인인 경우 법인등기부상 법인설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사 지분율)…"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "2027년 경상남도 3차원 실내공간정보관리시스템 유지관리_제안요청서(유지보수)-최종.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -9111,6 +12216,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -9202,7 +12308,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 5,
+      "denom": 176705455,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "0 평가위원회 평가 전략 및 방법론 사업 이해도 3 사업 추진전략 6 사업 수행 방법론 6 기술 및 기능 유지관리 수행 요구사항 7 기능 요구사항 7 시스템 운영 요구사항 7 보안 및 품질 보안 요구사항 3 품질 및 제약 요구사항 3 프로젝트 관리 및 지원 프로젝트 관리 4 유지관리 인력 요구사항 4 교육 지원 3 기술 지원 3 기타 서비스 활성화 방안 2 추가 제안 등 2 입찰가격 평가 입찰가격 평점산식에 의한 평가 20 계"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "[제안요청서] 2027년 전남광주통합특별시 공간정보시스템 통합 유지보수 용역.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -9295,6 +12463,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -9386,7 +12555,65 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 81358182,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 5.4
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.8
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 4.2
+       }
+      ],
+      "top_min": 100,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "현행관리의 적정성 4 정기점검 리포트 관리 방안의 적정성 4 일정계획(사업 수행의 세부 활동 도출 및 기간의 타당성) 3 사업지원 (10) 교육훈련의 적정성 3 기밀보안 체제의 적정성 및 대책의 확신성 3 기타 유지보수에 필요한 추가 제안 4 기술능력평가합계 90 가 격 평 가 - 가격평가산식에 의한 가격평가 10 합 계 100 ※ 본 사업은 H/W, DBMS, 상용S/W 등 종합적인 품목을 포함하고 있으므로, 원활한 계약이행"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "☆2027년 공간정보시스템 통합유지보수 제안요청서.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -9479,6 +12706,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -9572,7 +12800,65 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 245272727,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 5.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 4.5
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.0
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 3.5
+       }
+      ],
+      "top_min": 100,
+      "top_score": 5.0,
+      "max_score": 5.0,
+      "mode": null,
+      "in_scope": false,
+      "note": " 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사 지분율)… 6. 중소기업협동조합이 입찰에 참여하는 경우 중소기업협동조합의 신용평가등급으로 평가한다. 다) 공간정보시스템(GIS) 유지관리 실적(5점) 평가항목 계산방법 기준 배점 해당 사업규모 대비 입찰공고일 기준 최근 3년간 사"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "[붙임 2] (구매업무협의 사항 반영) 2027년 스마트 공간정보 플랫폼 유지관리 및 운영지원_제안요청서.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -9647,6 +12933,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -9738,7 +13025,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -9823,6 +13133,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -9914,7 +13225,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -9999,9 +13333,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -10076,6 +13434,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -10167,7 +13526,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -10242,6 +13624,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -10333,7 +13716,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -10422,6 +13828,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -10513,7 +13920,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 206744545,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "하며, 위험관리에 기반한 정보보호 대책을 도출하여 실행토록 관리하는 일이다 보안사고대응 침해사고의 피해확산 방지를 위해 위협정보를 탐지하고, 시스템 복구와 예방 전략을 수립하는 일과 업무 및 서비스에 영향을 준 증거를 확보 후 분석하여 신속하게 대응하는 일이다. - IT기술교육 제외 IT기술교육 IT분야의 기술교육을 체계적이고 효과적으로 수행하기 위하여 IT기술교육 방향 수립과 IT기술교육 환경조성, IT기술교육 교과개발 및 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서(2027년 공간정보시스템 HW，상용SW 유지관리 용역)_2차 수정.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -10609,6 +14078,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 9,
     "eligible_count": 9,
     "complement_count": 0,
     "eligible": [
@@ -10702,7 +14172,30 @@
       "field": "도로대장",
       "last": "2024-04-01"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -10792,9 +14285,33 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -10891,6 +14408,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 21,
     "eligible_count": 21,
     "complement_count": 86,
     "eligible": [
@@ -10982,7 +14500,65 @@
       "field": "토적·재취",
       "last": "2026-07-27"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 144800000,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 5.4
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.8
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 4.2
+       }
+      ],
+      "top_min": 100,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "이상 미제출 3년이내 3년이상 5년이내 5년이상 기술인력 기술경력 점수 1 3 5 7 1 3 5 7 구 분 응용SW개발 UI/UX디자인 미제출 3년이내 3년이상 5년이내 5년이상 미제출 3년이내 3년이상 5년이내 5년이상 기술인력 기술경력 점수 1 3 5 7 1 3 5 7 ※ 기술인력 기술상태 평가시 인정되는 ITSQF직무는 ‘정보기술·사업관리산업인적자원개발위원회 (ISC)’ 와 ‘한국소프트웨어산업협회’ 의 IT분야 역량체계 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "[제안요청서] 2027년도 양평군 공간정보 관련시스템 통합유지관리 용역.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -11077,6 +14653,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 9,
     "eligible_count": 9,
     "complement_count": 0,
     "eligible": [
@@ -11168,7 +14745,65 @@
       "field": "도로대장",
       "last": "2024-04-01"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 162360000,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 5.4
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.8
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 4.2
+       }
+      ],
+      "top_min": 100,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "안서 평가일 전일까지 발급된 자료도 심사에 포함하며, 이 경우 입찰공고일 이전 창업을 확인 할 수 있는 자료(법인인 경우 법인등기부상 법인설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5 . 중소기업협동조합이 입찰에 참여하는 경우 중소기업협동조합의 신용평가 등급으로 평가한다. 다) 공간정보시스템(GIS) 유지관리 실적(6점) 평가 항목 계산 방법 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "2027년 김해시 공간정보통합시스템 유지관리 용역 제안요청서(구매업무 협의사항 반영).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -11253,6 +14888,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -11344,7 +14980,74 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [
+      {
+       "name": "경영상태",
+       "score": 6.0
+      }
+     ],
+     "perf": {
+      "window": 3,
+      "denom": 99503364,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "방법론 (15) 사업수행이해도 8 추진전략 및 기술방법 7 기술 및 기능 (20) 시스템 운영 8 기능 요구사항 7 보안요구사항 5 프로젝트 관리 (20) 관리방법 10 일정계획 및 수행방안 10 프로젝트 지원 (15) 품질보증 5 교육훈련 및 기술이전 3 기밀보안 4 비상대책 3 가격평가 입찰가격 평 가 소 계 10 기술(능력)평가 항목 및 배점 가. 정량적 평가 평가부문 평가항목 세부평가항목 평 가 요 소 배점 비고 계 정"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서[2027년 공간정보시스템 통합유지보수 용역].hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -11437,6 +15140,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -11528,7 +15232,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 512537273,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "일 이전 창업을 확인 할 수 있는 자료(법인인 경우 법인등기부상 법인설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다(이하 창업기업에 대한 확인방법은 같다). 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사 지분"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "(제안요청서_과업지시서 통합형)2027년 공간정보플랫폼 통합 유지관리_최종.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -11613,6 +15379,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -11704,7 +15471,60 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 328320536,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 70,
+        "max": 100,
+        "score": 4.5
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.0
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 3.5
+       }
+      ],
+      "top_min": 70,
+      "top_score": 4.5,
+      "max_score": 4.5,
+      "mode": null,
+      "in_scope": false,
+      "note": "설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사 지분율)… 6. 중소기업협동조합이 입찰에 참여하는 경우 중소기업협동조합의"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "3. 제안요청서(전통시장 소방출동 지원기능 개선 및 공간정보 구축 용역)_조달청 제출용(수정원본).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -11797,6 +15617,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -11888,7 +15709,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 102827273,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": " 3.0 2.7 2.4 1. 평가대상: 공간정보시스템 관련 GS인증 제품 보유현황 2. 평가방법: 입찰공고일 기준 7년 이내 소프트웨어시험인증연구소(TTA)로부터 인증받은 아래 사항이 명시된 GS인증 보유 개수에 따른 점수 부여 - 인증서 또는 시험성적서에 공간정보, GIS, 지리정보, 위치기반 중 하나 이상 명시 3. 확인서류: 인증서 및 시험성적서 - 평가방법에 명시된 사항 표시하여 제출 4. 공동수급체를 구성한 경우 공동"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "구매업무 협의_제안요청서(2027~2028년 남해군 공간정보플랫폼 유지보수 용역).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -11981,6 +15864,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -12072,7 +15956,70 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [
+      {
+       "name": "경영상태",
+       "score": 4.0
+      }
+     ],
+     "perf": {
+      "window": 3,
+      "denom": 330737182,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 4.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 3.8
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 3.6
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 3.4
+       }
+      ],
+      "top_min": 100,
+      "top_score": 4.0,
+      "max_score": 4.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "가 확인되지 않는 경우 최저 등급으로 평가함 ○ 합병한 제안사는 합병 후의 새로운 신용평가등급으로 평가함. 다만, 합병 후 새로운 신용평가등급이 없는 경우에는 합병대상 제안사 중 가장 낮은 신용평가등급을 받은 제안사의 등급으로 평가함 ○ 공동수급체는 구성원별 평가점수에 지분율을 곱한 후 이를 합산하여 평가하며, 평가 결과 소수점 이하 숫자가 있는 경우 소수점 다섯째 자리에서 반올림함 ※ 평가방법 : {(A사 실적 × A사 지분"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "2. 제안요청서 - 27~28년 공간정보시스템 유지관리 용역(수정).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -12157,6 +16104,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -12248,7 +16196,65 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 1207272727,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 5.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 4.5
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.0
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 3.5
+       }
+      ],
+      "top_min": 100,
+      "top_score": 5.0,
+      "max_score": 5.0,
+      "mode": null,
+      "in_scope": false,
+      "note": " 확인 할 수 있는 자료(법인인 경우 법인 등기 부상 법인설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사 지분율)… 6."
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "(제안요청서)_기후에너지환경부_27-28년 환경공간정보시스템통합유지관리_수정.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -12337,6 +16343,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -12428,7 +16435,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -12513,6 +16543,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -12604,7 +16635,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 211390909,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": " 사업을 개시한 창업기업에 대해서는 신용평가등급 점수상의 배점 한도를 부여한다. 이 경우 창업기업에 대한 기간계산은 법인인 경우에는 법인등기부상 법인설립 등기일을, 개인사업자인 경우에는 사업자등록증명서상 사업자등록일을 기준으로 한다.(이하 창업기업에 대한 기간계산은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -12704,6 +16797,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 9,
     "eligible_count": 9,
     "complement_count": 0,
     "eligible": [
@@ -12795,7 +16889,30 @@
       "field": "도로대장",
       "last": "2024-04-01"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "적격심사",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -12885,6 +17002,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -12976,7 +17094,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -13069,6 +17210,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -13160,7 +17302,65 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 113773636,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 5.4
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.8
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 4.2
+       }
+      ],
+      "top_min": 100,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "력 기술상태 평가 시 인정되는 ITSQF직무는 ‘한국인공지능소프트웨어산업협회’의 IT분야 역량체계 직무기술서(2025년) ITSQF직종 및 직무에 따름 ※ 개인별 기술경력의 ITSQF직무가 2개 이상일 경우, 평가 시 인정되는 ITSQF직무 중 최고점수에 해당하는 하나의 직무만 기술경력 평가점수로 계산함 ※ 계약 후 투입인력은 평가 시 제출한 투입인력과 동일해야 하며, 부득이 변경하여야 할 경우는 동 기술등급 이상의 인력이어야"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서[2027년도 공간정보시스템 통합유지보수 용역].hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -13246,6 +17446,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -13337,7 +17538,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "소액수의",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -13435,6 +17659,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -13526,7 +17751,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -13607,6 +17855,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -13702,7 +17951,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -13795,6 +18067,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -13886,7 +18159,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 104145455,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사 지분율)… 6. 중소기업협동조합이 입찰에 참여하는 경우 중소기업협동조합의 신용평가등 급으로 평가한다. 2. 사업수행 실적평가 【6점】"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서(2027년 통영시 공간정보시스템 통합유지보수)_수정.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -13970,6 +18305,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 107,
     "eligible_count": 107,
     "complement_count": 0,
     "eligible": [
@@ -14061,7 +18397,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -14151,6 +18510,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -14242,7 +18602,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -14336,6 +18719,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -14427,7 +18811,65 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 134418182,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 5.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 4.5
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.0
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 3.5
+       }
+      ],
+      "top_min": 100,
+      "top_score": 5.0,
+      "max_score": 5.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "지하시설물) 데이터 갱신 1 [붙임2] 정량적 평가 항목 및 배점한도(20점) 평 가 항 목 평 가 요 소 배점 평가기준 합 계 20 경영상태 「신용정보의 이용 및 보호에 관한 법률」 제5조 제1항 제1호 또는 「자본 시장과 금융투자업에 관한 법률」 제9조 제26항의 업무를 영위하는 신용정보 업자가 입찰공고일 기준 최근 1년 이내에 평가한 회사채·기업어음에 대한 신용평가 등급이나 기업신용평가 등급으로 유효기간 안에 있는 가장 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "02 제안요청서(2027년 공간정보시스템 통합 유지관리 용역).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -14528,6 +18970,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -14619,7 +19062,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 356011818,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": " 기준 소속업체(입찰참여업체)에 재직하고 있는 자로 GIS관련 경력보유 기술자만 인정한다. 2. 한국소프트웨어산업협회에서 발급하는 기술경력증 사본 또는 GIS경력을 증빙할 수 있는 서류를 제출한다. (증빙서류 미제출 시 최하점을 부여한다) 3. 4대 보험(국민연금,건강보험,고용보험,산재보험) 중 택 1 제출한다. 4. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가 ‘평가점수 = ∑(개"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "★ 제안요청서(2027년 공간정보시스템 통합 유지관리)_일상감사의견서 반영 수정.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -14716,6 +19221,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -14807,7 +19313,65 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 328805455,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "score": 5.4
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "score": 4.8
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "score": 4.2
+       }
+      ],
+      "top_min": 100,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "https://www.moel.go.kr/info/defaulter/defaulterList.do) 확인 후 평가) 7. ②고용개선조치 미이행 평가는 입찰공고일을 기준으로 최근 2년 이내에 고용노동부장관이 공표한 적극적 고용개선조치 미이행 사업주 명단의 자료에 표시된 사업장을 기준으로 적용한다. 다만, 2017년 5월 1일 이후 공표된 자부터 적용한다. (고용노동부 홈페이지 고용개선 조치 미이행 사업장 공표 자료 확인 후 평가"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "(제안요청서) 2027년 공간정보업무포털 유지관리 용역_수정.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -14893,6 +19457,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -14984,7 +19549,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -15078,6 +19666,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -15169,7 +19758,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -15255,6 +19867,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -15346,7 +19959,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -15437,6 +20073,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 3,
     "eligible_count": 3,
     "complement_count": 0,
     "eligible": [
@@ -15473,7 +20110,69 @@
       "field": "용도지역지구 DB정비",
       "last": "2024-07-02"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 102559091,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "원 여부 7 보안관리 ◦ 개인정보보호를 위한 대책의 적절성 ◦ 참여인력에 대한 보안유지 방안의 적정성 ◦ 자료유출 방지, 보안유지 대책의 신뢰성 6 사업지원 부문(13점) 교육훈련 지원 ◦ 상주시 담당자의 역량 강화, 신기술 습득 등 교육 훈련 지원 방안 6 기술이전 지원 ◦ 기술이전, 기술훈련 및 컨설팅 방안 7 합 계 70 ○ 정성적 평가(70점) 5. 기술능력평가 세부기준 ○ 모든 평가 항목은 제출된 증빙서류를 바탕으로 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "2.제안요청서(2027년 공간정보시스템 통합유지보수 용역).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -15558,6 +20257,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -15649,7 +20349,80 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 3214545455,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": " 창업을 확인 할 수 있는 자료(법인인 경우 법인등기부상 법인설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사 지분율)… "
+     },
+     "people": null,
+     "region": {
+      "sido": null,
+      "keyword": null,
+      "share_bands": [
+       {
+        "min": 50,
+        "max": null,
+        "score": 5.0
+       }
+      ],
+      "note": "실적을 평가한다. 이 경우 입찰자는 합병 전ㆍ분할 전ㆍ사업양도 업체의 실적증빙서류를 제출하여야 한다. 가. 합병 : 소멸 업체의 실적을 존속 또는 신설 업체의 실적에 합산하여 평가 나. 분할 : 분할 전 업체의 실적을 권리ㆍ의무를 승계한 업체의 실적에 포함하여 평가. 다만, 시설, 기술자 등 요건이 필요할 때에는 이를 갖춘 경우에만 실적으로 인정한다. 다. 사업양수도 : 사업양도인의 실적을 사업양수인의 실적으로 포함하여 평가."
+     },
+     "credit": null,
+     "sources": [
+      "02.(제안요청서)  '27년 K-GeoP유지관리 및 운영지원 사업(조달청의견반영_261104).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -15735,6 +20508,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -15826,7 +20600,65 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 172727273,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 150,
+        "max": null,
+        "score": 6.0
+       },
+       {
+        "min": 120,
+        "max": 150,
+        "score": 5.5
+       },
+       {
+        "min": 100,
+        "max": 120,
+        "score": 5.0
+       },
+       {
+        "min": 0,
+        "max": 100,
+        "score": 4.5
+       }
+      ],
+      "top_min": 150,
+      "top_score": 6.0,
+      "max_score": 6.0,
+      "mode": null,
+      "in_scope": false,
+      "note": "평가 점수에 반영함. 2) 기술 능력 평가 정량적 지표의 평가 기준 평가항목 평가요소 배점 계 20 기술 인력 보유상태 ∙ 기술 인력 보유 및 참여 인력 기술 능력 - 기술 인력 구성 비율(3점) - 참여 인력 기술 능력(3점) 6 사업실적 ∙ 사업 이행실적에 대한 평가 (입찰공고일 기준 최근 3년간 사업실적으로 평가) 6 경영상태 ∙ 신용평가 등급에 의한 평가 6 신인도 ∙ 부정당업자 2 가) 기술 인력 보유 및 참여 인력 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "2.제안요청서(2027년 공간정보시스템 통합유지보수 용역)_과업내용 포함.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -15916,6 +20748,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -16007,7 +20840,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -16109,6 +20965,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -16200,7 +21057,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -16290,6 +21170,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -16381,7 +21262,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": 20,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 152727273,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "프트웨어기술자 경력증명서 구 분 2개 이상 1개 없음 비고 GS인증 보유현황 3.0 2.7 2.4 1. 평가대상: 공간정보시스템 관련 GS인증 제품 보유현황 2. 평가방법: 입찰공고일 기준 3년 이내 소프트웨어시험인증연구소(TTA)로부터 인증받은 아래 사항이 명시된 GS인증 보유 개수에 따른 점수 부여 - 인증서 또는 시험성적서에 공간정보, GIS, 지리정보, 위치기반 중 하나 이상 명시 3. 확인서류: 인증서 및 시험성적서 "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "(제안요청서)2027년 성남시 공간정보시스템 통합유지관리.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -16475,6 +21418,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -16566,7 +21510,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -16668,6 +21635,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -16759,7 +21727,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -16826,9 +21817,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -16895,9 +21893,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -16971,9 +21976,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17062,9 +22074,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17144,9 +22163,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17213,9 +22239,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17282,9 +22315,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17351,9 +22391,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17420,9 +22467,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17489,9 +22543,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17558,9 +22619,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17627,9 +22695,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17696,9 +22771,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17765,9 +22847,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17834,9 +22923,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17903,9 +22999,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -17972,9 +23075,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18041,9 +23151,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18110,9 +23227,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18179,9 +23303,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18248,9 +23379,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18317,9 +23455,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18386,9 +23531,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18455,9 +23607,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18524,9 +23683,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18593,9 +23759,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18662,9 +23835,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18731,9 +23911,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18800,9 +23987,16 @@
      "sources": [],
      "parsed": false
     },
+    "eligibility_count": 0,
     "eligible_count": 0,
     "complement_count": 0,
-    "eligible": []
+    "eligible": [],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": null
    }
   },
   {
@@ -18883,6 +24077,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 103,
     "eligible_count": 103,
     "complement_count": 0,
     "eligible": [
@@ -18985,7 +24180,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 1501818182,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": "찰공고일 이전 창업을 확인 할 수 있는 자료(법인인 경우 법인등기부상 법인설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사"
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서(지하공간통합지도 수정·갱신).hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -19066,6 +24323,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -19157,7 +24415,69 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "parsed_out",
+     "status": "parsed",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": {
+      "window": 3,
+      "denom": 918181818,
+      "denom_src": "추정가격",
+      "fields": [],
+      "bands": [
+       {
+        "min": 100,
+        "max": null,
+        "pct": 100.0,
+        "score": null
+       },
+       {
+        "min": 70,
+        "max": 100,
+        "pct": 90.0,
+        "score": null
+       },
+       {
+        "min": 40,
+        "max": 70,
+        "pct": 80.0,
+        "score": null
+       },
+       {
+        "min": 0,
+        "max": 40,
+        "pct": 70.0,
+        "score": null
+       }
+      ],
+      "top_min": 100,
+      "top_score": 0,
+      "max_score": null,
+      "mode": null,
+      "in_scope": false,
+      "note": " 창업을 확인 할 수 있는 자료(법인인 경우 법인등기부상 법인설립등기일, 개인사업자인 경우에는 사업자등록증명서 상 사업자등록일)를 제출하여야 한다.(이하 창업기업에 대한 확인방법은 같다) 5. 공동수급체의 경우 구성원별 해당 점수에 지분율을 곱한 후 그 점수들을 합산하여 최종 평가하고, 평가 결과 소수점 이하의 숫자가 있는 경우 소수점 다섯째자리에서 반올림 한다. (예) (A사 점수×A사 지분율)+(B사 점수×B사 지분율)… "
+     },
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [
+      "제안요청서_2027년 지하정보통합체계 운영 및 관리.hwpx"
+     ],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   },
   {
@@ -19244,6 +24564,7 @@
      ],
      "parsed": true
     },
+    "eligibility_count": 96,
     "eligible_count": 96,
     "complement_count": 0,
     "eligible": [
@@ -19335,7 +24656,30 @@
       "field": "도로대장",
       "last": "2026-10-29"
      }
-    ]
+    ],
+    "near_count": 0,
+    "near": [],
+    "qual_only_count": 0,
+    "qual_only": [],
+    "quant_unknown_count": 0,
+    "quant": {
+     "state": "unparsed",
+     "status": "no_attachment",
+     "kind": "협상",
+     "total": null,
+     "items": [],
+     "perf": null,
+     "people": null,
+     "region": null,
+     "credit": null,
+     "sources": [],
+     "counts": {
+      "fit": 0,
+      "near": 0,
+      "low": 0,
+      "unknown": 107
+     }
+    }
    }
   }
  ],
@@ -19352,7 +24696,14 @@
    "field": 93,
    "note": 3
   },
-  "registry_companies": 107
+  "registry_companies": 107,
+  "quant": {
+   "fit": 7,
+   "parsed_out": 29,
+   "unparsed": 57
+  },
+  "quant_fit_items": 6,
+  "profiles": 107
  },
  "registry": {
   "updated_at": "2026-11-27T17:46:50+09:00",

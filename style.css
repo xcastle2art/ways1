@@ -483,3 +483,34 @@ select:focus{border-color:var(--accent)}
   .req{grid-template-columns:64px minmax(0,1fr)}
   .regrow__area{margin-left:0;width:100%}
 }
+
+/* ---------------- 정량평가 레이어 (2026-11-28) */
+.qchip{flex:none;display:inline-flex;align-items:center;gap:4px;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:700;border:1px solid var(--line);white-space:nowrap;font-variant-numeric:tabular-nums}
+.qchip--fit{background:#eefbf3;color:#0b7a45;border-color:#abefc6}
+.qchip--near{background:#f4f8ff;color:#2a5bd7;border-color:#c7d7ff}
+.qchip--out{background:#fff8ea;color:#93610a;border-color:var(--amber-line)}
+.qchip--na{background:#f2f4f8;color:var(--ink-3)}
+.qbox{margin:10px 0 4px;border:1px solid var(--line);border-radius:12px;background:#fbfcfe;overflow:hidden}
+.qbox--fit{border-color:#bfe8d2;background:#f7fdfa}
+.qbox__head{display:flex;align-items:center;gap:8px;padding:7px 10px;border-bottom:1px solid var(--line);background:#f4f7fb}
+.qbox--fit .qbox__head{background:#edf9f3}
+.qbox__head b{font-size:12px;letter-spacing:-.2px}
+.qbox__st{margin-left:auto;font-size:10.5px;color:var(--ink-3);font-weight:700}
+.qrow{display:grid;grid-template-columns:64px minmax(0,1fr);gap:8px;padding:6px 10px;border-top:1px dashed #e6eaf2;font-size:12px;align-items:start}
+.qrow:first-of-type{border-top:0}
+.qrow>span{color:var(--ink-3);font-weight:700;font-size:11px;padding-top:1px}
+.qrow>b{font-weight:700;color:var(--ink-2);letter-spacing:-.2px}
+.qrow>em{grid-column:2;font-style:normal;font-size:11px;color:var(--ink-3);line-height:1.45}
+.qrow--key{background:#fff}
+.qrow--na{opacity:.75}
+.qbox__foot{padding:6px 10px;border-top:1px dashed #e6eaf2;font-size:10.5px;color:var(--ink-3);line-height:1.45}
+.qbox__src{padding:5px 10px 8px;display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:10.5px;color:var(--ink-3)}
+.ecard--q{border-color:#bfe8d2;background:#fcfffd}
+.ecard__why{font-size:11.5px;color:#0b6b40;line-height:1.45;font-variant-numeric:tabular-nums}
+.ecards .ecard--q:first-child .ecard__why{font-weight:700}
+details.fold{margin-top:8px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+details.fold>summary{cursor:pointer;padding:7px 10px;font-size:11.5px;font-weight:700;color:var(--ink-2);list-style:none}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary:before{content:'▸ ';color:var(--ink-3)}
+details.fold[open]>summary:before{content:'▾ '}
+details.fold>.fold__body{padding:2px 10px 10px;border-top:1px dashed #e6eaf2}

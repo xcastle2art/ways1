@@ -406,21 +406,91 @@ def load_registry():
     return prepare(doc["companies"]), doc
 
 
-def block(item, companies, selfc, notes, atts):
-    """공고 1건의 입찰참가자격·매칭 결과 블록."""
+def card(c, why=None, ratio=None, score=None, max_score=None):
+    top = max(c["by_field"].items(), key=lambda kv: kv[1]["n"])[0] if c["by_field"] else None
+    out = {"key": c["key"], "name": c["display"],
+           "area": " ".join(x for x in (c.get("sido"), c.get("sigungu")) if x),
+           "inds": (c.get("inds") or [])[:3], "wins": c["win_count"], "field": top,
+           "last": c.get("last_win")}
+    if why:
+        out["why"] = why
+    if ratio is not None:
+        out["ratio"] = ratio
+    if score is not None:
+        out["qscore"] = score
+    if max_score is not None:
+        out["qmax"] = max_score
+    return out
+
+
+def block(item, companies, selfc, notes, atts, qc=None, quant_cache=None):
+    """공고 1건의 입찰참가자격 + 정량평가 기준 매칭 결과 블록."""
     req = build_req(item, notes, atts)
     verdict, reasons = judge(selfc, req)
     elig_all, comp_need = eligible_list(companies, req)
-    kinds_needed = [("엔지니어링:" + k[4:] if k.startswith("eng:") else k)
-                    for k in sum([x["kinds"] for x in req["items"]], [])]
+    by_key = {c["key"]: c for c in elig_all}
+
+    quant = None
+    qsum = None
+    if qc is not None and item.get("kind") == "bid":
+        try:
+            q, qres = qc.quant_block(item, companies, cache=quant_cache)
+            qsum = qc.summary(q, qres)
+            quant = qres
+        except Exception as e:                          # noqa: BLE001
+            qsum = {"status": "error", "note": f"{type(e).__name__}: {e}"}
+
+    if quant and qsum and qsum.get("state") == "fit":
+        fit_rows = [r for r in quant["fit"] if r["key"] in by_key]
+        near_rows = [r for r in quant["near"] if r["key"] in by_key]
+        low_rows = [r for r in quant["low"] if r["key"] in by_key]
+
+        def pick(rows, n=10):
+            out = []
+            for r in rows:
+                c = by_key.get(r["key"])
+                if not c:
+                    continue
+                out.append(card(c, r.get("why"), r.get("ratio"), r.get("score"), r.get("max_score")))
+                if len(out) >= n:
+                    break
+            return out
+        fit_cards = pick(fit_rows, 10)
+        near = pick(near_rows, 6)
+        low = pick(low_rows, 6)
+        unknown_n = sum(1 for r in quant["unknown"] if r["key"] in by_key)
+        out = {
+            "verdict": verdict, "reasons": reasons,
+            "req": {"industries": [(" 또는 ".join(tok_label(k) for k in i["kinds"]) if i["op"] == "any"
+                                    else " + ".join(tok_label(k) for k in i["kinds"])) for i in req["items"]],
+                    "region": [r["raw"] for r in req["regions"]],
+                    "consortium": req["consortium"], "extras": req["extras"],
+                    "sources": req["sources"], "parsed": req["parsed"]},
+            "eligibility_count": len(elig_all),
+            "eligible_count": len(fit_rows),
+            "eligible": fit_cards,
+            "near_count": len(near_rows),
+            "near": near,
+            "qual_only_count": len(low_rows),
+            "qual_only": low,
+            "quant_unknown_count": unknown_n,
+            "complement_count": comp_need,
+            "quant": qsum,
+        }
+        return out, req
+
+    # 정량기준은 확인했지만 우리 실적DB 범위 밖이거나, 정량기준 자체가 없는 공고
     out = []
     for c in elig_all[:8]:
+        kinds_needed = [("엔지니어링:" + k[4:] if k.startswith("eng:") else k)
+                        for k in sum([x["kinds"] for x in req["items"]], [])]
         matched = ([i for i in c["inds"] if i in kinds_needed] +
                    [i for i in c["inds"] if i.startswith("SW") and i not in kinds_needed])[:4] or c["inds"][:3]
-        top = max(c["by_field"].items(), key=lambda kv: kv[1]["n"])[0] if c["by_field"] else None
         out.append({"key": c["key"], "name": c["display"],
                     "area": " ".join(x for x in (c.get("sido"), c.get("sigungu")) if x),
-                    "inds": matched, "wins": c["win_count"], "field": top,
+                    "inds": matched, "wins": c["win_count"],
+                    "field": (max(c["by_field"].items(), key=lambda kv: kv[1]["n"])[0]
+                              if c["by_field"] else None),
                     "last": c.get("last_win")})
     return {
         "verdict": verdict,
@@ -434,23 +504,36 @@ def block(item, companies, selfc, notes, atts):
             "sources": req["sources"],
             "parsed": req["parsed"],
         },
+        "eligibility_count": len(elig_all),
         "eligible_count": len(elig_all),
         "complement_count": comp_need,
         "eligible": out,
+        "near_count": 0, "near": [], "qual_only_count": 0, "qual_only": [],
+        "quant_unknown_count": 0,
+        "quant": qsum,
     }, req
 
 
-def attach(items, companies, selfc, notes, atts):
+def attach(items, companies, selfc, notes, atts, qc=None):
     res, tally, parsed_n, src_tally = {}, {"가능": 0, "조건부": 0, "불가": 0, "요건미확인": 0}, 0, {}
+    qstate = {"fit": 0, "parsed_out": 0, "unparsed": 0}
+    qfit_items = 0
+    cache = {}
     for it in items:
-        b, req = block(it, companies, selfc, notes, atts)
+        b, req = block(it, companies, selfc, notes, atts, qc=qc, quant_cache=cache)
         res[it["id"]] = b
         tally[b["verdict"]] += 1
         parsed_n += 1 if req["parsed"] else 0
         for s in req["sources"]:
             src_tally[s.split(":")[0]] = src_tally.get(s.split(":")[0], 0) + 1
+        st = (b.get("quant") or {}).get("state")
+        if st:
+            qstate[st] = qstate.get(st, 0) + 1
+            if st == "fit" and b.get("eligible_count"):
+                qfit_items += 1
     summary = {"items": len(items), "parsed": parsed_n, "verdicts": tally,
-               "requirement_sources": src_tally, "registry_companies": len(companies)}
+               "requirement_sources": src_tally, "registry_companies": len(companies),
+               "quant": qstate, "quant_fit_items": qfit_items}
     return res, summary
 
 
