@@ -85,6 +85,7 @@ def find_perf_table(text):
 
 def _num_row(tail, n=4):
     """점수 행 — '배 점 | 6.0 | 5.4 ...' 또는 '3.0 2.7 2.4 2.1' (앞 n개)."""
+    tail = re.sub(r"\s*\|\s*", " ", tail)          # 표 셀 구분자도 열 간격으로 본다
     for pat in (r"(?:배\s*점|평\s*점|점\s*수|배점의)\s*((?:\d{1,2}(?:\.\d{1,2})?\s*){2,})",
                 r"((?:\d{1,2}(?:\.\d{1,2})?\s*){2,})"):
         m = re.search(pat, tail)
@@ -107,9 +108,15 @@ def column_bands(f, item_score=None):
             for m in re.finditer(r"(\d{1,3})\s*%\s*(이상|미만)", f)]
     if len(toks) < 3:
         return []
-    # 첫 토큰부터 350자 안의 토큰만 (같은 표)
+    # 첫 토큰부터 이어지는 토큰만 (같은 표) — 사이 간격이 벌어지면 다른 표로 본다
     first = toks[0]
     toks = [t for t in toks if t[0] - first[0] < 350]
+    run = [toks[0]]
+    for t in toks[1:]:
+        if t[0] - run[-1][1] > 60:
+            break
+        run.append(t)
+    toks = run
     spans = token_spans([(v, k) for _, _, v, k in toks])
     if len(spans) < 3:
         return []
@@ -243,12 +250,17 @@ def token_spans(toks):
 
 
 def parse_share_bands(region):
-    """지역업체 지분율 구간 — '지분율 X% 이상 ... N.N' 행만."""
+    """지역업체 지분·참여비율 구간 — '지분율/참여비율 X% 이상 ... N.N' 표·문장."""
     f = flat(region)
+    # 1) 표 형식 — '지역업체(시·도) 참여 비율 | 30% 이상 | 25% 이상 | 20% 이상 | 20% 미만 / 점 수 | 3.0 | 2.7 ...'
+    for m in re.finditer(r"지역\s*업체[^|]{0,40}(?:참여|지분)", f):
+        bands = column_bands(f[m.start(): m.start() + 420])
+        if len(bands) >= 3:
+            return bands
     out = []
     for m in re.finditer(r"(\d{1,3})\s*%\s*(이상|미만)", f):
         ctx = f[max(0, m.start() - 40): m.start()]
-        if "지분" not in ctx:
+        if not re.search(r"지분|참여\s*비율|참여비율|참여도", ctx):
             continue
         tail = f[m.end(): m.end() + 60]
         ms = re.search(r"([0-9]{1,2}(?:\.[0-9]{1,2})?)", tail)
@@ -272,7 +284,10 @@ def region_name(f):
         short = (s.replace("특별자치도", "").replace("특별자치시", "")
                   .replace("광역시", "").replace("특별시", "").replace("도", ""))
         if re.search(re.escape(s) + r"\s*(?:관내|소재|에\s*소재)", f) or \
-           re.search(re.escape(short) + r"(?:도|시)?\s*(?:관내|소재|에\s*소재)", f):
+           re.search(re.escape(short) + r"(?:도|시)?\s*(?:관내|소재|에\s*소재)", f) or \
+           re.search(re.escape(s) + r"[^.]{0,25}지역\s*업체", f) or \
+           re.search(r"지역\s*업체\s*[\(\[]?\s*" + re.escape(s), f) or \
+           re.search(r"지역\s*업체\s*[\(\[]?\s*" + re.escape(short) + r"(?:도|시)?[\s\)\]]", f):
             return s, short
     return None, None
 
@@ -416,15 +431,23 @@ def parse_negotiation(text, item):
     if bestp:
         q["people"] = {"bands": bestp[1], "max_score": bestp[0], "note": flat(bestp[2])[:200]}
 
-    # ---- 지역상생
-    for m in re.finditer(r"상생협력|지역업체", text):
-        seg = text[max(0, m.start() - 300): m.start() + 1600]
+    # ---- 지역상생 — 시·도가 확인되고 비율 구간표까지 나오는 문단을 고른다
+    best = None
+    for m in re.finditer(r"상생협력|지역\s*업체", text):
+        seg = text[max(0, m.start() - 300): m.start() + 1800]
         shares = parse_share_bands(seg)
         sido, short = region_name(flat(seg))
-        if shares or sido:
-            q["region"] = {"sido": sido, "keyword": short, "share_bands": shares,
-                           "note": flat(seg)[:240]}
+        if not (shares or sido):
+            continue
+        score = (2 if sido else 0) + (3 if shares else 0)
+        if best is None or score > best[0]:
+            best = (score, sido, short, shares, seg)
+        if score >= 5:
             break
+    if best:
+        _, sido, short, shares, seg = best
+        q["region"] = {"sido": sido, "keyword": short, "share_bands": shares,
+                       "note": flat(seg)[:240]}
 
     for m in re.finditer(r"(\d)\s*\)\s*(기술인력\s*보유|기술인력보유|회사\s*수행실적|수행실적|수행경험|"
                          r"보유인원|핵심인력|사업관리자|경영상태|상생협력|안전관리자)[^0-9]{0,24}?"
