@@ -455,7 +455,7 @@
 
   function qcard(c) {
     return '<div class="ecard ecard--q">' +
-      '<div class="ecard__top"><b>' + esc(c.name) + '</b>' +
+      '<div class="ecard__top"><span class="ecard__name">' + esc(c.name) + '</span>' +
       '<span class="ecard__area">' + esc(c.area || '소재지 미확인') + '</span></div>' +
       (c.why ? '<div class="ecard__why">' + esc(c.why) + '</div>' : '') +
       '<div class="ecard__foot">낙찰 ' + (c.wins || 0) + '건' + (c.field ? ' · ' + esc(c.field) : '') +
@@ -472,7 +472,7 @@
     var rows = (e.eligible || []).map(function (c) {
       var field = c.field ? ' · ' + esc(c.field) : '';
       return '<div class="ecard">' +
-        '<div class="ecard__top"><b>' + esc(c.name) + '</b>' +
+        '<div class="ecard__top"><span class="ecard__name">' + esc(c.name) + '</span>' +
         '<span class="ecard__area">' + esc(c.area || '소재지 미확인') + '</span></div>' +
         '<div class="ecard__inds">' + (c.inds || []).map(function (i) {
           return '<span class="rchip rchip--sm">' + esc(indShort(i)) + '</span>';

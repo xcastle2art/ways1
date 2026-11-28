@@ -443,7 +443,7 @@ select:focus{border-color:var(--accent)}
 .ecards{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:7px}
 .ecard{border:1px solid var(--line);border-radius:10px;padding:8px 9px;background:var(--card);display:flex;flex-direction:column;gap:4px}
 .ecard__top{display:flex;flex-direction:column;gap:1px;min-width:0}
-.ecard__top b{font-size:12.5px;letter-spacing:-.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ecard__top b,.ecard__top .ecard__name{font-size:12.5px;font-weight:500;letter-spacing:-.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ecard__area{font-size:11px;color:var(--ink-3)}
 .ecard__inds{display:flex;flex-wrap:wrap;gap:3px}
 .ecard__foot{font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
@@ -507,7 +507,6 @@ select:focus{border-color:var(--accent)}
 .qbox__src{padding:5px 10px 8px;display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:10.5px;color:var(--ink-3)}
 .ecard--q{border-color:#bfe8d2;background:#fcfffd}
 .ecard__why{font-size:11.5px;color:#0b6b40;line-height:1.45;font-variant-numeric:tabular-nums}
-.ecards .ecard--q:first-child .ecard__why{font-weight:700}
 details.fold{margin-top:8px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
 details.fold>summary{cursor:pointer;padding:7px 10px;font-size:11.5px;font-weight:700;color:var(--ink-2);list-style:none}
 details.fold>summary::-webkit-details-marker{display:none}
