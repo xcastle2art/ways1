@@ -419,7 +419,6 @@
     if (p) {
       var basis = [];
       if (p.denom) basis.push('기준 ' + wonShort(p.denom) + (p.denom_src === '추정가격' ? '(추정가격)' : ''));
-      if (p.bands && p.bands.length) basis.push('만점 ' + p.top_min + '% 이상');
       rows.push('<div class="qrow qrow--key"><span>수행실적</span><b>최근 ' + (p.window || 3) + '년 · ' +
         esc((p.fields || []).join('·') || '인정분야 미확인') + '</b><em>' + esc(basis.join(' · ')) +
         (p.bands && p.bands.length ? '<br>' + esc(bandTxt(p.bands)) : '') +
@@ -432,7 +431,7 @@
     if (q.region) {
       var rb = (q.region.share_bands || []).length ? bandTxt(q.region.share_bands) : '';
       rows.push('<div class="qrow"><span>지역상생</span><b>' + esc(q.region.sido || q.region.keyword || '지역업체 참여') +
-        (rb ? ' · 지분 ' + esc(rb) : '') + '</b><em>지역업체 공통수급 지분율 배점</em></div>');
+        (rb ? ' · 지분 ' + esc(rb) : '') + '</b><em>지역업체 공동수급 지분율 배점</em></div>');
     }
     if (q.credit) {
       rows.push('<div class="qrow qrow--na"><span>경영상태</span><b>신용평가등급 ' + q.credit.max_score + '점</b>' +
@@ -523,8 +522,8 @@
         fold('자격만 충족 · 정량 부족 ' + (e.qual_only_count || 0) + '곳',
           (low ? '<div class="ecards">' + low + '</div>' : '') +
           '<div class="muted small" style="margin-top:6px">위 업체는 입찰참가자격은 갖췄지만 이 공고의 실적 만점 기준선에 못 미칩니다. 정량 배점에서 감점됩니다.</div>') +
-        fold('정량 확인 불가 ' + (e.quant_unknown_count || 0) + '곳',
-          '<div class="muted small">인정분야 실적이 우리 DB에 없거나 사업규모를 확인하지 못한 업체입니다. 미달이 아니라 <b>확인 불가</b>입니다.</div>');
+        (e.quant_unknown_count ? fold('정량 확인 불가 ' + e.quant_unknown_count + '곳',
+          '<div class="muted small">인정분야 실적이 우리 DB에 없거나 사업규모를 확인하지 못한 업체입니다. 미달이 아니라 <b>확인 불가</b>입니다.</div>') : '');
     } else if (q && q.state === 'parsed_out') {
       lists =
         '<h4 class="sub4">기존 낙찰사 중 입찰참가자격 충족 <span class="pill pill--wait">' + (e.eligibility_count || 0) + '곳</span></h4>' +
