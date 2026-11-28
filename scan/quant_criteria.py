@@ -746,12 +746,18 @@ def local_region_candidates(q, comps, req_kinds=None, asof=None, limit=8):
             why.append(f"인정분야 실적 없음 — {top[0]} {top[1]['amount'] / 1e8:.1f}억({top[1]['n']}건)")
         if x["inds"]:
             why.append("보유 " + ", ".join(ind_label(k) for k in x["inds"][:3]))
+        else:
+            core = [i for i in (next((cc.get("inds") for cc in comps if cc["key"] == x["key"]), []) or [])
+                    if i in ("SW사업자", "공간정보사업자", "공공측량업", "직지측량업", "수치지도제작업",
+                             "공간영상도화업", "지하시설물측량업", "지도제작업", "일반측량업")]
+            if core:
+                why.append("보유(참고) " + ", ".join(core[:3]))
         x["why"] = why
     return {"sido": sido, "keyword": reg.get("keyword"),
             "basis": "본사 소재지(협회·엔지니어링 원부) 시·도 일치 · 최근 3년 낙찰 실적순",
             "fields": fields_txt, "companies": picked,
             "pool_n": len(out),
-            "note": ("공동수급 지분율 지분 배점용 — 인정분야 실적은 지분 반영 금액 기준"
+            "note": ("공동수급 지분 배점용 — 인정분야 실적은 지분 반영 금액 기준"
                      if field_keys else "공고 실적 인정분야 미확인 — 전체 실적 기준")}
 
 
