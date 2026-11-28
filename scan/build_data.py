@@ -456,8 +456,11 @@ try:
     # 낙찰사 정량 역량 프로필(분야별 3·5년 실적) — 웹 참고용 요약
     try:
         _profs = QC.build_profiles(_companies, NOW.date().isoformat())
-        _prof_doc = json.loads(QC.PROF.read_text(encoding="utf-8"))
-        _summary["profiles"] = _prof_doc.get("count", len(_profs))
+        QC.PROF.write_text(json.dumps({"built_at": NOW.isoformat(timespec="seconds"),
+                                       "asof": NOW.date().isoformat(), "count": len(_profs),
+                                       "companies": _profs}, ensure_ascii=False, indent=1),
+                           encoding="utf-8")
+        _summary["profiles"] = len(_profs)
     except Exception as _e2:                            # noqa: BLE001
         _summary["profiles"] = None
 except Exception as _e:                                     # noqa: BLE001
