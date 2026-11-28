@@ -284,7 +284,7 @@
     else cls += ' row--open';
 
     var meta = eligChip(it) + quantChip(it) +
-      (it.elig && it.elig.eligible_count && it.elig.req && (it.elig.req.industries || []).length && !(it.elig.quant && it.elig.quant.state === 'fit')
+      (it.elig && it.elig.eligible_count && it.elig.req && (it.elig.req.industries || []).length && !it.elig.quant
         ? '<span class="row__elig-n">낙찰사 ' + it.elig.eligible_count + '곳 입찰가능</span>' : '') +
       (it.elig && it.elig.complement_count ? '<span class="sep">·</span><span class="row__elig-n">보완 ' + it.elig.complement_count + '</span>' : '') +
       '<span class="sep">·</span><span class="row__org">' + esc(shortOrg(it.org)) + '</span>' +
