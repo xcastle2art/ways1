@@ -301,6 +301,28 @@ def find_fields(para):
     return fields, keys
 
 
+ITEMWORD = re.compile(r"수행|경영|인력|실적|상생|안전|기술개발|신인도|핵심|사회적")
+
+
+def table_items(text, total=None):
+    """'N. 항목 | 세부 | 배점' 열 표에서 항목 배점을 순번대로 뽑는다(합계 검증)."""
+    pat = re.compile(r"(\d{1,2})\.\s*([^\n|]{2,22}?)\s*\n?\s*\|\s*[^\n|]{0,90}?\s*\n?\s*\|\s*"
+                     r"([0-9]{1,2}(?:\.[0-9])?)\s*(?:\n|\|)")
+    out, expect = [], 1
+    for n, name, sc in pat.findall(text):
+        nm = " ".join(name.split())
+        v = float(sc)
+        if int(n) != expect or not ITEMWORD.search(nm) or v > 20:
+            continue
+        out.append({"name": nm, "score": v})
+        expect += 1
+    if not out:
+        return []
+    if total and abs(sum(i["score"] for i in out) - total) > 0.6:
+        return []
+    return out
+
+
 def item_scores(text):
     """정량 항목별 배점. 요약표 우선, 없으면 본문 표기."""
     out = {}
@@ -332,7 +354,11 @@ def parse_negotiation(text, item):
     if m:
         q["total"] = int(m.group(1))
     it = item_scores(text)
-    q["items"] = [{"name": k, "score": v} for k, v in it.items()]
+    ti = table_items(text, q["total"])
+    if ti:
+        q["items"] = ti
+    else:
+        q["items"] = [{"name": k, "score": v} for k, v in it.items()]
     pscore = perf_score_of(it)
 
     # ---- 수행실적
@@ -374,6 +400,12 @@ def parse_negotiation(text, item):
                          "in_scope": bool(keys) and not maintain,
                          "note": flat(para)[-320:]}
 
+    # 실적 항목 배점은 상세 구간표의 최고 배점을 따른다(요약표 오기 보정)
+    if q["perf"] and q["perf"].get("max_score"):
+        for itm in q["items"]:
+            if "실적" in itm["name"] or "경험" in itm["name"]:
+                itm["score"] = q["perf"]["max_score"]
+
     # ---- 보유인력
     bestp = None
     for m in re.finditer(r"보유인원|인력보유|기술인력\s*보유|기술인력보유", text):
@@ -399,7 +431,8 @@ def parse_negotiation(text, item):
                          r"([0-9]{1,2}(?:\.[0-9])?)\s*점", f):
         nm = re.sub(r"\s+", "", m.group(2))
         it.setdefault(nm, float(m.group(3)))
-    q["items"] = [{"name": k, "score": v} for k, v in it.items()]
+    if not q["items"]:
+        q["items"] = [{"name": k, "score": v} for k, v in it.items()]
     mc = re.search(r"경영상태\s*[\[\(]\s*([0-9]{1,2}(?:\.[0-9])?)\s*[\]\)]", f)
     if mc:
         q["credit"] = {"max_score": float(mc.group(1))}

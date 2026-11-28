@@ -412,9 +412,13 @@
     var st = { parsed: '공고문 배점표 확인', parsed_out: '공고문 확인 · 실적DB 범위 밖', no_criteria: '배점표 미확인', no_attachment: '첨부 없음', error: '파싱 오류' }[q.status] || '';
     var rows = [];
     if (q.items && q.items.length) {
+      var isum = q.items.reduce(function (a, i) { return a + (i.score || 0); }, 0);
+      var totTxt = '';
+      if (q.total) {
+        totTxt = Math.abs(isum - q.total) < 0.6 ? ('정량 ' + q.total + '점 · ') : ('정량 ' + q.total + '점(항목 일부) · ');
+      }
       rows.push('<div class="qrow"><span>배점 구조</span><b>' +
-        (q.total ? '정량 ' + q.total + '점 · ' : '') +
-        q.items.map(function (i) { return esc(i.name) + ' ' + i.score; }).join(' · ') + '</b></div>');
+        totTxt + q.items.map(function (i) { return esc(i.name) + ' ' + i.score; }).join(' · ') + '</b></div>');
     }
     if (p) {
       var basis = [];
