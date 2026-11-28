@@ -434,7 +434,8 @@ def block(item, companies, selfc, notes, atts, qc=None, quant_cache=None):
     qsum = None
     if qc is not None and item.get("kind") == "bid":
         try:
-            q, qres = qc.quant_block(item, companies, cache=quant_cache)
+            _kinds = [k for it in req["items"] for k in it["kinds"]]
+            q, qres = qc.quant_block(item, companies, cache=quant_cache, req_kinds=_kinds)
             qsum = qc.summary(q, qres)
             quant = qres
         except Exception as e:                          # noqa: BLE001
@@ -458,6 +459,8 @@ def block(item, companies, selfc, notes, atts, qc=None, quant_cache=None):
         fit_cards = pick(fit_rows, 10)
         near = pick(near_rows, 6)
         low = pick(low_rows, 6)
+        cap_rows = [r for r in (quant.get("cap") or []) if r["key"] in by_key]
+        cap = pick(cap_rows, 8)
         unknown_n = sum(1 for r in quant["unknown"] if r["key"] in by_key)
         out = {
             "verdict": verdict, "reasons": reasons,
@@ -471,6 +474,8 @@ def block(item, companies, selfc, notes, atts, qc=None, quant_cache=None):
             "eligible": fit_cards,
             "near_count": len(near_rows),
             "near": near,
+            "cap_count": len(cap_rows),
+            "cap": cap,
             "qual_only_count": len(low_rows),
             "qual_only": low,
             "quant_unknown_count": unknown_n,
@@ -478,7 +483,6 @@ def block(item, companies, selfc, notes, atts, qc=None, quant_cache=None):
             "quant": qsum,
         }
         return out, req
-
     # 정량기준은 확인했지만 우리 실적DB 범위 밖이거나, 정량기준 자체가 없는 공고
     out = []
     for c in elig_all[:8]:
@@ -547,6 +551,8 @@ def registry_block(reg_doc):
             "addr": c.get("addr"),
             "inds": c["inds"],
             "wins": c["win_count"], "amount": c.get("win_amount"),
+            "amount_unknown": c.get("win_amount_unknown"),
+            "share_unknown": c.get("share_unknown_wins"),
             "fields": {k: v["n"] for k, v in (c.get("by_field") or {}).items()},
             "last": c.get("last_win"),
             "sw": (c.get("sw") or {}).get("size"),

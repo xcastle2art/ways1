@@ -131,6 +131,7 @@
     if (q.state === 'fit') {
       return '<span class="qchip qchip--fit" title="입찰참가자격과 정량평가 실적 기준선을 모두 충족한 기존 낙찰사">' +
         '정량부합 ' + (e.eligible_count || 0) + '곳</span>' +
+        (e.cap_count ? '<span class="qchip qchip--near" title="확정 실적(지분 반영)으로는 미달이나 지분 미확인 건을 총액으로 보면 기준선 도달 가능">지분미확인 포함 ' + e.cap_count + '</span>' : '') +
         (e.near_count ? '<span class="qchip qchip--near">근접 ' + e.near_count + '</span>' : '');
     }
     if (q.state === 'parsed_out') {
@@ -448,7 +449,7 @@
     return '<div class="qbox qbox--' + esc(q.state) + '">' +
       '<div class="qbox__head"><b>정량평가 기준</b><span class="qbox__st">' + esc(st) + '</span></div>' +
       rows.join('') +
-      '<div class="qbox__foot">실적은 낙찰사 업등록 DB(도로대장·토적·연속도면·UPIS)에서 집계. 신용등급·보유인력 원부는 미공개라 미확인.</div>' +
+      '<div class="qbox__foot">실적은 낙찰사 업등록 DB(도로대장·토적·연속도면·UPIS)에서 집계 — 공동수급은 <b>지분율 반영</b> 금액, 지분 미확인 건은 총액 기준으로 따로 표기. 신용등급·보유인력 원부는 미공개라 미확인.</div>' +
       (src ? '<div class="qbox__src">근거 ' + src + '</div>' : '') +
       '</div>';
   }
@@ -460,6 +461,42 @@
       (c.why ? '<div class="ecard__why">' + esc(c.why) + '</div>' : '') +
       '<div class="ecard__foot">낙찰 ' + (c.wins || 0) + '건' + (c.field ? ' · ' + esc(c.field) : '') +
       (c.last ? ' · 최근 ' + esc(String(c.last).slice(0, 7)) : '') + '</div>' +
+      '</div>';
+  }
+
+  /* ------------------------------ 지역상생 유력 관내 업체 */
+  function regionCards(rl) {
+    return (rl.companies || []).map(function (c) {
+      var why = (c.why || []).map(function (w) {
+        return '<li>' + esc(w) + '</li>';
+      }).join('');
+      return '<div class="ecard ecard--region">' +
+        '<div class="ecard__top"><span class="ecard__name">' + esc(c.name) + '</span>' +
+        '<span class="ecard__area">' + esc(c.area || c.addr || '소재지 미확인') + '</span></div>' +
+        (why ? '<ul class="ecard__why ecard__why--list">' + why + '</ul>' : '') +
+        '<div class="ecard__foot">낙찰 ' + (c.wins_total || 0) + '건' +
+        (c.last ? ' · 최근 ' + esc(String(c.last).slice(0, 7)) : '') + '</div>' +
+        '</div>';
+    }).join('');
+  }
+
+  function regionBox(q) {
+    var rl = q && q.region_local;
+    if (!rl || !(rl.companies || []).length) return '';
+    var bands = (q.region && q.region.share_bands) || [];
+    var top = bands.length ? bands[0] : null;
+    var who = rl.sido || (q.region && (q.region.sido || q.region.keyword)) || '지역';
+    var cards = regionCards(rl);
+    return '<div class="rgnbox">' +
+      '<div class="rgnbox__head"><b>지역상생 유력 관내 업체 · ' + esc(who) + '</b>' +
+      '<span class="pill pill--region">' + (rl.pool_n || (rl.companies || []).length) + '곳 중 ' +
+      (rl.companies || []).length + '곳</span></div>' +
+      '<div class="rgnbox__why">' + esc(rl.basis || '') +
+      (top ? ' · 지역업체 지분 ' + esc(top.min) + '% 이상 ' + (top.score != null ? top.score + '점' : '') : '') +
+      '</div>' +
+      '<div class="ecards">' + cards + '</div>' +
+      '<div class="rgnbox__foot">' + esc(rl.note || '') +
+      ' — 공동수급 파트너 후보(지분 미확인 건은 총액 기준으로만 계산)</div>' +
       '</div>';
   }
 
@@ -522,6 +559,10 @@
         (cards ? '<div class="ecards">' + cards + '</div>' : '<div class="qa">입찰참가자격을 갖춘 기존 낙찰사 중 이 공고의 정량 실적 기준선을 넘는 업체가 없습니다.</div>') +
         (e.eligible_count > (e.eligible || []).length
           ? '<div class="muted small" style="margin-top:6px">외 ' + (e.eligible_count - (e.eligible || []).length) + '곳</div>' : '') +
+        fold('지분 미확인 포함 시 기준선 도달 가능 ' + (e.cap_count || 0) + '곳',
+          ((e.cap || []).length ? '<div class="ecards">' + (e.cap || []).map(qcard).join('') + '</div>' : '') +
+          '<div class="muted small" style="margin-top:6px">확정 실적(지분 반영)만으로는 기준선에 못 미치지만, ' +
+          '<b>지분 미확인 건을 총액으로 가산하면</b> 기준선을 넘을 수 있는 업체입니다. 컨소 지분이 확인된 것이 아니므로 <b>가능성</b>으로만 보세요.</div>') +
         fold('실적 상위 두 번째 구간 — 근접 ' + (e.near_count || 0) + '곳', near ? '<div class="ecards">' + near + '</div>' : '') +
         fold('자격만 충족 · 정량 부족 ' + (e.qual_only_count || 0) + '곳',
           (low ? '<div class="ecards">' + low + '</div>' : '') +
@@ -556,7 +597,7 @@
       '<dt>추가 서류·요건</dt><dd>' + extras + '</dd>' +
       '<dt>근거</dt><dd>' + srcs + '</dd>' +
       '</dl>' +
-      quantBox(q) + lists;
+      quantBox(q) + regionBox(q) + lists;
   }
 
   function openDrawer(id) {
@@ -717,6 +758,8 @@
         '<div class="regrow__inds">' + (chips || '<span class="muted small">업종 원부 미확인</span>') + '</div>' +
         '<div class="regrow__foot"><span>낙찰 <b>' + (c.wins || 0) + '건</b>' + (c.amount ? ' · ' + wonShort(c.amount) : '') + '</span>' +
         (fields ? '<span class="muted small">' + fields + '</span>' : '') +
+        (c.share_unknown ? '<span class="rchip rchip--sm rchip--warn">지분 미확인 ' + c.share_unknown + '건' +
+          (c.amount_unknown ? ' · ' + wonShort(c.amount_unknown) + '(총액)' : '') + '</span>' : '') +
         (c.last ? '<span class="muted small">최근 ' + esc(String(c.last).slice(0, 7)) + '</span>' : '') + '</div>' +
         '</div>';
     }).join('') : '<div class="qa">조건에 맞는 업체가 없습니다.</div>';

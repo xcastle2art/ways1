@@ -507,6 +507,19 @@ select:focus{border-color:var(--accent)}
 .qbox__src{padding:5px 10px 8px;display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:10.5px;color:var(--ink-3)}
 .ecard--q{border-color:#bfe8d2;background:#fcfffd}
 .ecard__why{font-size:11.5px;color:#0b6b40;line-height:1.45;font-variant-numeric:tabular-nums}
+
+/* 지역상생 유력 관내 업체 (2026-11-28) */
+.pill--region{background:#f3edff;color:#6d3ad6}
+.rgnbox{margin:10px 0 4px;border:1px solid #ddd0f7;border-radius:12px;background:#fbf8ff;overflow:hidden}
+.rgnbox__head{display:flex;align-items:center;gap:8px;padding:7px 10px;border-bottom:1px solid #ebe2fb;background:#f4eeff}
+.rgnbox__head b{font-size:12px;letter-spacing:-.2px;color:#4b2a9a}
+.rgnbox__head .pill{margin-left:auto}
+.rgnbox__why{padding:6px 10px;font-size:11px;color:#6b5a92;line-height:1.45}
+.rgnbox .ecards{padding:0 10px 10px}
+.rgnbox__foot{padding:6px 10px;border-top:1px dashed #e4d8fa;font-size:10.5px;color:#7a6a9e;line-height:1.45}
+.ecard--region{border-color:#ddd0f7;background:#fff}
+.ecard__why--list{margin:0;padding-left:13px;list-style:disc;color:#4a3a75}
+.ecard__why--list li{margin:1px 0}
 details.fold{margin-top:8px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
 details.fold>summary{cursor:pointer;padding:7px 10px;font-size:11.5px;font-weight:700;color:var(--ink-2);list-style:none}
 details.fold>summary::-webkit-details-marker{display:none}

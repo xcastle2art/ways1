@@ -78,9 +78,20 @@ def _rows(path, sheet, header_row):
 
 
 def build_pool():
+    """낙찰·컨소시엄 실적 pool — 지분율 반영(확정) 금액과 미확인(총액 기준) 금액을 나눠 담는다.
+
+    지분 해석은 consortium.py 가 만든 registry/consortium_shares.json 을 그대로 쓴다.
+    (python3 consortium.py 로 먼저 갱신 → 없거나 낡았으면 그 자리에서 다시 만든다.)
+    """
+    import consortium as CON
+    cpath = REG / "consortium_shares.json"
+    if not cpath.exists():
+        CON.build(fetch=False)
+    cdoc = json.loads(cpath.read_text(encoding="utf-8"))
     pool = {}
 
-    def add(raw, field, amount=None, org=None, date=None, no=None, title=None, src=""):
+    def add(raw, field, amount=None, org=None, date=None, no=None, title=None, src="",
+            amount_unknown=0, share=None, role=None, mode=None, note=None):
         raw = str(raw).strip()
         if not raw or raw in ("—", "-", "None"):
             return
@@ -91,23 +102,31 @@ def build_pool():
         e["raw_names"][raw] = e["raw_names"].get(raw, 0) + 1
         e["wins"].append({"field": field, "amount": amount, "org": org,
                           "date": str(date)[:10] if date else None,
-                          "no": no, "title": title, "src": src})
+                          "no": no, "title": title, "src": src,
+                          "share": share, "role": role, "mode": mode,
+                          "amount_unknown": int(amount_unknown or 0), "note": note})
 
-    if ROAD_XLSX.exists():
-        for d in _rows(ROAD_XLSX, "2.전체공고_낙찰·정량기준", 2):
-            add(d.get("낙찰자"), "도로대장", d.get("낙찰금액"), d.get("발주기관"),
-                d.get("공고일"), d.get("공고번호"), d.get("사업명"), "xlsx:도로대장3년")
-    if SPACE_XLSX.exists():
-        for d in _rows(SPACE_XLSX, "2.전체공고_낙찰·정량기준", 2):
-            f = str(d.get("분야") or "").strip() or "공간정보"
-            f = f.replace("②-b ", "").replace("②-c ", "").replace("② ", "").replace("③ ", "").replace("① ", "")
-            add(d.get("낙찰자"), f, d.get("낙찰금액"), d.get("발주기관"),
-                d.get("공고일"), d.get("공고번호"), d.get("사업명"), "xlsx:공간정보5년")
+    # 1) 컨소시엄 지분 해석 결과 — 낙찰자 + 공동수급 구성원 전원
+    for no, it in cdoc["items"].items():
+        confirmed = it["mode"] in ("단독", "지분확인")
+        for m in it["members"]:
+            area = it["amount"] * m["share"] / 100 if m["share"] is not None else None
+            add(m["name"], it["field"], int(area) if (confirmed and area is not None) else None,
+                it["org"], it["date"], no, it["title"], it["src"],
+                amount_unknown=(it["amount"] if (not confirmed and
+                                                 (m["role"] == "주계약업체" or m["share"] is None)) else 0),
+                share=m["share"], role=m["role"], mode=it["mode"], note=it["note"])
+
+    # 2) 최근 개찰결과(계약 전) — 지분 정보 없음
     enr = json.loads((SCAN / "enriched.json").read_text(encoding="utf-8"))
+    have = {(k, w["no"]) for k, e in pool.items() for w in e["wins"] if w.get("no")}
     for no, v in enr.get("detail", {}).items():
         w = v.get("winner_name")
-        if w:
-            add(w, "최근 공고", v.get("winner_amount"), None, v.get("opened_at"), no, None, "enriched")
+        if not w or (norm(w), no) in have:
+            continue
+        add(w, "최근 공고", None, None, v.get("opened_at"), no, None, "enriched",
+            amount_unknown=int(v.get("winner_amount") or 0), role="주계약업체",
+            mode="지분미확인(계약 전)", note="개찰결과만 확인 — 계약·지분 정보 없음")
     # 당사는 낙찰 이력이 아니라 항상 포함 — 가짜 낙찰 행을 만들지 않는다
     pool.setdefault(norm("웨이즈원"), {"key": norm("웨이즈원"), "raw_names": {}, "wins": []})
     pool[norm("웨이즈원")]["raw_names"]["㈜웨이즈원"] = 1
@@ -116,12 +135,18 @@ def build_pool():
     for k, e in pool.items():
         best = max(e["raw_names"], key=lambda n: (e["raw_names"][n], len(n)))
         amts = [w["amount"] for w in e["wins"] if isinstance(w["amount"], (int, float))]
+        unk = [w.get("amount_unknown") or 0 for w in e["wins"]]
+        n_unk = sum(1 for w in e["wins"] if w.get("mode") and w["mode"].startswith("지분미확인"))
         by_field = {}
         for w in e["wins"]:
-            b = by_field.setdefault(w["field"], {"n": 0, "amount": 0})
+            b = by_field.setdefault(w["field"], {"n": 0, "amount": 0, "amount_unknown": 0, "n_unknown": 0})
             b["n"] += 1
             if isinstance(w["amount"], (int, float)):
                 b["amount"] += int(w["amount"])
+            if w.get("amount_unknown"):
+                b["amount_unknown"] += int(w["amount_unknown"])
+            if w.get("mode") and w["mode"].startswith("지분미확인"):
+                b["n_unknown"] += 1
         dates = sorted([w["date"] for w in e["wins"] if w["date"]])
         out.append({
             "key": k,
@@ -129,6 +154,8 @@ def build_pool():
             "raw_names": list(e["raw_names"]),
             "win_count": len(e["wins"]),
             "win_amount": int(sum(amts)),
+            "win_amount_unknown": int(sum(unk)),
+            "share_unknown_wins": n_unk,
             "by_field": by_field,
             "last_win": dates[-1] if dates else None,
             "wins": sorted(e["wins"], key=lambda w: w.get("date") or "", reverse=True)[:12],
@@ -359,6 +386,8 @@ def main():
         name = p["display"]
         e = {"key": p["key"], "display": name, "raw_names": p["raw_names"],
              "win_count": p["win_count"], "win_amount": p["win_amount"],
+             "win_amount_unknown": p.get("win_amount_unknown", 0),
+             "share_unknown_wins": p.get("share_unknown_wins", 0),
              "by_field": p["by_field"], "last_win": p["last_win"],
              "wins": p["wins"], "is_self": p["is_self"]}
 

@@ -1,6 +1,6 @@
 {
- "built_at": "2026-11-27T17:46:49+09:00",
- "count": 107,
+ "built_at": "2026-11-28T12:34:39+09:00",
+ "count": 141,
  "companies": [
   {
    "key": "우대칼스",
@@ -8,20 +8,28 @@
    "raw_names": [
     "주식회사 우대칼스"
    ],
-   "win_count": 12,
-   "win_amount": 1896830000,
+   "win_count": 14,
+   "win_amount": 1516476800,
+   "win_amount_unknown": 581930730,
+   "share_unknown_wins": 3,
    "by_field": {
     "토적·재취": {
-     "n": 6,
-     "amount": 978730000
+     "n": 8,
+     "amount": 798376800,
+     "amount_unknown": 381930730,
+     "n_unknown": 2
     },
     "UPIS·KLIP DB": {
      "n": 5,
-     "amount": 527100000
+     "amount": 327100000,
+     "amount_unknown": 200000000,
+     "n_unknown": 1
     },
     "연속도면·연속주제도": {
      "n": 1,
-     "amount": 391000000
+     "amount": 391000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-06-24",
@@ -33,7 +41,26 @@
      "date": "2026-06-24",
      "no": "R26BK01600012",
      "title": "청주시 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": 37846800,
+     "org": "강원특별자치도 삼척시",
+     "date": "2026-05-26",
+     "no": "R26BK01542668",
+     "title": "삼척시 토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
@@ -42,7 +69,12 @@
      "date": "2026-05-08",
      "no": "R26BK01510883",
      "title": "목포시 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
@@ -51,7 +83,12 @@
      "date": "2026-04-14",
      "no": "R26BK01455349",
      "title": "성남시 토지적성평가 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "UPIS·KLIP DB",
@@ -60,7 +97,12 @@
      "date": "2026-03-03",
      "no": "R26BK01365356",
      "title": "2026년 부천시 도시계획정보체계(UPIS) DB 현행화 용역 제안서 제출 안내 공고",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "UPIS·KLIP DB",
@@ -69,7 +111,12 @@
      "date": "2026-02-24",
      "no": "R26BK01352176",
      "title": "『2026년 광명시 국토이용정보체계 정비 및 현행화 사업 용역』 제안서 제출 안내 재공고",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "연속도면·연속주제도",
@@ -78,7 +125,12 @@
      "date": "2026-02-09",
      "no": "R26BK01323647",
      "title": "고성군 국토이용정보 통합플랫폼(KLIP) 연속주제도 DB정비 용역(협상에 의한 계약)",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "UPIS·KLIP DB",
@@ -87,169 +139,68 @@
      "date": "2026-02-09",
      "no": "R26BK01322984",
      "title": "2026년 안산시 국토이용정보체계 정비 및 현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
-     "amount": 156000000,
+     "amount": null,
+     "org": "경상남도 김해시",
+     "date": "2026-02-06",
+     "no": "R26BK01321986",
+     "title": "김해시 토지적성평가 재수립 용역(재공고)",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 171530730,
+     "note": "구성원 2곳 중 지분율 미기재"
+    },
+    {
+     "field": "토적·재취",
+     "amount": 148200000,
      "org": "충청남도 서천군",
      "date": "2026-02-04",
      "no": "R26BK01316517",
      "title": "서천군 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 95,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
-     "amount": 210400000,
+     "amount": null,
      "org": "강원특별자치도 정선군",
      "date": "2025-05-21",
      "no": "R25BK00858662",
      "title": "정선군 토지적성평가및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 210400000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "UPIS·KLIP DB",
-     "amount": 200000000,
+     "amount": null,
      "org": "경기도 화성시",
      "date": "2025-03-31",
      "no": "R25BK00701941",
      "title": "2025년 국토이용정보체계 시스템 운영관리 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 67500000,
-     "org": "경상남도 하동군",
-     "date": "2025-03-04",
-     "no": "R25BK00674914",
-     "title": "하동군 국토이용정보체계(UPIS·KLIP) DB현행화 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 60938800,
-     "org": "경기도 남양주시",
-     "date": "2023-10-24",
-     "no": "20231027546",
-     "title": "남양주시 도시 기후변화 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "정도유아이티",
-   "display": "(주)정도유아이티",
-   "raw_names": [
-    "(주)정도유아이티"
-   ],
-   "win_count": 10,
-   "win_amount": 1554213500,
-   "by_field": {
-    "토적·재취": {
-     "n": 6,
-     "amount": 1135800000
-    },
-    "기초조사정보체계": {
-     "n": 1,
-     "amount": 210000000
-    },
-    "UPIS·KLIP DB": {
-     "n": 3,
-     "amount": 208413500
-    }
-   },
-   "last_win": "2026-05-18",
-   "wins": [
-    {
-     "field": "토적·재취",
-     "amount": 246400000,
-     "org": "경상남도 산청군",
-     "date": "2026-05-18",
-     "no": "R26BK01527152",
-     "title": "산청군 비시가화지역 토지적성평가 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "기초조사정보체계",
-     "amount": 210000000,
-     "org": "강원특별자치도 영월군",
-     "date": "2025-06-17",
-     "no": "R25BK00906971",
-     "title": "영월군 기초조사정보체계 고도화 사업",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 96000000,
-     "org": "강원특별자치도 원주시",
-     "date": "2025-03-13",
-     "no": "R25BK00700946",
-     "title": "원주시 비시가화지역 토지적성평가 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 96000000,
-     "org": "충청남도 천안시",
-     "date": "2025-02-04",
-     "no": "R25BK00615132",
-     "title": "2025년 천안시 도시계획정보체계(UPIS) 현행화 사업",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 55413500,
-     "org": "경기도 부천시",
-     "date": "2025-01-13",
-     "no": "R25BK00573549",
-     "title": "2025년 부천시 도시계획정보체계(UPIS) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 104000000,
-     "org": "충청남도 논산시",
-     "date": "2024-09-11",
-     "no": "20240910793",
-     "title": "논산시 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 95000000,
-     "org": "경상북도 영덕군",
-     "date": "2024-08-20",
-     "no": "20240818554",
-     "title": "영덕군 재해취약성분석 용역(협상에 의한 계약)",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 306400000,
-     "org": "경상북도 청송군",
-     "date": "2024-03-14",
-     "no": "20240319041",
-     "title": "청송군 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 57000000,
-     "org": "경기도 부천시",
-     "date": "2024-02-05",
-     "no": "20240205062",
-     "title": "2024년 부천시 도시계획정보체계(UPIS) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 288000000,
-     "org": "경상북도 의성군",
-     "date": "2023-12-11",
-     "no": "20231147937",
-     "title": "의성군 기초조사정보체계 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 200000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -260,12 +211,22 @@
    "raw_names": [
     "주식회사 일신이앤씨"
    ],
-   "win_count": 8,
-   "win_amount": 4842106000,
+   "win_count": 10,
+   "win_amount": 1476534000,
+   "win_amount_unknown": 3993443000,
+   "share_unknown_wins": 5,
    "by_field": {
     "도로대장": {
-     "n": 8,
-     "amount": 4842106000
+     "n": 9,
+     "amount": 1404534000,
+     "amount_unknown": 3993443000,
+     "n_unknown": 5
+    },
+    "토적·재취": {
+     "n": 1,
+     "amount": 72000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-06-18",
@@ -277,7 +238,26 @@
      "date": "2026-06-18",
      "no": "R26BK01590262",
      "title": "2026년도 도로대장 수시갱신용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": 72000000,
+     "org": "강원특별자치도 인제군",
+     "date": "2026-06-18",
+     "no": "R26BK01586755",
+     "title": "인제군 토지적성평가 및 재해취약성 분석 용역 ",
+     "src": "xlsx:공간정보5년",
+     "share": 30,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -286,7 +266,12 @@
      "date": "2026-06-10",
      "no": "R26BK01571550",
      "title": "2026년도 도로대장 수시갱신용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -295,25 +280,54 @@
      "date": "2026-06-09",
      "no": "R26BK01566067",
      "title": "2026년도 도로대장 수시갱신 엔지니어링사업",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 366389000,
+     "amount": null,
+     "org": "경기도 여주시",
+     "date": "2026-03-20",
+     "no": "R26BK01407203",
+     "title": "2026년 여주시 디지털 도로대장 전산화 사업 용역(가격입찰 후 사업수행능력평가)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 555871000,
+     "note": "구성원 2곳 중 지분율 미기재"
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
      "org": "국토교통부 부산지방국토관리청",
      "date": "2025-06-17",
      "no": "R25BK00909902",
      "title": "2025년도 도로대장 수시갱신 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 366389000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "도로대장",
-     "amount": 399564000,
+     "amount": null,
      "org": "국토교통부 원주지방국토관리청",
      "date": "2025-06-16",
      "no": "R25BK00905572",
      "title": "2025년 도로대장 수시갱신용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 399564000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "도로대장",
@@ -322,25 +336,215 @@
      "date": "2025-06-09",
      "no": "R25BK00890296",
      "title": "2025년도 도로대장 수시갱신용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "도로대장",
-     "amount": 2410760000,
+     "amount": null,
      "org": "서울특별시",
      "date": "2025-05-02",
      "no": "R25BK00826241",
      "title": "서울특별시도 도로대장 용역(강북)(장기계속)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 2410760000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "도로대장",
-     "amount": 260859000,
+     "amount": null,
      "org": "서울특별시",
      "date": "2024-10-31",
      "no": "20241037108",
      "title": "2024년 서울특별시도 도로대장 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 260859000,
+     "note": "공고가 공동수급을 허용(혼합방식)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "정도유아이티",
+   "display": "(주)정도유아이티",
+   "raw_names": [
+    "(주)정도유아이티"
+   ],
+   "win_count": 10,
+   "win_amount": 246400000,
+   "win_amount_unknown": 1307813500,
+   "share_unknown_wins": 9,
+   "by_field": {
+    "토적·재취": {
+     "n": 6,
+     "amount": 246400000,
+     "amount_unknown": 889400000,
+     "n_unknown": 5
+    },
+    "기초조사정보체계": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 210000000,
+     "n_unknown": 1
+    },
+    "UPIS·KLIP DB": {
+     "n": 3,
+     "amount": 0,
+     "amount_unknown": 208413500,
+     "n_unknown": 3
+    }
+   },
+   "last_win": "2026-05-18",
+   "wins": [
+    {
+     "field": "토적·재취",
+     "amount": 246400000,
+     "org": "경상남도 산청군",
+     "date": "2026-05-18",
+     "no": "R26BK01527152",
+     "title": "산청군 비시가화지역 토지적성평가 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "기초조사정보체계",
+     "amount": null,
+     "org": "강원특별자치도 영월군",
+     "date": "2025-06-17",
+     "no": "R25BK00906971",
+     "title": "영월군 기초조사정보체계 고도화 사업",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 210000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "강원특별자치도 원주시",
+     "date": "2025-03-13",
+     "no": "R25BK00700946",
+     "title": "원주시 비시가화지역 토지적성평가 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 96000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": null,
+     "org": "충청남도 천안시",
+     "date": "2025-02-04",
+     "no": "R25BK00615132",
+     "title": "2025년 천안시 도시계획정보체계(UPIS) 현행화 사업",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 96000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": null,
+     "org": "경기도 부천시",
+     "date": "2025-01-13",
+     "no": "R25BK00573549",
+     "title": "2025년 부천시 도시계획정보체계(UPIS) DB 현행화 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 55413500,
+     "note": "공고가 공동수급을 허용(공동이행 또는 분담이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "충청남도 논산시",
+     "date": "2024-09-11",
+     "no": "20240910793",
+     "title": "논산시 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 104000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "경상북도 영덕군",
+     "date": "2024-08-20",
+     "no": "20240818554",
+     "title": "영덕군 재해취약성분석 용역(협상에 의한 계약)",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 95000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "경상북도 청송군",
+     "date": "2024-03-14",
+     "no": "20240319041",
+     "title": "청송군 토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 306400000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": null,
+     "org": "경기도 부천시",
+     "date": "2024-02-05",
+     "no": "20240205062",
+     "title": "2024년 부천시 도시계획정보체계(UPIS) DB 현행화 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 57000000,
+     "note": "공고가 공동수급을 허용(혼합방식)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "경상북도 의성군",
+     "date": "2023-12-11",
+     "no": "20231147937",
+     "title": "의성군 기초조사정보체계 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 288000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -351,78 +555,264 @@
    "raw_names": [
     "주식회사 지오스토리"
    ],
-   "win_count": 7,
-   "win_amount": 3006460000,
+   "win_count": 8,
+   "win_amount": 862364000,
+   "win_amount_unknown": 1398660000,
+   "share_unknown_wins": 3,
    "by_field": {
     "도로대장": {
      "n": 7,
-     "amount": 3006460000
+     "amount": 854580000,
+     "amount_unknown": 1398660000,
+     "n_unknown": 3
+    },
+    "토적·재취": {
+     "n": 1,
+     "amount": 7784000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-08-19",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 891000000,
+     "amount": 445500000,
      "org": "강원특별자치도 양양군",
      "date": "2026-08-19",
      "no": "R26BK01685713",
      "title": "양양군 도로대장 전산화 사업",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 50,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 230000000,
+     "amount": 92000000,
      "org": "한국국토정보공사",
      "date": "2026-07-27",
      "no": "R26BK01651823",
      "title": "도로대장 통합관리체계 상세설계 고도화",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 250000000,
+     "amount": 175000000,
      "org": "한국국토정보공사",
      "date": "2026-07-27",
      "no": "R26BK01651704",
      "title": "디지털 도로대장 항목 개편 사업",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 70,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 920260000,
+     "amount": null,
      "org": "충청남도 홍성군",
      "date": "2026-05-29",
      "no": "R26BK01551318",
      "title": "홍성군 도로대장 전산화 용역 제안서 제출안내 재공고(협상에 의한 계약)(긴급)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 920260000,
+     "note": "구성원 3곳 중 지분율 미기재"
     },
     {
      "field": "도로대장",
-     "amount": 236800000,
+     "amount": 142080000,
      "org": "대구광역시 군위군",
      "date": "2026-05-07",
      "no": "R26BK01509638",
      "title": "2026년 군위군 도로대장 전산화 생성 용역(협상에 의한 계약)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 60,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": 7784000,
+     "org": "경기도 부천시",
+     "date": "2026-04-22",
+     "no": "R26BK01480941",
+     "title": "부천시 토지적성평가 및 재해취약성 분석 용역 ",
+     "src": "xlsx:공간정보5년",
+     "share": 5,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 320000000,
+     "amount": null,
      "org": "한국국토정보공사",
      "date": "2025-04-28",
      "no": "R25BK00815591",
      "title": "2025년 위임국도 도로대장 작성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 320000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "도로대장",
-     "amount": 158400000,
+     "amount": null,
      "org": "대구광역시 군위군",
      "date": "2025-04-03",
      "no": "R25BK00756326",
      "title": "2025년 도로대장 전산화 생성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 158400000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "신영이에스디",
+   "display": "주식회사 신영이에스디",
+   "raw_names": [
+    "주식회사 신영이에스디"
+   ],
+   "win_count": 7,
+   "win_amount": 806849400,
+   "win_amount_unknown": 311600000,
+   "share_unknown_wins": 2,
+   "by_field": {
+    "토적·재취": {
+     "n": 6,
+     "amount": 806849400,
+     "amount_unknown": 171600000,
+     "n_unknown": 1
+    },
+    "UPIS·KLIP DB": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 140000000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-07-28",
+   "wins": [
+    {
+     "field": "토적·재취",
+     "amount": 112000000,
+     "org": "강원특별자치도 평창군",
+     "date": "2026-07-28",
+     "no": "R26BK01654499",
+     "title": "평창군 토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 40,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": 130125000,
+     "org": "충청북도 증평군",
+     "date": "2026-02-11",
+     "no": "R26BK01333415",
+     "title": "증평군 토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": 320000000,
+     "org": "강원특별자치도 철원군",
+     "date": "2025-12-01",
+     "no": "R25BK01193422",
+     "title": "철원군 토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": 172494400,
+     "org": "강원특별자치도 화천군",
+     "date": "2025-10-16",
+     "no": "R25BK01071085",
+     "title": "화천군 토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": null,
+     "org": "경기도 김포시",
+     "date": "2025-04-02",
+     "no": "R25BK00752225",
+     "title": "김포시 도시계획정보체계(UPIS) DB현행화 및 정비 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 140000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "토적·재취",
+     "amount": 72230000,
+     "org": "강원특별자치도 춘천시",
+     "date": "2024-09-20",
+     "no": "20240918076",
+     "title": "2025 춘천도시기후변화 재해취약성분석 재수립 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "서울특별시",
+     "date": "2024-02-16",
+     "no": "20240222411",
+     "title": "토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 171600000,
+     "note": "공고가 공동수급을 허용(분담이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -433,12 +823,16 @@
    "raw_names": [
     "주식회사 테라엔지니어링"
    ],
-   "win_count": 6,
-   "win_amount": 6718040000,
+   "win_count": 7,
+   "win_amount": 461820000,
+   "win_amount_unknown": 6318440000,
+   "share_unknown_wins": 5,
    "by_field": {
     "도로대장": {
-     "n": 6,
-     "amount": 6718040000
+     "n": 7,
+     "amount": 461820000,
+     "amount_unknown": 6318440000,
+     "n_unknown": 5
     }
    },
    "last_win": "2026-10-29",
@@ -450,52 +844,229 @@
      "date": "2026-10-29",
      "no": "R26BK01794265",
      "title": "산청군 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 1450000000,
+     "amount": null,
      "org": "경상북도 성주군",
      "date": "2026-10-02",
      "no": "R26BK01755768",
      "title": "성주군 도로대장 작성 및 전산화 구축 용역(긴급)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 1450000000,
+     "note": "구성원 4곳 중 지분율 미기재"
     },
     {
      "field": "도로대장",
-     "amount": 2400000000,
+     "amount": null,
      "org": "경상북도 울진군",
      "date": "2026-08-03",
      "no": "R26BK01663328",
      "title": "울진군 농어촌 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 2400000000,
+     "note": "구성원 3곳 중 지분율 미기재"
     },
     {
      "field": "도로대장",
-     "amount": 378440000,
+     "amount": null,
      "org": "전남광주통합특별시 영광군",
      "date": "2026-06-02",
      "no": "R26BK01555576",
      "title": "영광군 디지털 도로대장 및 관리시스템 구축 용역(협상에 의한 계약)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 378440000,
+     "note": "구성원 3곳 중 지분율 미기재"
     },
     {
      "field": "도로대장",
-     "amount": 920000000,
+     "amount": null,
      "org": "전남광주통합특별시 화순군",
      "date": "2026-05-21",
      "no": "R26BK01505700",
      "title": "(정정공고)화순군 도로대장 전산화 및 관리시스템 구축 용역(협상)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 920000000,
+     "note": "구성원 3곳 중 지분율 미기재"
     },
     {
      "field": "도로대장",
-     "amount": 1170000000,
+     "amount": null,
      "org": "경상남도 함안군",
      "date": "2026-03-25",
      "no": "R26BK01418962",
      "title": "함안군 도로대장 구축 및 전산화 용역 (협상에의한계약)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 1170000000,
+     "note": "지분율 합계 500%"
+    },
+    {
+     "field": "도로대장",
+     "amount": 62220000,
+     "org": "경상남도 밀양시",
+     "date": "2025-09-23",
+     "no": "R25BK01071000",
+     "title": "밀양시 도로대장 전산화 용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "사방정보기술",
+   "display": "주식회사 사방정보기술",
+   "raw_names": [
+    "주식회사 사방정보기술"
+   ],
+   "win_count": 7,
+   "win_amount": 259895700,
+   "win_amount_unknown": 1579530730,
+   "share_unknown_wins": 3,
+   "by_field": {
+    "연속도면·연속주제도": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 1310000000,
+     "n_unknown": 1
+    },
+    "UPIS·KLIP DB": {
+     "n": 5,
+     "amount": 259895700,
+     "amount_unknown": 98000000,
+     "n_unknown": 1
+    },
+    "토적·재취": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 171530730,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-05-26",
+   "wins": [
+    {
+     "field": "연속도면·연속주제도",
+     "amount": null,
+     "org": "경상남도 사천시",
+     "date": "2026-05-26",
+     "no": "R26BK01543661",
+     "title": "사천시 연속도면(용도지역지구) DB정비 사업[협상에 의한 계약]",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 1310000000,
+     "note": "구성원 2곳 중 지분율 미기재"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 70041200,
+     "org": "경상남도 거제시",
+     "date": "2026-03-12",
+     "no": "R26BK01389464",
+     "title": "국토이용정보체계 통합플랫폼(KLIP) 운영지원 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "경상남도 김해시",
+     "date": "2026-02-06",
+     "no": "R26BK01321986",
+     "title": "김해시 토지적성평가 재수립 용역(재공고)",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 171530730,
+     "note": "구성원 2곳 중 지분율 미기재"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": null,
+     "org": "경기도 가평군",
+     "date": "2025-05-09",
+     "no": "R25BK00836815",
+     "title": "2025년 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 98000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 98000000,
+     "org": "경상남도 함안군",
+     "date": "2025-02-06",
+     "no": "R25BK00621798",
+     "title": "2025년 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 52787700,
+     "org": "경상남도 통영시",
+     "date": "2024-04-01",
+     "no": "20240345156",
+     "title": "2024년 통영시 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 39066800,
+     "org": "경상남도 거제시",
+     "date": "2024-02-19",
+     "no": "20240224438",
+     "title": "2024년 거제시 도시계획정보체계(UPIS) 유지관리 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -507,11 +1078,15 @@
     "주식회사 로우코리아"
    ],
    "win_count": 6,
-   "win_amount": 2184547000,
+   "win_amount": 1350202000,
+   "win_amount_unknown": 834345000,
+   "share_unknown_wins": 2,
    "by_field": {
     "도로대장": {
      "n": 6,
-     "amount": 2184547000
+     "amount": 1350202000,
+     "amount_unknown": 834345000,
+     "n_unknown": 2
     }
    },
    "last_win": "2026-06-18",
@@ -523,7 +1098,12 @@
      "date": "2026-06-18",
      "no": "R26BK01590888",
      "title": "2026년 도로대장 수시갱신 엔지니어링",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -532,16 +1112,26 @@
      "date": "2026-06-16",
      "no": "R26BK01581027",
      "title": "2026년도 도로대장 수시갱신용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 555871000,
+     "amount": null,
      "org": "경기도 여주시",
      "date": "2026-03-20",
      "no": "R26BK01407203",
      "title": "2026년 여주시 디지털 도로대장 전산화 사업 용역(가격입찰 후 사업수행능력평가)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 555871000,
+     "note": "구성원 2곳 중 지분율 미기재"
     },
     {
      "field": "도로대장",
@@ -550,7 +1140,12 @@
      "date": "2025-06-16",
      "no": "R25BK00894872",
      "title": "2025년도 도로대장 수시갱신 엔지니어링사업",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "도로대장",
@@ -559,170 +1154,26 @@
      "date": "2025-06-16",
      "no": "R25BK00907402",
      "title": "2025년 여주시 디지털 도로대장 전산화 사업용역(가격입찰 후 사업수행능력평가)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 278474000,
+     "amount": null,
      "org": "국토교통부 서울지방국토관리청",
      "date": "2025-06-10",
      "no": "R25BK00890392",
      "title": "2025년도 도로대장 수시갱신용역",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "신영이에스디",
-   "display": "주식회사 신영이에스디",
-   "raw_names": [
-    "주식회사 신영이에스디"
-   ],
-   "win_count": 6,
-   "win_amount": 1006449400,
-   "by_field": {
-    "토적·재취": {
-     "n": 5,
-     "amount": 866449400
-    },
-    "UPIS·KLIP DB": {
-     "n": 1,
-     "amount": 140000000
-    }
-   },
-   "last_win": "2026-02-11",
-   "wins": [
-    {
-     "field": "토적·재취",
-     "amount": 130125000,
-     "org": "충청북도 증평군",
-     "date": "2026-02-11",
-     "no": "R26BK01333415",
-     "title": "증평군 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 320000000,
-     "org": "강원특별자치도 철원군",
-     "date": "2025-12-01",
-     "no": "R25BK01193422",
-     "title": "철원군 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 172494400,
-     "org": "강원특별자치도 화천군",
-     "date": "2025-10-16",
-     "no": "R25BK01071085",
-     "title": "화천군 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 140000000,
-     "org": "경기도 김포시",
-     "date": "2025-04-02",
-     "no": "R25BK00752225",
-     "title": "김포시 도시계획정보체계(UPIS) DB현행화 및 정비 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 72230000,
-     "org": "강원특별자치도 춘천시",
-     "date": "2024-09-20",
-     "no": "20240918076",
-     "title": "2025 춘천도시기후변화 재해취약성분석 재수립 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 171600000,
-     "org": "서울특별시",
-     "date": "2024-02-16",
-     "no": "20240222411",
-     "title": "토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "사방정보기술",
-   "display": "주식회사 사방정보기술",
-   "raw_names": [
-    "주식회사 사방정보기술"
-   ],
-   "win_count": 6,
-   "win_amount": 529426430,
-   "by_field": {
-    "UPIS·KLIP DB": {
-     "n": 5,
-     "amount": 357895700
-    },
-    "토적·재취": {
-     "n": 1,
-     "amount": 171530730
-    }
-   },
-   "last_win": "2026-03-12",
-   "wins": [
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 70041200,
-     "org": "경상남도 거제시",
-     "date": "2026-03-12",
-     "no": "R26BK01389464",
-     "title": "국토이용정보체계 통합플랫폼(KLIP) 운영지원 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 171530730,
-     "org": "경상남도 김해시",
-     "date": "2026-02-06",
-     "no": "R26BK01321986",
-     "title": "김해시 토지적성평가 재수립 용역(재공고)",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 98000000,
-     "org": "경기도 가평군",
-     "date": "2025-05-09",
-     "no": "R25BK00836815",
-     "title": "2025년 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 98000000,
-     "org": "경상남도 함안군",
-     "date": "2025-02-06",
-     "no": "R25BK00621798",
-     "title": "2025년 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 52787700,
-     "org": "경상남도 통영시",
-     "date": "2024-04-01",
-     "no": "20240345156",
-     "title": "2024년 통영시 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 39066800,
-     "org": "경상남도 거제시",
-     "date": "2024-02-19",
-     "no": "20240224438",
-     "title": "2024년 거제시 도시계획정보체계(UPIS) 유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 278474000,
+     "note": "공고가 공동수급을 허용(혼합방식)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -734,28 +1185,45 @@
     "웨이즈원 주식회사",
     "㈜웨이즈원"
    ],
-   "win_count": 5,
-   "win_amount": 3692000000,
+   "win_count": 6,
+   "win_amount": 605136000,
+   "win_amount_unknown": 3178000000,
+   "share_unknown_wins": 3,
    "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 91136000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    },
     "연속도면·연속주제도": {
      "n": 2,
-     "amount": 2930000000
+     "amount": 0,
+     "amount_unknown": 2930000000,
+     "n_unknown": 2
     },
     "토적·재취": {
      "n": 3,
-     "amount": 762000000
+     "amount": 514000000,
+     "amount_unknown": 248000000,
+     "n_unknown": 1
     }
    },
    "last_win": "2026-05-26",
    "wins": [
     {
      "field": "연속도면·연속주제도",
-     "amount": 1310000000,
+     "amount": null,
      "org": "경상남도 사천시",
      "date": "2026-05-26",
      "no": "R26BK01543661",
      "title": "사천시 연속도면(용도지역지구) DB정비 사업[협상에 의한 계약]",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 1310000000,
+     "note": "구성원 2곳 중 지분율 미기재"
     },
     {
      "field": "토적·재취",
@@ -764,7 +1232,26 @@
      "date": "2026-02-10",
      "no": "R26BK01330236",
      "title": "예천군 토지적성평가 및 재해취약성분석 용역(협상에의한계약)",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": 91136000,
+     "org": "경상북도 영주시",
+     "date": "2025-09-26",
+     "no": "R25BK01080508",
+     "title": "[협상에 의한 계약] 영주시 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
@@ -773,28 +1260,136 @@
      "date": "2025-08-13",
      "no": "R25BK01009629",
      "title": "임실군 비시가화지역 토지적성평가 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "연속도면·연속주제도",
-     "amount": 1620000000,
+     "amount": null,
      "org": "경상북도 울진군",
      "date": "2025-05-28",
      "no": "R25BK00873487",
      "title": "울진군 연속도면(용도지역지구) DB정비 사업",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 1620000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "토적·재취",
-     "amount": 248000000,
+     "amount": null,
      "org": "경상남도 의령군",
      "date": "2025-04-15",
      "no": "R25BK00789929",
      "title": "의령군 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 248000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": true
+  },
+  {
+   "key": "웨이버스",
+   "display": "주식회사 웨이버스",
+   "raw_names": [
+    "주식회사 웨이버스"
+   ],
+   "win_count": 5,
+   "win_amount": 960200000,
+   "win_amount_unknown": 1711610000,
+   "share_unknown_wins": 3,
+   "by_field": {
+    "도로대장": {
+     "n": 5,
+     "amount": 960200000,
+     "amount_unknown": 1711610000,
+     "n_unknown": 3
+    }
+   },
+   "last_win": "2026-08-11",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 560000000,
+     "org": "전남광주통합특별시 고흥군",
+     "date": "2026-08-11",
+     "no": "R26BK01677173",
+     "title": "[협상에의한계약]고흥군 디지털 도로대장 전산화 구축용역",
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "충청남도 홍성군",
+     "date": "2026-05-29",
+     "no": "R26BK01551318",
+     "title": "홍성군 도로대장 전산화 용역 제안서 제출안내 재공고(협상에 의한 계약)(긴급)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 920260000,
+     "note": "구성원 3곳 중 지분율 미기재"
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "충청남도 천안시",
+     "date": "2026-04-08",
+     "no": "R26BK01450465",
+     "title": "천안시(서북구) 도로대장 전산화용역",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 449350000,
+     "note": "공고가 공동수급을 허용(혼합방식)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "도로대장",
+     "amount": 400200000,
+     "org": "경상남도 거제시",
+     "date": "2025-08-18",
+     "no": "R25BK01012653",
+     "title": "거제시 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 46,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "전남광주통합특별시 곡성군",
+     "date": "2024-09-12",
+     "no": "20240912289",
+     "title": "곡성군 도로대장 전산화 구축 용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 342000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    }
+   ],
+   "is_self": false
   },
   {
    "key": "지안유에이아이",
@@ -803,50 +1398,74 @@
     "주식회사 지안유에이아이"
    ],
    "win_count": 5,
-   "win_amount": 1184514000,
+   "win_amount": 954883200,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "토적·재취": {
      "n": 5,
-     "amount": 1184514000
+     "amount": 954883200,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-07-28",
    "wins": [
     {
      "field": "토적·재취",
-     "amount": 280000000,
+     "amount": 168000000,
      "org": "강원특별자치도 평창군",
      "date": "2026-07-28",
      "no": "R26BK01654499",
      "title": "평창군 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 60,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
-     "amount": 240000000,
+     "amount": 168000000,
      "org": "강원특별자치도 인제군",
      "date": "2026-06-18",
      "no": "R26BK01586755",
      "title": "인제군 토지적성평가 및 재해취약성 분석 용역 ",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 70,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
-     "amount": 189234000,
+     "amount": 151387200,
      "org": "강원특별자치도 삼척시",
      "date": "2026-05-26",
      "no": "R26BK01542668",
      "title": "삼척시 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 80,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
-     "amount": 155680000,
+     "amount": 147896000,
      "org": "경기도 부천시",
      "date": "2026-04-22",
      "no": "R26BK01480941",
      "title": "부천시 토지적성평가 및 재해취약성 분석 용역 ",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 95,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
@@ -855,7 +1474,111 @@
      "date": "2026-01-26",
      "no": "R26BK01295043",
      "title": "가평군 토지적성평가 및 재해취약성분석 용역(협상에 의한 계약)",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "한토공간기술",
+   "display": "주식회사 한토공간기술",
+   "raw_names": [
+    "주식회사 한토공간기술"
+   ],
+   "win_count": 5,
+   "win_amount": 238118900,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 74171000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    },
+    "UPIS·KLIP DB": {
+     "n": 3,
+     "amount": 163947900,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-10-16",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 20000000,
+     "org": "경상남도 하동군",
+     "date": "2026-10-16",
+     "no": "R26BK01775480",
+     "title": "하동군 군도 및 농어촌도로 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": 54171000,
+     "org": "경상남도 동부도로관리사업소",
+     "date": "2026-06-11",
+     "no": "R26BK01573980",
+     "title": "2026년 도로대장 관리시스템 유지관리용역",
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 54478000,
+     "org": "경상남도 통영시",
+     "date": "2026-03-18",
+     "no": "R26BK01404641",
+     "title": "2026년 통영시 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 70028900,
+     "org": "경상남도 양산시",
+     "date": "2025-02-04",
+     "no": "R25BK00615725",
+     "title": "2025년 국토이용정보체계(UPIS, KLIP) DB 현행화 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 39441000,
+     "org": "경상남도 거제시",
+     "date": "2025-02-03",
+     "no": "R25BK00598068",
+     "title": "2025년 거제시 도시계획정보체계(UPIS) 유지관리 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -867,19 +1590,27 @@
     "주식회사 지오투정보기술"
    ],
    "win_count": 5,
-   "win_amount": 482390000,
+   "win_amount": 168640000,
+   "win_amount_unknown": 313750000,
+   "share_unknown_wins": 4,
    "by_field": {
     "토적·재취": {
      "n": 1,
-     "amount": 168640000
+     "amount": 168640000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     },
     "UPIS·KLIP DB": {
      "n": 3,
-     "amount": 255550000
+     "amount": 0,
+     "amount_unknown": 255550000,
+     "n_unknown": 3
     },
     "용도지역지구 DB정비": {
      "n": 1,
-     "amount": 58200000
+     "amount": 0,
+     "amount_unknown": 58200000,
+     "n_unknown": 1
     }
    },
    "last_win": "2025-07-11",
@@ -891,161 +1622,147 @@
      "date": "2025-07-11",
      "no": "R25BK00955973",
      "title": "광주시 토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "UPIS·KLIP DB",
-     "amount": 120000000,
+     "amount": null,
      "org": "경기도 포천시",
      "date": "2025-05-22",
      "no": "R25BK00863034",
      "title": "도시계획정보체계(UPIS) DB 통합정비 구축(협상에 의한 계약)",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 120000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "용도지역지구 DB정비",
-     "amount": 58200000,
+     "amount": null,
      "org": "경기도 안성시",
      "date": "2025-01-20",
      "no": "R25BK00592410",
      "title": "2025년 안성시 KRAS 용도지역지구 DB현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 58200000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "UPIS·KLIP DB",
-     "amount": 58200000,
+     "amount": null,
      "org": "경기도 안성시",
      "date": "2025-01-20",
      "no": "R25BK00592269",
      "title": "2025년 안성시 도시계획정보체계(UPIS) DB현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 58200000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "UPIS·KLIP DB",
-     "amount": 77350000,
+     "amount": null,
      "org": "경기도 성남시",
      "date": "2024-06-19",
      "no": "20240625268",
      "title": "성남시 도시계획정보체계(UPIS) DB 현행화 용역(협상에 의한 계약)",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 77350000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
   },
   {
-   "key": "웨이버스",
-   "display": "주식회사 웨이버스",
+   "key": "올포랜드",
+   "display": "주식회사 올포랜드",
    "raw_names": [
-    "주식회사 웨이버스"
+    "주식회사 올포랜드"
    ],
    "win_count": 4,
-   "win_amount": 3061350000,
+   "win_amount": 394600000,
+   "win_amount_unknown": 522400000,
+   "share_unknown_wins": 1,
    "by_field": {
     "도로대장": {
      "n": 4,
-     "amount": 3061350000
+     "amount": 394600000,
+     "amount_unknown": 522400000,
+     "n_unknown": 1
     }
    },
-   "last_win": "2026-08-11",
+   "last_win": "2026-07-27",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 1400000000,
-     "org": "전남광주통합특별시 고흥군",
-     "date": "2026-08-11",
-     "no": "R26BK01677173",
-     "title": "[협상에의한계약]고흥군 디지털 도로대장 전산화 구축용역",
-     "src": "xlsx:도로대장3년"
+     "amount": 46000000,
+     "org": "한국국토정보공사",
+     "date": "2026-07-27",
+     "no": "R26BK01651823",
+     "title": "도로대장 통합관리체계 상세설계 고도화",
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 449350000,
-     "org": "충청남도 천안시",
-     "date": "2026-04-08",
-     "no": "R26BK01450465",
-     "title": "천안시(서북구) 도로대장 전산화용역",
-     "src": "xlsx:도로대장3년"
+     "amount": 75000000,
+     "org": "한국국토정보공사",
+     "date": "2026-07-27",
+     "no": "R26BK01651704",
+     "title": "디지털 도로대장 항목 개편 사업",
+     "src": "xlsx:도로대장3년",
+     "share": 30,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 870000000,
-     "org": "경상남도 거제시",
-     "date": "2025-08-18",
-     "no": "R25BK01012653",
-     "title": "거제시 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "amount": 273600000,
+     "org": "전북특별자치도 전주시",
+     "date": "2026-06-19",
+     "no": "R26BK01593258",
+     "title": "전주시 도로대장 전산화 시범구축 및 도로구역 결정 용역(협상에의한계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 90,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 342000000,
-     "org": "전남광주통합특별시 곡성군",
-     "date": "2024-09-12",
-     "no": "20240912289",
-     "title": "곡성군 도로대장 전산화 구축 용역(협상에 의한 계약)",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "디아이브릿지",
-   "display": "디아이브릿지 주식회사",
-   "raw_names": [
-    "디아이브릿지 주식회사"
-   ],
-   "win_count": 4,
-   "win_amount": 960800000,
-   "by_field": {
-    "토적·재취": {
-     "n": 2,
-     "amount": 578800000
-    },
-    "UPIS·KLIP DB": {
-     "n": 1,
-     "amount": 192000000
-    },
-    "연속도면·연속주제도": {
-     "n": 1,
-     "amount": 190000000
-    }
-   },
-   "last_win": "2026-09-01",
-   "wins": [
-    {
-     "field": "토적·재취",
-     "amount": 338800000,
-     "org": "강원특별자치도 양구군",
-     "date": "2026-09-01",
-     "no": "R26BK01706816",
-     "title": "양구군 토지적성평가 및 재해취약성 분석 용역 재공고(협상에 의한 계약",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 240000000,
-     "org": "강원특별자치도 속초시",
-     "date": "2026-06-08",
-     "no": "R26BK01567209",
-     "title": "속초시 토지적성평가 및 재해취약성분석 용역(협상에 의한 계약)(긴급)",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 192000000,
-     "org": "강원특별자치도 원주시",
-     "date": "2025-04-02",
-     "no": "R25BK00746355",
-     "title": "원주시 국토이용정보체계(UPIS KLIP)  DB현행화 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "연속도면·연속주제도",
-     "amount": 190000000,
-     "org": "강원특별자치도 영월군",
-     "date": "2024-05-14",
-     "no": "20240517646",
-     "title": "연속지적도 정비 사업 공고(협상에 의한 계약, 긴급)",
-     "src": "xlsx:공간정보5년"
+     "amount": null,
+     "org": "한국국토정보공사",
+     "date": "2024-09-04",
+     "no": "20240903378",
+     "title": "도로대장을 활용한 도로관리 서비스 시범사업",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 522400000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -1057,15 +1774,21 @@
     "주식회사 알라딘정보기술"
    ],
    "win_count": 4,
-   "win_amount": 543070000,
+   "win_amount": 378400000,
+   "win_amount_unknown": 164670000,
+   "share_unknown_wins": 1,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 3,
-     "amount": 345070000
+     "amount": 180400000,
+     "amount_unknown": 164670000,
+     "n_unknown": 1
     },
     "토적·재취": {
      "n": 1,
-     "amount": 198000000
+     "amount": 198000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-08-07",
@@ -1077,7 +1800,12 @@
      "date": "2026-08-07",
      "no": "R26BK01671346",
      "title": "2026년 진도군 국토이용정보통합플랫폼(KLIP) 운영사업 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
@@ -1086,7 +1814,12 @@
      "date": "2026-04-27",
      "no": "R26BK01487825",
      "title": "장성군 토지적성평가 및 재해취약성 분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "UPIS·KLIP DB",
@@ -1095,16 +1828,26 @@
      "date": "2026-02-02",
      "no": "R26BK01310699",
      "title": "2026년 시흥시 국토이용정보체계(KLIP.UPIS) DB현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "UPIS·KLIP DB",
-     "amount": 164670000,
+     "amount": null,
      "org": "전남광주통합특별시 영광군",
      "date": "2025-07-02",
      "no": "R25BK00937168",
      "title": "영광군 국토이용정보통합플랫폼(KLIP) DB현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 164670000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -1117,14 +1860,20 @@
    ],
    "win_count": 4,
    "win_amount": 234400000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 2,
-     "amount": 174400000
+     "amount": 174400000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     },
     "연속도면·연속주제도": {
      "n": 2,
-     "amount": 60000000
+     "amount": 60000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-02-23",
@@ -1136,7 +1885,12 @@
      "date": "2026-02-23",
      "no": "R26BK01348003",
      "title": "아산시 국토이용정보통합플랫폼(KLIP) DB유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "UPIS·KLIP DB",
@@ -1145,7 +1899,12 @@
      "date": "2025-03-12",
      "no": "R25BK00706852",
      "title": "국토이용정보통합플랫폼(KLIP) DB유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "연속도면·연속주제도",
@@ -1154,7 +1913,12 @@
      "date": "2025-02-06",
      "no": "R25BK00623804",
      "title": "지적재조사 완료지구 연속지적도 및 용도지역·지구 DB 정비용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "연속도면·연속주제도",
@@ -1163,66 +1927,168 @@
      "date": "2024-06-26",
      "no": "20240635860",
      "title": "아산시 지적재조사사업 완료에 따른 연속지적도 및 용도지역·지구 DB정비 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
   },
   {
-   "key": "한토공간기술",
-   "display": "주식회사 한토공간기술",
+   "key": "디아이브릿지",
+   "display": "디아이브릿지 주식회사",
    "raw_names": [
-    "주식회사 한토공간기술"
+    "디아이브릿지 주식회사"
    ],
    "win_count": 4,
-   "win_amount": 218118900,
+   "win_amount": 190000000,
+   "win_amount_unknown": 770800000,
+   "share_unknown_wins": 3,
    "by_field": {
-    "도로대장": {
-     "n": 1,
-     "amount": 54171000
+    "토적·재취": {
+     "n": 2,
+     "amount": 0,
+     "amount_unknown": 578800000,
+     "n_unknown": 2
     },
     "UPIS·KLIP DB": {
-     "n": 3,
-     "amount": 163947900
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 192000000,
+     "n_unknown": 1
+    },
+    "연속도면·연속주제도": {
+     "n": 1,
+     "amount": 190000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
-   "last_win": "2026-06-11",
+   "last_win": "2026-09-01",
+   "wins": [
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "강원특별자치도 양구군",
+     "date": "2026-09-01",
+     "no": "R26BK01706816",
+     "title": "양구군 토지적성평가 및 재해취약성 분석 용역 재공고(협상에 의한 계약",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 338800000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "강원특별자치도 속초시",
+     "date": "2026-06-08",
+     "no": "R26BK01567209",
+     "title": "속초시 토지적성평가 및 재해취약성분석 용역(협상에 의한 계약)(긴급)",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 240000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": null,
+     "org": "강원특별자치도 원주시",
+     "date": "2025-04-02",
+     "no": "R25BK00746355",
+     "title": "원주시 국토이용정보체계(UPIS KLIP)  DB현행화 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 192000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "연속도면·연속주제도",
+     "amount": 190000000,
+     "org": "강원특별자치도 영월군",
+     "date": "2024-05-14",
+     "no": "20240517646",
+     "title": "연속지적도 정비 사업 공고(협상에 의한 계약, 긴급)",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "삼인공간정보",
+   "display": "주식회사 삼인공간정보",
+   "raw_names": [
+    "주식회사 삼인공간정보"
+   ],
+   "win_count": 3,
+   "win_amount": 632008000,
+   "win_amount_unknown": 620000000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 3,
+     "amount": 632008000,
+     "amount_unknown": 620000000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-06-12",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 54171000,
-     "org": "경상남도 동부도로관리사업소",
-     "date": "2026-06-11",
-     "no": "R26BK01573980",
-     "title": "2026년 도로대장 관리시스템 유지관리용역",
-     "src": "xlsx:도로대장3년"
+     "amount": 358600000,
+     "org": "충청북도 영동군",
+     "date": "2026-06-12",
+     "no": "R26BK01576929",
+     "title": "영동군 군도 도로대장 전산화 구축용역",
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
-     "field": "UPIS·KLIP DB",
-     "amount": 54478000,
-     "org": "경상남도 통영시",
-     "date": "2026-03-18",
-     "no": "R26BK01404641",
-     "title": "2026년 통영시 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
-     "src": "xlsx:공간정보5년"
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상남도 김해시",
+     "date": "2026-04-07",
+     "no": "R26BK01449122",
+     "title": "김해시 도로대장 전산화 용역(협상에 의한 계약)_긴급",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 620000000,
+     "note": "구성원 4곳 중 지분율 미기재"
     },
     {
-     "field": "UPIS·KLIP DB",
-     "amount": 70028900,
-     "org": "경상남도 양산시",
-     "date": "2025-02-04",
-     "no": "R25BK00615725",
-     "title": "2025년 국토이용정보체계(UPIS, KLIP) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 39441000,
-     "org": "경상남도 거제시",
-     "date": "2025-02-03",
-     "no": "R25BK00598068",
-     "title": "2025년 거제시 도시계획정보체계(UPIS) 유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "field": "도로대장",
+     "amount": 273408000,
+     "org": "경상북도 영주시",
+     "date": "2025-09-26",
+     "no": "R25BK01080508",
+     "title": "[협상에 의한 계약] 영주시 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 30,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -1234,41 +2100,60 @@
     "주식회사 산들이엔지"
    ],
    "win_count": 3,
-   "win_amount": 2363200000,
+   "win_amount": 510080000,
+   "win_amount_unknown": 1088000000,
+   "share_unknown_wins": 1,
    "by_field": {
     "도로대장": {
      "n": 3,
-     "amount": 2363200000
+     "amount": 510080000,
+     "amount_unknown": 1088000000,
+     "n_unknown": 1
     }
    },
    "last_win": "2026-04-28",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 653000000,
+     "amount": 261200000,
      "org": "경상남도 의령군",
      "date": "2026-04-28",
      "no": "R26BK01492780",
      "title": "의령군 도로대장 전산화 구축용역(협상에 의한 계약)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 622200000,
+     "amount": 248880000,
      "org": "경상남도 밀양시",
      "date": "2025-09-23",
      "no": "R25BK01071000",
      "title": "밀양시 도로대장 전산화 용역(협상에 의한 계약)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 1088000000,
+     "amount": null,
      "org": "경상남도 진주시",
      "date": "2025-07-02",
      "no": "R25BK00939371",
      "title": "진주시 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 1088000000,
+     "note": "공고가 공동수급을 허용(혼합방식)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -1280,41 +2165,60 @@
     "주식회사 신한항업"
    ],
    "win_count": 3,
-   "win_amount": 899860000,
+   "win_amount": 268950000,
+   "win_amount_unknown": 764860000,
+   "share_unknown_wins": 2,
    "by_field": {
     "도로대장": {
      "n": 3,
-     "amount": 899860000
+     "amount": 268950000,
+     "amount_unknown": 764860000,
+     "n_unknown": 2
     }
    },
-   "last_win": "2026-06-16",
+   "last_win": "2026-06-12",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 135000000,
-     "org": "경기도청 북부청사",
-     "date": "2026-06-16",
-     "no": "R26BK01585057",
-     "title": "2026년 경기도 도로대장 DB 통합관리체계 호환성 확보 용역",
-     "src": "xlsx:도로대장3년"
+     "amount": 268950000,
+     "org": "충청북도 영동군",
+     "date": "2026-06-12",
+     "no": "R26BK01576929",
+     "title": "영동군 군도 도로대장 전산화 구축용역",
+     "src": "xlsx:도로대장3년",
+     "share": 30,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 620000000,
+     "amount": null,
      "org": "경상남도 김해시",
      "date": "2026-04-07",
      "no": "R26BK01449122",
      "title": "김해시 도로대장 전산화 용역(협상에 의한 계약)_긴급",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 620000000,
+     "note": "구성원 4곳 중 지분율 미기재"
     },
     {
      "field": "도로대장",
-     "amount": 144860000,
+     "amount": null,
      "org": "경기도청 북부청사",
      "date": "2025-05-08",
      "no": "R25BK00834719",
      "title": "2025년 경기도 도로대장 DB 통합관리체계 호환성 확보 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 144860000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -1326,15 +2230,21 @@
     "(주)태영정보시스템"
    ],
    "win_count": 3,
-   "win_amount": 315366000,
+   "win_amount": 228142000,
+   "win_amount_unknown": 87224000,
+   "share_unknown_wins": 1,
    "by_field": {
     "도로대장": {
      "n": 2,
-     "amount": 284776000
+     "amount": 197552000,
+     "amount_unknown": 87224000,
+     "n_unknown": 1
     },
     "연속도면·연속주제도": {
      "n": 1,
-     "amount": 30590000
+     "amount": 30590000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-06-04",
@@ -1346,16 +2256,26 @@
      "date": "2025-06-04",
      "no": "R25BK00881227",
      "title": "태안군 도로대장정비 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "도로대장",
-     "amount": 87224000,
+     "amount": null,
      "org": "충청남도 서산시",
      "date": "2025-05-14",
      "no": "R25BK00846353",
      "title": "서산시 도로대장 전산화(시범사업) 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 87224000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     },
     {
      "field": "연속도면·연속주제도",
@@ -1364,7 +2284,142 @@
      "date": "2024-08-02",
      "no": "20240802106",
      "title": "지적재조사지구 연속지적도 및 용도지역, 지구 DB정비 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "중앙지도",
+   "display": "주식회사 중앙지도",
+   "raw_names": [
+    "주식회사 중앙지도"
+   ],
+   "win_count": 3,
+   "win_amount": 197330000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 3,
+     "amount": 197330000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-10-26",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 84550000,
+     "org": "인천광역시 경제자유구역청",
+     "date": "2026-10-26",
+     "no": "R26BK01790064",
+     "title": "송도11-1공구 기반시설 건설공사 도로대장 작성 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": 89100000,
+     "org": "강원특별자치도 양양군",
+     "date": "2026-08-19",
+     "no": "R26BK01685713",
+     "title": "양양군 도로대장 전산화 사업",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": 23680000,
+     "org": "대구광역시 군위군",
+     "date": "2026-05-07",
+     "no": "R26BK01509638",
+     "title": "2026년 군위군 도로대장 전산화 생성 용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "프리다임",
+   "display": "주식회사 프리다임",
+   "raw_names": [
+    "주식회사 프리다임"
+   ],
+   "win_count": 3,
+   "win_amount": 180000000,
+   "win_amount_unknown": 313500000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 3,
+     "amount": 180000000,
+     "amount_unknown": 313500000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-06-16",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 27000000,
+     "org": "경기도청 북부청사",
+     "date": "2026-06-16",
+     "no": "R26BK01585057",
+     "title": "2026년 경기도 도로대장 DB 통합관리체계 호환성 확보 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": 153000000,
+     "org": "한국국토정보공사",
+     "date": "2026-04-28",
+     "no": "R26BK01493321",
+     "title": "2026년 도로대장 정보시스템 운영 및 유지관리",
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "한국국토정보공사",
+     "date": "2024-09-05",
+     "no": "20240904391",
+     "title": "2024년 도로대장 정보시스템(KRRIS) 운영 및 유지관리 용역",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 313500000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -1377,14 +2432,20 @@
    ],
    "win_count": 3,
    "win_amount": 163000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "연속도면·연속주제도": {
      "n": 2,
-     "amount": 83900000
+     "amount": 83900000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     },
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 79100000
+     "amount": 79100000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-03-04",
@@ -1396,7 +2457,12 @@
      "date": "2025-03-04",
      "no": "R25BK00683273",
      "title": "지적재조사 완료지구 연속지적도 및 용도지역‧지구 DB 정비",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "연속도면·연속주제도",
@@ -1405,7 +2471,12 @@
      "date": "2024-07-09",
      "no": "20240712225",
      "title": "지적재조사 완료지구 연속지적도 및 용도지역·지구 DB 정비용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "UPIS·KLIP DB",
@@ -1414,7 +2485,83 @@
      "date": "2024-03-12",
      "no": "20240317262",
      "title": "국토이용정보통합플랫폼(KLIP) DB유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "디엔아이시스템",
+   "display": "주식회사 디엔아이시스템",
+   "raw_names": [
+    "주식회사 디엔아이시스템"
+   ],
+   "win_count": 3,
+   "win_amount": 74134000,
+   "win_amount_unknown": 920260000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 920260000,
+     "n_unknown": 1
+    },
+    "UPIS·KLIP DB": {
+     "n": 2,
+     "amount": 74134000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-05-29",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "충청남도 홍성군",
+     "date": "2026-05-29",
+     "no": "R26BK01551318",
+     "title": "홍성군 도로대장 전산화 용역 제안서 제출안내 재공고(협상에 의한 계약)(긴급)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 920260000,
+     "note": "구성원 3곳 중 지분율 미기재"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 37042000,
+     "org": "경기도 안양시",
+     "date": "2025-02-20",
+     "no": "R25BK00659021",
+     "title": "2025년 안양시 도시계획정보체계(UPIS) DB 유지보수 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 37092000,
+     "org": "경기도 안양시",
+     "date": "2024-04-22",
+     "no": "20240434590",
+     "title": "안양시 도시계획정보체계(UPIS) DB 유지보수 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -1427,10 +2574,14 @@
    ],
    "win_count": 3,
    "win_amount": 66310000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 3,
-     "amount": 66310000
+     "amount": 66310000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-09-14",
@@ -1442,7 +2593,12 @@
      "date": "2026-09-14",
      "no": "R26BK01729115",
      "title": "군도8호선(선행교회 일원) 위험도로 구조개선공사 공공측량 및 도로대장 작성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -1451,7 +2607,12 @@
      "date": "2026-07-10",
      "no": "R26BK01628210",
      "title": "군도7호선(상도1리마을회관~신촌간) 도로확포장공사 공공측량 및 도로대장 작성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -1460,85 +2621,114 @@
      "date": "2025-08-22",
      "no": "R25BK01020186",
      "title": "양사면사무소 일원 보행환경 개선공사 공공측량 및 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
   },
   {
-   "key": "산들지리정보",
-   "display": "주식회사 산들지리정보",
+   "key": "대국지에스",
+   "display": "주식회사 대국지에스",
    "raw_names": [
-    "주식회사 산들지리정보"
+    "주식회사 대국지에스"
    ],
    "win_count": 2,
-   "win_amount": 1600000000,
-   "by_field": {
-    "도로대장": {
-     "n": 1,
-     "amount": 900000000
-    },
-    "용도지역지구 DB정비": {
-     "n": 1,
-     "amount": 700000000
-    }
-   },
-   "last_win": "2024-07-30",
-   "wins": [
-    {
-     "field": "용도지역지구 DB정비",
-     "amount": 700000000,
-     "org": "강원특별자치도 평창군",
-     "date": "2024-07-30",
-     "no": "20240736163",
-     "title": "평창군 공간자료(용도지역 지구) DB정비 사업(긴급)",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "도로대장",
-     "amount": 900000000,
-     "org": "경기도 화성시",
-     "date": "2024-06-28",
-     "no": "20240638817",
-     "title": "화성시 농어촌도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "엘티메트릭",
-   "display": "엘티메트릭 주식회사",
-   "raw_names": [
-    "엘티메트릭 주식회사"
-   ],
-   "win_count": 2,
-   "win_amount": 998560000,
+   "win_amount": 742425000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 1,
    "by_field": {
     "도로대장": {
      "n": 2,
-     "amount": 998560000
+     "amount": 742425000,
+     "amount_unknown": 0,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-03-25",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상남도 함안군",
+     "date": "2026-03-25",
+     "no": "R26BK01418962",
+     "title": "함안군 도로대장 구축 및 전산화 용역 (협상에의한계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 0,
+     "note": "지분율 합계 500%"
+    },
+    {
+     "field": "도로대장",
+     "amount": 742425000,
+     "org": "경상남도 창녕군",
+     "date": "2025-08-11",
+     "no": "R25BK01000484",
+     "title": "창녕군 도로대장 전산화 및 관리시스템 구축사업",
+     "src": "xlsx:도로대장3년",
+     "share": 50,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "정원지리정보",
+   "display": "주식회사정원지리정보",
+   "raw_names": [
+    "주식회사정원지리정보"
+   ],
+   "win_count": 2,
+   "win_amount": 422800000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 422800000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-10-16",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 200000000,
+     "amount": 40000000,
      "org": "경상남도 하동군",
      "date": "2026-10-16",
      "no": "R26BK01775480",
      "title": "하동군 군도 및 농어촌도로 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 798560000,
-     "org": "경상북도 의성군",
-     "date": "2024-10-22",
-     "no": "20241024154",
-     "title": "의성군 도로대장 전산화 구축 용역(협상에의한계약)(긴급)",
-     "src": "xlsx:도로대장3년"
+     "amount": 382800000,
+     "org": "경상남도 거제시",
+     "date": "2025-08-18",
+     "no": "R25BK01012653",
+     "title": "거제시 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 44,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -1550,23 +2740,32 @@
     "새한항업(주)"
    ],
    "win_count": 2,
-   "win_amount": 968156700,
+   "win_amount": 421340700,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 2,
-     "amount": 968156700
+     "amount": 421340700,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-09-26",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 911360000,
+     "amount": 364544000,
      "org": "경상북도 영주시",
      "date": "2025-09-26",
      "no": "R25BK01080508",
      "title": "[협상에 의한 계약] 영주시 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -1575,122 +2774,12 @@
      "date": "2024-06-28",
      "no": "20240638735",
      "title": "2024년 충청북도 도로대장 관리시스템 유지관리용역",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "올포랜드",
-   "display": "주식회사 올포랜드",
-   "raw_names": [
-    "주식회사 올포랜드"
-   ],
-   "win_count": 2,
-   "win_amount": 826400000,
-   "by_field": {
-    "도로대장": {
-     "n": 2,
-     "amount": 826400000
-    }
-   },
-   "last_win": "2026-06-19",
-   "wins": [
-    {
-     "field": "도로대장",
-     "amount": 304000000,
-     "org": "전북특별자치도 전주시",
-     "date": "2026-06-19",
-     "no": "R26BK01593258",
-     "title": "전주시 도로대장 전산화 시범구축 및 도로구역 결정 용역(협상에의한계약)",
-     "src": "xlsx:도로대장3년"
-    },
-    {
-     "field": "도로대장",
-     "amount": 522400000,
-     "org": "한국국토정보공사",
-     "date": "2024-09-04",
-     "no": "20240903378",
-     "title": "도로대장을 활용한 도로관리 서비스 시범사업",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "프리다임",
-   "display": "주식회사 프리다임",
-   "raw_names": [
-    "주식회사 프리다임"
-   ],
-   "win_count": 2,
-   "win_amount": 466500000,
-   "by_field": {
-    "도로대장": {
-     "n": 2,
-     "amount": 466500000
-    }
-   },
-   "last_win": "2026-04-28",
-   "wins": [
-    {
-     "field": "도로대장",
-     "amount": 153000000,
-     "org": "한국국토정보공사",
-     "date": "2026-04-28",
-     "no": "R26BK01493321",
-     "title": "2026년 도로대장 정보시스템 운영 및 유지관리",
-     "src": "xlsx:도로대장3년"
-    },
-    {
-     "field": "도로대장",
-     "amount": 313500000,
-     "org": "한국국토정보공사",
-     "date": "2024-09-05",
-     "no": "20240904391",
-     "title": "2024년 도로대장 정보시스템(KRRIS) 운영 및 유지관리 용역",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "신명유아이",
-   "display": "신명유아이주식회사",
-   "raw_names": [
-    "신명유아이주식회사"
-   ],
-   "win_count": 2,
-   "win_amount": 389198000,
-   "by_field": {
-    "UPIS·KLIP DB": {
-     "n": 1,
-     "amount": 52898000
-    },
-    "토적·재취": {
-     "n": 1,
-     "amount": 336300000
-    }
-   },
-   "last_win": "2026-02-10",
-   "wins": [
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 52898000,
-     "org": "전남광주통합특별시 완도군",
-     "date": "2026-02-10",
-     "no": "R26BK01317836",
-     "title": "2026년 완도군 국토이용정보통합플랫폼(KLIP) 운영사업 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 336300000,
-     "org": "전남광주통합특별시 함평군",
-     "date": "2025-05-08",
-     "no": "R25BK00831570",
-     "title": "토지적성평가 및 재해취약성분석 용역(협상에 의한 계약)",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -1703,10 +2792,14 @@
    ],
    "win_count": 2,
    "win_amount": 338612000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 2,
-     "amount": 338612000
+     "amount": 338612000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-04-02",
@@ -1718,7 +2811,12 @@
      "date": "2026-04-02",
      "no": "R26BK01440156",
      "title": "2026년 울산광역시 남구 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -1727,7 +2825,114 @@
      "date": "2024-02-06",
      "no": "20240207054",
      "title": "2024년 광역시도 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "아이씨티웨이",
+   "display": "아이씨티웨이 주식회사",
+   "raw_names": [
+    "아이씨티웨이 주식회사"
+   ],
+   "win_count": 2,
+   "win_amount": 314950000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 314950000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-07-27",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 46000000,
+     "org": "한국국토정보공사",
+     "date": "2026-07-27",
+     "no": "R26BK01651823",
+     "title": "도로대장 통합관리체계 상세설계 고도화",
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": 268950000,
+     "org": "충청북도 영동군",
+     "date": "2026-06-12",
+     "no": "R26BK01576929",
+     "title": "영동군 군도 도로대장 전산화 구축용역",
+     "src": "xlsx:도로대장3년",
+     "share": 30,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "동영기술단",
+   "display": "주식회사 동영기술단",
+   "raw_names": [
+    "주식회사 동영기술단"
+   ],
+   "win_count": 2,
+   "win_amount": 303046000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 303046000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2025-09-23",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 248880000,
+     "org": "경상남도 밀양시",
+     "date": "2025-09-23",
+     "no": "R25BK01071000",
+     "title": "밀양시 도로대장 전산화 용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": 54166000,
+     "org": "경상남도 동부도로관리사업소",
+     "date": "2025-04-15",
+     "no": "R25BK00786920",
+     "title": "2025년 도로대장 관리시스템 유지관리용역",
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -1740,10 +2945,14 @@
    ],
    "win_count": 2,
    "win_amount": 267000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 2,
-     "amount": 267000000
+     "amount": 267000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2023-12-28",
@@ -1755,7 +2964,12 @@
      "date": "2023-12-28",
      "no": "20231244494",
      "title": "2024년 도시계획정보체계(UPIS) 현행화 및 서비스 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "UPIS·KLIP DB",
@@ -1764,48 +2978,12 @@
      "date": "2023-12-12",
      "no": "20231216260",
      "title": "2024 창원시 UPIS 현행화 및 유지보수 용역",
-     "src": "xlsx:공간정보5년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "드림공간정보",
-   "display": "주식회사 드림공간정보",
-   "raw_names": [
-    "주식회사 드림공간정보"
-   ],
-   "win_count": 2,
-   "win_amount": 241150000,
-   "by_field": {
-    "UPIS·KLIP DB": {
-     "n": 1,
-     "amount": 32340000
-    },
-    "토적·재취": {
-     "n": 1,
-     "amount": 208810000
-    }
-   },
-   "last_win": "2026-02-06",
-   "wins": [
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 32340000,
-     "org": "전북특별자치도 익산시",
-     "date": "2026-02-06",
-     "no": "R26BK01322506",
-     "title": "국토이용정보 통합플랫폼(KLIP) 구축 및 유지관리 용역",
-     "src": "xlsx:공간정보5년"
-    },
-    {
-     "field": "토적·재취",
-     "amount": 208810000,
-     "org": "전북특별자치도 순창군",
-     "date": "2024-02-14",
-     "no": "20240215858",
-     "title": "토지적성평가 및 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -1818,10 +2996,14 @@
    ],
    "win_count": 2,
    "win_amount": 238183660,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "토적·재취": {
      "n": 2,
-     "amount": 238183660
+     "amount": 238183660,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-11-10",
@@ -1833,7 +3015,12 @@
      "date": "2026-11-10",
      "no": "R26BK01822074",
      "title": "구미 도시 기후변화 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "토적·재취",
@@ -1842,7 +3029,12 @@
      "date": "2026-10-20",
      "no": "R26BK01781975",
      "title": "광양시 도시관리계획 토지적성평가 및 재해취약성 분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -1855,10 +3047,14 @@
    ],
    "win_count": 2,
    "win_amount": 202328000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 2,
-     "amount": 202328000
+     "amount": 202328000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-02-20",
@@ -1870,7 +3066,12 @@
      "date": "2026-02-20",
      "no": "R26BK01345333",
      "title": "2026년 광역시도 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -1879,7 +3080,12 @@
      "date": "2024-12-13",
      "no": "20241224155",
      "title": "덕하시장~석유화학단지간(중1-107) 도로개설공사 GIS DB구축 및 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -1892,10 +3098,14 @@
    ],
    "win_count": 2,
    "win_amount": 173874000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 2,
-     "amount": 173874000
+     "amount": 173874000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-02-06",
@@ -1907,7 +3117,12 @@
      "date": "2025-02-06",
      "no": "R25BK00620442",
      "title": "국토이용정보체계(KLIP) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "UPIS·KLIP DB",
@@ -1916,44 +3131,12 @@
      "date": "2024-01-24",
      "no": "20240126733",
      "title": "국토이용정보체계(KLIP) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "명시스템",
-   "display": "(주)명시스템",
-   "raw_names": [
-    "(주)명시스템"
-   ],
-   "win_count": 2,
-   "win_amount": 147526000,
-   "by_field": {
-    "최근 공고": {
-     "n": 2,
-     "amount": 147526000
-    }
-   },
-   "last_win": "2026-11-04",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 79723000.0,
-     "org": null,
-     "date": "2026-11-04",
-     "no": "R26BK01798973",
-     "title": null,
-     "src": "enriched"
-    },
-    {
-     "field": "최근 공고",
-     "amount": 67803000.0,
-     "org": null,
-     "date": "2026-11-03",
-     "no": "R26BK01792945",
-     "title": null,
-     "src": "enriched"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -1966,10 +3149,14 @@
    ],
    "win_count": 2,
    "win_amount": 132200000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 2,
-     "amount": 132200000
+     "amount": 132200000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-03-10",
@@ -1981,7 +3168,12 @@
      "date": "2026-03-10",
      "no": "R26BK01381682",
      "title": "상주시 국토이용정보체계(UPIS, KLIP) DB현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "UPIS·KLIP DB",
@@ -1990,89 +3182,63 @@
      "date": "2025-02-11",
      "no": "R25BK00633252",
      "title": "상주시 국토이용정보체계(UPIS, KLIP) DB현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
   },
   {
-   "key": "코아콤",
-   "display": "주식회사 코아콤",
+   "key": "앤엑스플로어",
+   "display": "앤엑스플로어(주)",
    "raw_names": [
-    "주식회사 코아콤"
+    "앤엑스플로어(주)"
    ],
    "win_count": 2,
-   "win_amount": 120460000,
-   "by_field": {
-    "UPIS·KLIP DB": {
-     "n": 1,
-     "amount": 87010000
-    },
-    "최근 공고": {
-     "n": 1,
-     "amount": 33450000
-    }
-   },
-   "last_win": "2026-11-05",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 33450000.0,
-     "org": null,
-     "date": "2026-11-05",
-     "no": "R26BK01809913",
-     "title": null,
-     "src": "enriched"
-    },
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 87010000,
-     "org": "충청북도 청주시",
-     "date": "2026-01-15",
-     "no": "R26BK01276210",
-     "title": "2026년 국토이용정보체계(KLIP) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "지오버스",
-   "display": "주식회사 지오버스",
-   "raw_names": [
-    "주식회사 지오버스"
-   ],
-   "win_count": 2,
-   "win_amount": 88720900,
+   "win_amount": 130600000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 1,
    "by_field": {
     "도로대장": {
-     "n": 1,
-     "amount": 55600000
-    },
-    "용도지역지구 DB정비": {
-     "n": 1,
-     "amount": 33120900
+     "n": 2,
+     "amount": 130600000,
+     "amount_unknown": 0,
+     "n_unknown": 1
     }
    },
-   "last_win": "2026-08-21",
+   "last_win": "2026-04-28",
    "wins": [
     {
-     "field": "용도지역지구 DB정비",
-     "amount": 33120900,
-     "org": "강원특별자치도 양구군",
-     "date": "2026-08-21",
-     "no": "R26BK01692456",
-     "title": "과년도 지적재조사사업 완료지구 용도지역지구 도면정비 용역",
-     "src": "xlsx:공간정보5년"
+     "field": "도로대장",
+     "amount": 130600000,
+     "org": "경상남도 의령군",
+     "date": "2026-04-28",
+     "no": "R26BK01492780",
+     "title": "의령군 도로대장 전산화 구축용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
-     "amount": 55600000,
-     "org": "한국국토정보공사 대구경북지역본부",
-     "date": "2026-08-20",
-     "no": "R26BK01690529",
-     "title": "청송군 디지털 도로대장 구축",
-     "src": "xlsx:도로대장3년"
+     "amount": null,
+     "org": "경상남도 함안군",
+     "date": "2026-03-25",
+     "no": "R26BK01418962",
+     "title": "함안군 도로대장 구축 및 전산화 용역 (협상에의한계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 0,
+     "note": "지분율 합계 500%"
     }
    ],
    "is_self": false
@@ -2085,10 +3251,14 @@
    ],
    "win_count": 2,
    "win_amount": 88071600,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 2,
-     "amount": 88071600
+     "amount": 88071600,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-03-12",
@@ -2100,7 +3270,12 @@
      "date": "2025-03-12",
      "no": "R25BK00706613",
      "title": "2025년 통영시 국토이용정보 통합플랫폼(KLIP) 운영지원 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "UPIS·KLIP DB",
@@ -2109,44 +3284,120 @@
      "date": "2024-01-18",
      "no": "20240118150",
      "title": "2024년 도시계획정보체계(UPIS) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
   },
   {
-   "key": "디엔아이시스템",
-   "display": "주식회사 디엔아이시스템",
+   "key": "코아콤",
+   "display": "주식회사 코아콤",
    "raw_names": [
-    "주식회사 디엔아이시스템"
+    "주식회사 코아콤"
    ],
    "win_count": 2,
-   "win_amount": 74134000,
+   "win_amount": 87010000,
+   "win_amount_unknown": 33450000,
+   "share_unknown_wins": 1,
    "by_field": {
     "UPIS·KLIP DB": {
-     "n": 2,
-     "amount": 74134000
+     "n": 1,
+     "amount": 87010000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    },
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 33450000,
+     "n_unknown": 1
     }
    },
-   "last_win": "2025-02-20",
+   "last_win": "2026-11-05",
    "wins": [
     {
-     "field": "UPIS·KLIP DB",
-     "amount": 37042000,
-     "org": "경기도 안양시",
-     "date": "2025-02-20",
-     "no": "R25BK00659021",
-     "title": "2025년 안양시 도시계획정보체계(UPIS) DB 유지보수 용역",
-     "src": "xlsx:공간정보5년"
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-05",
+     "no": "R26BK01809913",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 33450000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
     },
     {
      "field": "UPIS·KLIP DB",
-     "amount": 37092000,
-     "org": "경기도 안양시",
-     "date": "2024-04-22",
-     "no": "20240434590",
-     "title": "안양시 도시계획정보체계(UPIS) DB 유지보수 용역",
-     "src": "xlsx:공간정보5년"
+     "amount": 87010000,
+     "org": "충청북도 청주시",
+     "date": "2026-01-15",
+     "no": "R26BK01276210",
+     "title": "2026년 국토이용정보체계(KLIP) DB 현행화 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "엘티메트릭",
+   "display": "엘티메트릭 주식회사",
+   "raw_names": [
+    "엘티메트릭 주식회사"
+   ],
+   "win_count": 2,
+   "win_amount": 80000000,
+   "win_amount_unknown": 798560000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 80000000,
+     "amount_unknown": 798560000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-10-16",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 80000000,
+     "org": "경상남도 하동군",
+     "date": "2026-10-16",
+     "no": "R26BK01775480",
+     "title": "하동군 군도 및 농어촌도로 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상북도 의성군",
+     "date": "2024-10-22",
+     "no": "20241024154",
+     "title": "의성군 도로대장 전산화 구축 용역(협상에의한계약)(긴급)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 798560000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -2159,10 +3410,14 @@
    ],
    "win_count": 2,
    "win_amount": 72332800,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 2,
-     "amount": 72332800
+     "amount": 72332800,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-09-14",
@@ -2174,7 +3429,12 @@
      "date": "2026-09-14",
      "no": "R26BK01729111",
      "title": "군도16호선(창후포구~창후리) 위험도로 구조개선공사 공공측량 및 도로대장 작성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "도로대장",
@@ -2183,7 +3443,12 @@
      "date": "2026-02-09",
      "no": "R26BK01327183",
      "title": "공공측량 및 도로대장 전산화 용역(길정리 보행환경 개선공사 외 1)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2196,10 +3461,14 @@
    ],
    "win_count": 2,
    "win_amount": 67558000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 2,
-     "amount": 67558000
+     "amount": 67558000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-12-08",
@@ -2211,7 +3480,12 @@
      "date": "2025-12-08",
      "no": "R25BK01211556",
      "title": "2026년 김천시 KLIP(국토이용정보 통합플랫폼) 주제도 유지보수 용역 시행",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     },
     {
      "field": "UPIS·KLIP DB",
@@ -2220,7 +3494,177 @@
      "date": "2025-01-16",
      "no": "R25BK00585699",
      "title": "2025년 김천시 KLIP(국토이용정보 통합플랫폼) 주제도 등 및 부동산종합공부시스템 전산공부 유지보수 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "소다시스템",
+   "display": "(주)소다시스템",
+   "raw_names": [
+    "(주)소다시스템"
+   ],
+   "win_count": 2,
+   "win_amount": 65300000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 65300000,
+     "amount_unknown": 0,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-04-28",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 65300000,
+     "org": "경상남도 의령군",
+     "date": "2026-04-28",
+     "no": "R26BK01492780",
+     "title": "의령군 도로대장 전산화 구축용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상남도 함안군",
+     "date": "2026-03-25",
+     "no": "R26BK01418962",
+     "title": "함안군 도로대장 구축 및 전산화 용역 (협상에의한계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 0,
+     "note": "지분율 합계 500%"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "지오버스",
+   "display": "주식회사 지오버스",
+   "raw_names": [
+    "주식회사 지오버스"
+   ],
+   "win_count": 2,
+   "win_amount": 63700900,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 30580000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    },
+    "용도지역지구 DB정비": {
+     "n": 1,
+     "amount": 33120900,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-08-21",
+   "wins": [
+    {
+     "field": "용도지역지구 DB정비",
+     "amount": 33120900,
+     "org": "강원특별자치도 양구군",
+     "date": "2026-08-21",
+     "no": "R26BK01692456",
+     "title": "과년도 지적재조사사업 완료지구 용도지역지구 도면정비 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": 30580000,
+     "org": "한국국토정보공사 대구경북지역본부",
+     "date": "2026-08-20",
+     "no": "R26BK01690529",
+     "title": "청송군 디지털 도로대장 구축",
+     "src": "xlsx:도로대장3년",
+     "share": 55,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "신명유아이",
+   "display": "신명유아이주식회사",
+   "raw_names": [
+    "신명유아이주식회사"
+   ],
+   "win_count": 2,
+   "win_amount": 52898000,
+   "win_amount_unknown": 336300000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "UPIS·KLIP DB": {
+     "n": 1,
+     "amount": 52898000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    },
+    "토적·재취": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 336300000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-02-10",
+   "wins": [
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 52898000,
+     "org": "전남광주통합특별시 완도군",
+     "date": "2026-02-10",
+     "no": "R26BK01317836",
+     "title": "2026년 완도군 국토이용정보통합플랫폼(KLIP) 운영사업 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "전남광주통합특별시 함평군",
+     "date": "2025-05-08",
+     "no": "R25BK00831570",
+     "title": "토지적성평가 및 재해취약성분석 용역(협상에 의한 계약)",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 336300000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -2233,10 +3677,14 @@
    ],
    "win_count": 2,
    "win_amount": 46840000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "용도지역지구 DB정비": {
      "n": 2,
-     "amount": 46840000
+     "amount": 46840000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-10-29",
@@ -2248,7 +3696,12 @@
      "date": "2024-10-29",
      "no": "20241032138",
      "title": "지적재조사사업 완료지구 용도지역지구 DB정비용역(광산1,2지구)",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     },
     {
      "field": "용도지역지구 DB정비",
@@ -2257,35 +3710,438 @@
      "date": "2024-01-30",
      "no": "20240133489",
      "title": "지적재조사사업 완료지구 용도지역지구 DB정비(송강1,2지구)",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
   },
   {
-   "key": "케이지엔지니어링종합건축사사무소",
-   "display": "주식회사 케이지엔지니어링종합건축사사무소",
+   "key": "엔지엘(ngl)",
+   "display": "주식회사 엔지엘(NGL)",
    "raw_names": [
-    "주식회사 케이지엔지니어링종합건축사사무소"
+    "주식회사 엔지엘(NGL)"
    ],
-   "win_count": 1,
-   "win_amount": 2077320000,
+   "win_count": 2,
+   "win_amount": 42500000,
+   "win_amount_unknown": 620000000,
+   "share_unknown_wins": 1,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 2077320000
+     "amount": 0,
+     "amount_unknown": 620000000,
+     "n_unknown": 1
+    },
+    "UPIS·KLIP DB": {
+     "n": 1,
+     "amount": 42500000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
-   "last_win": "2025-03-17",
+   "last_win": "2026-04-07",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 2077320000,
-     "org": "서울특별시",
-     "date": "2025-03-17",
-     "no": "R25BK00720742",
-     "title": "서울특별시도 도로대장 용역(강남)",
-     "src": "xlsx:도로대장3년"
+     "amount": null,
+     "org": "경상남도 김해시",
+     "date": "2026-04-07",
+     "no": "R26BK01449122",
+     "title": "김해시 도로대장 전산화 용역(협상에 의한 계약)_긴급",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 620000000,
+     "note": "구성원 4곳 중 지분율 미기재"
+    },
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 42500000,
+     "org": "경기도 파주시",
+     "date": "2024-02-13",
+     "no": "20240214008",
+     "title": "2024년 파주시 도시계획정보체계(UPIS) DB현행화 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "드림공간정보",
+   "display": "주식회사 드림공간정보",
+   "raw_names": [
+    "주식회사 드림공간정보"
+   ],
+   "win_count": 2,
+   "win_amount": 32340000,
+   "win_amount_unknown": 208810000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "UPIS·KLIP DB": {
+     "n": 1,
+     "amount": 32340000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    },
+    "토적·재취": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 208810000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-02-06",
+   "wins": [
+    {
+     "field": "UPIS·KLIP DB",
+     "amount": 32340000,
+     "org": "전북특별자치도 익산시",
+     "date": "2026-02-06",
+     "no": "R26BK01322506",
+     "title": "국토이용정보 통합플랫폼(KLIP) 구축 및 유지관리 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "전북특별자치도 순창군",
+     "date": "2024-02-14",
+     "no": "20240215858",
+     "title": "토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 208810000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "지오앤",
+   "display": "주식회사 지오앤",
+   "raw_names": [
+    "주식회사 지오앤"
+   ],
+   "win_count": 2,
+   "win_amount": 25020000,
+   "win_amount_unknown": 136000000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 25020000,
+     "amount_unknown": 136000000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-08-20",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 25020000,
+     "org": "한국국토정보공사 대구경북지역본부",
+     "date": "2026-08-20",
+     "no": "R26BK01690529",
+     "title": "청송군 디지털 도로대장 구축",
+     "src": "xlsx:도로대장3년",
+     "share": 45,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "국토교통부",
+     "date": "2024-06-28",
+     "no": "20240638437",
+     "title": "도로대장 통합관리체계 ISMP 수립",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 136000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "명시스템",
+   "display": "(주)명시스템",
+   "raw_names": [
+    "(주)명시스템"
+   ],
+   "win_count": 2,
+   "win_amount": 0,
+   "win_amount_unknown": 147526000,
+   "share_unknown_wins": 2,
+   "by_field": {
+    "최근 공고": {
+     "n": 2,
+     "amount": 0,
+     "amount_unknown": 147526000,
+     "n_unknown": 2
+    }
+   },
+   "last_win": "2026-11-04",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-04",
+     "no": "R26BK01798973",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 79723000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    },
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-03",
+     "no": "R26BK01792945",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 67803000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "우리종합기술",
+   "display": "(주)우리종합기술",
+   "raw_names": [
+    "(주)우리종합기술"
+   ],
+   "win_count": 2,
+   "win_amount": 0,
+   "win_amount_unknown": 1298440000,
+   "share_unknown_wins": 2,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 0,
+     "amount_unknown": 1298440000,
+     "n_unknown": 2
+    }
+   },
+   "last_win": "2026-06-02",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "전남광주통합특별시 영광군",
+     "date": "2026-06-02",
+     "no": "R26BK01555576",
+     "title": "영광군 디지털 도로대장 및 관리시스템 구축 용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 378440000,
+     "note": "구성원 3곳 중 지분율 미기재"
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "전남광주통합특별시 화순군",
+     "date": "2026-05-21",
+     "no": "R26BK01505700",
+     "title": "(정정공고)화순군 도로대장 전산화 및 관리시스템 구축 용역(협상)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 920000000,
+     "note": "구성원 3곳 중 지분율 미기재"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "해동기술개발공사",
+   "display": "(주)해동기술개발공사",
+   "raw_names": [
+    "(주)해동기술개발공사"
+   ],
+   "win_count": 2,
+   "win_amount": 0,
+   "win_amount_unknown": 3850000000,
+   "share_unknown_wins": 2,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 0,
+     "amount_unknown": 3850000000,
+     "n_unknown": 2
+    }
+   },
+   "last_win": "2026-10-02",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상북도 성주군",
+     "date": "2026-10-02",
+     "no": "R26BK01755768",
+     "title": "성주군 도로대장 작성 및 전산화 구축 용역(긴급)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 1450000000,
+     "note": "구성원 4곳 중 지분율 미기재"
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상북도 울진군",
+     "date": "2026-08-03",
+     "no": "R26BK01663328",
+     "title": "울진군 농어촌 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 2400000000,
+     "note": "구성원 3곳 중 지분율 미기재"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "동아기술공사",
+   "display": "주식회사 동아기술공사",
+   "raw_names": [
+    "주식회사 동아기술공사"
+   ],
+   "win_count": 2,
+   "win_amount": 0,
+   "win_amount_unknown": 1298440000,
+   "share_unknown_wins": 2,
+   "by_field": {
+    "도로대장": {
+     "n": 2,
+     "amount": 0,
+     "amount_unknown": 1298440000,
+     "n_unknown": 2
+    }
+   },
+   "last_win": "2026-06-02",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "전남광주통합특별시 영광군",
+     "date": "2026-06-02",
+     "no": "R26BK01555576",
+     "title": "영광군 디지털 도로대장 및 관리시스템 구축 용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 378440000,
+     "note": "구성원 3곳 중 지분율 미기재"
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "전남광주통합특별시 화순군",
+     "date": "2026-05-21",
+     "no": "R26BK01505700",
+     "title": "(정정공고)화순군 도로대장 전산화 및 관리시스템 구축 용역(협상)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 920000000,
+     "note": "구성원 3곳 중 지분율 미기재"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "산들지리정보",
+   "display": "주식회사 산들지리정보",
+   "raw_names": [
+    "주식회사 산들지리정보"
+   ],
+   "win_count": 2,
+   "win_amount": 0,
+   "win_amount_unknown": 1600000000,
+   "share_unknown_wins": 2,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 900000000,
+     "n_unknown": 1
+    },
+    "용도지역지구 DB정비": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 700000000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2024-07-30",
+   "wins": [
+    {
+     "field": "용도지역지구 DB정비",
+     "amount": null,
+     "org": "강원특별자치도 평창군",
+     "date": "2024-07-30",
+     "no": "20240736163",
+     "title": "평창군 공간자료(용도지역 지구) DB정비 사업(긴급)",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 700000000,
+     "note": "공고가 공동수급을 허용(혼합방식)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    },
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경기도 화성시",
+     "date": "2024-06-28",
+     "no": "20240638817",
+     "title": "화성시 농어촌도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 900000000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
     }
    ],
    "is_self": false
@@ -2297,23 +4153,32 @@
     "명화지리정보주식회사"
    ],
    "win_count": 1,
-   "win_amount": 1484850000,
+   "win_amount": 742425000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 1484850000
+     "amount": 742425000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-08-11",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 1484850000,
+     "amount": 742425000,
      "org": "경상남도 창녕군",
      "date": "2025-08-11",
      "no": "R25BK01000484",
      "title": "창녕군 도로대장 전산화 및 관리시스템 구축사업",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 50,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2325,51 +4190,143 @@
     "삼아항업 주식회사"
    ],
    "win_count": 1,
-   "win_amount": 1173123000,
+   "win_amount": 586561500,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 1173123000
+     "amount": 586561500,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-08-26",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 1173123000,
+     "amount": 586561500,
      "org": "제주특별자치도",
      "date": "2026-08-26",
      "no": "R26BK01699829",
      "title": "제주특별자치도 구국도 디지털 도로대장 작성 용역(P.Q 후 가격입찰)",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 50,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
   },
   {
-   "key": "삼인공간정보",
-   "display": "주식회사 삼인공간정보",
+   "key": "와이던스",
+   "display": "주식회사 와이던스",
    "raw_names": [
-    "주식회사 삼인공간정보"
+    "주식회사 와이던스"
    ],
    "win_count": 1,
-   "win_amount": 896500000,
+   "win_amount": 560000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 896500000
+     "amount": 560000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
-   "last_win": "2026-06-12",
+   "last_win": "2026-08-11",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 896500000,
-     "org": "충청북도 영동군",
-     "date": "2026-06-12",
-     "no": "R26BK01576929",
-     "title": "영동군 군도 도로대장 전산화 구축용역",
-     "src": "xlsx:도로대장3년"
+     "amount": 560000000,
+     "org": "전남광주통합특별시 고흥군",
+     "date": "2026-08-11",
+     "no": "R26BK01677173",
+     "title": "[협상에의한계약]고흥군 디지털 도로대장 전산화 구축용역",
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "지트",
+   "display": "(주)지트",
+   "raw_names": [
+    "(주)지트"
+   ],
+   "win_count": 1,
+   "win_amount": 356400000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 356400000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-08-19",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 356400000,
+     "org": "강원특별자치도 양양군",
+     "date": "2026-08-19",
+     "no": "R26BK01685713",
+     "title": "양양군 도로대장 전산화 사업",
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "가온도시정보",
+   "display": "주식회사 가온도시정보",
+   "raw_names": [
+    "주식회사 가온도시정보"
+   ],
+   "win_count": 1,
+   "win_amount": 351936900,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 351936900,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-08-26",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 351936900,
+     "org": "제주특별자치도",
+     "date": "2026-08-26",
+     "no": "R26BK01699829",
+     "title": "제주특별자치도 구국도 디지털 도로대장 작성 용역(P.Q 후 가격입찰)",
+     "src": "xlsx:도로대장3년",
+     "share": 30,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2381,51 +4338,180 @@
     "주식회사 코이션"
    ],
    "win_count": 1,
-   "win_amount": 535847400,
+   "win_amount": 321508440,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 535847400
+     "amount": 321508440,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-07-27",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 535847400,
+     "amount": 321508440,
      "org": "경기도 화성시",
      "date": "2026-07-27",
      "no": "R26BK01651082",
      "title": "구 건축물카드대장 DB구축 사업 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 60,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
   },
   {
-   "key": "도화엔지니어링",
-   "display": "주식회사 도화엔지니어링",
+   "key": "해림",
+   "display": "주식회사 해림",
    "raw_names": [
-    "주식회사 도화엔지니어링"
+    "주식회사 해림"
    ],
    "win_count": 1,
-   "win_amount": 324950000,
+   "win_amount": 280000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 324950000
+     "amount": 280000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
-   "last_win": "2026-10-06",
+   "last_win": "2026-08-11",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 324950000,
-     "org": "대구광역시 달성군",
-     "date": "2026-10-06",
-     "no": "R26BK01754765",
-     "title": "[지명경쟁입찰]달성군 도로건설 관리계획 및 농어촌도로 기본정비계획(변경) 수립 용역",
-     "src": "xlsx:도로대장3년"
+     "amount": 280000000,
+     "org": "전남광주통합특별시 고흥군",
+     "date": "2026-08-11",
+     "no": "R26BK01677173",
+     "title": "[협상에의한계약]고흥군 디지털 도로대장 전산화 구축용역",
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "한국종합기술",
+   "display": "주식회사 한국종합기술",
+   "raw_names": [
+    "주식회사 한국종합기술"
+   ],
+   "win_count": 1,
+   "win_amount": 234624600,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 234624600,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-08-26",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 234624600,
+     "org": "제주특별자치도",
+     "date": "2026-08-26",
+     "no": "R26BK01699829",
+     "title": "제주특별자치도 구국도 디지털 도로대장 작성 용역(P.Q 후 가격입찰)",
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "한국전산",
+   "display": "(주)한국전산",
+   "raw_names": [
+    "(주)한국전산"
+   ],
+   "win_count": 1,
+   "win_amount": 214338960,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 214338960,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-07-27",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 214338960,
+     "org": "경기도 화성시",
+     "date": "2026-07-27",
+     "no": "R26BK01651082",
+     "title": "구 건축물카드대장 DB구축 사업 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 40,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "다온지아이에스",
+   "display": "주식회사 다온지아이에스",
+   "raw_names": [
+    "주식회사 다온지아이에스"
+   ],
+   "win_count": 1,
+   "win_amount": 182272000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 182272000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2025-09-26",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 182272000,
+     "org": "경상북도 영주시",
+     "date": "2025-09-26",
+     "no": "R25BK01080508",
+     "title": "[협상에 의한 계약] 영주시 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2438,10 +4524,14 @@
    ],
    "win_count": 1,
    "win_amount": 177614176,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 177614176
+     "amount": 177614176,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-03-09",
@@ -2453,35 +4543,12 @@
      "date": "2026-03-09",
      "no": "R26BK01378376",
      "title": "임실군 도로건설·관리계획 및 농어촌도로 기본(정비)계획 수립용역 입찰공고",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "제일항업",
-   "display": "제일항업(주)",
-   "raw_names": [
-    "제일항업(주)"
-   ],
-   "win_count": 1,
-   "win_amount": 176000000,
-   "by_field": {
-    "도로대장": {
-     "n": 1,
-     "amount": 176000000
-    }
-   },
-   "last_win": "2026-05-19",
-   "wins": [
-    {
-     "field": "도로대장",
-     "amount": 176000000,
-     "org": "한국국토정보공사 서울경기북부지역본부",
-     "date": "2026-05-19",
-     "no": "R26BK01532221",
-     "title": "가평군 디지털도로대장 구축 위탁사업",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2494,10 +4561,14 @@
    ],
    "win_count": 1,
    "win_amount": 175225500,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 175225500
+     "amount": 175225500,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-02-03",
@@ -2509,7 +4580,12 @@
      "date": "2025-02-03",
      "no": "R25BK00612740",
      "title": "2025년 광역시도 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -2522,10 +4598,14 @@
    ],
    "win_count": 1,
    "win_amount": 174903000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 174903000
+     "amount": 174903000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-09-04",
@@ -2537,7 +4617,12 @@
      "date": "2025-09-04",
      "no": "R25BK01041833",
      "title": "화천군 도로건설관리계획 및 농어촌도로 기본·정비계획(변경) 수립용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2550,10 +4635,14 @@
    ],
    "win_count": 1,
    "win_amount": 171543000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 171543000
+     "amount": 171543000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-04-17",
@@ -2565,7 +4654,12 @@
      "date": "2025-04-17",
      "no": "R25BK00796325",
      "title": "2025년 울산광역시 남구 도로대장(소로3류) 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -2578,10 +4672,14 @@
    ],
    "win_count": 1,
    "win_amount": 170151000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 170151000
+     "amount": 170151000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-04-09",
@@ -2593,7 +4691,12 @@
      "date": "2024-04-09",
      "no": "20240417034",
      "title": "2024년 울산광역시 남구 도로대장(소로2류) 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -2606,10 +4709,14 @@
    ],
    "win_count": 1,
    "win_amount": 156682800,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "토적·재취": {
      "n": 1,
-     "amount": 156682800
+     "amount": 156682800,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-03-10",
@@ -2621,35 +4728,49 @@
      "date": "2026-03-10",
      "no": "R26BK01381238",
      "title": "고창군 토지적성평가 용역 입찰 공고",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
   },
   {
-   "key": "지오앤",
-   "display": "주식회사 지오앤",
+   "key": "메타이엔지",
+   "display": "주식회사메타이엔지",
    "raw_names": [
-    "주식회사 지오앤"
+    "주식회사메타이엔지"
    ],
    "win_count": 1,
-   "win_amount": 136000000,
+   "win_amount": 130600000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 136000000
+     "amount": 130600000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
-   "last_win": "2024-06-28",
+   "last_win": "2026-04-28",
    "wins": [
     {
      "field": "도로대장",
-     "amount": 136000000,
-     "org": "국토교통부",
-     "date": "2024-06-28",
-     "no": "20240638437",
-     "title": "도로대장 통합관리체계 ISMP 수립",
-     "src": "xlsx:도로대장3년"
+     "amount": 130600000,
+     "org": "경상남도 의령군",
+     "date": "2026-04-28",
+     "no": "R26BK01492780",
+     "title": "의령군 도로대장 전산화 구축용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 20,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2662,10 +4783,14 @@
    ],
    "win_count": 1,
    "win_amount": 117331000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "용도지역지구 DB정비": {
      "n": 1,
-     "amount": 117331000
+     "amount": 117331000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-10-24",
@@ -2677,7 +4802,12 @@
      "date": "2024-10-24",
      "no": "20241022961",
      "title": "2020년도 지적재조사사업 완료지구 용도지역지구 도면 정비 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -2690,10 +4820,14 @@
    ],
    "win_count": 1,
    "win_amount": 111629120,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 111629120
+     "amount": 111629120,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-07-03",
@@ -2705,7 +4839,12 @@
      "date": "2024-07-03",
      "no": "20240704372",
      "title": "2024년 노원구 도로포장 실태 연구조사 및 도로대장 작성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -2718,10 +4857,14 @@
    ],
    "win_count": 1,
    "win_amount": 108136000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 108136000
+     "amount": 108136000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-10-19",
@@ -2733,35 +4876,49 @@
      "date": "2026-10-19",
      "no": "R26BK01775788",
      "title": "김포시 자전거 이용 활성화 5개년 계획 수립 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
   },
   {
-   "key": "에스엠소프트",
-   "display": "주식회사 에스엠소프트",
+   "key": "신한아리스",
+   "display": "주식회사 신한아리스",
    "raw_names": [
-    "주식회사 에스엠소프트"
+    "주식회사 신한아리스"
    ],
    "win_count": 1,
-   "win_amount": 107609000,
+   "win_amount": 108000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
-    "토적·재취": {
+    "도로대장": {
      "n": 1,
-     "amount": 107609000
+     "amount": 108000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
-   "last_win": "2024-07-19",
+   "last_win": "2026-06-16",
    "wins": [
     {
-     "field": "토적·재취",
-     "amount": 107609000,
-     "org": "경기도 성남시",
-     "date": "2024-07-19",
-     "no": "20240721790",
-     "title": "성남시 도시기후변화 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
+     "field": "도로대장",
+     "amount": 108000000,
+     "org": "경기도청 북부청사",
+     "date": "2026-06-16",
+     "no": "R26BK01585057",
+     "title": "2026년 경기도 도로대장 DB 통합관리체계 호환성 확보 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 80,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2774,10 +4931,14 @@
    ],
    "win_count": 1,
    "win_amount": 97852000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 97852000
+     "amount": 97852000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-07-18",
@@ -2789,7 +4950,12 @@
      "date": "2024-07-18",
      "no": "20240720332",
      "title": "2024년 군위군 도로대장 생성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -2802,10 +4968,14 @@
    ],
    "win_count": 1,
    "win_amount": 88264000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "용도지역지구 DB정비": {
      "n": 1,
-     "amount": 88264000
+     "amount": 88264000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-07-02",
@@ -2817,7 +4987,86 @@
      "date": "2024-07-02",
      "no": "20240703217",
      "title": "지적재조사 완료지구 용도지역지구 DB정비사업",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "미도지리정보",
+   "display": "(주)미도지리정보",
+   "raw_names": [
+    "(주)미도지리정보"
+   ],
+   "win_count": 1,
+   "win_amount": 88000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 88000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-05-19",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 88000000,
+     "org": "한국국토정보공사 서울경기북부지역본부",
+     "date": "2026-05-19",
+     "no": "R26BK01532221",
+     "title": "가평군 디지털도로대장 구축 위탁사업",
+     "src": "xlsx:도로대장3년",
+     "share": 50,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "제일항업",
+   "display": "제일항업(주)",
+   "raw_names": [
+    "제일항업(주)"
+   ],
+   "win_count": 1,
+   "win_amount": 88000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 88000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-05-19",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 88000000,
+     "org": "한국국토정보공사 서울경기북부지역본부",
+     "date": "2026-05-19",
+     "no": "R26BK01532221",
+     "title": "가평군 디지털도로대장 구축 위탁사업",
+     "src": "xlsx:도로대장3년",
+     "share": 50,
+     "role": "주계약업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2830,10 +5079,14 @@
    ],
    "win_count": 1,
    "win_amount": 87909800,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 87909800
+     "amount": 87909800,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-10-29",
@@ -2845,7 +5098,49 @@
      "date": "2026-10-29",
      "no": "R26BK01799808",
      "title": "당진시 자전거 이용 활성화 계획 수립 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "민종합기술단",
+   "display": "(주)민종합기술단",
+   "raw_names": [
+    "(주)민종합기술단"
+   ],
+   "win_count": 1,
+   "win_amount": 87000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 87000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2025-08-18",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 87000000,
+     "org": "경상남도 거제시",
+     "date": "2025-08-18",
+     "no": "R25BK01012653",
+     "title": "거제시 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2858,10 +5153,14 @@
    ],
    "win_count": 1,
    "win_amount": 86379825,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 86379825
+     "amount": 86379825,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-05-07",
@@ -2873,35 +5172,12 @@
      "date": "2026-05-07",
      "no": "R26BK01508880",
      "title": "2026년 태안군 도로대장 전산화용역",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "중앙지도",
-   "display": "주식회사 중앙지도",
-   "raw_names": [
-    "주식회사 중앙지도"
-   ],
-   "win_count": 1,
-   "win_amount": 84550000,
-   "by_field": {
-    "도로대장": {
-     "n": 1,
-     "amount": 84550000
-    }
-   },
-   "last_win": "2026-10-26",
-   "wins": [
-    {
-     "field": "도로대장",
-     "amount": 84550000,
-     "org": "인천광역시 경제자유구역청",
-     "date": "2026-10-26",
-     "no": "R26BK01790064",
-     "title": "송도11-1공구 기반시설 건설공사 도로대장 작성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2914,10 +5190,14 @@
    ],
    "win_count": 1,
    "win_amount": 74909700,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 74909700
+     "amount": 74909700,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-01-21",
@@ -2929,7 +5209,12 @@
      "date": "2026-01-21",
      "no": "R26BK01288059",
      "title": "2026년 국토이용정보체계(UPIS,KLIP) DB구축 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2942,10 +5227,14 @@
    ],
    "win_count": 1,
    "win_amount": 74331400,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 74331400
+     "amount": 74331400,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-03-13",
@@ -2957,7 +5246,12 @@
      "date": "2025-03-13",
      "no": "R25BK00711497",
      "title": "국토이용정보체계(UPIS,KLIP) DB구축 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -2970,10 +5264,14 @@
    ],
    "win_count": 1,
    "win_amount": 72339000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 72339000
+     "amount": 72339000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-03-18",
@@ -2985,7 +5283,49 @@
      "date": "2024-03-18",
      "no": "20240329023",
      "title": "2024년 도시계획정보체계(UPIS) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "우리아이씨티",
+   "display": "주식회사 우리아이씨티",
+   "raw_names": [
+    "주식회사 우리아이씨티"
+   ],
+   "win_count": 1,
+   "win_amount": 71040000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 71040000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-05-07",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 71040000,
+     "org": "대구광역시 군위군",
+     "date": "2026-05-07",
+     "no": "R26BK01509638",
+     "title": "2026년 군위군 도로대장 전산화 생성 용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 30,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -2998,10 +5338,14 @@
    ],
    "win_count": 1,
    "win_amount": 70954161,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 70954161
+     "amount": 70954161,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-02-20",
@@ -3013,7 +5357,12 @@
      "date": "2025-02-20",
      "no": "R25BK00661383",
      "title": "2025년 평택시 도시계획정보체계(UPIS) DB구축 및 관리용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3026,10 +5375,14 @@
    ],
    "win_count": 1,
    "win_amount": 69958100,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 69958100
+     "amount": 69958100,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-01-21",
@@ -3041,7 +5394,12 @@
      "date": "2026-01-21",
      "no": "R26BK01286175",
      "title": "2026년 국토이용정보체계(UPIS, KLIP) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -3054,10 +5412,14 @@
    ],
    "win_count": 1,
    "win_amount": 69789200,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 69789200
+     "amount": 69789200,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-02-16",
@@ -3069,7 +5431,12 @@
      "date": "2024-02-16",
      "no": "20240221774",
      "title": "2024년 평택시 도시계획정보체계(UPIS) DB구축 및 관리용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3082,10 +5449,14 @@
    ],
    "win_count": 1,
    "win_amount": 68016000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "토적·재취": {
      "n": 1,
-     "amount": 68016000
+     "amount": 68016000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-07-27",
@@ -3097,35 +5468,86 @@
      "date": "2026-07-27",
      "no": "R26BK01648647",
      "title": "양주시 재해취약성 분석 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
   },
   {
-   "key": "해인공간정보",
-   "display": "주식회사 해인공간정보",
+   "key": "지인지리정보",
+   "display": "주식회사 지인지리정보",
    "raw_names": [
-    "주식회사 해인공간정보"
+    "주식회사 지인지리정보"
    ],
    "win_count": 1,
-   "win_amount": 62085000,
+   "win_amount": 65300000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
-    "최근 공고": {
+    "도로대장": {
      "n": 1,
-     "amount": 62085000
+     "amount": 65300000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
-   "last_win": "2026-11-03",
+   "last_win": "2026-04-28",
    "wins": [
     {
-     "field": "최근 공고",
-     "amount": 62085000.0,
-     "org": null,
-     "date": "2026-11-03",
-     "no": "R26BK01791855",
-     "title": null,
-     "src": "enriched"
+     "field": "도로대장",
+     "amount": 65300000,
+     "org": "경상남도 의령군",
+     "date": "2026-04-28",
+     "no": "R26BK01492780",
+     "title": "의령군 도로대장 전산화 구축용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "에스콘랩",
+   "display": "주식회사 에스콘랩",
+   "raw_names": [
+    "주식회사 에스콘랩"
+   ],
+   "win_count": 1,
+   "win_amount": 62220000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 62220000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2025-09-23",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 62220000,
+     "org": "경상남도 밀양시",
+     "date": "2025-09-23",
+     "no": "R25BK01071000",
+     "title": "밀양시 도로대장 전산화 용역(협상에 의한 계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -3138,10 +5560,14 @@
    ],
    "win_count": 1,
    "win_amount": 61378000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 61378000
+     "amount": 61378000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-06-25",
@@ -3153,7 +5579,49 @@
      "date": "2024-06-25",
      "no": "20240634738",
      "title": "강릉시 도시계획정보체계(UPIS, KLIP) DB 현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "한올엔지니어링",
+   "display": "주식회사  한올엔지니어링",
+   "raw_names": [
+    "주식회사  한올엔지니어링"
+   ],
+   "win_count": 1,
+   "win_amount": 60000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 60000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-10-16",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 60000000,
+     "org": "경상남도 하동군",
+     "date": "2026-10-16",
+     "no": "R26BK01775480",
+     "title": "하동군 군도 및 농어촌도로 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": 30,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -3166,10 +5634,14 @@
    ],
    "win_count": 1,
    "win_amount": 58355000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "토적·재취": {
      "n": 1,
-     "amount": 58355000
+     "amount": 58355000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-01-21",
@@ -3181,63 +5653,12 @@
      "date": "2025-01-21",
      "no": "R25BK00594971",
      "title": "원주시 도시 기후변화 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "사성공간정보",
-   "display": "주식회사 사성공간정보",
-   "raw_names": [
-    "주식회사 사성공간정보"
-   ],
-   "win_count": 1,
-   "win_amount": 56001000,
-   "by_field": {
-    "최근 공고": {
-     "n": 1,
-     "amount": 56001000
-    }
-   },
-   "last_win": "2026-11-13",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 56001000.0,
-     "org": null,
-     "date": "2026-11-13",
-     "no": "R26BK01819116",
-     "title": null,
-     "src": "enriched"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "승평건설이엔지",
-   "display": "승평건설이엔지 주식회사",
-   "raw_names": [
-    "승평건설이엔지 주식회사"
-   ],
-   "win_count": 1,
-   "win_amount": 55741000,
-   "by_field": {
-    "최근 공고": {
-     "n": 1,
-     "amount": 55741000
-    }
-   },
-   "last_win": "2026-11-13",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 55741000.0,
-     "org": null,
-     "date": "2026-11-13",
-     "no": "R26BK01819155",
-     "title": null,
-     "src": "enriched"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3250,10 +5671,14 @@
    ],
    "win_count": 1,
    "win_amount": 54275000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 54275000
+     "amount": 54275000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-04-01",
@@ -3265,35 +5690,12 @@
      "date": "2024-04-01",
      "no": "20240401798",
      "title": "2024년 도로대장 관리시스템 유지관리용역",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "동영기술단",
-   "display": "주식회사 동영기술단",
-   "raw_names": [
-    "주식회사 동영기술단"
-   ],
-   "win_count": 1,
-   "win_amount": 54166000,
-   "by_field": {
-    "도로대장": {
-     "n": 1,
-     "amount": 54166000
-    }
-   },
-   "last_win": "2025-04-15",
-   "wins": [
-    {
-     "field": "도로대장",
-     "amount": 54166000,
-     "org": "경상남도 동부도로관리사업소",
-     "date": "2025-04-15",
-     "no": "R25BK00786920",
-     "title": "2025년 도로대장 관리시스템 유지관리용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3306,10 +5708,14 @@
    ],
    "win_count": 1,
    "win_amount": 53419400,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 53419400
+     "amount": 53419400,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-03-20",
@@ -3321,7 +5727,12 @@
      "date": "2025-03-20",
      "no": "R25BK00729211",
      "title": "동래구 구도 노선 지정 및 도로대장 작성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3334,10 +5745,14 @@
    ],
    "win_count": 1,
    "win_amount": 53084000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 53084000
+     "amount": 53084000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-01-26",
@@ -3349,7 +5764,12 @@
      "date": "2024-01-26",
      "no": "20240129081",
      "title": "2024년 완도군 도시계획정보체계(UPIS) 현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3362,10 +5782,14 @@
    ],
    "win_count": 1,
    "win_amount": 51293000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 51293000
+     "amount": 51293000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2023-10-19",
@@ -3377,63 +5801,12 @@
      "date": "2023-10-19",
      "no": "20231021831",
      "title": "도시계획정보체계 DB서버 교체용역",
-     "src": "xlsx:공간정보5년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "일신이엔씨",
-   "display": "일신이엔씨주식회사",
-   "raw_names": [
-    "일신이엔씨주식회사"
-   ],
-   "win_count": 1,
-   "win_amount": 49345200,
-   "by_field": {
-    "최근 공고": {
-     "n": 1,
-     "amount": 49345200
-    }
-   },
-   "last_win": "2026-11-04",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 49345200.0,
-     "org": null,
-     "date": "2026-11-04",
-     "no": "R26BK01808557",
-     "title": null,
-     "src": "enriched"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "커넥트플로우",
-   "display": "주식회사 커넥트플로우",
-   "raw_names": [
-    "주식회사 커넥트플로우"
-   ],
-   "win_count": 1,
-   "win_amount": 45360000,
-   "by_field": {
-    "최근 공고": {
-     "n": 1,
-     "amount": 45360000
-    }
-   },
-   "last_win": "2026-11-23",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 45360000.0,
-     "org": null,
-     "date": "2026-11-23",
-     "no": "R26BK01848643",
-     "title": null,
-     "src": "enriched"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3446,10 +5819,14 @@
    ],
    "win_count": 1,
    "win_amount": 43795000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 43795000
+     "amount": 43795000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-02-10",
@@ -3461,7 +5838,12 @@
      "date": "2025-02-10",
      "no": "R25BK00630933",
      "title": "2025년 시흥시 도시계획정보체계(UPIS) 유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3474,10 +5856,14 @@
    ],
    "win_count": 1,
    "win_amount": 43342300,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "토적·재취": {
      "n": 1,
-     "amount": 43342300
+     "amount": 43342300,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-05-02",
@@ -3489,35 +5875,12 @@
      "date": "2024-05-02",
      "no": "20240502357",
      "title": "고창군 도시기후변화 재해취약성분석 용역",
-     "src": "xlsx:공간정보5년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "엔지엘(ngl)",
-   "display": "주식회사 엔지엘(NGL)",
-   "raw_names": [
-    "주식회사 엔지엘(NGL)"
-   ],
-   "win_count": 1,
-   "win_amount": 42500000,
-   "by_field": {
-    "UPIS·KLIP DB": {
-     "n": 1,
-     "amount": 42500000
-    }
-   },
-   "last_win": "2024-02-13",
-   "wins": [
-    {
-     "field": "UPIS·KLIP DB",
-     "amount": 42500000,
-     "org": "경기도 파주시",
-     "date": "2024-02-13",
-     "no": "20240214008",
-     "title": "2024년 파주시 도시계획정보체계(UPIS) DB현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3530,10 +5893,14 @@
    ],
    "win_count": 1,
    "win_amount": 41448000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 41448000
+     "amount": 41448000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-12-09",
@@ -3545,7 +5912,12 @@
      "date": "2024-12-09",
      "no": "20241213782",
      "title": "2025년도 도시계획정보체계(UPIS) 유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3558,10 +5930,14 @@
    ],
    "win_count": 1,
    "win_amount": 41256000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 41256000
+     "amount": 41256000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2023-12-08",
@@ -3573,7 +5949,12 @@
      "date": "2023-12-08",
      "no": "20231214770",
      "title": "2024년도 도시계획정보체계(UPIS) 유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3586,10 +5967,14 @@
    ],
    "win_count": 1,
    "win_amount": 39653360,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 39653360
+     "amount": 39653360,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-02-07",
@@ -3601,7 +5986,12 @@
      "date": "2025-02-07",
      "no": "R25BK00624894",
      "title": "2025년 도시계획정보체계(UPIS) DB현행화 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3614,10 +6004,14 @@
    ],
    "win_count": 1,
    "win_amount": 39472000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 39472000
+     "amount": 39472000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-04-23",
@@ -3629,7 +6023,12 @@
      "date": "2025-04-23",
      "no": "R25BK00807724",
      "title": "자율운항선박 성능실증센터 진입도로 개설공사 GIS DB구축 및 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3642,10 +6041,14 @@
    ],
    "win_count": 1,
    "win_amount": 39348000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "용도지역지구 DB정비": {
      "n": 1,
-     "amount": 39348000
+     "amount": 39348000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-07-24",
@@ -3657,7 +6060,12 @@
      "date": "2026-07-24",
      "no": "R26BK01649751",
      "title": "지적재조사사업(회산1지구) 용도지역·지구 DB정비 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -3670,10 +6078,14 @@
    ],
    "win_count": 1,
    "win_amount": 37075300,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 37075300
+     "amount": 37075300,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-04-02",
@@ -3685,35 +6097,49 @@
      "date": "2026-04-02",
      "no": "R26BK01438244",
      "title": "2026년 안양시 도시계획정보체계(UPIS) DB 유지보수 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
   },
   {
-   "key": "더원이엔지",
-   "display": "주식회사 더원이엔지",
+   "key": "아성",
+   "display": "주식회사 아성",
    "raw_names": [
-    "주식회사 더원이엔지"
+    "주식회사 아성"
    ],
    "win_count": 1,
-   "win_amount": 33130000,
+   "win_amount": 30400000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
-    "최근 공고": {
+    "도로대장": {
      "n": 1,
-     "amount": 33130000
+     "amount": 30400000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
-   "last_win": "2026-11-03",
+   "last_win": "2026-06-19",
    "wins": [
     {
-     "field": "최근 공고",
-     "amount": 33130000.0,
-     "org": null,
-     "date": "2026-11-03",
-     "no": "R26BK01796309",
-     "title": null,
-     "src": "enriched"
+     "field": "도로대장",
+     "amount": 30400000,
+     "org": "전북특별자치도 전주시",
+     "date": "2026-06-19",
+     "no": "R26BK01593258",
+     "title": "전주시 도로대장 전산화 시범구축 및 도로구역 결정 용역(협상에의한계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -3726,10 +6152,14 @@
    ],
    "win_count": 1,
    "win_amount": 30000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 30000000
+     "amount": 30000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-10-13",
@@ -3741,7 +6171,12 @@
      "date": "2026-10-13",
      "no": "R26BK01767417",
      "title": "신정로(중로2-6호) 초사동~신정호 확장공사 GIS DB 구축 및 도로대장 전산화 작성 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -3754,10 +6189,14 @@
    ],
    "win_count": 1,
    "win_amount": 28800159,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "UPIS·KLIP DB": {
      "n": 1,
-     "amount": 28800159
+     "amount": 28800159,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-01-11",
@@ -3769,7 +6208,12 @@
      "date": "2024-01-11",
      "no": "20240110835",
      "title": "2024년 도시계획정보체계(UPIS) 운영장비 유지관리 용역",
-     "src": "xlsx:공간정보5년"
+     "src": "xlsx:공간정보5년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3782,10 +6226,14 @@
    ],
    "win_count": 1,
    "win_amount": 27013000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 27013000
+     "amount": 27013000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-12-13",
@@ -3797,91 +6245,12 @@
      "date": "2024-12-13",
      "no": "20241224114",
      "title": "덕정교차로~온산로(대3-20) 확장공사 GIS DB구축 및 도로대장 작성용역",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "다산산림기술사사무소",
-   "display": "주식회사 다산산림기술사사무소",
-   "raw_names": [
-    "주식회사 다산산림기술사사무소"
-   ],
-   "win_count": 1,
-   "win_amount": 26550000,
-   "by_field": {
-    "최근 공고": {
-     "n": 1,
-     "amount": 26550000
-    }
-   },
-   "last_win": "2026-11-20",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 26550000.0,
-     "org": null,
-     "date": "2026-11-20",
-     "no": "R26BK01843237",
-     "title": null,
-     "src": "enriched"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "다온이앤씨",
-   "display": "주식회사 다온이앤씨",
-   "raw_names": [
-    "주식회사 다온이앤씨"
-   ],
-   "win_count": 1,
-   "win_amount": 25399000,
-   "by_field": {
-    "최근 공고": {
-     "n": 1,
-     "amount": 25399000
-    }
-   },
-   "last_win": "2026-11-06",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 25399000.0,
-     "org": null,
-     "date": "2026-11-06",
-     "no": "R26BK01804393",
-     "title": null,
-     "src": "enriched"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "한라이엔씨",
-   "display": "주식회사 한라이엔씨",
-   "raw_names": [
-    "주식회사 한라이엔씨"
-   ],
-   "win_count": 1,
-   "win_amount": 24455200,
-   "by_field": {
-    "도로대장": {
-     "n": 1,
-     "amount": 24455200
-    }
-   },
-   "last_win": "2024-05-20",
-   "wins": [
-    {
-     "field": "도로대장",
-     "amount": 24455200,
-     "org": "인천광역시 강화군",
-     "date": "2024-05-20",
-     "no": "20240522482",
-     "title": "2024년도 강화읍 신문리 연결도로 개설공사 공공측량 및 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3894,10 +6263,14 @@
    ],
    "win_count": 1,
    "win_amount": 23685000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 23685000
+     "amount": 23685000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-09-22",
@@ -3909,7 +6282,86 @@
      "date": "2025-09-22",
      "no": "R25BK01072281",
      "title": "하점면 망월2리 일원 보행환경 개선공사 공공측량 및 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "티에스엘",
+   "display": "(주)티에스엘",
+   "raw_names": [
+    "(주)티에스엘"
+   ],
+   "win_count": 1,
+   "win_amount": 23000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 23000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-07-27",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 23000000,
+     "org": "한국국토정보공사",
+     "date": "2026-07-27",
+     "no": "R26BK01651823",
+     "title": "도로대장 통합관리체계 상세설계 고도화",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "우리강산시스템",
+   "display": "주식회사 우리강산시스템",
+   "raw_names": [
+    "주식회사 우리강산시스템"
+   ],
+   "win_count": 1,
+   "win_amount": 23000000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 23000000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-07-27",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": 23000000,
+     "org": "한국국토정보공사",
+     "date": "2026-07-27",
+     "no": "R26BK01651823",
+     "title": "도로대장 통합관리체계 상세설계 고도화",
+     "src": "xlsx:도로대장3년",
+     "share": 10,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -3922,10 +6374,14 @@
    ],
    "win_count": 1,
    "win_amount": 20922800,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 20922800
+     "amount": 20922800,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2025-04-23",
@@ -3937,7 +6393,12 @@
      "date": "2025-04-23",
      "no": "R25BK00808443",
      "title": "갑곳리 회전교차로 일원 보행환경 개선공사 공공측량 및 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -3950,10 +6411,14 @@
    ],
    "win_count": 1,
    "win_amount": 16485770,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 16485770
+     "amount": 16485770,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-04-13",
@@ -3965,35 +6430,12 @@
      "date": "2026-04-13",
      "no": "R26BK01462008",
      "title": "동검리 선형개량공사(위험도로 구조개선) 공공측량 및 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
-    }
-   ],
-   "is_self": false
-  },
-  {
-   "key": "이엘피",
-   "display": "이엘피",
-   "raw_names": [
-    "이엘피"
-   ],
-   "win_count": 1,
-   "win_amount": 14396200,
-   "by_field": {
-    "최근 공고": {
-     "n": 1,
-     "amount": 14396200
-    }
-   },
-   "last_win": "2026-11-17",
-   "wins": [
-    {
-     "field": "최근 공고",
-     "amount": 14396200.0,
-     "org": null,
-     "date": "2026-11-17",
-     "no": "R26BK01833555",
-     "title": null,
-     "src": "enriched"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -4006,10 +6448,14 @@
    ],
    "win_count": 1,
    "win_amount": 9410000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 9410000
+     "amount": 9410000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2026-10-07",
@@ -4021,7 +6467,49 @@
      "date": "2026-10-07",
      "no": "R26BK01761426",
      "title": "송해삼거리 회전교차로 설치공사 공공측량 및 도로대장 작성 용역 ",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": null
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "위로",
+   "display": "주식회사 위로",
+   "raw_names": [
+    "주식회사 위로"
+   ],
+   "win_count": 1,
+   "win_amount": 7800000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "by_field": {
+    "토적·재취": {
+     "n": 1,
+     "amount": 7800000,
+     "amount_unknown": 0,
+     "n_unknown": 0
+    }
+   },
+   "last_win": "2026-02-04",
+   "wins": [
+    {
+     "field": "토적·재취",
+     "amount": 7800000,
+     "org": "충청남도 서천군",
+     "date": "2026-02-04",
+     "no": "R26BK01316517",
+     "title": "서천군 토지적성평가 및 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": 5,
+     "role": "도급업체",
+     "mode": "지분확인",
+     "amount_unknown": 0,
+     "note": null
     }
    ],
    "is_self": false
@@ -4034,10 +6522,14 @@
    ],
    "win_count": 1,
    "win_amount": 7015500,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 7015500
+     "amount": 7015500,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-12-02",
@@ -4049,7 +6541,12 @@
      "date": "2024-12-02",
      "no": "20241200651",
      "title": "유성 광역복합환승센터 진입도로 도로대장 작성 및 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
     }
    ],
    "is_self": false
@@ -4062,10 +6559,14 @@
    ],
    "win_count": 1,
    "win_amount": 6930000,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "by_field": {
     "도로대장": {
      "n": 1,
-     "amount": 6930000
+     "amount": 6930000,
+     "amount_unknown": 0,
+     "n_unknown": 0
     }
    },
    "last_win": "2024-03-12",
@@ -4077,7 +6578,752 @@
      "date": "2024-03-12",
      "no": "20240315973",
      "title": "대룡지구 다목적농촌용수개발사업 시도14호선 도로대장 전산화 용역",
-     "src": "xlsx:도로대장3년"
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "주계약업체",
+     "mode": "단독",
+     "amount_unknown": 0,
+     "note": "계약 상세 없음 — 공고가 공동수급을 불허해 단독 수행으로 확인"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "남부지엔씨",
+   "display": "(주)남부지엔씨",
+   "raw_names": [
+    "(주)남부지엔씨"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 31152000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 31152000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-27",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-27",
+     "no": "R26BK01850551",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 31152000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "승평건설이엔지",
+   "display": "승평건설이엔지 주식회사",
+   "raw_names": [
+    "승평건설이엔지 주식회사"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 55741000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 55741000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-13",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-13",
+     "no": "R26BK01819155",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 55741000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "이엘피",
+   "display": "이엘피",
+   "raw_names": [
+    "이엘피"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 14396200,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 14396200,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-17",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-17",
+     "no": "R26BK01833555",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 14396200,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "일신이엔씨",
+   "display": "일신이엔씨주식회사",
+   "raw_names": [
+    "일신이엔씨주식회사"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 49345200,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 49345200,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-04",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-04",
+     "no": "R26BK01808557",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 49345200,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "다산산림기술사사무소",
+   "display": "주식회사 다산산림기술사사무소",
+   "raw_names": [
+    "주식회사 다산산림기술사사무소"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 26550000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 26550000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-20",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-20",
+     "no": "R26BK01843237",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 26550000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "다온이앤씨",
+   "display": "주식회사 다온이앤씨",
+   "raw_names": [
+    "주식회사 다온이앤씨"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 25399000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 25399000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-06",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-06",
+     "no": "R26BK01804393",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 25399000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "더원이엔지",
+   "display": "주식회사 더원이엔지",
+   "raw_names": [
+    "주식회사 더원이엔지"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 33130000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 33130000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-03",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-03",
+     "no": "R26BK01796309",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 33130000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "도화엔지니어링",
+   "display": "주식회사 도화엔지니어링",
+   "raw_names": [
+    "주식회사 도화엔지니어링"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 324950000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 324950000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-10-06",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "대구광역시 달성군",
+     "date": "2026-10-06",
+     "no": "R26BK01754765",
+     "title": "[지명경쟁입찰]달성군 도로건설 관리계획 및 농어촌도로 기본정비계획(변경) 수립 용역",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 324950000,
+     "note": "구성원 2곳 중 지분율 미기재"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "사성공간정보",
+   "display": "주식회사 사성공간정보",
+   "raw_names": [
+    "주식회사 사성공간정보"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 56001000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 56001000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-13",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-13",
+     "no": "R26BK01819116",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 56001000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "성산",
+   "display": "주식회사 성산",
+   "raw_names": [
+    "주식회사 성산"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 1450000000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 1450000000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-10-02",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상북도 성주군",
+     "date": "2026-10-02",
+     "no": "R26BK01755768",
+     "title": "성주군 도로대장 작성 및 전산화 구축 용역(긴급)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 1450000000,
+     "note": "구성원 4곳 중 지분율 미기재"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "성원지아이에스",
+   "display": "주식회사 성원지아이에스",
+   "raw_names": [
+    "주식회사 성원지아이에스"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 2400000000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 2400000000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-08-03",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상북도 울진군",
+     "date": "2026-08-03",
+     "no": "R26BK01663328",
+     "title": "울진군 농어촌 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 2400000000,
+     "note": "구성원 3곳 중 지분율 미기재"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "에스엠소프트",
+   "display": "주식회사 에스엠소프트",
+   "raw_names": [
+    "주식회사 에스엠소프트"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 107609000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "토적·재취": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 107609000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2024-07-19",
+   "wins": [
+    {
+     "field": "토적·재취",
+     "amount": null,
+     "org": "경기도 성남시",
+     "date": "2024-07-19",
+     "no": "20240721790",
+     "title": "성남시 도시기후변화 재해취약성분석 용역",
+     "src": "xlsx:공간정보5년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 107609000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "유성엔지니어링",
+   "display": "주식회사 유성엔지니어링",
+   "raw_names": [
+    "주식회사 유성엔지니어링"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 324950000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 324950000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-10-06",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "대구광역시 달성군",
+     "date": "2026-10-06",
+     "no": "R26BK01754765",
+     "title": "[지명경쟁입찰]달성군 도로건설 관리계획 및 농어촌도로 기본정비계획(변경) 수립 용역",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 324950000,
+     "note": "구성원 2곳 중 지분율 미기재"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "조은공간정보",
+   "display": "주식회사 조은공간정보",
+   "raw_names": [
+    "주식회사 조은공간정보"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 620000000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 620000000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-04-07",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상남도 김해시",
+     "date": "2026-04-07",
+     "no": "R26BK01449122",
+     "title": "김해시 도로대장 전산화 용역(협상에 의한 계약)_긴급",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 620000000,
+     "note": "구성원 4곳 중 지분율 미기재"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "커넥트플로우",
+   "display": "주식회사 커넥트플로우",
+   "raw_names": [
+    "주식회사 커넥트플로우"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 45360000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 45360000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-23",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-23",
+     "no": "R26BK01848643",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 45360000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "케이지엔지니어링종합건축사사무소",
+   "display": "주식회사 케이지엔지니어링종합건축사사무소",
+   "raw_names": [
+    "주식회사 케이지엔지니어링종합건축사사무소"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 2077320000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 2077320000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2025-03-17",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "서울특별시",
+     "date": "2025-03-17",
+     "no": "R25BK00720742",
+     "title": "서울특별시도 도로대장 용역(강남)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 2077320000,
+     "note": "공고가 공동수급을 허용(공동이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "한라이엔씨",
+   "display": "주식회사 한라이엔씨",
+   "raw_names": [
+    "주식회사 한라이엔씨"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 24455200,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 24455200,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2024-05-20",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "인천광역시 강화군",
+     "date": "2024-05-20",
+     "no": "20240522482",
+     "title": "2024년도 강화읍 신문리 연결도로 개설공사 공공측량 및 도로대장 전산화 용역",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약정보없음)",
+     "amount_unknown": 24455200,
+     "note": "공고가 공동수급을 허용(분담이행)하나 계약 구성원·지분 정보가 공개돼 있지 않음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "해인공간정보",
+   "display": "주식회사 해인공간정보",
+   "raw_names": [
+    "주식회사 해인공간정보"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 62085000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "최근 공고": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 62085000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-11-03",
+   "wins": [
+    {
+     "field": "최근 공고",
+     "amount": null,
+     "org": null,
+     "date": "2026-11-03",
+     "no": "R26BK01791855",
+     "title": null,
+     "src": "enriched",
+     "share": null,
+     "role": "주계약업체",
+     "mode": "지분미확인(계약 전)",
+     "amount_unknown": 62085000,
+     "note": "개찰결과만 확인 — 계약·지분 정보 없음"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "현무이앤지",
+   "display": "주식회사 현무이앤지",
+   "raw_names": [
+    "주식회사 현무이앤지"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 0,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-03-25",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상남도 함안군",
+     "date": "2026-03-25",
+     "no": "R26BK01418962",
+     "title": "함안군 도로대장 구축 및 전산화 용역 (협상에의한계약)",
+     "src": "xlsx:도로대장3년",
+     "share": 100,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 0,
+     "note": "지분율 합계 500%"
+    }
+   ],
+   "is_self": false
+  },
+  {
+   "key": "티엘엔지니어링",
+   "display": "티엘엔지니어링 주식회사",
+   "raw_names": [
+    "티엘엔지니어링 주식회사"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "win_amount_unknown": 1450000000,
+   "share_unknown_wins": 1,
+   "by_field": {
+    "도로대장": {
+     "n": 1,
+     "amount": 0,
+     "amount_unknown": 1450000000,
+     "n_unknown": 1
+    }
+   },
+   "last_win": "2026-10-02",
+   "wins": [
+    {
+     "field": "도로대장",
+     "amount": null,
+     "org": "경상북도 성주군",
+     "date": "2026-10-02",
+     "no": "R26BK01755768",
+     "title": "성주군 도로대장 작성 및 전산화 구축 용역(긴급)",
+     "src": "xlsx:도로대장3년",
+     "share": null,
+     "role": "도급업체",
+     "mode": "지분미확인(구성원)",
+     "amount_unknown": 1450000000,
+     "note": "구성원 4곳 중 지분율 미기재"
     }
    ],
    "is_self": false

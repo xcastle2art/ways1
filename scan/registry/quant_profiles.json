@@ -1,7 +1,7 @@
 {
  "built_at": "2026-11-28T09:00:00+09:00",
  "asof": "2026-11-28",
- "count": 107,
+ "count": 141,
  "companies": [
   {
    "key": "웨이즈원",
@@ -24,32 +24,56 @@
     "지하시설물측량업",
     "측지측량업"
    ],
-   "win_count": 5,
-   "win_amount": 3692000000,
+   "win_count": 6,
+   "win_amount": 605136000,
    "last_win": "2026-05-26",
+   "win_amount_unknown": 3178000000,
+   "share_unknown_wins": 3,
    "fields": {
     "3y": {
      "연속도면·연속주제도": {
       "n": 2,
-      "amount": 2930000000,
-      "max_single": 1620000000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 2930000000,
+      "n_unknown": 2
      },
      "토적·재취": {
       "n": 3,
-      "amount": 762000000,
-      "max_single": 280000000
+      "amount": 514000000,
+      "max_single": 280000000,
+      "amount_unknown": 248000000,
+      "n_unknown": 1
+     },
+     "도로대장": {
+      "n": 1,
+      "amount": 91136000,
+      "max_single": 91136000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "연속도면·연속주제도": {
       "n": 2,
-      "amount": 2930000000,
-      "max_single": 1620000000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 2930000000,
+      "n_unknown": 2
      },
      "토적·재취": {
       "n": 3,
-      "amount": 762000000,
-      "max_single": 280000000
+      "amount": 514000000,
+      "max_single": 280000000,
+      "amount_unknown": 248000000,
+      "n_unknown": 1
+     },
+     "도로대장": {
+      "n": 1,
+      "amount": 91136000,
+      "max_single": 91136000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -67,100 +91,56 @@
     "수치지도제작업",
     "엔지니어링:도시계획"
    ],
-   "win_count": 12,
-   "win_amount": 1896830000,
+   "win_count": 14,
+   "win_amount": 1516476800,
    "last_win": "2026-06-24",
+   "win_amount_unknown": 581930730,
+   "share_unknown_wins": 3,
    "fields": {
     "3y": {
      "토적·재취": {
-      "n": 5,
-      "amount": 917791200,
-      "max_single": 234891200
+      "n": 7,
+      "amount": 737438000,
+      "max_single": 234891200,
+      "amount_unknown": 381930730,
+      "n_unknown": 2
      },
      "UPIS·KLIP DB": {
-      "n": 5,
-      "amount": 527100000,
-      "max_single": 200000000
+      "n": 4,
+      "amount": 259600000,
+      "max_single": 105600000,
+      "amount_unknown": 200000000,
+      "n_unknown": 1
      },
      "연속도면·연속주제도": {
       "n": 1,
       "amount": 391000000,
-      "max_single": 391000000
+      "max_single": 391000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "토적·재취": {
-      "n": 6,
-      "amount": 978730000,
-      "max_single": 234891200
+      "n": 7,
+      "amount": 737438000,
+      "max_single": 234891200,
+      "amount_unknown": 381930730,
+      "n_unknown": 2
      },
      "UPIS·KLIP DB": {
-      "n": 5,
-      "amount": 527100000,
-      "max_single": 200000000
+      "n": 4,
+      "amount": 259600000,
+      "max_single": 105600000,
+      "amount_unknown": 200000000,
+      "n_unknown": 1
      },
      "연속도면·연속주제도": {
       "n": 1,
       "amount": 391000000,
-      "max_single": 391000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "정도유아이티",
-   "name": "(주)정도유아이티",
-   "area": "서울특별시 강남구",
-   "sido": "서울특별시",
-   "sigungu": "강남구",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:도시계획",
-    "엔지니어링:정보관리",
-    "엔지니어링:조경",
-    "지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 10,
-   "win_amount": 1554213500,
-   "last_win": "2026-05-18",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 6,
-      "amount": 1135800000,
-      "max_single": 306400000
-     },
-     "기초조사정보체계": {
-      "n": 1,
-      "amount": 210000000,
-      "max_single": 210000000
-     },
-     "UPIS·KLIP DB": {
-      "n": 3,
-      "amount": 208413500,
-      "max_single": 96000000
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 6,
-      "amount": 1135800000,
-      "max_single": 306400000
-     },
-     "기초조사정보체계": {
-      "n": 1,
-      "amount": 210000000,
-      "max_single": 210000000
-     },
-     "UPIS·KLIP DB": {
-      "n": 3,
-      "amount": 208413500,
-      "max_single": 96000000
+      "max_single": 391000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -201,22 +181,114 @@
     "엔지니어링:항만해안",
     "지하시설물측량업"
    ],
-   "win_count": 8,
-   "win_amount": 4842106000,
+   "win_count": 10,
+   "win_amount": 1476534000,
    "last_win": "2026-06-18",
+   "win_amount_unknown": 3993443000,
+   "share_unknown_wins": 5,
    "fields": {
     "3y": {
      "도로대장": {
-      "n": 8,
-      "amount": 4842106000,
-      "max_single": 2410760000
+      "n": 9,
+      "amount": 1404534000,
+      "max_single": 472197000,
+      "amount_unknown": 3993443000,
+      "n_unknown": 5
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 72000000,
+      "max_single": 72000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
-      "n": 8,
-      "amount": 4842106000,
-      "max_single": 2410760000
+      "n": 9,
+      "amount": 1404534000,
+      "max_single": 472197000,
+      "amount_unknown": 3993443000,
+      "n_unknown": 5
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 72000000,
+      "max_single": 72000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "정도유아이티",
+   "name": "(주)정도유아이티",
+   "area": "서울특별시 강남구",
+   "sido": "서울특별시",
+   "sigungu": "강남구",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:도시계획",
+    "엔지니어링:정보관리",
+    "엔지니어링:조경",
+    "지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 10,
+   "win_amount": 246400000,
+   "last_win": "2026-05-18",
+   "win_amount_unknown": 1307813500,
+   "share_unknown_wins": 9,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 6,
+      "amount": 246400000,
+      "max_single": 246400000,
+      "amount_unknown": 889400000,
+      "n_unknown": 5
+     },
+     "기초조사정보체계": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 210000000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 3,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 208413500,
+      "n_unknown": 3
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 6,
+      "amount": 246400000,
+      "max_single": 246400000,
+      "amount_unknown": 889400000,
+      "n_unknown": 5
+     },
+     "기초조사정보체계": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 210000000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 3,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 208413500,
+      "n_unknown": 3
      }
     }
    },
@@ -242,22 +314,95 @@
     "측지측량업",
     "항공촬영업"
    ],
-   "win_count": 7,
-   "win_amount": 3006460000,
+   "win_count": 8,
+   "win_amount": 862364000,
    "last_win": "2026-08-19",
+   "win_amount_unknown": 1398660000,
+   "share_unknown_wins": 3,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 7,
-      "amount": 3006460000,
-      "max_single": 920260000
+      "amount": 854580000,
+      "max_single": 445500000,
+      "amount_unknown": 1398660000,
+      "n_unknown": 3
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 7784000,
+      "max_single": 7784000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 7,
-      "amount": 3006460000,
-      "max_single": 920260000
+      "amount": 854580000,
+      "max_single": 445500000,
+      "amount_unknown": 1398660000,
+      "n_unknown": 3
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 7784000,
+      "max_single": 7784000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "신영이에스디",
+   "name": "주식회사 신영이에스디",
+   "area": "강원특별자치도 춘천",
+   "sido": "강원특별자치도",
+   "sigungu": "춘천",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:도시계획"
+   ],
+   "win_count": 7,
+   "win_amount": 806849400,
+   "last_win": "2026-07-28",
+   "win_amount_unknown": 311600000,
+   "share_unknown_wins": 2,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 6,
+      "amount": 806849400,
+      "max_single": 320000000,
+      "amount_unknown": 171600000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 140000000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 6,
+      "amount": 806849400,
+      "max_single": 320000000,
+      "amount_unknown": 171600000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 140000000,
+      "n_unknown": 1
      }
     }
    },
@@ -278,22 +423,93 @@
     "영상처리업",
     "지하시설물측량업"
    ],
-   "win_count": 6,
-   "win_amount": 6718040000,
+   "win_count": 7,
+   "win_amount": 461820000,
    "last_win": "2026-10-29",
+   "win_amount_unknown": 6318440000,
+   "share_unknown_wins": 5,
    "fields": {
     "3y": {
      "도로대장": {
-      "n": 6,
-      "amount": 6718040000,
-      "max_single": 2400000000
+      "n": 7,
+      "amount": 461820000,
+      "max_single": 399600000,
+      "amount_unknown": 6318440000,
+      "n_unknown": 5
      }
     },
     "5y": {
      "도로대장": {
-      "n": 6,
-      "amount": 6718040000,
-      "max_single": 2400000000
+      "n": 7,
+      "amount": 461820000,
+      "max_single": 399600000,
+      "amount_unknown": 6318440000,
+      "n_unknown": 5
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "사방정보기술",
+   "name": "주식회사 사방정보기술",
+   "area": "경상남도 함안",
+   "sido": "경상남도",
+   "sigungu": "함안",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 7,
+   "win_amount": 259895700,
+   "last_win": "2026-05-26",
+   "win_amount_unknown": 1579530730,
+   "share_unknown_wins": 3,
+   "fields": {
+    "3y": {
+     "연속도면·연속주제도": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1310000000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 5,
+      "amount": 259895700,
+      "max_single": 98000000,
+      "amount_unknown": 98000000,
+      "n_unknown": 1
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 171530730,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "연속도면·연속주제도": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1310000000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 5,
+      "amount": 259895700,
+      "max_single": 98000000,
+      "amount_unknown": 98000000,
+      "n_unknown": 1
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 171530730,
+      "n_unknown": 1
      }
     }
    },
@@ -319,199 +535,27 @@
     "측지측량업"
    ],
    "win_count": 6,
-   "win_amount": 2184547000,
+   "win_amount": 1350202000,
    "last_win": "2026-06-18",
+   "win_amount_unknown": 834345000,
+   "share_unknown_wins": 2,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 6,
-      "amount": 2184547000,
-      "max_single": 555871000
+      "amount": 1350202000,
+      "max_single": 546925000,
+      "amount_unknown": 834345000,
+      "n_unknown": 2
      }
     },
     "5y": {
      "도로대장": {
       "n": 6,
-      "amount": 2184547000,
-      "max_single": 555871000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "신영이에스디",
-   "name": "주식회사 신영이에스디",
-   "area": "강원특별자치도 춘천",
-   "sido": "강원특별자치도",
-   "sigungu": "춘천",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업",
-    "엔지니어링:도시계획"
-   ],
-   "win_count": 6,
-   "win_amount": 1006449400,
-   "last_win": "2026-02-11",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 5,
-      "amount": 866449400,
-      "max_single": 320000000
-     },
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 140000000,
-      "max_single": 140000000
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 5,
-      "amount": 866449400,
-      "max_single": 320000000
-     },
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 140000000,
-      "max_single": 140000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "사방정보기술",
-   "name": "주식회사 사방정보기술",
-   "area": "경상남도 함안",
-   "sido": "경상남도",
-   "sigungu": "함안",
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 6,
-   "win_amount": 529426430,
-   "last_win": "2026-03-12",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 5,
-      "amount": 357895700,
-      "max_single": 98000000
-     },
-     "토적·재취": {
-      "n": 1,
-      "amount": 171530730,
-      "max_single": 171530730
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 5,
-      "amount": 357895700,
-      "max_single": 98000000
-     },
-     "토적·재취": {
-      "n": 1,
-      "amount": 171530730,
-      "max_single": 171530730
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "지안유에이아이",
-   "name": "주식회사 지안유에이아이",
-   "area": "경기도 안양",
-   "sido": "경기도",
-   "sigungu": "안양",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업",
-    "지도제작업"
-   ],
-   "win_count": 5,
-   "win_amount": 1184514000,
-   "last_win": "2026-07-28",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 5,
-      "amount": 1184514000,
-      "max_single": 319600000
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 5,
-      "amount": 1184514000,
-      "max_single": 319600000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "지오투정보기술",
-   "name": "주식회사 지오투정보기술",
-   "area": "경기도 안양",
-   "sido": "경기도",
-   "sigungu": "안양",
-   "inds": [
-    "SW사업자",
-    "공간영상도화업",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:도시계획",
-    "엔지니어링:측량지적",
-    "연안조사측량업",
-    "영상처리업",
-    "지도제작업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 5,
-   "win_amount": 482390000,
-   "last_win": "2025-07-11",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 168640000,
-      "max_single": 168640000
-     },
-     "UPIS·KLIP DB": {
-      "n": 3,
-      "amount": 255550000,
-      "max_single": 120000000
-     },
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 58200000,
-      "max_single": 58200000
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 168640000,
-      "max_single": 168640000
-     },
-     "UPIS·KLIP DB": {
-      "n": 3,
-      "amount": 255550000,
-      "max_single": 120000000
-     },
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 58200000,
-      "max_single": 58200000
+      "amount": 1350202000,
+      "max_single": 546925000,
+      "amount_unknown": 834345000,
+      "n_unknown": 2
      }
     }
    },
@@ -539,22 +583,28 @@
     "측지측량업",
     "항공촬영업"
    ],
-   "win_count": 4,
-   "win_amount": 3061350000,
+   "win_count": 5,
+   "win_amount": 960200000,
    "last_win": "2026-08-11",
+   "win_amount_unknown": 1711610000,
+   "share_unknown_wins": 3,
    "fields": {
     "3y": {
      "도로대장": {
-      "n": 4,
-      "amount": 3061350000,
-      "max_single": 1400000000
+      "n": 5,
+      "amount": 960200000,
+      "max_single": 560000000,
+      "amount_unknown": 1711610000,
+      "n_unknown": 3
      }
     },
     "5y": {
      "도로대장": {
-      "n": 4,
-      "amount": 3061350000,
-      "max_single": 1400000000
+      "n": 5,
+      "amount": 960200000,
+      "max_single": 560000000,
+      "amount_unknown": 1711610000,
+      "n_unknown": 3
      }
     }
    },
@@ -562,138 +612,38 @@
    "credit": null
   },
   {
-   "key": "디아이브릿지",
-   "name": "디아이브릿지 주식회사",
-   "area": "강원특별자치도 원주",
-   "sido": "강원특별자치도",
-   "sigungu": "원주",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업",
-    "엔지니어링:도시계획",
-    "지도제작업"
-   ],
-   "win_count": 4,
-   "win_amount": 960800000,
-   "last_win": "2026-09-01",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 2,
-      "amount": 578800000,
-      "max_single": 338800000
-     },
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 192000000,
-      "max_single": 192000000
-     },
-     "연속도면·연속주제도": {
-      "n": 1,
-      "amount": 190000000,
-      "max_single": 190000000
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 2,
-      "amount": 578800000,
-      "max_single": 338800000
-     },
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 192000000,
-      "max_single": 192000000
-     },
-     "연속도면·연속주제도": {
-      "n": 1,
-      "amount": 190000000,
-      "max_single": 190000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "알라딘정보기술",
-   "name": "주식회사 알라딘정보기술",
-   "area": "전라남도 나주",
-   "sido": "전라남도",
-   "sigungu": "나주",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업"
-   ],
-   "win_count": 4,
-   "win_amount": 543070000,
-   "last_win": "2026-08-07",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 3,
-      "amount": 345070000,
-      "max_single": 164670000
-     },
-     "토적·재취": {
-      "n": 1,
-      "amount": 198000000,
-      "max_single": 198000000
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 3,
-      "amount": 345070000,
-      "max_single": 164670000
-     },
-     "토적·재취": {
-      "n": 1,
-      "amount": 198000000,
-      "max_single": 198000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "랜드정보기술",
-   "name": "주식회사 랜드정보기술",
-   "area": "충청남도 아산",
-   "sido": "충청남도",
-   "sigungu": "아산",
+   "key": "지안유에이아이",
+   "name": "주식회사 지안유에이아이",
+   "area": "경기도 안양",
+   "sido": "경기도",
+   "sigungu": "안양",
    "inds": [
     "SW사업자",
     "수치지도제작업",
     "지도제작업"
    ],
-   "win_count": 4,
-   "win_amount": 234400000,
-   "last_win": "2026-02-23",
+   "win_count": 5,
+   "win_amount": 954883200,
+   "last_win": "2026-07-28",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
-     "UPIS·KLIP DB": {
-      "n": 2,
-      "amount": 174400000,
-      "max_single": 90600000
-     },
-     "연속도면·연속주제도": {
-      "n": 2,
-      "amount": 60000000,
-      "max_single": 32000000
+     "토적·재취": {
+      "n": 5,
+      "amount": 954883200,
+      "max_single": 319600000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
-     "UPIS·KLIP DB": {
-      "n": 2,
-      "amount": 174400000,
-      "max_single": 90600000
-     },
-     "연속도면·연속주제도": {
-      "n": 2,
-      "amount": 60000000,
-      "max_single": 32000000
+     "토적·재취": {
+      "n": 5,
+      "amount": 954883200,
+      "max_single": 319600000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -714,32 +664,42 @@
     "지적측량업",
     "지하시설물측량업"
    ],
-   "win_count": 4,
-   "win_amount": 218118900,
-   "last_win": "2026-06-11",
+   "win_count": 5,
+   "win_amount": 238118900,
+   "last_win": "2026-10-16",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "도로대장": {
-      "n": 1,
-      "amount": 54171000,
-      "max_single": 54171000
+      "n": 2,
+      "amount": 74171000,
+      "max_single": 54171000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      },
      "UPIS·KLIP DB": {
       "n": 3,
       "amount": 163947900,
-      "max_single": 70028900
+      "max_single": 70028900,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
-      "n": 1,
-      "amount": 54171000,
-      "max_single": 54171000
+      "n": 2,
+      "amount": 74171000,
+      "max_single": 54171000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      },
      "UPIS·KLIP DB": {
       "n": 3,
       "amount": 163947900,
-      "max_single": 70028900
+      "max_single": 70028900,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -747,313 +707,74 @@
    "credit": null
   },
   {
-   "key": "산들이엔지",
-   "name": "주식회사 산들이엔지",
-   "area": "경상남도 양산",
-   "sido": "경상남도",
-   "sigungu": "양산",
+   "key": "지오투정보기술",
+   "name": "주식회사 지오투정보기술",
+   "area": "경기도 안양",
+   "sido": "경기도",
+   "sigungu": "안양",
    "inds": [
     "SW사업자",
     "공간영상도화업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 3,
-   "win_amount": 2363200000,
-   "last_win": "2026-04-28",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 3,
-      "amount": 2363200000,
-      "max_single": 1088000000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 3,
-      "amount": 2363200000,
-      "max_single": 1088000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "신한항업",
-   "name": "주식회사 신한항업",
-   "area": "",
-   "sido": null,
-   "sigungu": null,
-   "inds": [],
-   "win_count": 3,
-   "win_amount": 899860000,
-   "last_win": "2026-06-16",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 3,
-      "amount": 899860000,
-      "max_single": 620000000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 3,
-      "amount": 899860000,
-      "max_single": 620000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "태영정보시스템",
-   "name": "(주)태영정보시스템",
-   "area": "충청남도 서산",
-   "sido": "충청남도",
-   "sigungu": "서산",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업",
-    "연안조사측량업",
-    "영상처리업",
-    "일반측량업",
-    "지도제작업",
-    "지적측량업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 3,
-   "win_amount": 315366000,
-   "last_win": "2025-06-04",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 2,
-      "amount": 284776000,
-      "max_single": 197552000
-     },
-     "연속도면·연속주제도": {
-      "n": 1,
-      "amount": 30590000,
-      "max_single": 30590000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 2,
-      "amount": 284776000,
-      "max_single": 197552000
-     },
-     "연속도면·연속주제도": {
-      "n": 1,
-      "amount": 30590000,
-      "max_single": 30590000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "아이티코리아",
-   "name": "주식회사 아이티코리아",
-   "area": "충청남도 공주",
-   "sido": "충청남도",
-   "sigungu": "공주",
-   "inds": [
     "공공측량업",
     "수치지도제작업",
-    "영상처리업"
-   ],
-   "win_count": 3,
-   "win_amount": 163000000,
-   "last_win": "2025-03-04",
-   "fields": {
-    "3y": {
-     "연속도면·연속주제도": {
-      "n": 2,
-      "amount": 83900000,
-      "max_single": 42400000
-     },
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 79100000,
-      "max_single": 79100000
-     }
-    },
-    "5y": {
-     "연속도면·연속주제도": {
-      "n": 2,
-      "amount": 83900000,
-      "max_single": 42400000
-     },
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 79100000,
-      "max_single": 79100000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "젠스코리아",
-   "name": "젠스코리아 주식회사",
-   "area": "인천광역시 부평구",
-   "sido": "인천광역시",
-   "sigungu": "부평구",
-   "inds": [
-    "SW사업자",
-    "공간영상도화업",
-    "수치지도제작업",
-    "엔지니어링:측량지적",
-    "영상처리업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 3,
-   "win_amount": 66310000,
-   "last_win": "2026-09-14",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 3,
-      "amount": 66310000,
-      "max_single": 43748000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 3,
-      "amount": 66310000,
-      "max_single": 43748000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "산들지리정보",
-   "name": "주식회사 산들지리정보",
-   "area": "",
-   "sido": null,
-   "sigungu": null,
-   "inds": [],
-   "win_count": 2,
-   "win_amount": 1600000000,
-   "last_win": "2024-07-30",
-   "fields": {
-    "3y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 700000000,
-      "max_single": 700000000
-     },
-     "도로대장": {
-      "n": 1,
-      "amount": 900000000,
-      "max_single": 900000000
-     }
-    },
-    "5y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 700000000,
-      "max_single": 700000000
-     },
-     "도로대장": {
-      "n": 1,
-      "amount": 900000000,
-      "max_single": 900000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "엘티메트릭",
-   "name": "엘티메트릭 주식회사",
-   "area": "전북특별자치도 전주",
-   "sido": "전북특별자치도",
-   "sigungu": "전주",
-   "inds": [
-    "SW사업자",
-    "공간영상도화업",
-    "수치지도제작업",
-    "엔지니어링:해양",
-    "연안조사측량업",
-    "영상처리업",
-    "지적측량업",
-    "지하시설물측량업",
-    "측지측량업",
-    "항공촬영업"
-   ],
-   "win_count": 2,
-   "win_amount": 998560000,
-   "last_win": "2026-10-16",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 2,
-      "amount": 998560000,
-      "max_single": 798560000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 2,
-      "amount": 998560000,
-      "max_single": 798560000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "새한항업",
-   "name": "새한항업(주)",
-   "area": "충청북도 청주",
-   "sido": "충청북도",
-   "sigungu": "청주",
-   "inds": [
-    "SW사업자",
-    "공간영상도화업",
-    "수치지도제작업",
+    "엔지니어링:도시계획",
     "엔지니어링:측량지적",
     "연안조사측량업",
     "영상처리업",
     "지도제작업",
-    "지적측량업",
     "지하시설물측량업",
-    "측지측량업",
-    "항공촬영업"
+    "측지측량업"
    ],
-   "win_count": 2,
-   "win_amount": 968156700,
-   "last_win": "2025-09-26",
+   "win_count": 5,
+   "win_amount": 168640000,
+   "last_win": "2025-07-11",
+   "win_amount_unknown": 313750000,
+   "share_unknown_wins": 4,
    "fields": {
     "3y": {
-     "도로대장": {
-      "n": 2,
-      "amount": 968156700,
-      "max_single": 911360000
+     "토적·재취": {
+      "n": 1,
+      "amount": 168640000,
+      "max_single": 168640000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "UPIS·KLIP DB": {
+      "n": 3,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 255550000,
+      "n_unknown": 3
+     },
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 58200000,
+      "n_unknown": 1
      }
     },
     "5y": {
-     "도로대장": {
-      "n": 2,
-      "amount": 968156700,
-      "max_single": 911360000
+     "토적·재취": {
+      "n": 1,
+      "amount": 168640000,
+      "max_single": 168640000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "UPIS·KLIP DB": {
+      "n": 3,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 255550000,
+      "n_unknown": 3
+     },
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 58200000,
+      "n_unknown": 1
      }
     }
    },
@@ -1080,22 +801,424 @@
     "지하시설물측량업",
     "측지측량업"
    ],
-   "win_count": 2,
-   "win_amount": 826400000,
-   "last_win": "2026-06-19",
+   "win_count": 4,
+   "win_amount": 394600000,
+   "last_win": "2026-07-27",
+   "win_amount_unknown": 522400000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 4,
+      "amount": 394600000,
+      "max_single": 273600000,
+      "amount_unknown": 522400000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 4,
+      "amount": 394600000,
+      "max_single": 273600000,
+      "amount_unknown": 522400000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "알라딘정보기술",
+   "name": "주식회사 알라딘정보기술",
+   "area": "전라남도 나주",
+   "sido": "전라남도",
+   "sigungu": "나주",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업"
+   ],
+   "win_count": 4,
+   "win_amount": 378400000,
+   "last_win": "2026-08-07",
+   "win_amount_unknown": 164670000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 3,
+      "amount": 180400000,
+      "max_single": 111100000,
+      "amount_unknown": 164670000,
+      "n_unknown": 1
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 198000000,
+      "max_single": 198000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 3,
+      "amount": 180400000,
+      "max_single": 111100000,
+      "amount_unknown": 164670000,
+      "n_unknown": 1
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 198000000,
+      "max_single": 198000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "랜드정보기술",
+   "name": "주식회사 랜드정보기술",
+   "area": "충청남도 아산",
+   "sido": "충청남도",
+   "sigungu": "아산",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "지도제작업"
+   ],
+   "win_count": 4,
+   "win_amount": 234400000,
+   "last_win": "2026-02-23",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 2,
+      "amount": 174400000,
+      "max_single": 90600000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "연속도면·연속주제도": {
+      "n": 2,
+      "amount": 60000000,
+      "max_single": 32000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 2,
+      "amount": 174400000,
+      "max_single": 90600000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "연속도면·연속주제도": {
+      "n": 2,
+      "amount": 60000000,
+      "max_single": 32000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "디아이브릿지",
+   "name": "디아이브릿지 주식회사",
+   "area": "강원특별자치도 원주",
+   "sido": "강원특별자치도",
+   "sigungu": "원주",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:도시계획",
+    "지도제작업"
+   ],
+   "win_count": 4,
+   "win_amount": 190000000,
+   "last_win": "2026-09-01",
+   "win_amount_unknown": 770800000,
+   "share_unknown_wins": 3,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 578800000,
+      "n_unknown": 2
+     },
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 192000000,
+      "n_unknown": 1
+     },
+     "연속도면·연속주제도": {
+      "n": 1,
+      "amount": 190000000,
+      "max_single": 190000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 578800000,
+      "n_unknown": 2
+     },
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 192000000,
+      "n_unknown": 1
+     },
+     "연속도면·연속주제도": {
+      "n": 1,
+      "amount": 190000000,
+      "max_single": 190000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "삼인공간정보",
+   "name": "주식회사 삼인공간정보",
+   "area": "경기도 용인",
+   "sido": "경기도",
+   "sigungu": "용인",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "수치지도제작업",
+    "영상처리업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 3,
+   "win_amount": 632008000,
+   "last_win": "2026-06-12",
+   "win_amount_unknown": 620000000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 632008000,
+      "max_single": 358600000,
+      "amount_unknown": 620000000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 632008000,
+      "max_single": 358600000,
+      "amount_unknown": 620000000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "산들이엔지",
+   "name": "주식회사 산들이엔지",
+   "area": "경상남도 양산",
+   "sido": "경상남도",
+   "sigungu": "양산",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 3,
+   "win_amount": 510080000,
+   "last_win": "2026-04-28",
+   "win_amount_unknown": 1088000000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 510080000,
+      "max_single": 261200000,
+      "amount_unknown": 1088000000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 510080000,
+      "max_single": 261200000,
+      "amount_unknown": 1088000000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "신한항업",
+   "name": "주식회사 신한항업",
+   "area": "",
+   "sido": null,
+   "sigungu": null,
+   "inds": [],
+   "win_count": 3,
+   "win_amount": 268950000,
+   "last_win": "2026-06-12",
+   "win_amount_unknown": 764860000,
+   "share_unknown_wins": 2,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 268950000,
+      "max_single": 268950000,
+      "amount_unknown": 764860000,
+      "n_unknown": 2
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 268950000,
+      "max_single": 268950000,
+      "amount_unknown": 764860000,
+      "n_unknown": 2
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "태영정보시스템",
+   "name": "(주)태영정보시스템",
+   "area": "충청남도 서산",
+   "sido": "충청남도",
+   "sigungu": "서산",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "연안조사측량업",
+    "영상처리업",
+    "일반측량업",
+    "지도제작업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 3,
+   "win_amount": 228142000,
+   "last_win": "2025-06-04",
+   "win_amount_unknown": 87224000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 2,
-      "amount": 826400000,
-      "max_single": 522400000
+      "amount": 197552000,
+      "max_single": 197552000,
+      "amount_unknown": 87224000,
+      "n_unknown": 1
+     },
+     "연속도면·연속주제도": {
+      "n": 1,
+      "amount": 30590000,
+      "max_single": 30590000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 2,
-      "amount": 826400000,
-      "max_single": 522400000
+      "amount": 197552000,
+      "max_single": 197552000,
+      "amount_unknown": 87224000,
+      "n_unknown": 1
+     },
+     "연속도면·연속주제도": {
+      "n": 1,
+      "amount": 30590000,
+      "max_single": 30590000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "중앙지도",
+   "name": "주식회사 중앙지도",
+   "area": "인천광역시 부평구",
+   "sido": "인천광역시",
+   "sigungu": "부평구",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 3,
+   "win_amount": 197330000,
+   "last_win": "2026-10-26",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 197330000,
+      "max_single": 89100000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 197330000,
+      "max_single": 89100000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1114,22 +1237,28 @@
     "수치지도제작업",
     "지하시설물측량업"
    ],
-   "win_count": 2,
-   "win_amount": 466500000,
-   "last_win": "2026-04-28",
+   "win_count": 3,
+   "win_amount": 180000000,
+   "last_win": "2026-06-16",
+   "win_amount_unknown": 313500000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "도로대장": {
-      "n": 2,
-      "amount": 466500000,
-      "max_single": 313500000
+      "n": 3,
+      "amount": 180000000,
+      "max_single": 153000000,
+      "amount_unknown": 313500000,
+      "n_unknown": 1
      }
     },
     "5y": {
      "도로대장": {
-      "n": 2,
-      "amount": 466500000,
-      "max_single": 313500000
+      "n": 3,
+      "amount": 180000000,
+      "max_single": 153000000,
+      "amount_unknown": 313500000,
+      "n_unknown": 1
      }
     }
    },
@@ -1137,44 +1266,280 @@
    "credit": null
   },
   {
-   "key": "신명유아이",
-   "name": "신명유아이주식회사",
-   "area": "전라남도 순천",
-   "sido": "전라남도",
-   "sigungu": "순천",
+   "key": "아이티코리아",
+   "name": "주식회사 아이티코리아",
+   "area": "충청남도 공주",
+   "sido": "충청남도",
+   "sigungu": "공주",
    "inds": [
-    "SW사업자",
+    "공공측량업",
     "수치지도제작업",
-    "지적측량업",
-    "지하시설물측량업",
-    "측지측량업"
+    "영상처리업"
    ],
-   "win_count": 2,
-   "win_amount": 389198000,
-   "last_win": "2026-02-10",
+   "win_count": 3,
+   "win_amount": 163000000,
+   "last_win": "2025-03-04",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
+     "연속도면·연속주제도": {
+      "n": 2,
+      "amount": 83900000,
+      "max_single": 42400000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
      "UPIS·KLIP DB": {
       "n": 1,
-      "amount": 52898000,
-      "max_single": 52898000
-     },
-     "토적·재취": {
-      "n": 1,
-      "amount": 336300000,
-      "max_single": 336300000
+      "amount": 79100000,
+      "max_single": 79100000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
+     "연속도면·연속주제도": {
+      "n": 2,
+      "amount": 83900000,
+      "max_single": 42400000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
      "UPIS·KLIP DB": {
       "n": 1,
-      "amount": 52898000,
-      "max_single": 52898000
-     },
-     "토적·재취": {
+      "amount": 79100000,
+      "max_single": 79100000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "디엔아이시스템",
+   "name": "주식회사 디엔아이시스템",
+   "area": "충청남도 천안",
+   "sido": "충청남도",
+   "sigungu": "천안",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 3,
+   "win_amount": 74134000,
+   "last_win": "2026-05-29",
+   "win_amount_unknown": 920260000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
       "n": 1,
-      "amount": 336300000,
-      "max_single": 336300000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 920260000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 2,
+      "amount": 74134000,
+      "max_single": 37092000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 920260000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 2,
+      "amount": 74134000,
+      "max_single": 37092000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "젠스코리아",
+   "name": "젠스코리아 주식회사",
+   "area": "인천광역시 부평구",
+   "sido": "인천광역시",
+   "sigungu": "부평구",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "영상처리업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 3,
+   "win_amount": 66310000,
+   "last_win": "2026-09-14",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 66310000,
+      "max_single": 43748000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 3,
+      "amount": 66310000,
+      "max_single": 43748000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "대국지에스",
+   "name": "주식회사 대국지에스",
+   "area": "경상남도 거창",
+   "sido": "경상남도",
+   "sigungu": "거창",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 742425000,
+   "last_win": "2026-03-25",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 742425000,
+      "max_single": 742425000,
+      "amount_unknown": 0,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 742425000,
+      "max_single": 742425000,
+      "amount_unknown": 0,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "정원지리정보",
+   "name": "주식회사정원지리정보",
+   "area": "경상남도 거제",
+   "sido": "경상남도",
+   "sigungu": "거제",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 422800000,
+   "last_win": "2026-10-16",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 422800000,
+      "max_single": 382800000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 422800000,
+      "max_single": 382800000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "새한항업",
+   "name": "새한항업(주)",
+   "area": "충청북도 청주",
+   "sido": "충청북도",
+   "sigungu": "청주",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업",
+    "항공촬영업"
+   ],
+   "win_count": 2,
+   "win_amount": 421340700,
+   "last_win": "2025-09-26",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 421340700,
+      "max_single": 364544000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 421340700,
+      "max_single": 364544000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1207,19 +1572,126 @@
    "win_count": 2,
    "win_amount": 338612000,
    "last_win": "2026-04-02",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 2,
       "amount": 338612000,
-      "max_single": 170048000
+      "max_single": 170048000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 2,
       "amount": 338612000,
-      "max_single": 170048000
+      "max_single": 170048000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "아이씨티웨이",
+   "name": "아이씨티웨이 주식회사",
+   "area": "서울특별시 구로구",
+   "sido": "서울특별시",
+   "sigungu": "구로구",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:정보관리",
+    "엔지니어링:정보통신",
+    "엔지니어링:측량지적",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 314950000,
+   "last_win": "2026-07-27",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 314950000,
+      "max_single": 268950000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 314950000,
+      "max_single": 268950000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "동영기술단",
+   "name": "주식회사 동영기술단",
+   "area": "경상남도 밀양",
+   "sido": "경상남도",
+   "sigungu": "밀양",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안",
+    "영상처리업",
+    "지적측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 303046000,
+   "last_win": "2025-09-23",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 303046000,
+      "max_single": 248880000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 303046000,
+      "max_single": 248880000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1243,64 +1715,25 @@
    "win_count": 2,
    "win_amount": 267000000,
    "last_win": "2023-12-28",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 267000000,
-      "max_single": 138500000
+      "max_single": 138500000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 267000000,
-      "max_single": 138500000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "드림공간정보",
-   "name": "주식회사 드림공간정보",
-   "area": "전북특별자치도 익산",
-   "sido": "전북특별자치도",
-   "sigungu": "익산",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 2,
-   "win_amount": 241150000,
-   "last_win": "2026-02-06",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 32340000,
-      "max_single": 32340000
-     },
-     "토적·재취": {
-      "n": 1,
-      "amount": 208810000,
-      "max_single": 208810000
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 32340000,
-      "max_single": 32340000
-     },
-     "토적·재취": {
-      "n": 1,
-      "amount": 208810000,
-      "max_single": 208810000
+      "max_single": 138500000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1340,19 +1773,25 @@
    "win_count": 2,
    "win_amount": 238183660,
    "last_win": "2026-11-10",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "토적·재취": {
       "n": 2,
       "amount": 238183660,
-      "max_single": 189783660
+      "max_single": 189783660,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "토적·재취": {
       "n": 2,
       "amount": 238183660,
-      "max_single": 189783660
+      "max_single": 189783660,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1385,19 +1824,25 @@
    "win_count": 2,
    "win_amount": 202328000,
    "last_win": "2026-02-20",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 2,
       "amount": 202328000,
-      "max_single": 175455000
+      "max_single": 175455000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 2,
       "amount": 202328000,
-      "max_single": 175455000
+      "max_single": 175455000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1421,52 +1866,25 @@
    "win_count": 2,
    "win_amount": 173874000,
    "last_win": "2025-02-06",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 173874000,
-      "max_single": 86959000
+      "max_single": 86959000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 173874000,
-      "max_single": 86959000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "명시스템",
-   "name": "(주)명시스템",
-   "area": "서울특별시 성북구",
-   "sido": "서울특별시",
-   "sigungu": "성북구",
-   "inds": [
-    "공공측량업",
-    "수치지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 2,
-   "win_amount": 147526000,
-   "last_win": "2026-11-04",
-   "fields": {
-    "3y": {
-     "최근 공고": {
-      "n": 2,
-      "amount": 147526000,
-      "max_single": 79723000
-     }
-    },
-    "5y": {
-     "최근 공고": {
-      "n": 2,
-      "amount": 147526000,
-      "max_single": 79723000
+      "max_single": 86959000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1487,19 +1905,25 @@
    "win_count": 2,
    "win_amount": 132200000,
    "last_win": "2026-03-10",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 132200000,
-      "max_single": 66150000
+      "max_single": 66150000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 132200000,
-      "max_single": 66150000
+      "max_single": 66150000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1507,58 +1931,14 @@
    "credit": null
   },
   {
-   "key": "코아콤",
-   "name": "주식회사 코아콤",
-   "area": "충청북도 청주",
-   "sido": "충청북도",
-   "sigungu": "청주",
+   "key": "앤엑스플로어",
+   "name": "앤엑스플로어(주)",
+   "area": "경상남도 창원",
+   "sido": "경상남도",
+   "sigungu": "창원",
    "inds": [
     "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 2,
-   "win_amount": 120460000,
-   "last_win": "2026-11-05",
-   "fields": {
-    "3y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 33450000,
-      "max_single": 33450000
-     },
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 87010000,
-      "max_single": 87010000
-     }
-    },
-    "5y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 33450000,
-      "max_single": 33450000
-     },
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 87010000,
-      "max_single": 87010000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "지오버스",
-   "name": "주식회사 지오버스",
-   "area": "강원특별자치도 원주",
-   "sido": "강원특별자치도",
-   "sigungu": "원주",
-   "inds": [
-    "SW사업자",
+    "공간영상도화업",
     "공공측량업",
     "수치지도제작업",
     "영상처리업",
@@ -1566,31 +1946,27 @@
     "지하시설물측량업"
    ],
    "win_count": 2,
-   "win_amount": 88720900,
-   "last_win": "2026-08-21",
+   "win_amount": 130600000,
+   "last_win": "2026-04-28",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 33120900,
-      "max_single": 33120900
-     },
      "도로대장": {
-      "n": 1,
-      "amount": 55600000,
-      "max_single": 55600000
+      "n": 2,
+      "amount": 130600000,
+      "max_single": 130600000,
+      "amount_unknown": 0,
+      "n_unknown": 1
      }
     },
     "5y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 33120900,
-      "max_single": 33120900
-     },
      "도로대장": {
-      "n": 1,
-      "amount": 55600000,
-      "max_single": 55600000
+      "n": 2,
+      "amount": 130600000,
+      "max_single": 130600000,
+      "amount_unknown": 0,
+      "n_unknown": 1
      }
     }
    },
@@ -1615,19 +1991,25 @@
    "win_count": 2,
    "win_amount": 88071600,
    "last_win": "2025-03-12",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 88071600,
-      "max_single": 53301600
+      "max_single": 53301600,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 88071600,
-      "max_single": 53301600
+      "max_single": 53301600,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1635,33 +2017,100 @@
    "credit": null
   },
   {
-   "key": "디엔아이시스템",
-   "name": "주식회사 디엔아이시스템",
-   "area": "충청남도 천안",
-   "sido": "충청남도",
-   "sigungu": "천안",
+   "key": "코아콤",
+   "name": "주식회사 코아콤",
+   "area": "충청북도 청주",
+   "sido": "충청북도",
+   "sigungu": "청주",
    "inds": [
     "SW사업자",
     "공공측량업",
     "수치지도제작업",
+    "영상처리업",
     "지하시설물측량업"
    ],
    "win_count": 2,
-   "win_amount": 74134000,
-   "last_win": "2025-02-20",
+   "win_amount": 87010000,
+   "last_win": "2026-11-05",
+   "win_amount_unknown": 33450000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 33450000,
+      "n_unknown": 1
+     },
      "UPIS·KLIP DB": {
-      "n": 2,
-      "amount": 74134000,
-      "max_single": 37092000
+      "n": 1,
+      "amount": 87010000,
+      "max_single": 87010000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 33450000,
+      "n_unknown": 1
+     },
      "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 87010000,
+      "max_single": 87010000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "엘티메트릭",
+   "name": "엘티메트릭 주식회사",
+   "area": "전북특별자치도 전주",
+   "sido": "전북특별자치도",
+   "sigungu": "전주",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "수치지도제작업",
+    "엔지니어링:해양",
+    "연안조사측량업",
+    "영상처리업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업",
+    "항공촬영업"
+   ],
+   "win_count": 2,
+   "win_amount": 80000000,
+   "last_win": "2026-10-16",
+   "win_amount_unknown": 798560000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
       "n": 2,
-      "amount": 74134000,
-      "max_single": 37092000
+      "amount": 80000000,
+      "max_single": 80000000,
+      "amount_unknown": 798560000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 80000000,
+      "max_single": 80000000,
+      "amount_unknown": 798560000,
+      "n_unknown": 1
      }
     }
    },
@@ -1687,19 +2136,25 @@
    "win_count": 2,
    "win_amount": 72332800,
    "last_win": "2026-09-14",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 2,
       "amount": 72332800,
-      "max_single": 43119200
+      "max_single": 43119200,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 2,
       "amount": 72332800,
-      "max_single": 43119200
+      "max_single": 43119200,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1721,19 +2176,178 @@
    "win_count": 2,
    "win_amount": 67558000,
    "last_win": "2025-12-08",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 67558000,
-      "max_single": 41080000
+      "max_single": 41080000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "UPIS·KLIP DB": {
       "n": 2,
       "amount": 67558000,
-      "max_single": 41080000
+      "max_single": 41080000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "소다시스템",
+   "name": "(주)소다시스템",
+   "area": "경기도 안양",
+   "sido": "경기도",
+   "sigungu": "안양",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:정보통신",
+    "엔지니어링:측량지적",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 65300000,
+   "last_win": "2026-04-28",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 65300000,
+      "max_single": 65300000,
+      "amount_unknown": 0,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 65300000,
+      "max_single": 65300000,
+      "amount_unknown": 0,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "지오버스",
+   "name": "주식회사 지오버스",
+   "area": "강원특별자치도 원주",
+   "sido": "강원특별자치도",
+   "sigungu": "원주",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 63700900,
+   "last_win": "2026-08-21",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 33120900,
+      "max_single": 33120900,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "도로대장": {
+      "n": 1,
+      "amount": 30580000,
+      "max_single": 30580000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 33120900,
+      "max_single": 33120900,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "도로대장": {
+      "n": 1,
+      "amount": 30580000,
+      "max_single": 30580000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "신명유아이",
+   "name": "신명유아이주식회사",
+   "area": "전라남도 순천",
+   "sido": "전라남도",
+   "sigungu": "순천",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 52898000,
+   "last_win": "2026-02-10",
+   "win_amount_unknown": 336300000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 52898000,
+      "max_single": 52898000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 336300000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 52898000,
+      "max_single": 52898000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 336300000,
+      "n_unknown": 1
      }
     }
    },
@@ -1762,19 +2376,25 @@
    "win_count": 2,
    "win_amount": 46840000,
    "last_win": "2024-10-29",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "용도지역지구 DB정비": {
       "n": 2,
       "amount": 46840000,
-      "max_single": 24000000
+      "max_single": 24000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "용도지역지구 DB정비": {
       "n": 2,
       "amount": 46840000,
-      "max_single": 24000000
+      "max_single": 24000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1782,57 +2402,417 @@
    "credit": null
   },
   {
-   "key": "케이지엔지니어링종합건축사사무소",
-   "name": "주식회사 케이지엔지니어링종합건축사사무소",
-   "area": "경기도 의정부",
+   "key": "엔지엘(ngl)",
+   "name": "주식회사 엔지엘(NGL)",
+   "area": "경기도 파주",
    "sido": "경기도",
-   "sigungu": "의정부",
+   "sigungu": "파주",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 42500000,
+   "last_win": "2026-04-07",
+   "win_amount_unknown": 620000000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 620000000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 42500000,
+      "max_single": 42500000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 620000000,
+      "n_unknown": 1
+     },
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 42500000,
+      "max_single": 42500000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "드림공간정보",
+   "name": "주식회사 드림공간정보",
+   "area": "전북특별자치도 익산",
+   "sido": "전북특별자치도",
+   "sigungu": "익산",
    "inds": [
     "SW사업자",
     "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 32340000,
+   "last_win": "2026-02-06",
+   "win_amount_unknown": 208810000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 32340000,
+      "max_single": 32340000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 208810000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 32340000,
+      "max_single": 32340000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     },
+     "토적·재취": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 208810000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "지오앤",
+   "name": "주식회사 지오앤",
+   "area": "강원특별자치도 횡성",
+   "sido": "강원특별자치도",
+   "sigungu": "횡성",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:도로공항",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "영상처리업",
+    "지도제작업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 25020000,
+   "last_win": "2026-08-20",
+   "win_amount_unknown": 136000000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 25020000,
+      "max_single": 25020000,
+      "amount_unknown": 136000000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 25020000,
+      "max_single": 25020000,
+      "amount_unknown": 136000000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "명시스템",
+   "name": "(주)명시스템",
+   "area": "서울특별시 성북구",
+   "sido": "서울특별시",
+   "sigungu": "성북구",
+   "inds": [
+    "공공측량업",
+    "수치지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 0,
+   "last_win": "2026-11-04",
+   "win_amount_unknown": 147526000,
+   "share_unknown_wins": 2,
+   "fields": {
+    "3y": {
+     "최근 공고": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 147526000,
+      "n_unknown": 2
+     }
+    },
+    "5y": {
+     "최근 공고": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 147526000,
+      "n_unknown": 2
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "우리종합기술",
+   "name": "(주)우리종합기술",
+   "area": "전라남도 담양",
+   "sido": "전라남도",
+   "sigungu": "담양",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
     "엔지니어링:교통",
     "엔지니어링:구조",
-    "엔지니어링:농림",
     "엔지니어링:농어업토목",
     "엔지니어링:대기관리",
     "엔지니어링:도로공항",
     "엔지니어링:도시계획",
-    "엔지니어링:산업안전",
     "엔지니어링:상하수도",
-    "엔지니어링:설비",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:전기설비",
+    "엔지니어링:정보통신",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "엔지니어링:폐기물처리",
+    "엔지니어링:항만해안",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 0,
+   "last_win": "2026-06-02",
+   "win_amount_unknown": 1298440000,
+   "share_unknown_wins": 2,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1298440000,
+      "n_unknown": 2
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1298440000,
+      "n_unknown": 2
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "해동기술개발공사",
+   "name": "(주)해동기술개발공사",
+   "area": "경상북도 경산",
+   "sido": "경상북도",
+   "sigungu": "경산",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:대기관리",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:자연토양환경",
+    "엔지니어링:조경",
+    "엔지니어링:철도",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안",
+    "지하시설물측량업"
+   ],
+   "win_count": 2,
+   "win_amount": 0,
+   "last_win": "2026-10-02",
+   "win_amount_unknown": 3850000000,
+   "share_unknown_wins": 2,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 3850000000,
+      "n_unknown": 2
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 3850000000,
+      "n_unknown": 2
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "동아기술공사",
+   "name": "주식회사 동아기술공사",
+   "area": "전라남도 화순",
+   "sido": "전라남도",
+   "sigungu": "화순",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:대기관리",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
     "엔지니어링:소음진동",
     "엔지니어링:수자원개발",
     "엔지니어링:수질관리",
     "엔지니어링:일반산업기계",
     "엔지니어링:자연토양환경",
     "엔지니어링:전기설비",
-    "엔지니어링:전기전자응용",
-    "엔지니어링:정보관리",
-    "엔지니어링:정보통신",
     "엔지니어링:조경",
     "엔지니어링:철도",
     "엔지니어링:측량지적",
     "엔지니어링:토질지질",
     "엔지니어링:폐기물처리",
-    "엔지니어링:품질시험",
-    "엔지니어링:항만해안"
+    "엔지니어링:항만해안",
+    "지하시설물측량업",
+    "측지측량업"
    ],
-   "win_count": 1,
-   "win_amount": 2077320000,
-   "last_win": "2025-03-17",
+   "win_count": 2,
+   "win_amount": 0,
+   "last_win": "2026-06-02",
+   "win_amount_unknown": 1298440000,
+   "share_unknown_wins": 2,
    "fields": {
     "3y": {
      "도로대장": {
-      "n": 1,
-      "amount": 2077320000,
-      "max_single": 2077320000
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1298440000,
+      "n_unknown": 2
      }
     },
     "5y": {
      "도로대장": {
+      "n": 2,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1298440000,
+      "n_unknown": 2
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "산들지리정보",
+   "name": "주식회사 산들지리정보",
+   "area": "",
+   "sido": null,
+   "sigungu": null,
+   "inds": [],
+   "win_count": 2,
+   "win_amount": 0,
+   "last_win": "2024-07-30",
+   "win_amount_unknown": 1600000000,
+   "share_unknown_wins": 2,
+   "fields": {
+    "3y": {
+     "용도지역지구 DB정비": {
       "n": 1,
-      "amount": 2077320000,
-      "max_single": 2077320000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 700000000,
+      "n_unknown": 1
+     },
+     "도로대장": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 900000000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 700000000,
+      "n_unknown": 1
+     },
+     "도로대장": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 900000000,
+      "n_unknown": 1
      }
     }
    },
@@ -1857,21 +2837,27 @@
     "항공촬영업"
    ],
    "win_count": 1,
-   "win_amount": 1484850000,
+   "win_amount": 742425000,
    "last_win": "2025-08-11",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 1484850000,
-      "max_single": 1484850000
+      "amount": 742425000,
+      "max_single": 742425000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 1484850000,
-      "max_single": 1484850000
+      "amount": 742425000,
+      "max_single": 742425000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1898,21 +2884,27 @@
     "항공촬영업"
    ],
    "win_count": 1,
-   "win_amount": 1173123000,
+   "win_amount": 586561500,
    "last_win": "2026-08-26",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 1173123000,
-      "max_single": 1173123000
+      "amount": 586561500,
+      "max_single": 586561500,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 1173123000,
-      "max_single": 1173123000
+      "amount": 586561500,
+      "max_single": 586561500,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1920,36 +2912,124 @@
    "credit": null
   },
   {
-   "key": "삼인공간정보",
-   "name": "주식회사 삼인공간정보",
-   "area": "경기도 용인",
-   "sido": "경기도",
-   "sigungu": "용인",
+   "key": "와이던스",
+   "name": "주식회사 와이던스",
+   "area": "전라남도 여수",
+   "sido": "전라남도",
+   "sigungu": "여수",
    "inds": [
-    "SW사업자",
     "공간영상도화업",
     "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 560000000,
+   "last_win": "2026-08-11",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 560000000,
+      "max_single": 560000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 560000000,
+      "max_single": 560000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "지트",
+   "name": "(주)지트",
+   "area": "강원특별자치도 강릉",
+   "sido": "강원특별자치도",
+   "sigungu": "강릉",
+   "inds": [
+    "수치지도제작업",
+    "엔지니어링:토질지질",
+    "연안조사측량업",
     "영상처리업",
     "지적측량업",
     "지하시설물측량업",
     "측지측량업"
    ],
    "win_count": 1,
-   "win_amount": 896500000,
-   "last_win": "2026-06-12",
+   "win_amount": 356400000,
+   "last_win": "2026-08-19",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 896500000,
-      "max_single": 896500000
+      "amount": 356400000,
+      "max_single": 356400000,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 896500000,
-      "max_single": 896500000
+      "amount": 356400000,
+      "max_single": 356400000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "가온도시정보",
+   "name": "주식회사 가온도시정보",
+   "area": "제주특별자치도",
+   "sido": "제주특별자치도",
+   "sigungu": null,
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 351936900,
+   "last_win": "2026-08-26",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 351936900,
+      "max_single": 351936900,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 351936900,
+      "max_single": 351936900,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     }
    },
@@ -1964,21 +3044,3029 @@
    "sigungu": null,
    "inds": [],
    "win_count": 1,
-   "win_amount": 535847400,
+   "win_amount": 321508440,
    "last_win": "2026-07-27",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 535847400,
-      "max_single": 535847400
+      "amount": 321508440,
+      "max_single": 321508440,
+      "amount_unknown": 0,
+      "n_unknown": 0
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 535847400,
-      "max_single": 535847400
+      "amount": 321508440,
+      "max_single": 321508440,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "해림",
+   "name": "주식회사 해림",
+   "area": "전라남도 화순",
+   "sido": "전라남도",
+   "sigungu": "화순",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:전기설비",
+    "엔지니어링:조경",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 280000000,
+   "last_win": "2026-08-11",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 280000000,
+      "max_single": 280000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 280000000,
+      "max_single": 280000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "한국종합기술",
+   "name": "주식회사 한국종합기술",
+   "area": "경기도 하남",
+   "sido": "경기도",
+   "sigungu": "하남",
+   "inds": [
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:가스",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농림",
+    "엔지니어링:농어업토목",
+    "엔지니어링:대기관리",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:산업안전",
+    "엔지니어링:상하수도",
+    "엔지니어링:설비",
+    "엔지니어링:소방방재",
+    "엔지니어링:소음진동",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:자연토양환경",
+    "엔지니어링:전기설비",
+    "엔지니어링:전기전자응용",
+    "엔지니어링:정보관리",
+    "엔지니어링:정보통신",
+    "엔지니어링:조경",
+    "엔지니어링:철도",
+    "엔지니어링:체계공학",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:폐기물처리",
+    "엔지니어링:품질시험",
+    "엔지니어링:프로젝트매니지먼트",
+    "엔지니어링:항만해안",
+    "엔지니어링:해양",
+    "엔지니어링:화공"
+   ],
+   "win_count": 1,
+   "win_amount": 234624600,
+   "last_win": "2026-08-26",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 234624600,
+      "max_single": 234624600,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 234624600,
+      "max_single": 234624600,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "한국전산",
+   "name": "(주)한국전산",
+   "area": "경기도 과천",
+   "sido": "경기도",
+   "sigungu": "과천",
+   "inds": [
+    "엔지니어링:정보관리",
+    "엔지니어링:정보통신"
+   ],
+   "win_count": 1,
+   "win_amount": 214338960,
+   "last_win": "2026-07-27",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 214338960,
+      "max_single": 214338960,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 214338960,
+      "max_single": 214338960,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "다온지아이에스",
+   "name": "주식회사 다온지아이에스",
+   "area": "경상북도 영천",
+   "sido": "경상북도",
+   "sigungu": "영천",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 182272000,
+   "last_win": "2025-09-26",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 182272000,
+      "max_single": 182272000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 182272000,
+      "max_single": 182272000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "주영엔지니어링",
+   "name": "주식회사 주영엔지니어링",
+   "area": "전북특별자치도 익산",
+   "sido": "전북특별자치도",
+   "sigungu": "익산",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "지도제작업"
+   ],
+   "win_count": 1,
+   "win_amount": 177614176,
+   "last_win": "2026-03-09",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 177614176,
+      "max_single": 177614176,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 177614176,
+      "max_single": 177614176,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "도명메타",
+   "name": "주식회사 도명메타",
+   "area": "울산광역시 울주군",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "수치지도제작업",
+    "엔지니어링:가스",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "연안조사측량업",
+    "영상처리업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 175225500,
+   "last_win": "2025-02-03",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 175225500,
+      "max_single": 175225500,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 175225500,
+      "max_single": 175225500,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "삼주이앤텍",
+   "name": "주식회사 삼주이앤텍",
+   "area": "강원특별자치도 강릉",
+   "sido": "강원특별자치도",
+   "sigungu": "강릉",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:전기설비",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "엔지니어링:폐기물처리",
+    "엔지니어링:항만해안"
+   ],
+   "win_count": 1,
+   "win_amount": 174903000,
+   "last_win": "2025-09-04",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 174903000,
+      "max_single": 174903000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 174903000,
+      "max_single": 174903000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "성지토목기술공사",
+   "name": "주식회사 성지토목기술공사",
+   "area": "울산광역시 울주군",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안",
+    "지적측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 171543000,
+   "last_win": "2025-04-17",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 171543000,
+      "max_single": 171543000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 171543000,
+      "max_single": 171543000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "동인엔지니어링",
+   "name": "동인엔지니어링",
+   "area": "울산광역시 울주군",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "inds": [
+    "공공측량업",
+    "수치지도제작업",
+    "일반측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 170151000,
+   "last_win": "2024-04-09",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 170151000,
+      "max_single": 170151000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 170151000,
+      "max_single": 170151000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "국성건설엔지니어링",
+   "name": "주식회사 국성건설엔지니어링",
+   "area": "전북특별자치도 완주",
+   "sido": "전북특별자치도",
+   "sigungu": "완주",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:대기관리",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:자연토양환경",
+    "엔지니어링:전기설비",
+    "엔지니어링:정보통신",
+    "엔지니어링:조경",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:폐기물처리",
+    "엔지니어링:항만해안",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 156682800,
+   "last_win": "2026-03-10",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 156682800,
+      "max_single": 156682800,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 156682800,
+      "max_single": 156682800,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "메타이엔지",
+   "name": "주식회사메타이엔지",
+   "area": "경상남도 창녕",
+   "sido": "경상남도",
+   "sigungu": "창녕",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 130600000,
+   "last_win": "2026-04-28",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 130600000,
+      "max_single": 130600000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 130600000,
+      "max_single": 130600000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "대암엔지니어링",
+   "name": "(주)대암엔지니어링",
+   "area": "강원특별자치도 양구",
+   "sido": "강원특별자치도",
+   "sigungu": "양구",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:설비",
+    "엔지니어링:수자원개발",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 117331000,
+   "last_win": "2024-10-24",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 117331000,
+      "max_single": 117331000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 117331000,
+      "max_single": 117331000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "대한콘설탄트",
+   "name": "주식회사 대한콘설탄트",
+   "area": "서울특별시 종로구",
+   "sido": "서울특별시",
+   "sigungu": "종로구",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:대기관리",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:산업안전",
+    "엔지니어링:상하수도",
+    "엔지니어링:설비",
+    "엔지니어링:소음진동",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:자연토양환경",
+    "엔지니어링:전기설비",
+    "엔지니어링:전기전자응용",
+    "엔지니어링:정보통신",
+    "엔지니어링:조경",
+    "엔지니어링:철도",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:폐기물처리",
+    "엔지니어링:품질시험"
+   ],
+   "win_count": 1,
+   "win_amount": 111629120,
+   "last_win": "2024-07-03",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 111629120,
+      "max_single": 111629120,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 111629120,
+      "max_single": 111629120,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "신명이엔씨",
+   "name": "신명이엔씨 주식회사",
+   "area": "경기도 용인",
+   "sido": "경기도",
+   "sigungu": "용인",
+   "inds": [
+    "SW사업자",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:철도",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "일반측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 108136000,
+   "last_win": "2026-10-19",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 108136000,
+      "max_single": 108136000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 108136000,
+      "max_single": 108136000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "신한아리스",
+   "name": "주식회사 신한아리스",
+   "area": "경기도 과천",
+   "sido": "경기도",
+   "sigungu": "과천",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:정보관리",
+    "엔지니어링:측량지적",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업",
+    "항공촬영업"
+   ],
+   "win_count": 1,
+   "win_amount": 108000000,
+   "last_win": "2026-06-16",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 108000000,
+      "max_single": 108000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 108000000,
+      "max_single": 108000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "진성이앤에스",
+   "name": "주식회사 진성이앤에스",
+   "area": "대구광역시 군위군",
+   "sido": "대구광역시",
+   "sigungu": "군위군",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 97852000,
+   "last_win": "2024-07-18",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 97852000,
+      "max_single": 97852000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 97852000,
+      "max_single": 97852000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "정석지아이에스",
+   "name": "주식회사 정석지아이에스",
+   "area": "경상북도 영주",
+   "sido": "경상북도",
+   "sigungu": "영주",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 88264000,
+   "last_win": "2024-07-02",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 88264000,
+      "max_single": 88264000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 88264000,
+      "max_single": 88264000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "미도지리정보",
+   "name": "(주)미도지리정보",
+   "area": "경기도 포천",
+   "sido": "경기도",
+   "sigungu": "포천",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:상하수도",
+    "엔지니어링:측량지적",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업",
+    "항공촬영업"
+   ],
+   "win_count": 1,
+   "win_amount": 88000000,
+   "last_win": "2026-05-19",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 88000000,
+      "max_single": 88000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 88000000,
+      "max_single": 88000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "제일항업",
+   "name": "제일항업(주)",
+   "area": "경기도 고양",
+   "sido": "경기도",
+   "sigungu": "고양",
+   "inds": [
+    "SW사업자",
+    "수치지도제작업",
+    "엔지니어링:상하수도",
+    "엔지니어링:정보관리",
+    "엔지니어링:측량지적",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업",
+    "항공촬영업"
+   ],
+   "win_count": 1,
+   "win_amount": 88000000,
+   "last_win": "2026-05-19",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 88000000,
+      "max_single": 88000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 88000000,
+      "max_single": 88000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "지성엔지니어링",
+   "name": "주식회사지성엔지니어링",
+   "area": "충청남도 당진",
+   "sido": "충청남도",
+   "sigungu": "당진",
+   "inds": [
+    "SW사업자",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안",
+    "일반측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 87909800,
+   "last_win": "2026-10-29",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 87909800,
+      "max_single": 87909800,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 87909800,
+      "max_single": 87909800,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "민종합기술단",
+   "name": "(주)민종합기술단",
+   "area": "경상남도 사천",
+   "sido": "경상남도",
+   "sigungu": "사천",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "일반측량업",
+    "지적측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 87000000,
+   "last_win": "2025-08-18",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 87000000,
+      "max_single": 87000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 87000000,
+      "max_single": 87000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "정안",
+   "name": "주식회사 정안",
+   "area": "충청남도 논산",
+   "sido": "충청남도",
+   "sigungu": "논산",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:전기설비",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 86379825,
+   "last_win": "2026-05-07",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 86379825,
+      "max_single": 86379825,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 86379825,
+      "max_single": 86379825,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "성월",
+   "name": "주식회사 성월",
+   "area": "전라남도 무안",
+   "sido": "전라남도",
+   "sigungu": "무안",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 74909700,
+   "last_win": "2026-01-21",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 74909700,
+      "max_single": 74909700,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 74909700,
+      "max_single": 74909700,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "첨단공간정보",
+   "name": "주식회사첨단공간정보",
+   "area": "전라남도 순천",
+   "sido": "전라남도",
+   "sigungu": "순천",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:가스",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지하시설물측량업",
+    "측지측량업",
+    "항공촬영업"
+   ],
+   "win_count": 1,
+   "win_amount": 74331400,
+   "last_win": "2025-03-13",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 74331400,
+      "max_single": 74331400,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 74331400,
+      "max_single": 74331400,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "디엠공간정보",
+   "name": "주식회사 디엠공간정보",
+   "area": "강원특별자치도 춘천",
+   "sido": "강원특별자치도",
+   "sigungu": "춘천",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 72339000,
+   "last_win": "2024-03-18",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 72339000,
+      "max_single": 72339000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 72339000,
+      "max_single": 72339000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "우리아이씨티",
+   "name": "주식회사 우리아이씨티",
+   "area": "대구광역시 수성구",
+   "sido": "대구광역시",
+   "sigungu": "수성구",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "영상처리업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 71040000,
+   "last_win": "2026-05-07",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 71040000,
+      "max_single": 71040000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 71040000,
+      "max_single": 71040000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "태성공간정보",
+   "name": "주식회사 태성공간정보",
+   "area": "경기도 의정부",
+   "sido": "경기도",
+   "sigungu": "의정부",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 70954161,
+   "last_win": "2025-02-20",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 70954161,
+      "max_single": 70954161,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 70954161,
+      "max_single": 70954161,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "누리지오텍",
+   "name": "주식회사 누리지오텍",
+   "area": "경상남도 진주",
+   "sido": "경상남도",
+   "sigungu": "진주",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 69958100,
+   "last_win": "2026-01-21",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 69958100,
+      "max_single": 69958100,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 69958100,
+      "max_single": 69958100,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "선영종합엔지니어링",
+   "name": "주식회사 선영종합엔지니어링",
+   "area": "경기도 고양",
+   "sido": "경기도",
+   "sigungu": "고양",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:해양",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 69789200,
+   "last_win": "2024-02-16",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 69789200,
+      "max_single": 69789200,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 69789200,
+      "max_single": 69789200,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "알라딘시스템",
+   "name": "(주)알라딘시스템",
+   "area": "경기도 고양",
+   "sido": "경기도",
+   "sigungu": "고양",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 68016000,
+   "last_win": "2026-07-27",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 68016000,
+      "max_single": 68016000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 68016000,
+      "max_single": 68016000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "지인지리정보",
+   "name": "주식회사 지인지리정보",
+   "area": "전라남도 장성",
+   "sido": "전라남도",
+   "sigungu": "장성",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 65300000,
+   "last_win": "2026-04-28",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 65300000,
+      "max_single": 65300000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 65300000,
+      "max_single": 65300000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "에스콘랩",
+   "name": "주식회사 에스콘랩",
+   "area": "경기도 평택",
+   "sido": "경기도",
+   "sigungu": "평택",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 62220000,
+   "last_win": "2025-09-23",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 62220000,
+      "max_single": 62220000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 62220000,
+      "max_single": 62220000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "제이엠엔지니어링",
+   "name": "(주)제이엠엔지니어링",
+   "area": "강원특별자치도 강릉",
+   "sido": "강원특별자치도",
+   "sigungu": "강릉",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:전기설비",
+    "엔지니어링:조경",
+    "엔지니어링:철도",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 61378000,
+   "last_win": "2024-06-25",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 61378000,
+      "max_single": 61378000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 61378000,
+      "max_single": 61378000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "한올엔지니어링",
+   "name": "주식회사  한올엔지니어링",
+   "area": "경상남도 하동",
+   "sido": "경상남도",
+   "sigungu": "하동",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:대기관리",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:소음진동",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:자연토양환경",
+    "엔지니어링:전기설비",
+    "엔지니어링:조경",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:폐기물처리",
+    "엔지니어링:항만해안",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 60000000,
+   "last_win": "2026-10-16",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 60000000,
+      "max_single": 60000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 60000000,
+      "max_single": 60000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "금강지리정보",
+   "name": "(주)금강지리정보",
+   "area": "강원특별자치도 고성",
+   "sido": "강원특별자치도",
+   "sigungu": "고성",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 58355000,
+   "last_win": "2025-01-21",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 58355000,
+      "max_single": 58355000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 58355000,
+      "max_single": 58355000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "뉴비전네트웍스",
+   "name": "주식회사 뉴비전네트웍스",
+   "area": "경상남도 창원",
+   "sido": "경상남도",
+   "sigungu": "창원",
+   "inds": [
+    "SW사업자",
+    "공간정보사업자",
+    "연안조사측량업",
+    "지도제작업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 54275000,
+   "last_win": "2024-04-01",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 54275000,
+      "max_single": 54275000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 54275000,
+      "max_single": 54275000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "서안이엔씨",
+   "name": "주식회사 서안이엔씨",
+   "area": "부산광역시 동래구",
+   "sido": "부산광역시",
+   "sigungu": "동래구",
+   "inds": [
+    "공공측량업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안"
+   ],
+   "win_count": 1,
+   "win_amount": 53419400,
+   "last_win": "2025-03-20",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 53419400,
+      "max_single": 53419400,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 53419400,
+      "max_single": 53419400,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "서진유앤디",
+   "name": "주식회사 서진유앤디",
+   "area": "전라남도 장성",
+   "sido": "전라남도",
+   "sigungu": "장성",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "일반측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 53084000,
+   "last_win": "2024-01-26",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 53084000,
+      "max_single": 53084000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 53084000,
+      "max_single": 53084000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "에이치엔인포",
+   "name": "(주)에이치엔인포",
+   "area": "서울특별시 영등포구",
+   "sido": "서울특별시",
+   "sigungu": "영등포구",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 51293000,
+   "last_win": "2023-10-19",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {},
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 51293000,
+      "max_single": 51293000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "다큐멘테크",
+   "name": "(주)다큐멘테크",
+   "area": "경기도 하남",
+   "sido": "경기도",
+   "sigungu": "하남",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 43795000,
+   "last_win": "2025-02-10",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 43795000,
+      "max_single": 43795000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 43795000,
+      "max_single": 43795000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "서흥이엔지",
+   "name": "유한회사 서흥이엔지",
+   "area": "전북특별자치도 무주",
+   "sido": "전북특별자치도",
+   "sigungu": "무주",
+   "inds": [
+    "SW사업자",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "일반측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 43342300,
+   "last_win": "2024-05-02",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 43342300,
+      "max_single": 43342300,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 43342300,
+      "max_single": 43342300,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "섬엔지니어링",
+   "name": "주식회사 섬엔지니어링",
+   "area": "제주특별자치도",
+   "sido": "제주특별자치도",
+   "sigungu": null,
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 41448000,
+   "last_win": "2024-12-09",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 41448000,
+      "max_single": 41448000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 41448000,
+      "max_single": 41448000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "유비즈정보기술",
+   "name": "(주)유비즈정보기술",
+   "area": "대전광역시 유성구",
+   "sido": "대전광역시",
+   "sigungu": "유성구",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 41256000,
+   "last_win": "2023-12-08",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 41256000,
+      "max_single": 41256000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 41256000,
+      "max_single": 41256000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "선도지리정보",
+   "name": "주식회사 선도지리정보",
+   "area": "인천광역시 남동구",
+   "sido": "인천광역시",
+   "sigungu": "남동구",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 39653360,
+   "last_win": "2025-02-07",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 39653360,
+      "max_single": 39653360,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 39653360,
+      "max_single": 39653360,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "부광엔지니어링",
+   "name": "(주)부광엔지니어링",
+   "area": "울산광역시 울주군",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:철도",
+    "엔지니어링:토질지질",
+    "엔지니어링:항만해안",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 39472000,
+   "last_win": "2025-04-23",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 39472000,
+      "max_single": 39472000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 39472000,
+      "max_single": 39472000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "삼경이엔씨",
+   "name": "(주)삼경이엔씨",
+   "area": "강원특별자치도 강릉",
+   "sido": "강원특별자치도",
+   "sigungu": "강릉",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 39348000,
+   "last_win": "2026-07-24",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 39348000,
+      "max_single": 39348000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "용도지역지구 DB정비": {
+      "n": 1,
+      "amount": 39348000,
+      "max_single": 39348000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "엔토포스",
+   "name": "주식회사 엔토포스",
+   "area": "경기도 안양",
+   "sido": "경기도",
+   "sigungu": "안양",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "연안조사측량업",
+    "영상처리업",
+    "지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 37075300,
+   "last_win": "2026-04-02",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 37075300,
+      "max_single": 37075300,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 37075300,
+      "max_single": 37075300,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "아성",
+   "name": "주식회사 아성",
+   "area": "전북특별자치도 익산",
+   "sido": "전북특별자치도",
+   "sigungu": "익산",
+   "inds": [
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "지적측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 30400000,
+   "last_win": "2026-06-19",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 30400000,
+      "max_single": 30400000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 30400000,
+      "max_single": 30400000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "예스공간정보",
+   "name": "주식회사 예스공간정보",
+   "area": "충청남도 아산",
+   "sido": "충청남도",
+   "sigungu": "아산",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 30000000,
+   "last_win": "2026-10-13",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 30000000,
+      "max_single": 30000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 30000000,
+      "max_single": 30000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "이지테이크",
+   "name": "주식회사 이지테이크",
+   "area": "울산광역시 남구",
+   "sido": "울산광역시",
+   "sigungu": "남구",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 28800159,
+   "last_win": "2024-01-11",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 28800159,
+      "max_single": 28800159,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "UPIS·KLIP DB": {
+      "n": 1,
+      "amount": 28800159,
+      "max_single": 28800159,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "유앤씨",
+   "name": "주식회사 유앤씨",
+   "area": "울산광역시 울주군",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:조경",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질",
+    "지적측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 27013000,
+   "last_win": "2024-12-13",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 27013000,
+      "max_single": 27013000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 27013000,
+      "max_single": 27013000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "씨투알정보기술",
+   "name": "(주)씨투알정보기술",
+   "area": "인천광역시 남동구",
+   "sido": "인천광역시",
+   "sigungu": "남동구",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 23685000,
+   "last_win": "2025-09-22",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 23685000,
+      "max_single": 23685000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 23685000,
+      "max_single": 23685000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "티에스엘",
+   "name": "(주)티에스엘",
+   "area": "세종특별자치시",
+   "sido": "세종특별자치시",
+   "sigungu": null,
+   "inds": [
+    "수치지도제작업",
+    "연안조사측량업",
+    "영상처리업"
+   ],
+   "win_count": 1,
+   "win_amount": 23000000,
+   "last_win": "2026-07-27",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 23000000,
+      "max_single": 23000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 23000000,
+      "max_single": 23000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "우리강산시스템",
+   "name": "주식회사 우리강산시스템",
+   "area": "충청남도 홍성",
+   "sido": "충청남도",
+   "sigungu": "홍성",
+   "inds": [
+    "SW사업자",
+    "공간영상도화업",
+    "공간정보사업자",
+    "수치지도제작업",
+    "영상처리업",
+    "지도제작업",
+    "지적측량업",
+    "지하시설물측량업",
+    "측지측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 23000000,
+   "last_win": "2026-07-27",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 23000000,
+      "max_single": 23000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 23000000,
+      "max_single": 23000000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "아이맵",
+   "name": "주식회사 아이맵",
+   "area": "인천광역시 남동구",
+   "sido": "인천광역시",
+   "sigungu": "남동구",
+   "inds": [
+    "공공측량업",
+    "수치지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 20922800,
+   "last_win": "2025-04-23",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 20922800,
+      "max_single": 20922800,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 20922800,
+      "max_single": 20922800,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "지오서베이",
+   "name": "지오서베이 주식회사",
+   "area": "인천광역시 부평구",
+   "sido": "인천광역시",
+   "sigungu": "부평구",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지적측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 16485770,
+   "last_win": "2026-04-13",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 16485770,
+      "max_single": 16485770,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 16485770,
+      "max_single": 16485770,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "에스엔지아이",
+   "name": "에스엔지아이 주식회사",
+   "area": "인천광역시 연수구",
+   "sido": "인천광역시",
+   "sigungu": "연수구",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "영상처리업",
+    "지적측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 9410000,
+   "last_win": "2026-10-07",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 9410000,
+      "max_single": 9410000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 9410000,
+      "max_single": 9410000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "위로",
+   "name": "주식회사 위로",
+   "area": "충청남도 홍성",
+   "sido": "충청남도",
+   "sigungu": "홍성",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 7800000,
+   "last_win": "2026-02-04",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 7800000,
+      "max_single": 7800000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 7800000,
+      "max_single": 7800000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "한라지리정보",
+   "name": "주식회사 한라지리정보",
+   "area": "대전광역시 유성구",
+   "sido": "대전광역시",
+   "sigungu": "유성구",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:측량지적",
+    "영상처리업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 7015500,
+   "last_win": "2024-12-02",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 7015500,
+      "max_single": 7015500,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 7015500,
+      "max_single": 7015500,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "디엘아이티",
+   "name": "주식회사 디엘아이티",
+   "area": "충청남도 보령",
+   "sido": "충청남도",
+   "sigungu": "보령",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 6930000,
+   "last_win": "2024-03-12",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 0,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 6930000,
+      "max_single": 6930000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 6930000,
+      "max_single": 6930000,
+      "amount_unknown": 0,
+      "n_unknown": 0
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "남부지엔씨",
+   "name": "(주)남부지엔씨",
+   "area": "",
+   "sido": null,
+   "sigungu": null,
+   "inds": [],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2026-11-27",
+   "win_amount_unknown": 31152000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 31152000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 31152000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "승평건설이엔지",
+   "name": "승평건설이엔지 주식회사",
+   "area": "전라남도 장성",
+   "sido": "전라남도",
+   "sigungu": "장성",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "일반측량업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2026-11-13",
+   "win_amount_unknown": 55741000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 55741000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 55741000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "이엘피",
+   "name": "이엘피",
+   "area": "경기도 부천",
+   "sido": "경기도",
+   "sigungu": "부천",
+   "inds": [
+    "SW사업자"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2026-11-17",
+   "win_amount_unknown": 14396200,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 14396200,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 14396200,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "일신이엔씨",
+   "name": "일신이엔씨주식회사",
+   "area": "경기도 이천",
+   "sido": "경기도",
+   "sigungu": "이천",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:도로공항",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:토질지질",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2026-11-04",
+   "win_amount_unknown": 49345200,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 49345200,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 49345200,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "다산산림기술사사무소",
+   "name": "주식회사 다산산림기술사사무소",
+   "area": "",
+   "sido": null,
+   "sigungu": null,
+   "inds": [],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2026-11-20",
+   "win_amount_unknown": 26550000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 26550000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 26550000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "다온이앤씨",
+   "name": "주식회사 다온이앤씨",
+   "area": "전북특별자치도 정읍",
+   "sido": "전북특별자치도",
+   "sigungu": "정읍",
+   "inds": [
+    "SW사업자",
+    "공공측량업",
+    "수치지도제작업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:조경",
+    "엔지니어링:토질지질",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2026-11-06",
+   "win_amount_unknown": 25399000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 25399000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 25399000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "더원이엔지",
+   "name": "주식회사 더원이엔지",
+   "area": "충청남도 천안",
+   "sido": "충청남도",
+   "sigungu": "천안",
+   "inds": [
+    "공공측량업",
+    "엔지니어링:교통",
+    "엔지니어링:구조",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:수질관리",
+    "엔지니어링:일반산업기계",
+    "엔지니어링:전기설비",
+    "엔지니어링:조경",
+    "엔지니어링:측량지적",
+    "엔지니어링:토질지질"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2026-11-03",
+   "win_amount_unknown": 33130000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 33130000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "최근 공고": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 33130000,
+      "n_unknown": 1
      }
     }
    },
@@ -2034,1114 +6122,27 @@
     "연안조사측량업"
    ],
    "win_count": 1,
-   "win_amount": 324950000,
+   "win_amount": 0,
    "last_win": "2026-10-06",
+   "win_amount_unknown": 324950000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 324950000,
-      "max_single": 324950000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 324950000,
+      "n_unknown": 1
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 324950000,
-      "max_single": 324950000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "주영엔지니어링",
-   "name": "주식회사 주영엔지니어링",
-   "area": "전북특별자치도 익산",
-   "sido": "전북특별자치도",
-   "sigungu": "익산",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "지도제작업"
-   ],
-   "win_count": 1,
-   "win_amount": 177614176,
-   "last_win": "2026-03-09",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 177614176,
-      "max_single": 177614176
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 177614176,
-      "max_single": 177614176
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "제일항업",
-   "name": "제일항업(주)",
-   "area": "경기도 고양",
-   "sido": "경기도",
-   "sigungu": "고양",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업",
-    "엔지니어링:상하수도",
-    "엔지니어링:정보관리",
-    "엔지니어링:측량지적",
-    "연안조사측량업",
-    "영상처리업",
-    "지도제작업",
-    "지적측량업",
-    "지하시설물측량업",
-    "측지측량업",
-    "항공촬영업"
-   ],
-   "win_count": 1,
-   "win_amount": 176000000,
-   "last_win": "2026-05-19",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 176000000,
-      "max_single": 176000000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 176000000,
-      "max_single": 176000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "도명메타",
-   "name": "주식회사 도명메타",
-   "area": "울산광역시 울주군",
-   "sido": "울산광역시",
-   "sigungu": "울주군",
-   "inds": [
-    "SW사업자",
-    "공간영상도화업",
-    "수치지도제작업",
-    "엔지니어링:가스",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "연안조사측량업",
-    "영상처리업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 175225500,
-   "last_win": "2025-02-03",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 175225500,
-      "max_single": 175225500
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 175225500,
-      "max_single": 175225500
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "삼주이앤텍",
-   "name": "주식회사 삼주이앤텍",
-   "area": "강원특별자치도 강릉",
-   "sido": "강원특별자치도",
-   "sigungu": "강릉",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:일반산업기계",
-    "엔지니어링:전기설비",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "엔지니어링:폐기물처리",
-    "엔지니어링:항만해안"
-   ],
-   "win_count": 1,
-   "win_amount": 174903000,
-   "last_win": "2025-09-04",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 174903000,
-      "max_single": 174903000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 174903000,
-      "max_single": 174903000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "성지토목기술공사",
-   "name": "주식회사 성지토목기술공사",
-   "area": "울산광역시 울주군",
-   "sido": "울산광역시",
-   "sigungu": "울주군",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "엔지니어링:항만해안",
-    "지적측량업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 171543000,
-   "last_win": "2025-04-17",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 171543000,
-      "max_single": 171543000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 171543000,
-      "max_single": 171543000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "동인엔지니어링",
-   "name": "동인엔지니어링",
-   "area": "울산광역시 울주군",
-   "sido": "울산광역시",
-   "sigungu": "울주군",
-   "inds": [
-    "공공측량업",
-    "수치지도제작업",
-    "일반측량업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 170151000,
-   "last_win": "2024-04-09",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 170151000,
-      "max_single": 170151000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 170151000,
-      "max_single": 170151000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "국성건설엔지니어링",
-   "name": "주식회사 국성건설엔지니어링",
-   "area": "전북특별자치도 완주",
-   "sido": "전북특별자치도",
-   "sigungu": "완주",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:대기관리",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:일반산업기계",
-    "엔지니어링:자연토양환경",
-    "엔지니어링:전기설비",
-    "엔지니어링:정보통신",
-    "엔지니어링:조경",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "엔지니어링:폐기물처리",
-    "엔지니어링:항만해안",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 156682800,
-   "last_win": "2026-03-10",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 156682800,
-      "max_single": 156682800
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 156682800,
-      "max_single": 156682800
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "지오앤",
-   "name": "주식회사 지오앤",
-   "area": "강원특별자치도 횡성",
-   "sido": "강원특별자치도",
-   "sigungu": "횡성",
-   "inds": [
-    "SW사업자",
-    "공간영상도화업",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:도로공항",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "영상처리업",
-    "지도제작업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 136000000,
-   "last_win": "2024-06-28",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 136000000,
-      "max_single": 136000000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 136000000,
-      "max_single": 136000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "대암엔지니어링",
-   "name": "(주)대암엔지니어링",
-   "area": "강원특별자치도 양구",
-   "sido": "강원특별자치도",
-   "sigungu": "양구",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:설비",
-    "엔지니어링:수자원개발",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 117331000,
-   "last_win": "2024-10-24",
-   "fields": {
-    "3y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 117331000,
-      "max_single": 117331000
-     }
-    },
-    "5y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 117331000,
-      "max_single": 117331000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "대한콘설탄트",
-   "name": "주식회사 대한콘설탄트",
-   "area": "서울특별시 종로구",
-   "sido": "서울특별시",
-   "sigungu": "종로구",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:대기관리",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:산업안전",
-    "엔지니어링:상하수도",
-    "엔지니어링:설비",
-    "엔지니어링:소음진동",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:일반산업기계",
-    "엔지니어링:자연토양환경",
-    "엔지니어링:전기설비",
-    "엔지니어링:전기전자응용",
-    "엔지니어링:정보통신",
-    "엔지니어링:조경",
-    "엔지니어링:철도",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "엔지니어링:폐기물처리",
-    "엔지니어링:품질시험"
-   ],
-   "win_count": 1,
-   "win_amount": 111629120,
-   "last_win": "2024-07-03",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 111629120,
-      "max_single": 111629120
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 111629120,
-      "max_single": 111629120
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "신명이엔씨",
-   "name": "신명이엔씨 주식회사",
-   "area": "경기도 용인",
-   "sido": "경기도",
-   "sigungu": "용인",
-   "inds": [
-    "SW사업자",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:철도",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "일반측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 108136000,
-   "last_win": "2026-10-19",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 108136000,
-      "max_single": 108136000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 108136000,
-      "max_single": 108136000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "에스엠소프트",
-   "name": "주식회사 에스엠소프트",
-   "area": "광주광역시",
-   "sido": "광주광역시",
-   "sigungu": null,
-   "inds": [
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 107609000,
-   "last_win": "2024-07-19",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 107609000,
-      "max_single": 107609000
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 107609000,
-      "max_single": 107609000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "진성이앤에스",
-   "name": "주식회사 진성이앤에스",
-   "area": "대구광역시 군위군",
-   "sido": "대구광역시",
-   "sigungu": "군위군",
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 1,
-   "win_amount": 97852000,
-   "last_win": "2024-07-18",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 97852000,
-      "max_single": 97852000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 97852000,
-      "max_single": 97852000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "정석지아이에스",
-   "name": "주식회사 정석지아이에스",
-   "area": "경상북도 영주",
-   "sido": "경상북도",
-   "sigungu": "영주",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 88264000,
-   "last_win": "2024-07-02",
-   "fields": {
-    "3y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 88264000,
-      "max_single": 88264000
-     }
-    },
-    "5y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 88264000,
-      "max_single": 88264000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "지성엔지니어링",
-   "name": "주식회사지성엔지니어링",
-   "area": "충청남도 당진",
-   "sido": "충청남도",
-   "sigungu": "당진",
-   "inds": [
-    "SW사업자",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "엔지니어링:항만해안",
-    "일반측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 87909800,
-   "last_win": "2026-10-29",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 87909800,
-      "max_single": 87909800
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 87909800,
-      "max_single": 87909800
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "정안",
-   "name": "주식회사 정안",
-   "area": "충청남도 논산",
-   "sido": "충청남도",
-   "sigungu": "논산",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:일반산업기계",
-    "엔지니어링:전기설비",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 86379825,
-   "last_win": "2026-05-07",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 86379825,
-      "max_single": 86379825
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 86379825,
-      "max_single": 86379825
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "중앙지도",
-   "name": "주식회사 중앙지도",
-   "area": "인천광역시 부평구",
-   "sido": "인천광역시",
-   "sigungu": "부평구",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업",
-    "엔지니어링:측량지적",
-    "연안조사측량업",
-    "영상처리업",
-    "지도제작업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 84550000,
-   "last_win": "2026-10-26",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 84550000,
-      "max_single": 84550000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 84550000,
-      "max_single": 84550000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "성월",
-   "name": "주식회사 성월",
-   "area": "전라남도 무안",
-   "sido": "전라남도",
-   "sigungu": "무안",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "엔지니어링:항만해안",
-    "연안조사측량업",
-    "영상처리업",
-    "지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 74909700,
-   "last_win": "2026-01-21",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 74909700,
-      "max_single": 74909700
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 74909700,
-      "max_single": 74909700
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "첨단공간정보",
-   "name": "주식회사첨단공간정보",
-   "area": "전라남도 순천",
-   "sido": "전라남도",
-   "sigungu": "순천",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:가스",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "연안조사측량업",
-    "영상처리업",
-    "지도제작업",
-    "지하시설물측량업",
-    "측지측량업",
-    "항공촬영업"
-   ],
-   "win_count": 1,
-   "win_amount": 74331400,
-   "last_win": "2025-03-13",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 74331400,
-      "max_single": 74331400
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 74331400,
-      "max_single": 74331400
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "디엠공간정보",
-   "name": "주식회사 디엠공간정보",
-   "area": "강원특별자치도 춘천",
-   "sido": "강원특별자치도",
-   "sigungu": "춘천",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 72339000,
-   "last_win": "2024-03-18",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 72339000,
-      "max_single": 72339000
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 72339000,
-      "max_single": 72339000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "태성공간정보",
-   "name": "주식회사 태성공간정보",
-   "area": "경기도 의정부",
-   "sido": "경기도",
-   "sigungu": "의정부",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 70954161,
-   "last_win": "2025-02-20",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 70954161,
-      "max_single": 70954161
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 70954161,
-      "max_single": 70954161
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "누리지오텍",
-   "name": "주식회사 누리지오텍",
-   "area": "경상남도 진주",
-   "sido": "경상남도",
-   "sigungu": "진주",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 69958100,
-   "last_win": "2026-01-21",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 69958100,
-      "max_single": 69958100
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 69958100,
-      "max_single": 69958100
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "선영종합엔지니어링",
-   "name": "주식회사 선영종합엔지니어링",
-   "area": "경기도 고양",
-   "sido": "경기도",
-   "sigungu": "고양",
-   "inds": [
-    "SW사업자",
-    "공간영상도화업",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "엔지니어링:해양",
-    "연안조사측량업",
-    "영상처리업",
-    "지도제작업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 69789200,
-   "last_win": "2024-02-16",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 69789200,
-      "max_single": 69789200
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 69789200,
-      "max_single": 69789200
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "알라딘시스템",
-   "name": "(주)알라딘시스템",
-   "area": "경기도 고양",
-   "sido": "경기도",
-   "sigungu": "고양",
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 1,
-   "win_amount": 68016000,
-   "last_win": "2026-07-27",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 68016000,
-      "max_single": 68016000
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 68016000,
-      "max_single": 68016000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "해인공간정보",
-   "name": "주식회사 해인공간정보",
-   "area": "강원특별자치도 강릉",
-   "sido": "강원특별자치도",
-   "sigungu": "강릉",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 62085000,
-   "last_win": "2026-11-03",
-   "fields": {
-    "3y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 62085000,
-      "max_single": 62085000
-     }
-    },
-    "5y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 62085000,
-      "max_single": 62085000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "제이엠엔지니어링",
-   "name": "(주)제이엠엔지니어링",
-   "area": "강원특별자치도 강릉",
-   "sido": "강원특별자치도",
-   "sigungu": "강릉",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:일반산업기계",
-    "엔지니어링:전기설비",
-    "엔지니어링:조경",
-    "엔지니어링:철도",
-    "엔지니어링:토질지질",
-    "엔지니어링:항만해안",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 61378000,
-   "last_win": "2024-06-25",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 61378000,
-      "max_single": 61378000
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 61378000,
-      "max_single": 61378000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "금강지리정보",
-   "name": "(주)금강지리정보",
-   "area": "강원특별자치도 고성",
-   "sido": "강원특별자치도",
-   "sigungu": "고성",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 58355000,
-   "last_win": "2025-01-21",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 58355000,
-      "max_single": 58355000
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 58355000,
-      "max_single": 58355000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 324950000,
+      "n_unknown": 1
      }
     }
    },
@@ -3164,21 +6165,27 @@
     "지하시설물측량업"
    ],
    "win_count": 1,
-   "win_amount": 56001000,
+   "win_amount": 0,
    "last_win": "2026-11-13",
+   "win_amount_unknown": 56001000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "최근 공고": {
       "n": 1,
-      "amount": 56001000,
-      "max_single": 56001000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 56001000,
+      "n_unknown": 1
      }
     },
     "5y": {
      "최근 공고": {
       "n": 1,
-      "amount": 56001000,
-      "max_single": 56001000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 56001000,
+      "n_unknown": 1
      }
     }
    },
@@ -3186,127 +6193,40 @@
    "credit": null
   },
   {
-   "key": "승평건설이엔지",
-   "name": "승평건설이엔지 주식회사",
-   "area": "전라남도 장성",
-   "sido": "전라남도",
-   "sigungu": "장성",
+   "key": "성산",
+   "name": "주식회사 성산",
+   "area": "경상북도 성주",
+   "sido": "경상북도",
+   "sigungu": "성주",
    "inds": [
     "SW사업자",
     "공공측량업",
     "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "일반측량업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 55741000,
-   "last_win": "2026-11-13",
-   "fields": {
-    "3y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 55741000,
-      "max_single": 55741000
-     }
-    },
-    "5y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 55741000,
-      "max_single": 55741000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "뉴비전네트웍스",
-   "name": "주식회사 뉴비전네트웍스",
-   "area": "경상남도 창원",
-   "sido": "경상남도",
-   "sigungu": "창원",
-   "inds": [
-    "SW사업자",
-    "공간정보사업자",
-    "연안조사측량업",
-    "지도제작업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 54275000,
-   "last_win": "2024-04-01",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 54275000,
-      "max_single": 54275000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 54275000,
-      "max_single": 54275000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "동영기술단",
-   "name": "주식회사 동영기술단",
-   "area": "경상남도 밀양",
-   "sido": "경상남도",
-   "sigungu": "밀양",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "엔지니어링:항만해안",
     "영상처리업",
-    "지적측량업",
     "지하시설물측량업"
    ],
    "win_count": 1,
-   "win_amount": 54166000,
-   "last_win": "2025-04-15",
+   "win_amount": 0,
+   "last_win": "2026-10-02",
+   "win_amount_unknown": 1450000000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 54166000,
-      "max_single": 54166000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1450000000,
+      "n_unknown": 1
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 54166000,
-      "max_single": 54166000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1450000000,
+      "n_unknown": 1
      }
     }
    },
@@ -3314,82 +6234,114 @@
    "credit": null
   },
   {
-   "key": "서안이엔씨",
-   "name": "주식회사 서안이엔씨",
-   "area": "부산광역시 동래구",
-   "sido": "부산광역시",
-   "sigungu": "동래구",
-   "inds": [
-    "공공측량업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질",
-    "엔지니어링:항만해안"
-   ],
-   "win_count": 1,
-   "win_amount": 53419400,
-   "last_win": "2025-03-20",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 53419400,
-      "max_single": 53419400
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 53419400,
-      "max_single": 53419400
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "서진유앤디",
-   "name": "주식회사 서진유앤디",
-   "area": "전라남도 장성",
-   "sido": "전라남도",
-   "sigungu": "장성",
+   "key": "성원지아이에스",
+   "name": "주식회사 성원지아이에스",
+   "area": "경상북도 울진",
+   "sido": "경상북도",
+   "sigungu": "울진",
    "inds": [
     "SW사업자",
     "공공측량업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
+    "수치지도제작업",
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2026-08-03",
+   "win_amount_unknown": 2400000000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 2400000000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "도로대장": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 2400000000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "에스엠소프트",
+   "name": "주식회사 에스엠소프트",
+   "area": "광주광역시",
+   "sido": "광주광역시",
+   "sigungu": null,
+   "inds": [
+    "지하시설물측량업"
+   ],
+   "win_count": 1,
+   "win_amount": 0,
+   "last_win": "2024-07-19",
+   "win_amount_unknown": 107609000,
+   "share_unknown_wins": 1,
+   "fields": {
+    "3y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 107609000,
+      "n_unknown": 1
+     }
+    },
+    "5y": {
+     "토적·재취": {
+      "n": 1,
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 107609000,
+      "n_unknown": 1
+     }
+    }
+   },
+   "people": null,
+   "credit": null
+  },
+  {
+   "key": "유성엔지니어링",
+   "name": "주식회사 유성엔지니어링",
+   "area": "경상북도 경주",
+   "sido": "경상북도",
+   "sigungu": "경주",
+   "inds": [
+    "엔지니어링:설비",
     "일반측량업"
    ],
    "win_count": 1,
-   "win_amount": 53084000,
-   "last_win": "2024-01-26",
+   "win_amount": 0,
+   "last_win": "2026-10-06",
+   "win_amount_unknown": 324950000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
-     "UPIS·KLIP DB": {
+     "도로대장": {
       "n": 1,
-      "amount": 53084000,
-      "max_single": 53084000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 324950000,
+      "n_unknown": 1
      }
     },
     "5y": {
-     "UPIS·KLIP DB": {
+     "도로대장": {
       "n": 1,
-      "amount": 53084000,
-      "max_single": 53084000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 324950000,
+      "n_unknown": 1
      }
     }
    },
@@ -3397,62 +6349,41 @@
    "credit": null
   },
   {
-   "key": "에이치엔인포",
-   "name": "(주)에이치엔인포",
-   "area": "서울특별시 영등포구",
-   "sido": "서울특별시",
-   "sigungu": "영등포구",
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 1,
-   "win_amount": 51293000,
-   "last_win": "2023-10-19",
-   "fields": {
-    "3y": {},
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 51293000,
-      "max_single": 51293000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "일신이엔씨",
-   "name": "일신이엔씨주식회사",
-   "area": "경기도 이천",
-   "sido": "경기도",
-   "sigungu": "이천",
+   "key": "조은공간정보",
+   "name": "주식회사 조은공간정보",
+   "area": "경상남도 김해",
+   "sido": "경상남도",
+   "sigungu": "김해",
    "inds": [
     "SW사업자",
     "공공측량업",
     "수치지도제작업",
-    "엔지니어링:도로공항",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:토질지질",
+    "엔지니어링:측량지적",
+    "영상처리업",
     "지하시설물측량업"
    ],
    "win_count": 1,
-   "win_amount": 49345200,
-   "last_win": "2026-11-04",
+   "win_amount": 0,
+   "last_win": "2026-04-07",
+   "win_amount_unknown": 620000000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
-     "최근 공고": {
+     "도로대장": {
       "n": 1,
-      "amount": 49345200,
-      "max_single": 49345200
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 620000000,
+      "n_unknown": 1
      }
     },
     "5y": {
-     "최근 공고": {
+     "도로대장": {
       "n": 1,
-      "amount": 49345200,
-      "max_single": 49345200
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 620000000,
+      "n_unknown": 1
      }
     }
    },
@@ -3469,21 +6400,27 @@
     "SW사업자"
    ],
    "win_count": 1,
-   "win_amount": 45360000,
+   "win_amount": 0,
    "last_win": "2026-11-23",
+   "win_amount_unknown": 45360000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "최근 공고": {
       "n": 1,
-      "amount": 45360000,
-      "max_single": 45360000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 45360000,
+      "n_unknown": 1
      }
     },
     "5y": {
      "최근 공고": {
       "n": 1,
-      "amount": 45360000,
-      "max_single": 45360000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 45360000,
+      "n_unknown": 1
      }
     }
    },
@@ -3491,551 +6428,63 @@
    "credit": null
   },
   {
-   "key": "다큐멘테크",
-   "name": "(주)다큐멘테크",
-   "area": "경기도 하남",
+   "key": "케이지엔지니어링종합건축사사무소",
+   "name": "주식회사 케이지엔지니어링종합건축사사무소",
+   "area": "경기도 의정부",
    "sido": "경기도",
-   "sigungu": "하남",
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 1,
-   "win_amount": 43795000,
-   "last_win": "2025-02-10",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 43795000,
-      "max_single": 43795000
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 43795000,
-      "max_single": 43795000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "서흥이엔지",
-   "name": "유한회사 서흥이엔지",
-   "area": "전북특별자치도 무주",
-   "sido": "전북특별자치도",
-   "sigungu": "무주",
+   "sigungu": "의정부",
    "inds": [
     "SW사업자",
+    "공공측량업",
     "엔지니어링:교통",
     "엔지니어링:구조",
+    "엔지니어링:농림",
     "엔지니어링:농어업토목",
+    "엔지니어링:대기관리",
     "엔지니어링:도로공항",
     "엔지니어링:도시계획",
+    "엔지니어링:산업안전",
     "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "일반측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 43342300,
-   "last_win": "2024-05-02",
-   "fields": {
-    "3y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 43342300,
-      "max_single": 43342300
-     }
-    },
-    "5y": {
-     "토적·재취": {
-      "n": 1,
-      "amount": 43342300,
-      "max_single": 43342300
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "엔지엘(ngl)",
-   "name": "주식회사 엔지엘(NGL)",
-   "area": "경기도 파주",
-   "sido": "경기도",
-   "sigungu": "파주",
-   "inds": [
-    "SW사업자",
-    "수치지도제작업",
-    "연안조사측량업",
-    "영상처리업",
-    "지도제작업",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 42500000,
-   "last_win": "2024-02-13",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 42500000,
-      "max_single": 42500000
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 42500000,
-      "max_single": 42500000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "섬엔지니어링",
-   "name": "주식회사 섬엔지니어링",
-   "area": "제주특별자치도",
-   "sido": "제주특별자치도",
-   "sigungu": null,
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 1,
-   "win_amount": 41448000,
-   "last_win": "2024-12-09",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 41448000,
-      "max_single": 41448000
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 41448000,
-      "max_single": 41448000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "유비즈정보기술",
-   "name": "(주)유비즈정보기술",
-   "area": "대전광역시 유성구",
-   "sido": "대전광역시",
-   "sigungu": "유성구",
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 1,
-   "win_amount": 41256000,
-   "last_win": "2023-12-08",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 41256000,
-      "max_single": 41256000
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 41256000,
-      "max_single": 41256000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "선도지리정보",
-   "name": "주식회사 선도지리정보",
-   "area": "인천광역시 남동구",
-   "sido": "인천광역시",
-   "sigungu": "남동구",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 39653360,
-   "last_win": "2025-02-07",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 39653360,
-      "max_single": 39653360
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 39653360,
-      "max_single": 39653360
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "부광엔지니어링",
-   "name": "(주)부광엔지니어링",
-   "area": "울산광역시 울주군",
-   "sido": "울산광역시",
-   "sigungu": "울주군",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:철도",
-    "엔지니어링:토질지질",
-    "엔지니어링:항만해안",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 39472000,
-   "last_win": "2025-04-23",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 39472000,
-      "max_single": 39472000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 39472000,
-      "max_single": 39472000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "삼경이엔씨",
-   "name": "(주)삼경이엔씨",
-   "area": "강원특별자치도 강릉",
-   "sido": "강원특별자치도",
-   "sigungu": "강릉",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:측량지적",
-    "지하시설물측량업",
-    "측지측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 39348000,
-   "last_win": "2026-07-24",
-   "fields": {
-    "3y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 39348000,
-      "max_single": 39348000
-     }
-    },
-    "5y": {
-     "용도지역지구 DB정비": {
-      "n": 1,
-      "amount": 39348000,
-      "max_single": 39348000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "엔토포스",
-   "name": "주식회사 엔토포스",
-   "area": "경기도 안양",
-   "sido": "경기도",
-   "sigungu": "안양",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "연안조사측량업",
-    "영상처리업",
-    "지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 37075300,
-   "last_win": "2026-04-02",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 37075300,
-      "max_single": 37075300
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 37075300,
-      "max_single": 37075300
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "더원이엔지",
-   "name": "주식회사 더원이엔지",
-   "area": "충청남도 천안",
-   "sido": "충청남도",
-   "sigungu": "천안",
-   "inds": [
-    "공공측량업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
+    "엔지니어링:설비",
+    "엔지니어링:소음진동",
     "엔지니어링:수자원개발",
     "엔지니어링:수질관리",
     "엔지니어링:일반산업기계",
+    "엔지니어링:자연토양환경",
     "엔지니어링:전기설비",
+    "엔지니어링:전기전자응용",
+    "엔지니어링:정보관리",
+    "엔지니어링:정보통신",
     "엔지니어링:조경",
-    "엔지니어링:측량지적",
-    "엔지니어링:토질지질"
-   ],
-   "win_count": 1,
-   "win_amount": 33130000,
-   "last_win": "2026-11-03",
-   "fields": {
-    "3y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 33130000,
-      "max_single": 33130000
-     }
-    },
-    "5y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 33130000,
-      "max_single": 33130000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "예스공간정보",
-   "name": "주식회사 예스공간정보",
-   "area": "충청남도 아산",
-   "sido": "충청남도",
-   "sigungu": "아산",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 30000000,
-   "last_win": "2026-10-13",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 30000000,
-      "max_single": 30000000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 30000000,
-      "max_single": 30000000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "이지테이크",
-   "name": "주식회사 이지테이크",
-   "area": "울산광역시 남구",
-   "sido": "울산광역시",
-   "sigungu": "남구",
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 1,
-   "win_amount": 28800159,
-   "last_win": "2024-01-11",
-   "fields": {
-    "3y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 28800159,
-      "max_single": 28800159
-     }
-    },
-    "5y": {
-     "UPIS·KLIP DB": {
-      "n": 1,
-      "amount": 28800159,
-      "max_single": 28800159
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "유앤씨",
-   "name": "주식회사 유앤씨",
-   "area": "울산광역시 울주군",
-   "sido": "울산광역시",
-   "sigungu": "울주군",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:조경",
+    "엔지니어링:철도",
     "엔지니어링:측량지적",
     "엔지니어링:토질지질",
-    "지적측량업",
-    "지하시설물측량업"
+    "엔지니어링:폐기물처리",
+    "엔지니어링:품질시험",
+    "엔지니어링:항만해안"
    ],
    "win_count": 1,
-   "win_amount": 27013000,
-   "last_win": "2024-12-13",
+   "win_amount": 0,
+   "last_win": "2025-03-17",
+   "win_amount_unknown": 2077320000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 27013000,
-      "max_single": 27013000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 2077320000,
+      "n_unknown": 1
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 27013000,
-      "max_single": 27013000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "다산산림기술사사무소",
-   "name": "주식회사 다산산림기술사사무소",
-   "area": "",
-   "sido": null,
-   "sigungu": null,
-   "inds": [],
-   "win_count": 1,
-   "win_amount": 26550000,
-   "last_win": "2026-11-20",
-   "fields": {
-    "3y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 26550000,
-      "max_single": 26550000
-     }
-    },
-    "5y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 26550000,
-      "max_single": 26550000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "다온이앤씨",
-   "name": "주식회사 다온이앤씨",
-   "area": "전북특별자치도 정읍",
-   "sido": "전북특별자치도",
-   "sigungu": "정읍",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "엔지니어링:교통",
-    "엔지니어링:구조",
-    "엔지니어링:농어업토목",
-    "엔지니어링:도로공항",
-    "엔지니어링:도시계획",
-    "엔지니어링:상하수도",
-    "엔지니어링:수자원개발",
-    "엔지니어링:수질관리",
-    "엔지니어링:조경",
-    "엔지니어링:토질지질",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 25399000,
-   "last_win": "2026-11-06",
-   "fields": {
-    "3y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 25399000,
-      "max_single": 25399000
-     }
-    },
-    "5y": {
-     "최근 공고": {
-      "n": 1,
-      "amount": 25399000,
-      "max_single": 25399000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 2077320000,
+      "n_unknown": 1
      }
     }
    },
@@ -4059,21 +6508,27 @@
     "측지측량업"
    ],
    "win_count": 1,
-   "win_amount": 24455200,
+   "win_amount": 0,
    "last_win": "2024-05-20",
+   "win_amount_unknown": 24455200,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 24455200,
-      "max_single": 24455200
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 24455200,
+      "n_unknown": 1
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 24455200,
-      "max_single": 24455200
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 24455200,
+      "n_unknown": 1
      }
     }
    },
@@ -4081,135 +6536,40 @@
    "credit": null
   },
   {
-   "key": "씨투알정보기술",
-   "name": "(주)씨투알정보기술",
-   "area": "인천광역시 남동구",
-   "sido": "인천광역시",
-   "sigungu": "남동구",
-   "inds": [
-    "SW사업자",
-    "공간영상도화업",
-    "공공측량업",
-    "수치지도제작업",
-    "영상처리업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 23685000,
-   "last_win": "2025-09-22",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 23685000,
-      "max_single": 23685000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 23685000,
-      "max_single": 23685000
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "아이맵",
-   "name": "주식회사 아이맵",
-   "area": "인천광역시 남동구",
-   "sido": "인천광역시",
-   "sigungu": "남동구",
-   "inds": [
-    "공공측량업",
-    "수치지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 20922800,
-   "last_win": "2025-04-23",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 20922800,
-      "max_single": 20922800
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 20922800,
-      "max_single": 20922800
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "지오서베이",
-   "name": "지오서베이 주식회사",
-   "area": "인천광역시 부평구",
-   "sido": "인천광역시",
-   "sigungu": "부평구",
+   "key": "해인공간정보",
+   "name": "주식회사 해인공간정보",
+   "area": "강원특별자치도 강릉",
+   "sido": "강원특별자치도",
+   "sigungu": "강릉",
    "inds": [
     "SW사업자",
     "공공측량업",
     "수치지도제작업",
     "영상처리업",
-    "지적측량업",
     "지하시설물측량업"
    ],
    "win_count": 1,
-   "win_amount": 16485770,
-   "last_win": "2026-04-13",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 16485770,
-      "max_single": 16485770
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 16485770,
-      "max_single": 16485770
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "이엘피",
-   "name": "이엘피",
-   "area": "경기도 부천",
-   "sido": "경기도",
-   "sigungu": "부천",
-   "inds": [
-    "SW사업자"
-   ],
-   "win_count": 1,
-   "win_amount": 14396200,
-   "last_win": "2026-11-17",
+   "win_amount": 0,
+   "last_win": "2026-11-03",
+   "win_amount_unknown": 62085000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "최근 공고": {
       "n": 1,
-      "amount": 14396200,
-      "max_single": 14396200
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 62085000,
+      "n_unknown": 1
      }
     },
     "5y": {
      "최근 공고": {
       "n": 1,
-      "amount": 14396200,
-      "max_single": 14396200
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 62085000,
+      "n_unknown": 1
      }
     }
    },
@@ -4217,35 +6577,39 @@
    "credit": null
   },
   {
-   "key": "에스엔지아이",
-   "name": "에스엔지아이 주식회사",
-   "area": "인천광역시 연수구",
-   "sido": "인천광역시",
-   "sigungu": "연수구",
+   "key": "현무이앤지",
+   "name": "주식회사 현무이앤지",
+   "area": "전라남도 해남",
+   "sido": "전라남도",
+   "sigungu": "해남",
    "inds": [
     "SW사업자",
     "공공측량업",
     "수치지도제작업",
-    "영상처리업",
-    "지적측량업",
     "지하시설물측량업"
    ],
    "win_count": 1,
-   "win_amount": 9410000,
-   "last_win": "2026-10-07",
+   "win_amount": 0,
+   "last_win": "2026-03-25",
+   "win_amount_unknown": 0,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 9410000,
-      "max_single": 9410000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 0,
+      "n_unknown": 1
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 9410000,
-      "max_single": 9410000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 0,
+      "n_unknown": 1
      }
     }
    },
@@ -4253,69 +6617,49 @@
    "credit": null
   },
   {
-   "key": "한라지리정보",
-   "name": "주식회사 한라지리정보",
-   "area": "대전광역시 유성구",
-   "sido": "대전광역시",
-   "sigungu": "유성구",
+   "key": "티엘엔지니어링",
+   "name": "티엘엔지니어링 주식회사",
+   "area": "경상북도 성주",
+   "sido": "경상북도",
+   "sigungu": "성주",
    "inds": [
-    "SW사업자",
     "공공측량업",
     "수치지도제작업",
+    "엔지니어링:구조",
+    "엔지니어링:농림",
+    "엔지니어링:농어업토목",
+    "엔지니어링:도로공항",
+    "엔지니어링:도시계획",
+    "엔지니어링:상하수도",
+    "엔지니어링:수자원개발",
+    "엔지니어링:전기설비",
     "엔지니어링:측량지적",
-    "영상처리업",
+    "엔지니어링:토질지질",
+    "지적측량업",
     "지하시설물측량업"
    ],
    "win_count": 1,
-   "win_amount": 7015500,
-   "last_win": "2024-12-02",
+   "win_amount": 0,
+   "last_win": "2026-10-02",
+   "win_amount_unknown": 1450000000,
+   "share_unknown_wins": 1,
    "fields": {
     "3y": {
      "도로대장": {
       "n": 1,
-      "amount": 7015500,
-      "max_single": 7015500
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1450000000,
+      "n_unknown": 1
      }
     },
     "5y": {
      "도로대장": {
       "n": 1,
-      "amount": 7015500,
-      "max_single": 7015500
-     }
-    }
-   },
-   "people": null,
-   "credit": null
-  },
-  {
-   "key": "디엘아이티",
-   "name": "주식회사 디엘아이티",
-   "area": "충청남도 보령",
-   "sido": "충청남도",
-   "sigungu": "보령",
-   "inds": [
-    "SW사업자",
-    "공공측량업",
-    "수치지도제작업",
-    "지하시설물측량업"
-   ],
-   "win_count": 1,
-   "win_amount": 6930000,
-   "last_win": "2024-03-12",
-   "fields": {
-    "3y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 6930000,
-      "max_single": 6930000
-     }
-    },
-    "5y": {
-     "도로대장": {
-      "n": 1,
-      "amount": 6930000,
-      "max_single": 6930000
+      "amount": 0,
+      "max_single": 0,
+      "amount_unknown": 1450000000,
+      "n_unknown": 1
      }
     }
    },

@@ -519,7 +519,10 @@ def load_companies():
 
 
 def build_profiles(comps, asof=None):
-    """낙찰사별 분야 실적 프로필(최근 3년·5년 합계/최대 단일/건수)."""
+    """낙찰사별 분야 실적 프로필(최근 3년·5년 합계/최대 단일/건수).
+
+    금액은 지분율 반영(확정) 실적이고, 지분 미확인 건은 amount_unknown(총액 기준)으로 따로 센다.
+    """
     asof = asof or date.today().isoformat()
     base = datetime.strptime(asof[:10], "%Y-%m-%d").date()
     out = []
@@ -529,6 +532,8 @@ def build_profiles(comps, asof=None):
                 "sido": c.get("sido"), "sigungu": c.get("sigungu"),
                 "inds": c.get("inds") or [], "win_count": c.get("win_count"),
                 "win_amount": c.get("win_amount"), "last_win": c.get("last_win"),
+                "win_amount_unknown": c.get("win_amount_unknown"),
+                "share_unknown_wins": c.get("share_unknown_wins"),
                 "fields": {}, "people": None, "credit": None}
         for yrs in (3, 5):
             start = base - timedelta(days=365 * yrs + 2)
@@ -541,10 +546,16 @@ def build_profiles(comps, asof=None):
                 if d < start or d > base:
                     continue
                 fl = w.get("field") or "기타"
-                a = agg.setdefault(fl, {"n": 0, "amount": 0, "max_single": 0})
+                a = agg.setdefault(fl, {"n": 0, "amount": 0, "max_single": 0,
+                                        "amount_unknown": 0, "n_unknown": 0})
                 a["n"] += 1
-                a["amount"] += int(w.get("amount") or 0)
-                a["max_single"] = max(a["max_single"], int(w.get("amount") or 0))
+                if w.get("amount") is not None:
+                    a["amount"] += int(w.get("amount") or 0)
+                    a["max_single"] = max(a["max_single"], int(w.get("amount") or 0))
+                if w.get("amount_unknown"):
+                    a["amount_unknown"] += int(w["amount_unknown"])
+                if (w.get("mode") or "").startswith("지분미확인"):
+                    a["n_unknown"] += 1
             prof["fields"][f"{yrs}y"] = agg
         out.append(prof)
     return out
@@ -561,6 +572,7 @@ def perf_of(comp, q, asof):
         base = date.today()
     start = base - timedelta(days=365 * yrs + 2)
     amt, n, rows = 0, 0, []
+    amt_unk, n_unk = 0, 0
     for w in comp.get("wins") or []:
         if w.get("field") not in p["field_keys"]:
             continue
@@ -570,16 +582,29 @@ def perf_of(comp, q, asof):
             continue
         if d < start or d > base:
             continue
-        amt += int(w.get("amount") or 0)
         n += 1
         rows.append(w)
+        if w.get("amount") is not None:
+            amt += int(w.get("amount") or 0)
+        if w.get("amount_unknown"):
+            amt_unk += int(w["amount_unknown"])
+        if (w.get("mode") or "").startswith("지분미확인"):
+            n_unk += 1
     ratio = amt / p["denom"] if p.get("denom") else 0
+    ratio_max = (amt + amt_unk) / p["denom"] if p.get("denom") else 0
     band = None
     for b in p.get("bands") or []:
         if ratio * 100 >= b["min"]:
             band = b
             break
+    band_max = None
+    for b in p.get("bands") or []:
+        if ratio_max * 100 >= b["min"]:
+            band_max = b
+            break
     return {"amt": amt, "n": n, "ratio": round(ratio * 100, 1),
+            "amt_unknown": amt_unk, "n_unknown": n_unk,
+            "ratio_max": round(ratio_max * 100, 1), "band_max": band_max,
             "band": band, "score": (band or {}).get("score"),
             "max_score": p.get("max_score") or p.get("top_score"),
             "window": yrs, "denom": p.get("denom"),
@@ -604,6 +629,9 @@ def quant_verdict(comp, q, asof):
             f"({pr['n']}건) · 기준 {pr['denom']/1e8:.2f}억의 {pr['ratio']:.0f}%")
     if pr["band"]:
         head += f" · 배점 {pr['score']}/{pr['max_score']}"
+    if pr["n_unknown"]:
+        head += (f" · 지분 미확인 {pr['n_unknown']}건 {pr['amt_unknown']/1e8:.1f}억(총액 기준,"
+                 f" 포함 시 최대 {pr['ratio_max']:.0f}%)")
     if pr["ratio"] >= p["top_min"]:
         return "부합", head, pr
     if pr["ratio"] >= 70:
@@ -613,7 +641,121 @@ def quant_verdict(comp, q, asof):
     return "미달", head, pr
 
 
-def quant_block(item, comps, asof=None, man=None, cache=None):
+SIDO_EQUIV = {
+    "전남광주통합특별시": {"전남광주통합특별시", "광주광역시", "전라남도"},
+    "광주광역시": {"광주광역시", "전남광주통합특별시"},
+    "전라남도": {"전라남도", "전남광주통합특별시"},
+    "강원특별자치도": {"강원특별자치도", "강원도"},
+    "전북특별자치도": {"전북특별자치도", "전라북도"},
+}
+
+
+def same_sido(a, b):
+    if not a or not b:
+        return False
+    return a == b or a in SIDO_EQUIV.get(b, set()) or b in SIDO_EQUIV.get(a, set())
+
+
+def ind_label(kind):
+    if kind == "sw":
+        return "SW사업자"
+    if kind.startswith("eng:"):
+        return "엔지니어링·" + kind[4:]
+    return kind
+
+
+def holds_kind(comp, kind):
+    inds = comp.get("inds") or []
+    if kind == "sw":
+        return "SW사업자" in inds
+    if kind.startswith("eng:"):
+        return ("엔지니어링:" + kind[4:]) in inds
+    if kind.startswith("unknown:") or kind == "out":
+        return None                       # 원부로 판정할 수 없는 요건
+    return kind in inds
+
+
+def local_region_candidates(q, comps, req_kinds=None, asof=None, limit=8):
+    """지역상생 배점이 걸린 공고 — 그 시·도에 본사를 둔 유력 업체를 실적으로 추린다.
+
+    조건: ① 원부 소재지 시·도 일치 ② 공고 입찰참가자격 업종 중 1개 이상 보유(요건 파싱된 경우)
+          ③ 우리 실적DB에 낙찰 실적이 있음 — 인정분야 실적을 우선하고, 모자라면 타 분야로 보충
+    """
+    reg = q.get("region") or {}
+    sido = reg.get("sido")
+    field_keys = (q.get("perf") or {}).get("field_keys") or []
+    fields_txt = (q.get("perf") or {}).get("fields") or []
+    if not sido:
+        return {"sido": None, "keyword": reg.get("keyword"), "companies": [],
+                "basis": "공고문에서 지역(시·도)을 특정하지 못함"}
+    try:
+        base = datetime.strptime((asof or date.today().isoformat())[:10], "%Y-%m-%d").date()
+    except Exception:                                  # noqa: BLE001
+        base = date.today()
+    start = base - timedelta(days=365 * 3 + 2)
+    kinds = [k for k in (req_kinds or []) if k]
+    out = []
+    for c in comps:
+        if not same_sido(c.get("sido"), sido):
+            continue
+        held = [k for k in kinds if holds_kind(c, k) is True]
+        unknown_k = [k for k in kinds if holds_kind(c, k) is None]
+        if kinds and not held and len(unknown_k) < len(kinds):
+            continue                       # 보유 업종이 하나도 없으면 제외
+        f_amt = f_n = f_unk_n = f_unk_amt = 0
+        other = {}
+        for w in c.get("wins") or []:
+            try:
+                d = datetime.strptime((w.get("date") or "")[:10], "%Y-%m-%d").date()
+            except Exception:                          # noqa: BLE001
+                continue
+            if d < start or d > base:
+                continue
+            if w.get("field") in field_keys:
+                f_n += 1
+                f_amt += int(w.get("amount") or 0)
+                if w.get("amount_unknown"):
+                    f_unk_amt += int(w["amount_unknown"])
+                    f_unk_n += 1
+            else:
+                o = other.setdefault(w.get("field") or "기타", {"n": 0, "amount": 0})
+                o["n"] += 1
+                o["amount"] += int(w.get("amount") or 0)
+        if not f_n and not other:
+            continue
+        out.append({"key": c["key"], "name": c["display"], "addr": c.get("addr"),
+                    "area": " ".join(x for x in (c.get("sido"), c.get("sigungu")) if x),
+                    "inds": held[:4], "inds_unknown": unknown_k[:2],
+                    "field_amt": f_amt, "field_n": f_n,
+                    "field_unknown_amt": f_unk_amt, "field_unknown_n": f_unk_n,
+                    "other": other, "last": c.get("last_win"),
+                    "wins_total": c.get("win_count")})
+    out.sort(key=lambda x: (-x["field_amt"], -x["field_n"], -sum(o["amount"] for o in x["other"].values()),
+                            x["name"]))
+    picked = [x for x in out if x["field_n"]][:limit]
+    if len(picked) < min(5, len(out)):
+        picked += [x for x in out if not x["field_n"]][:limit - len(picked)]
+    for x in picked:
+        why = [f"{x['area']} 소재(원부)"]
+        if x["field_n"]:
+            why.append(f"{'·'.join(fields_txt[:2]) or '인정분야'} 실적 {x['field_amt'] / 1e8:.1f}억({x['field_n']}건)")
+            if x["field_unknown_n"]:
+                why.append(f"지분 미확인 {x['field_unknown_n']}건 {x['field_unknown_amt'] / 1e8:.1f}억 포함(총액 기준)")
+        else:
+            top = max(x["other"].items(), key=lambda kv: kv[1]["amount"])
+            why.append(f"인정분야 실적 없음 — {top[0]} {top[1]['amount'] / 1e8:.1f}억({top[1]['n']}건)")
+        if x["inds"]:
+            why.append("보유 " + ", ".join(ind_label(k) for k in x["inds"][:3]))
+        x["why"] = why
+    return {"sido": sido, "keyword": reg.get("keyword"),
+            "basis": "본사 소재지(협회·엔지니어링 원부) 시·도 일치 · 최근 3년 낙찰 실적순",
+            "fields": fields_txt, "companies": picked,
+            "pool_n": len(out),
+            "note": ("공동수급 지분율 지분 배점용 — 인정분야 실적은 지분 반영 금액 기준"
+                     if field_keys else "공고 실적 인정분야 미확인 — 전체 실적 기준")}
+
+
+def quant_block(item, comps, asof=None, man=None, cache=None, req_kinds=None):
     key = f"{item['no']}-{item.get('order') or '000'}"
     if cache is not None and key in cache:
         return cache[key]
@@ -626,18 +768,30 @@ def quant_block(item, comps, asof=None, man=None, cache=None):
                           pathlib.Path(p).read_text(encoding="utf-8")))
     q = parse_item(item, texts)
     asof = asof or item.get("posted") or ""
-    res = {"fit": [], "near": [], "low": [], "unknown": []}
+    res = {"fit": [], "near": [], "low": [], "unknown": [], "cap": []}
+    p = q.get("perf") or {}
+    top_min = p.get("top_min")
     for c in comps:
         v, why, pr = quant_verdict(c, q, asof)
         row = {"key": c["key"], "name": c["display"],
                "area": " ".join(x for x in (c.get("sido"), c.get("sigungu")) if x),
                "why": why, "ratio": (pr or {}).get("ratio"), "amt": (pr or {}).get("amt"),
                "n": (pr or {}).get("n"), "score": (pr or {}).get("score"),
+               "ratio_max": (pr or {}).get("ratio_max"),
+               "n_unknown": (pr or {}).get("n_unknown"),
                "max_score": (pr or {}).get("max_score")}
-        res[{"부합": "fit", "근접": "near", "부족": "low", "미달": "low",
-             "확인불가": "unknown"}[v]].append(row)
+        bucket = {"부합": "fit", "근접": "near", "부족": "low", "미달": "low",
+                  "확인불가": "unknown"}[v]
+        # 확정 실적으로는 기준선 미달이나, 지분 미확인 건을 총액으로 보면 넘는 경우
+        if (bucket in ("near", "low") and top_min and pr and pr.get("n_unknown")
+                and (pr.get("ratio") or 0) < top_min and (pr.get("ratio_max") or 0) >= top_min):
+            bucket = "cap"
+        res[bucket].append(row)
     for k in ("fit", "near", "low"):
         res[k].sort(key=lambda r: -(r["ratio"] or 0))
+    res["cap"].sort(key=lambda r: -(r["ratio_max"] or 0))
+    if q.get("region"):
+        res["region_local"] = local_region_candidates(q, comps, req_kinds=req_kinds, asof=asof)
     if cache is not None:
         cache[key] = (q, res)
     return q, res
@@ -665,8 +819,10 @@ def summary(q, res):
             "perf": perf,
             "people": q.get("people"), "region": q.get("region"), "credit": q.get("credit"),
             "sources": q.get("sources") or [],
+            "region_local": res.get("region_local"),
             "counts": {"fit": len(res["fit"]), "near": len(res["near"]),
-                       "low": len(res["low"]), "unknown": len(res["unknown"])}}
+                       "low": len(res["low"]), "unknown": len(res["unknown"]),
+                       "cap": len(res.get("cap") or [])}}
 
 
 if __name__ == "__main__":
